@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "d530e325-82ec-4924-a887-a9306daa84f8",
+            "Value": {
+                "id": "4512525d-f8f4-40b1-bb25-64c2725ae287",
+                "resourcePath": "notes\\game_flow_logic.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "dd4a171a-5367-4700-bc47-92bc67fed2b7",
             "Value": {
                 "id": "86311a16-40e4-473a-949c-9328abd1f0b6",

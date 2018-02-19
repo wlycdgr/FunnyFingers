@@ -1,0 +1,74 @@
+GAME FLOW....
+
+...with NEW scripts:
+
+[GAMEPLAY ROOM CREATION CODE]
+call scr_NEW_obj_Game_Controller(playfield_count, column_count, funny_finger_count)
+
+	[SCR_NEW_OBJ_GAME_CONTROLLER]
+	instantiate obj_Game_Controller
+	set game_controller's playfield_count, column_count, funny_finger_count
+	
+	(playfield_count times).(call scr_NEW_obj_Playfield(playfield, column_count, funny_finger_count))
+		[SCR_NEW_OBJ_PLAYFIELD]
+		instantiate obj_Playfield
+		
+		(column_count times).(call scr_NEW_obj_Column(playfield))
+			[SCR_NEW_OBJ_COLUMN]
+			instantiate obj_Column	
+			save reference to playfield	
+		save references to columns
+		
+		call scr_NEW_obj_Funny_Fingers_Controller(playfield, funny_finger_count)
+			[SCR_NEW_OBJ_FUNNY_FINGERS_CONTROLLER]
+			instantiate obj_Funny_Fingers_Controller
+			save reference to playfield
+			
+			(funny_finger_count times).(call scr_NEW_obj_Funny_Finger(funny_finger_controller))
+				[SCR_NEW_OBJ_FUNNY_FINGER]
+				save reference to funny_finger_controller
+			save references to funny_fingers
+		save reference to funny_fingers_controller
+	save references to playfields
+	
+save reference to game_controller
+
+
+
+with CREATE events:
+
+[GAMEPLAY ROOM CREATION CODE] 
+instantiate obj_Game_Controller
+
+	[OBJ_GAME_CONTROLLER CREATE EVENT]
+	set playfield_count, column_count, funny_finger_count (hard-coded for MVP).
+	instantiate playfield_count obj_Playfield objects
+	
+		[OBJ_PLAYFIELD CREATE EVENT]
+		declare empty columns array
+		declare avatar_manager, enemy_factory, energy_factory refstore vars
+	
+	call scr_Init_Playfield, passing new playfield, column_count, funny_finger count
+	
+		[SCR_INIT_PLAYFIELD]
+		instantiate column_count obj_Column objects
+		
+			[OBJ_COLUMN CREATE EVENT]
+			declare playfield refstore var
+			
+		set column.playfield to playfield.id
+		insert column into playfield.columns
+		call scr_Init_Funny_Fingers_Controller, passing playfield and funny_finger_count
+		
+			[SCR_INIT_FUNNY_FINGERS_CONTROLLER]
+			instantiate obj_Funny_Fingers_Controller
+			
+				[OBJ_FUNNY_FINGERS_CONTROLLER CREATE EVENT]
+				declare playfield refstore var
+				declare empty funny_fingers array
+				
+			set funny_fingers_controller.playfield to playfield
+	[TODO]	create funny_finger_count obj_Funny_Finger objects
+			set playfield.funny_fingers_controller to funny_fingers_controller
+			
+		
