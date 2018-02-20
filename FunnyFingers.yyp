@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "002e9cd6-2c8f-4f31-8ddd-4ec39418717b",
+            "Value": {
+                "id": "7422194e-6d8a-41b8-b61b-e2d4aa9f217d",
+                "resourcePath": "scripts\\scr_Playfield_NEW\\scr_Playfield_NEW.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0ac5f62d-3b3b-446f-93ce-b591a9476fee",
             "Value": {
                 "id": "58e2228c-b7fb-4b85-89b3-b4f585ca60e7",
@@ -71,18 +79,10 @@
             }
         },
         {
-            "Key": "21ee9e7c-f5c1-4413-aac2-6b14bae78078",
+            "Key": "1e52c28a-8996-49fd-85ea-cf380ba6ea6d",
             "Value": {
-                "id": "de684177-6ef1-4080-8e41-f6c1dd899a79",
-                "resourcePath": "scripts\\scr_Init_Funny_Fingers_Controller\\scr_Init_Funny_Fingers_Controller.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "223821f7-be35-45f1-b2e2-255d2f5152e6",
-            "Value": {
-                "id": "f4942d74-f91b-4854-9210-8439117976dc",
-                "resourcePath": "scripts\\scr_Init_Playfield\\scr_Init_Playfield.yy",
+                "id": "137b4174-7e58-45be-a583-b5a300840a39",
+                "resourcePath": "scripts\\scr_Funny_Finger_NEW\\scr_Funny_Finger_NEW.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "c83525a0-3b69-4e59-9991-67649686af2c",
+            "Value": {
+                "id": "43012fab-f4b1-4555-b799-46b66ad1ed7d",
+                "resourcePath": "scripts\\scr_Funny_Fingers_Controller_NEW\\scr_Funny_Fingers_Controller_NEW.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "7ac8e4a8-6422-46dd-9caf-7a0cfc739a99",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "f01d5551-3448-44b2-b55f-9e768cbea1c6",
+            "Value": {
+                "id": "a0fcd609-9523-4426-b7d2-294cc42be557",
+                "resourcePath": "scripts\\scr_Game_Controller_NEW\\scr_Game_Controller_NEW.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "0c34059b-e1a1-4b36-aa3a-573121ab6d05",
@@ -295,6 +311,14 @@
             }
         },
         {
+            "Key": "fc431f7b-7909-4950-b865-72f5280b2cdb",
+            "Value": {
+                "id": "6dab800e-7caf-41cf-b973-8b8012444e92",
+                "resourcePath": "scripts\\scr_Column_NEW\\scr_Column_NEW.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fdfcc536-b452-4cb2-802a-363c74259a11",
             "Value": {
                 "id": "b9623559-750e-4dba-ba0a-413d6e62ac0e",
@@ -304,8 +328,11 @@
         }
     ],
     "script_order": [
-        "223821f7-be35-45f1-b2e2-255d2f5152e6",
-        "21ee9e7c-f5c1-4413-aac2-6b14bae78078"
+        "f01d5551-3448-44b2-b55f-9e768cbea1c6",
+        "002e9cd6-2c8f-4f31-8ddd-4ec39418717b",
+        "fc431f7b-7909-4950-b865-72f5280b2cdb",
+        "c83525a0-3b69-4e59-9991-67649686af2c",
+        "1e52c28a-8996-49fd-85ea-cf380ba6ea6d"
     ],
     "tutorial": ""
 }

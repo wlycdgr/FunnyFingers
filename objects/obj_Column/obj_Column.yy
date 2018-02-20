@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_Column",
     "eventList": [
-        {
-            "id": "0fa1c2cb-ea3d-4603-9227-49689bbadc9d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "1329b4b1-d0c9-4b21-b1de-be145c29379f"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

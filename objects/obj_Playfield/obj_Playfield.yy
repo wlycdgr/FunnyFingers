@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_Playfield",
     "eventList": [
-        {
-            "id": "f3f1286c-07e3-4c40-9663-91703f8d9c9a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "7a7975d4-f638-4ab3-a232-13d180e3d87a"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

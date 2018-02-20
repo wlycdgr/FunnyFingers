@@ -1,8 +1,8 @@
 {
-    "id": "21ee9e7c-f5c1-4413-aac2-6b14bae78078",
+    "id": "f01d5551-3448-44b2-b55f-9e768cbea1c6",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_Init_Funny_Fingers_Controller",
+    "name": "scr_Game_Controller_NEW",
     "IsCompatibility": false,
     "IsDnD": false
 }

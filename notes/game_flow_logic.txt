@@ -35,7 +35,7 @@ save reference to game_controller
 
 
 
-with CREATE events:
+...with CREATE events:
 
 [GAMEPLAY ROOM CREATION CODE] 
 instantiate obj_Game_Controller
@@ -71,4 +71,4 @@ instantiate obj_Game_Controller
 	[TODO]	create funny_finger_count obj_Funny_Finger objects
 			set playfield.funny_fingers_controller to funny_fingers_controller
 			
-		
+		......
