@@ -2,7 +2,7 @@
     "id": "0ac5f62d-3b3b-446f-93ce-b591a9476fee",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Game_Controller",
+    "name": "obj_Game",
     "eventList": [
         {
             "id": "fd1fce74-4dbf-4ddd-986e-8dfaa17ac45c",

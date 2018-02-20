@@ -5,5 +5,5 @@ if (input_tracker.is_exit_pressed){
 }
 
 if (!focused_playfield.move_in_progress){
-	scr_Playfield_Controller_Handle_Input(focused_playfield, input_tracker);
+	scr_Playfield_Handle_Input(focused_playfield, input_tracker);
 }

@@ -1,8 +1,8 @@
 {
-    "id": "f01d5551-3448-44b2-b55f-9e768cbea1c6",
+    "id": "cb642fde-a925-445c-937c-daf96a8c401b",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_Game_Controller_NEW",
+    "name": "scr_Playfield_Handle_Input",
     "IsCompatibility": false,
     "IsDnD": false
 }

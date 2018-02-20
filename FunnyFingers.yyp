@@ -42,7 +42,7 @@
             "Key": "0ac5f62d-3b3b-446f-93ce-b591a9476fee",
             "Value": {
                 "id": "58e2228c-b7fb-4b85-89b3-b4f585ca60e7",
-                "resourcePath": "objects\\obj_Game_Controller\\obj_Game_Controller.yy",
+                "resourcePath": "objects\\obj_Game\\obj_Game.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -266,7 +266,7 @@
             "Key": "cab799ce-8d74-4a49-8d5c-cac01986cb64",
             "Value": {
                 "id": "c94351f8-d802-406a-8c80-fd67ccf4c8a1",
-                "resourcePath": "scripts\\scr_Game_Controller_Set_Focused_Playfield\\scr_Game_Controller_Set_Focused_Playfield.yy",
+                "resourcePath": "scripts\\scr_Game_Focus_Playfield\\scr_Game_Focus_Playfield.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -274,7 +274,7 @@
             "Key": "cb642fde-a925-445c-937c-daf96a8c401b",
             "Value": {
                 "id": "0b2d0fab-53cd-4e99-84e1-8c81f6ee93ed",
-                "resourcePath": "scripts\\scr_Playfield_Controller_Handle_Input\\scr_Playfield_Controller_Handle_Input.yy",
+                "resourcePath": "scripts\\scr_Playfield_Handle_Input\\scr_Playfield_Handle_Input.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -314,7 +314,7 @@
             "Key": "f01d5551-3448-44b2-b55f-9e768cbea1c6",
             "Value": {
                 "id": "a0fcd609-9523-4426-b7d2-294cc42be557",
-                "resourcePath": "scripts\\scr_Game_Controller_NEW\\scr_Game_Controller_NEW.yy",
+                "resourcePath": "scripts\\scr_Game_NEW\\scr_Game_NEW.yy",
                 "resourceType": "GMScript"
             }
         },
