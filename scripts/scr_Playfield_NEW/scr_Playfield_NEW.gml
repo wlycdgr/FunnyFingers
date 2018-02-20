@@ -12,5 +12,6 @@ playfield.funny_fingers = [];
 playfield.focused = false;
 playfield.move_in_progress = false;
 playfield.height = argument2;
+playfield.bottom_y = playfield.y + playfield.height;
 
 return playfield;

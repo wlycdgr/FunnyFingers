@@ -8,11 +8,32 @@ game = instance_create_layer(0, 0, "Controllers", obj_Game);
 
 game.input_tracker = scr_Input_Tracker_NEW(game);
 
+playfield_column_width = 48;
+playfield_height = 512;
+window_width = window_get_width();
+window_height = window_get_height();
+
 game.playfields = array_create(argument0); // playfield_count
 for (var i = 0; i < argument0; i++){ // playfield_count
-	new_playfield = scr_Playfield_NEW(300, 300, 500);
-	scr_Playfield_Create_And_Position_Columns(new_playfield, argument1, 64);
+	new_playfield_x = (
+		((i + 1) * (window_width / (argument0 + 1))) - // space playfields evenly horizontally across window
+		((argument1 * playfield_column_width) / 2) // center them relative to the spacings
+	);
+	
+	new_playfield = scr_Playfield_NEW(
+		new_playfield_x,
+		((window_height - playfield_height) / 2), // y
+		playfield_height
+	);
+	
+	scr_Playfield_Create_And_Position_Columns(
+		new_playfield, 
+		argument1, // column_count
+		playfield_column_width
+	);
+	
 	scr_Playfield_Create_And_Place_Funny_Fingers(new_playfield, argument2);
+	
 	game.playfields[i] = new_playfield;
 }
 

@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "82caad77-4d9c-4349-89ec-eb52a450eb75",
+            "Value": {
+                "id": "d84ed0cb-d035-440a-bb3d-904c2974d4c8",
+                "resourcePath": "sprites\\spr_funny_finger\\spr_funny_finger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "85e3a35e-a44f-4342-9049-1435f86231e4",
             "Value": {
                 "id": "4c126495-30ba-4f4f-a62a-ac0a79156ea7",
