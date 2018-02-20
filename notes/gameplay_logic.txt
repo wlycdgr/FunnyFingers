@@ -1,0 +1,21 @@
+funny fingers controller handles input
+listens for
+q, w, e
+i, o, p
+
+sets flags in response
+
+
+Playfield has a columns array
+and a funny fingers array
+
+Playfield keeps track of whether funny fingers are currently moving
+If they are, it ignores movement input
+
+If they aren't, it
+	- takes the movement input
+	- finds the matching funny finger
+	- identifies target column
+
+obj_Playfield_Controller
+obj_Input_Tracker

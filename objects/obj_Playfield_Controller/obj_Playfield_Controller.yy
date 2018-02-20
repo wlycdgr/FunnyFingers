@@ -1,8 +1,8 @@
 {
-    "id": "b74a0447-1d4a-494e-b4fd-379c494f7c2c",
+    "id": "7a7975d4-f638-4ab3-a232-13d180e3d87a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Funny_Fingers_Controller",
+    "name": "obj_Playfield_Controller",
     "eventList": [
         
     ],

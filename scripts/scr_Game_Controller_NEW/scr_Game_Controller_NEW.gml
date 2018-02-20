@@ -6,12 +6,17 @@
 
 game_controller = instance_create_layer(0, 0, "Controllers", obj_Game_Controller);
 
-for (i = 0; i < argument0; i++){ // playfield_count
-	game_controller.playfields[i] = scr_Playfield_NEW(
+game_controller.input_tracker = scr_Input_Tracker_NEW(game_controller);
+
+game_controller.playfields = array_create(argument0); // playfield_count
+for (var i = 0; i < argument0; i++){ // playfield_count
+	game_controller.playfields[i] = scr_Playfield_Controller_NEW(
 		game_controller,
 		argument1, // column_count
 		argument2 // funny_finger_count
 	);
 }
+
+scr_Game_Controller_Set_Focused_Playfield(game_controller, 0);
 
 return game_controller;

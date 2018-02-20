@@ -4,15 +4,17 @@
 /// @param {real} column_count The number of columns this playfield should have
 /// @param {real} funny_finger_count The number of avatars this playfield should have
 
-playfield = instance_create_layer(0, 0, "Instances", obj_Playfield);
+playfield = instance_create_layer(0, 0, "Instances", obj_Playfield_Controller);
 
 playfield.game_controller = argument0;
+playfield.focused = false;
 
 for (i = 0; i < argument1; i++) { // column_count
 	playfield.columns[i] = scr_Column_NEW(playfield);
 }
 
-playfield.funny_fingers_controller = 
-	scr_Funny_Fingers_Controller_NEW(playfield, argument2); // funny_finger_count
+for (i = 0; i < argument2; i++){
+	playfield.funny_fingers[i] = scr_Funny_Finger_NEW(playfield);
+}
 	
 return playfield;
