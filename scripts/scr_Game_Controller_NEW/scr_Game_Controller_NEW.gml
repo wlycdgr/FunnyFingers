@@ -10,11 +10,10 @@ game_controller.input_tracker = scr_Input_Tracker_NEW(game_controller);
 
 game_controller.playfields = array_create(argument0); // playfield_count
 for (var i = 0; i < argument0; i++){ // playfield_count
-	game_controller.playfields[i] = scr_Playfield_Controller_NEW(
-		game_controller,
-		argument1, // column_count
-		argument2 // funny_finger_count
-	);
+	new_playfield = scr_Playfield_NEW(300, 300, 500);
+	scr_Playfield_Create_And_Position_Columns(new_playfield, argument1, 64);
+	scr_Playfield_Create_And_Place_Funny_Fingers(new_playfield, argument2);
+	game_controller.playfields[i] = new_playfield;
 }
 
 scr_Game_Controller_Set_Focused_Playfield(game_controller, 0);

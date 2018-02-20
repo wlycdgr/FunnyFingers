@@ -4,4 +4,6 @@ if (input_tracker.is_exit_pressed){
 	game_end();
 }
 
-scr_Playfield_Controller_Handle_Input(focused_playfield, input_tracker);
+if (!focused_playfield.move_in_progress){
+	scr_Playfield_Controller_Handle_Input(focused_playfield, input_tracker);
+}

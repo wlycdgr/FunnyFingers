@@ -34,7 +34,7 @@
             "Key": "002e9cd6-2c8f-4f31-8ddd-4ec39418717b",
             "Value": {
                 "id": "7422194e-6d8a-41b8-b61b-e2d4aa9f217d",
-                "resourcePath": "scripts\\scr_Playfield_Controller_NEW\\scr_Playfield_Controller_NEW.yy",
+                "resourcePath": "scripts\\scr_Playfield_NEW\\scr_Playfield_NEW.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -194,7 +194,7 @@
             "Key": "7a7975d4-f638-4ab3-a232-13d180e3d87a",
             "Value": {
                 "id": "e754b572-00b6-42ac-8f50-9506074c2426",
-                "resourcePath": "objects\\obj_Playfield_Controller\\obj_Playfield_Controller.yy",
+                "resourcePath": "objects\\obj_Playfield\\obj_Playfield.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -220,6 +220,14 @@
                 "id": "aea57922-d634-4f8c-a291-8f9bd86a1c59",
                 "resourcePath": "objects\\obj_Menu\\obj_Menu.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "85e3a35e-a44f-4342-9049-1435f86231e4",
+            "Value": {
+                "id": "4c126495-30ba-4f4f-a62a-ac0a79156ea7",
+                "resourcePath": "scripts\\scr_Playfield_Create_And_Place_Funny_Fingers\\scr_Playfield_Create_And_Place_Funny_Fingers.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -327,6 +335,14 @@
             }
         },
         {
+            "Key": "fa051e7c-dfaf-492a-a1d0-a97b51bf9c14",
+            "Value": {
+                "id": "0bd0e2a3-424b-448d-97f2-98ce8b9f25e4",
+                "resourcePath": "scripts\\scr_Playfield_Create_And_Position_Columns\\scr_Playfield_Create_And_Position_Columns.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fa952568-1aca-4a54-b4dd-784a596d3aa0",
             "Value": {
                 "id": "aaaaf858-59a5-4774-8817-36e6e390e258",
@@ -358,7 +374,9 @@
         "1e52c28a-8996-49fd-85ea-cf380ba6ea6d",
         "f80b948c-aa84-4460-87d7-b9e1686a6aea",
         "cab799ce-8d74-4a49-8d5c-cac01986cb64",
-        "cb642fde-a925-445c-937c-daf96a8c401b"
+        "cb642fde-a925-445c-937c-daf96a8c401b",
+        "fa051e7c-dfaf-492a-a1d0-a97b51bf9c14",
+        "85e3a35e-a44f-4342-9049-1435f86231e4"
     ],
     "tutorial": ""
 }
