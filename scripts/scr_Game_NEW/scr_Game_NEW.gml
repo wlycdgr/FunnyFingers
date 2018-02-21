@@ -15,24 +15,27 @@ window_height = window_get_height();
 
 game.playfields = array_create(argument0); // playfield_count
 for (var i = 0; i < argument0; i++){ // playfield_count
-	new_playfield_x = (
+	playfield_x = (
 		((i + 1) * (window_width / (argument0 + 1))) - // space playfields evenly horizontally across window
 		((argument1 * playfield_column_width) / 2) // center them relative to the spacings
 	);
 	
-	new_playfield = scr_Playfield_NEW(
-		new_playfield_x,
+	playfield = scr_Playfield_NEW(
+		playfield_x,
 		((window_height - playfield_height) / 2), // y
 		playfield_height
 	);
 	
 	scr_Playfield_Create_And_Position_Columns(
-		new_playfield, 
+		playfield, 
 		argument1, // column_count
 		playfield_column_width
 	);
 	
-	scr_Playfield_Create_And_Place_Funny_Fingers(new_playfield, argument2);
+	scr_Playfield_Create_And_Place_Funny_Fingers(playfield, argument2);
+	
+	scr_Playfield_Create_Enemy_Generator();
+	scr_Playfield_Create_Energy_Generator();
 	
 	game.playfields[i] = new_playfield;
 }

@@ -4,14 +4,16 @@
 /// @param {real} y Y position of top left corner
 /// @param {real} height The visible height of the playfield
 
-playfield = instance_create_layer(
+new_playfield = instance_create_layer(
 	argument0, argument1, "Instances", obj_Playfield);
 
-playfield.columns = [];
-playfield.funny_fingers = [];
-playfield.focused = false;
-playfield.accepting_move_input = true;
-playfield.height = argument2;
-playfield.bottom_y = playfield.y + playfield.height;
+new_playfield.columns = [];
+new_playfield.funny_fingers = [];
+new_playfield.energies = [];
+new_playfield.enemies = [];
+new_playfield.focused = false;
+new_playfield.accepting_move_input = true;
+new_playfield.height = argument2;
+new_playfield.bottom_y = new_playfield.y + new_playfield.height;
 
-return playfield;
+return new_playfield;
