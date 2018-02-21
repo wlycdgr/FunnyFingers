@@ -9,7 +9,8 @@
         "85e3a35e-a44f-4342-9049-1435f86231e4",
         "cf04c378-38ec-4cc7-9498-b83817a0aaa6",
         "cb642fde-a925-445c-937c-daf96a8c401b",
-        "21ea016b-78d3-4083-a9f8-82bbfcd71805"
+        "21ea016b-78d3-4083-a9f8-82bbfcd71805",
+        "c57ee39a-eb6b-4a2c-95f7-da8f1629a05e"
     ],
     "filterType": "GMScript",
     "folderName": "Playfield",

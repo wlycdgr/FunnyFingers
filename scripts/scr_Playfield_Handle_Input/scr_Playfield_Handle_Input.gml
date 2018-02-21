@@ -17,27 +17,17 @@ input_tracker = argument1;
 
 
 if (input_tracker.is_leftmost_pressed){
-	ff_index = scr_Playfield_Retrieve_Targeted_Funny_Finger(playfield, -1, 0);
-	/*
-	// identify correct funny finger
-	target = 1;
-	counter = 0;
-	ff_index = -1;
-	for (i = 0; i < array_length_1d(playfield.columns); i++){
-		if (!playfield.columns[i].occupied) continue;
-		
-		counter += 1;
-		
-		if (counter == target){
-			ff_index = playfield.columns[i].funny_finger_index;
-			break;
-		}
-	}
+	ff = playfield.funny_fingers[
+		scr_Playfield_Retrieve_Targeted_Funny_Finger(-1, 0)
+	];
+
+/*
+	ff_target_column = scr_Playfield_Identify_Target_Column_Index(
+		playfield.columns, ff.source_column, -1
+	);
 	*/
-	
 	// identify target column (if any available)
 	ff_target_column = -1;
-	ff = playfield.funny_fingers[ff_index];
 	for (i = ff.source_column - 1; i > -1; i--){
 		if (!playfield.columns[i].occupied){
 			ff_target_column = i;
