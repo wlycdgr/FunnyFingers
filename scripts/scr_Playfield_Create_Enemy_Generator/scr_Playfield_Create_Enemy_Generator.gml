@@ -6,6 +6,7 @@ enemy_generator.entitites = array_create(10, -1);
 for (i = 0; i < 10; i++){
 	new_entity = instance_create_layer(0, 0, "Instances", enemy_generator.entity_type);
 	new_entity.is_active = false;
+	new_entity.column_index = -1;
 	enemy_generator.entities[i] = new_entity;
 }
 enemy_generator.counter = 0;
