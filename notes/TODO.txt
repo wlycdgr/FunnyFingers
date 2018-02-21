@@ -3,6 +3,11 @@ TODO
 - DONE implement period randomization logic for entity activation
 - DONE implement speed randomization logic for entity activation
 - DONE implement shrinking-over-time logic for funny fingers
+- implement dying-when-you-run-out-of-life logic
+	- warning column that comes down
+	- when warning column collides with funny finger, it's game over
+	- when it's game over, game over menu slides across from the side
+	- 
 - implement collision detection logic for funny fingers v entities:
 	- funny finger switches to grow mode
 - implement collision detection logic for funny fingers v enemies:
