@@ -17,7 +17,8 @@ input_tracker = argument1;
 
 
 if (input_tracker.is_leftmost_pressed){
-	
+	ff_index = scr_Playfield_Retrieve_Targeted_Funny_Finger(playfield, -1, 0);
+	/*
 	// identify correct funny finger
 	target = 1;
 	counter = 0;
@@ -32,6 +33,7 @@ if (input_tracker.is_leftmost_pressed){
 			break;
 		}
 	}
+	*/
 	
 	// identify target column (if any available)
 	ff_target_column = -1;

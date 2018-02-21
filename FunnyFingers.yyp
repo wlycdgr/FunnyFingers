@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "21ea016b-78d3-4083-a9f8-82bbfcd71805",
+            "Value": {
+                "id": "209f8c08-215c-496b-b5da-e49357279261",
+                "resourcePath": "scripts\\scr_Playfield_Retrieve_Targeted_Funny_Finger\\scr_Playfield_Retrieve_Targeted_Funny_Finger.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2ec7eaea-694d-44c0-9bbe-ed37a029a7ea",
             "Value": {
                 "id": "05e00461-4e18-4cf5-b37f-7d4878adc91c",
@@ -431,6 +439,7 @@
         "85e3a35e-a44f-4342-9049-1435f86231e4",
         "cf04c378-38ec-4cc7-9498-b83817a0aaa6",
         "cb642fde-a925-445c-937c-daf96a8c401b",
+        "21ea016b-78d3-4083-a9f8-82bbfcd71805",
         "f01d5551-3448-44b2-b55f-9e768cbea1c6",
         "cab799ce-8d74-4a49-8d5c-cac01986cb64",
         "1e52c28a-8996-49fd-85ea-cf380ba6ea6d",
