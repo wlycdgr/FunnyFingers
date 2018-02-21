@@ -11,3 +11,8 @@ if (funny_finger.is_shrinking){
 		playfield.bottom_y - 
 		(playfield.height * funny_finger.life);
 }
+
+if (funny_finger.life <= 0.0){
+	funny_finger.life = 0.0;
+	playfield.has_vanished_finger = true;
+}

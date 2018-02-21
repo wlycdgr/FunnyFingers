@@ -51,4 +51,6 @@ for (var i = 0; i < argument0; i++){ // playfield_count
 
 scr_Game_Focus_Playfield(game, 0);
 
+game.is_game_over = false;
+
 return game;
