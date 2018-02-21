@@ -63,10 +63,34 @@
             }
         },
         {
+            "Key": "158c2ea6-8736-40c8-abaa-a07cf8771943",
+            "Value": {
+                "id": "ad14558d-9946-4bd2-8223-8515fb2a8883",
+                "resourcePath": "views\\158c2ea6-8736-40c8-abaa-a07cf8771943.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "17cc19c2-581b-40e2-a60d-f5c7951ad7eb",
             "Value": {
                 "id": "99f43d35-60aa-4fdc-a480-1cf2c042e27c",
                 "resourcePath": "views\\17cc19c2-581b-40e2-a60d-f5c7951ad7eb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1b4ec6e8-780c-4aec-baaa-86dec5569b0a",
+            "Value": {
+                "id": "224865a2-375f-4366-8f08-3e08a34009fe",
+                "resourcePath": "views\\1b4ec6e8-780c-4aec-baaa-86dec5569b0a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1c394201-cc72-4632-9b86-790c3a40e4c3",
+            "Value": {
+                "id": "3c3626e9-14a9-45ae-a481-9f456a41129f",
+                "resourcePath": "views\\1c394201-cc72-4632-9b86-790c3a40e4c3.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -132,6 +156,14 @@
                 "id": "8806b466-d5a7-4344-a02d-5df9adb82b4c",
                 "resourcePath": "views\\3fd85874-5a2e-4539-aab1-3375e74f2764.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4afebce0-c15f-44e9-ac6f-e1c97145d2c3",
+            "Value": {
+                "id": "9bacc154-84dc-4a21-9353-1d33ba71013f",
+                "resourcePath": "scripts\\scr_Funny_Finger_Animate\\scr_Funny_Finger_Animate.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -255,6 +287,14 @@
             }
         },
         {
+            "Key": "a4f07289-ec60-4dfb-a10e-0ec3fc8dce08",
+            "Value": {
+                "id": "ebc6fed4-0a35-4f0b-a444-ef91114d3139",
+                "resourcePath": "scripts\\scr_Funny_Finger_Move\\scr_Funny_Finger_Move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "ca010eda-03b2-4e6b-9ef8-6fde1a8f31bc",
@@ -292,6 +332,14 @@
                 "id": "7ac8e4a8-6422-46dd-9caf-7a0cfc739a99",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cf04c378-38ec-4cc7-9498-b83817a0aaa6",
+            "Value": {
+                "id": "657b207b-02be-41cf-b8c9-98c3c465d906",
+                "resourcePath": "scripts\\scr_Playfield_Step\\scr_Playfield_Step.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -376,15 +424,18 @@
         }
     ],
     "script_order": [
-        "f01d5551-3448-44b2-b55f-9e768cbea1c6",
-        "002e9cd6-2c8f-4f31-8ddd-4ec39418717b",
         "fc431f7b-7909-4950-b865-72f5280b2cdb",
-        "1e52c28a-8996-49fd-85ea-cf380ba6ea6d",
         "f80b948c-aa84-4460-87d7-b9e1686a6aea",
-        "cab799ce-8d74-4a49-8d5c-cac01986cb64",
-        "cb642fde-a925-445c-937c-daf96a8c401b",
+        "002e9cd6-2c8f-4f31-8ddd-4ec39418717b",
         "fa051e7c-dfaf-492a-a1d0-a97b51bf9c14",
-        "85e3a35e-a44f-4342-9049-1435f86231e4"
+        "85e3a35e-a44f-4342-9049-1435f86231e4",
+        "cf04c378-38ec-4cc7-9498-b83817a0aaa6",
+        "cb642fde-a925-445c-937c-daf96a8c401b",
+        "f01d5551-3448-44b2-b55f-9e768cbea1c6",
+        "cab799ce-8d74-4a49-8d5c-cac01986cb64",
+        "1e52c28a-8996-49fd-85ea-cf380ba6ea6d",
+        "a4f07289-ec60-4dfb-a10e-0ec3fc8dce08",
+        "4afebce0-c15f-44e9-ac6f-e1c97145d2c3"
     ],
     "tutorial": ""
 }

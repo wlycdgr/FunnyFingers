@@ -8,5 +8,6 @@ column = instance_create_layer(argument1, argument2, "Instances", obj_Column);
 
 column.playfield = argument0;
 column.occupied = false;
+column.funny_finger_index = -1;
 
 return column;

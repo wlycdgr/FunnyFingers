@@ -10,7 +10,7 @@ playfield = instance_create_layer(
 playfield.columns = [];
 playfield.funny_fingers = [];
 playfield.focused = false;
-playfield.move_in_progress = false;
+playfield.accepting_move_input = true;
 playfield.height = argument2;
 playfield.bottom_y = playfield.y + playfield.height;
 

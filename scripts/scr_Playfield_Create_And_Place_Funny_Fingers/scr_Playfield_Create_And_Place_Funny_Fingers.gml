@@ -11,6 +11,7 @@ for (i = 0; i < argument1; i++){
 	ff_column_index = i + offset;
 	
 	argument0.columns[ff_column_index].occupied = true;
+	argument0.columns[ff_column_index].funny_finger_index = i;
 	
 	argument0.funny_fingers[i] = scr_Funny_Finger_NEW(argument0, ff_column_index);
 }
