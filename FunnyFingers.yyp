@@ -234,7 +234,7 @@
             "Key": "54ae1b4d-1a6f-4cfd-a519-4a118c0a9aad",
             "Value": {
                 "id": "193b2ae9-2839-4298-b488-abc8733df613",
-                "resourcePath": "scripts\\scr_Playfield_Generate_Entity\\scr_Playfield_Generate_Entity.yy",
+                "resourcePath": "scripts\\scr_Playfield_Periodically_Activate_Entity\\scr_Playfield_Periodically_Activate_Entity.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -362,7 +362,7 @@
             "Key": "a432b54f-8937-42c5-93eb-2a0c08f7735d",
             "Value": {
                 "id": "1bd9cdfc-5846-4ac7-b994-5f7dbedfb64c",
-                "resourcePath": "scripts\\scr_Playfield_Move_Entities\\scr_Playfield_Move_Entities.yy",
+                "resourcePath": "scripts\\scr_Playfield_Move_Active_Entities\\scr_Playfield_Move_Active_Entities.yy",
                 "resourceType": "GMScript"
             }
         },
