@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_Funny_Finger",
     "eventList": [
-        
+        {
+            "id": "69d5b282-9d84-4ee1-8f0a-e64bdcd23282",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "150adbdd-4555-4d73-8785-ba644bc4e234"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "82caad77-4d9c-4349-89ec-eb52a450eb75",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

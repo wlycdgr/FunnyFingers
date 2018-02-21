@@ -45,11 +45,40 @@ for (var i = 0; i < argument0; i++){ // playfield_count
 		75, 90, // period min/max, in frames
 		45, 60 // speed min/max, in pixels per second
 	);
+
 	
 	game.playfields[i] = playfield;
 }
 
 scr_Game_Focus_Playfield(game, 0);
+
+if (1 == argument0){ // 1 playfield visuals
+	instance_create_layer(
+		playfield_x,
+		window_height - (((window_height - playfield_height) / 2)),
+		"BottomMask",
+		obj_Bottom_Mask
+	);
+	
+	instance_create_layer(
+		playfield_x,
+		0,
+		"TopMask",
+		obj_Top_Mask
+	);
+	
+	instance_create_layer(
+		0, 0,
+		"Sides",
+		obj_Left_Side
+	);
+	
+	instance_create_layer(
+		window_width - ((window_width - (argument1 * playfield_column_width)) / 2), 0,
+		"Sides",
+		obj_Right_Side
+	);
+}
 
 game.is_game_over = false;
 

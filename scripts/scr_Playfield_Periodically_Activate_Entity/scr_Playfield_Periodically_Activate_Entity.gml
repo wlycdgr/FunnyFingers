@@ -13,7 +13,7 @@ if (argument0.counter >= argument0.current_period){
 		random_column_index = irandom_range(0, array_length_1d(argument0.playfield.columns) - 1);
 		argument0.entities[i].x = argument0.playfield.columns[random_column_index].x;
 		argument0.entities[i].x +=
-			(sprite_get_width(spr_column) - 
+			(sprite_get_width(obj_Sprite_Loader.column_sprite) - 
 			sprite_get_width(argument0.entities[i].sprite_index)) / 2;
 		
 		// tie it to that column

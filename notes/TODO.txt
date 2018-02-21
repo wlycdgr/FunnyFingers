@@ -6,6 +6,8 @@ TODO
 
 - DONE implement correct layering for enemy and energy objects
 - BASIC DONE implement correct positioning after move for funny fingers
+- DONE implement masking of funny fingers below playfield
+- DONE implement masking of entities and enemies above playfield
 
 - implement dying-when-you-run-out-of-life logic
 	- warning column that comes down

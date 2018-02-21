@@ -9,7 +9,11 @@
         "150adbdd-4555-4d73-8785-ba644bc4e234",
         "0ac5f62d-3b3b-446f-93ce-b591a9476fee",
         "1e40c857-56c8-4151-9a90-3c621243d9bc",
-        "3cacfbe1-5d40-49c0-a474-4bebb2b005d9"
+        "3cacfbe1-5d40-49c0-a474-4bebb2b005d9",
+        "1c6ca7cb-3597-49dd-bb1f-04b093dd06db",
+        "f9d66803-a97c-49fd-add0-44352a3b08d7",
+        "63b3a153-50f1-407c-ada2-416b5aad2ef7",
+        "9540f69c-ec41-4830-b059-19deabb69b7e"
     ],
     "filterType": "GMObject",
     "folderName": "Gameplay",
