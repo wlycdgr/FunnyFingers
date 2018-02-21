@@ -34,10 +34,19 @@ for (var i = 0; i < argument0; i++){ // playfield_count
 	
 	scr_Playfield_Create_And_Place_Funny_Fingers(playfield, argument2);
 	
-	scr_Playfield_Create_Enemy_Generator();
-	scr_Playfield_Create_Energy_Generator();
+	playfield.energy_generator = scr_Entity_Generator_NEW(
+		obj_Energy, 
+		45, 60, // period min/max, in frames
+		60, 90 // speed min/max, in pixels per second
+	);
 	
-	game.playfields[i] = new_playfield;
+	playfield.enemy_generator = scr_Entity_Generator_NEW(
+		obj_Enemy, 
+		75, 90, // period min/max, in frames
+		45, 60 // speed min/max, in pixels per second
+	);
+	
+	game.playfields[i] = playfield;
 }
 
 scr_Game_Focus_Playfield(game, 0);

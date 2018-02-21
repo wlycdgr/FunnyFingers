@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "0cf05595-8861-41aa-bbba-755e5f809a94",
-            "Value": {
-                "id": "73df9982-7130-4b1a-934d-6d61c7b4f057",
-                "resourcePath": "scripts\\scr_Playfield_Create_Energy_Generator\\scr_Playfield_Create_Energy_Generator.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "1329b4b1-d0c9-4b21-b1de-be145c29379f",
             "Value": {
                 "id": "b8c0854f-9353-47e5-965c-5c49a3f8a7b3",
@@ -239,14 +231,6 @@
             }
         },
         {
-            "Key": "556202af-9924-43ad-b745-ee4270b3aedf",
-            "Value": {
-                "id": "276b62b2-2dc3-4d69-a846-fbfedcc0686b",
-                "resourcePath": "scripts\\scr_Playfield_Create_Enemy_Generator\\scr_Playfield_Create_Enemy_Generator.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "56628627-e3cd-44d3-a0fc-f4fab68a9f26",
             "Value": {
                 "id": "3e08920a-3e81-45b8-8ca5-ec2000161396",
@@ -276,6 +260,14 @@
                 "id": "f3ed4e8a-033e-48fe-b651-59e6116a5b30",
                 "resourcePath": "rooms\\r_Init\\r_Init.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6a28f99d-f901-4a41-9980-fc70576329e2",
+            "Value": {
+                "id": "6acc1840-3e83-433c-bfb4-f3ed7da356f0",
+                "resourcePath": "scripts\\scr_Entity_Generator_NEW\\scr_Entity_Generator_NEW.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -404,6 +396,14 @@
                 "id": "fce3a91d-34a2-4819-8c89-4301f48a818a",
                 "resourcePath": "rooms\\r_MainMenu\\r_MainMenu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c4bea381-8cda-419a-93e9-50ebeb48376b",
+            "Value": {
+                "id": "89fc75c9-1e4b-4153-aeb7-74a32124790d",
+                "resourcePath": "notes\\note2.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
@@ -547,10 +547,9 @@
         "c57ee39a-eb6b-4a2c-95f7-da8f1629a05e",
         "842d914e-c9ac-4fe3-94dc-10e55fa145d2",
         "c8c1521c-2a34-48bf-9d44-88ff96ccf23c",
-        "0cf05595-8861-41aa-bbba-755e5f809a94",
-        "556202af-9924-43ad-b745-ee4270b3aedf",
         "54ae1b4d-1a6f-4cfd-a519-4a118c0a9aad",
         "a432b54f-8937-42c5-93eb-2a0c08f7735d",
+        "6a28f99d-f901-4a41-9980-fc70576329e2",
         "f01d5551-3448-44b2-b55f-9e768cbea1c6",
         "cab799ce-8d74-4a49-8d5c-cac01986cb64",
         "1e52c28a-8996-49fd-85ea-cf380ba6ea6d",

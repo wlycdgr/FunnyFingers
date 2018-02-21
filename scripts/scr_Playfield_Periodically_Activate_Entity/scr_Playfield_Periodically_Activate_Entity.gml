@@ -2,7 +2,7 @@
 
 argument0.counter += 1;
 
-if (argument0.counter >= argument0.period){
+if (argument0.counter >= argument0.current_period){
 	for (i = array_length_1d(argument0.entities) - 1; i > -1; i--){
 		if (argument0.entities[i].is_active) continue;
 		
