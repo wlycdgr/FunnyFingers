@@ -12,7 +12,7 @@ new_entity_generator.playfield = playfield;
 
 new_entity_generator.entities = array_create(10, -1); // TODO: unmagic this number
 for (i = 0; i < 10; i++){
-	new_entity = instance_create_layer(0, 0, "Instances", argument0);
+	new_entity = instance_create_layer(0, 0, "EnemiesAndEnergies", argument0);
 	new_entity.is_active = false;
 	new_entity.column_index = -1;
 	new_entity_generator.entities[i] = new_entity;
