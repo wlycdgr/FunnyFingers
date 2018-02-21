@@ -17,6 +17,12 @@ for (i = array_length_1d(ffs) - 1; i > -1; i--){
 	// scr_Funny_Finger_Collide(energy)
 }
 
+scr_Playfield_Generate_Entity(argument0.enemy_generator);
+scr_Playfield_Generate_Entity(argument0.energy_generator);
+
+scr_Playfield_Move_Entities(argument0.enemy_generator.entities);
+scr_Playfield_Move_Entities(argument0.energy_generator.entities);
+
 /*
 Generate enemies
 Generate energies

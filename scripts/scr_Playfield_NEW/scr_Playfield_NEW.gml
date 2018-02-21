@@ -9,8 +9,8 @@ new_playfield = instance_create_layer(
 
 new_playfield.columns = [];
 new_playfield.funny_fingers = [];
-new_playfield.energies = [];
-new_playfield.enemies = [];
+new_playfield.enemy_generator = -1;
+new_playfield.energy_generator = -1;
 new_playfield.focused = false;
 new_playfield.accepting_move_input = true;
 new_playfield.height = argument2;
