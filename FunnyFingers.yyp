@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "842d914e-c9ac-4fe3-94dc-10e55fa145d2",
+            "Value": {
+                "id": "908bf2d4-e157-4651-a050-1ee5315279b1",
+                "resourcePath": "scripts\\scr_Playfield_Activate_Move\\scr_Playfield_Activate_Move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "85e3a35e-a44f-4342-9049-1435f86231e4",
             "Value": {
                 "id": "4c126495-30ba-4f4f-a62a-ac0a79156ea7",
@@ -323,6 +331,14 @@
             "Value": {
                 "id": "bddd4ea6-eb2a-4f7f-814e-5e5d95791b17",
                 "resourcePath": "scripts\\scr_Playfield_Identify_Target_Column\\scr_Playfield_Identify_Target_Column.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c8c1521c-2a34-48bf-9d44-88ff96ccf23c",
+            "Value": {
+                "id": "c43e6368-1e1a-4fc6-9cd7-4303240237c4",
+                "resourcePath": "scripts\\scr_Playfield_Handle_Move_Input\\scr_Playfield_Handle_Move_Input.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -449,6 +465,8 @@
         "cb642fde-a925-445c-937c-daf96a8c401b",
         "21ea016b-78d3-4083-a9f8-82bbfcd71805",
         "c57ee39a-eb6b-4a2c-95f7-da8f1629a05e",
+        "842d914e-c9ac-4fe3-94dc-10e55fa145d2",
+        "c8c1521c-2a34-48bf-9d44-88ff96ccf23c",
         "f01d5551-3448-44b2-b55f-9e768cbea1c6",
         "cab799ce-8d74-4a49-8d5c-cac01986cb64",
         "1e52c28a-8996-49fd-85ea-cf380ba6ea6d",

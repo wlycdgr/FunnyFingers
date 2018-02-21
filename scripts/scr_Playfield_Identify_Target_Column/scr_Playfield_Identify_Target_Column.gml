@@ -1,15 +1,18 @@
-/*
+/// @param {real} move_direction Are we trying to move left (-1) or right (1)?
 
-ff_target_column = scr_Playfield_Identify_Target_Column_Index(
-		playfield.columns, ff.source_column, -1
-	);
-
-ff_target_column = -1;
-	ff = playfield.funny_fingers[ff_index];
+if (-1 == argument0){
 	for (i = ff.source_column - 1; i > -1; i--){
 		if (!playfield.columns[i].occupied){
-			ff_target_column = i;
-			break;
+			return i;
 		}
 	}
-*/	
+}
+else if (1 == argument0){
+	for (i = ff.source_column + 1; i < array_length_1d(playfield.columns); i++){
+		if (!playfield.columns[i].occupied){
+			return i;
+		}
+	}
+}
+
+return -1;

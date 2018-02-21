@@ -8,7 +8,7 @@ if (-1 == argument0){ // moving to left
 	index_target = argument1;
 }
 else if (1 == argument0){ // moving to right
-	index_target = array_length_1d(playfield.funny_fingers) - argument1;
+	index_target = array_length_1d(playfield.funny_fingers) - 1 - argument1;
 }
 
 for (i = 0; i < array_length_1d(playfield.columns); i++){
