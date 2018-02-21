@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "0096c3e5-87a3-456f-b5e7-a3f0098c5c7d",
-            "Value": {
-                "id": "6c1a66be-6fd6-4779-a5cc-f6b8ecb526a4",
-                "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0ac5f62d-3b3b-446f-93ce-b591a9476fee",
             "Value": {
                 "id": "58e2228c-b7fb-4b85-89b3-b4f585ca60e7",
@@ -135,14 +127,6 @@
             }
         },
         {
-            "Key": "23a043af-573e-4120-9c58-a15552753bc8",
-            "Value": {
-                "id": "5e188208-d322-4761-b3cc-ead774f94c23",
-                "resourcePath": "sprites\\spr_energy\\spr_energy.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2ec7eaea-694d-44c0-9bbe-ed37a029a7ea",
             "Value": {
                 "id": "05e00461-4e18-4cf5-b37f-7d4878adc91c",
@@ -196,6 +180,22 @@
                 "id": "8806b466-d5a7-4344-a02d-5df9adb82b4c",
                 "resourcePath": "views\\3fd85874-5a2e-4539-aab1-3375e74f2764.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "46d8e5ed-17d1-4f0c-a259-e8ce23847acb",
+            "Value": {
+                "id": "6cad3cdc-5ec9-4661-88e9-9a7b7625b0f8",
+                "resourcePath": "objects\\obj_Sprite_Loader\\obj_Sprite_Loader.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "49c158d8-9763-46dd-a5f2-0413710e0568",
+            "Value": {
+                "id": "89d8858c-d2f3-49a1-b61c-e42ff42022af",
+                "resourcePath": "datafiles_yy\\enemy_32x32.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -276,6 +276,14 @@
                 "id": "da10410c-0de7-434e-9f78-a276708d97c8",
                 "resourcePath": "notes\\gameplay_logic.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "72597bfc-66ab-417e-99b1-85bc7842a3fa",
+            "Value": {
+                "id": "217c84cc-4b65-4b40-8687-3781be026243",
+                "resourcePath": "datafiles_yy\\energy_32x32.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {

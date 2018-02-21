@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_Enemy",
     "eventList": [
-        
+        {
+            "id": "206d61b7-44c4-4a07-9487-6316e35deead",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "b29c19b6-ef21-4d43-ae4e-19588f7ac1fd"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "0096c3e5-87a3-456f-b5e7-a3f0098c5c7d",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
