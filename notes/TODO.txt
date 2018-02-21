@@ -5,7 +5,8 @@ TODO
 - DONE implement shrinking-over-time logic for funny fingers
 
 - DONE implement correct layering for enemy and energy objects
-- implement correct positioning after move for funny fingers
+- BASIC DONE implement correct positioning after move for funny fingers
+
 - implement dying-when-you-run-out-of-life logic
 	- warning column that comes down
 	- when warning column collides with funny finger, it's game over

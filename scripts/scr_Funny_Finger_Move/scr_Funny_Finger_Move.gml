@@ -5,8 +5,12 @@
 
 moving_ff = argument0.funny_fingers[argument1];
 
-target_x = argument0.columns[moving_ff.target_column].x;
-source_x = argument0.columns[moving_ff.source_column].x;
+target_x = 
+	argument0.columns[moving_ff.target_column].x + 
+	moving_ff.half_of_width_difference_with_column;
+source_x = 
+	argument0.columns[moving_ff.source_column].x +
+	moving_ff.half_of_width_difference_with_column;
 
 delta_x = (target_x - source_x) / 10.0;
 
@@ -16,6 +20,8 @@ if (
 	(target_x >= source_x && moving_ff.x >= target_x) ||
 	(target_x <= source_x && moving_ff.x <= target_x)
 ){
+	moving_ff.x = target_x;
+	
 	// clear the column that the funny finger was in
 	argument0.columns[moving_ff.source_column].occupied = false;
 	argument0.columns[moving_ff.source_column].funny_finger_index = -1;
