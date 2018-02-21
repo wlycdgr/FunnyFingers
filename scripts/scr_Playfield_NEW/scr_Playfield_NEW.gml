@@ -16,4 +16,6 @@ new_playfield.accepting_move_input = true;
 new_playfield.height = argument2;
 new_playfield.bottom_y = new_playfield.y + new_playfield.height;
 
+new_playfield.funny_finger_shrink_per_second = 0.025; // % of playfield height
+
 return new_playfield;

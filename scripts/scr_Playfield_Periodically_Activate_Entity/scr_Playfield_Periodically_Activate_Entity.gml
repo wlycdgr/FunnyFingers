@@ -18,12 +18,19 @@ if (argument0.counter >= argument0.current_period){
 		
 		// tie it to that column
 		argument0.entities[i].column_index = random_column_index;
-			
-		argument0.entities[i].vertical_speed = 3;
+		
+		// randomize the speed within a range specific to the entity type
+		argument0.entities[i].vertical_speed = random_range(
+			argument0.minimum_entity_speed / game_get_speed(gamespeed_fps), 
+			argument0.maximum_entity_speed / game_get_speed(gamespeed_fps)
+		);
+		
 		argument0.entities[i].y = 100;
 		
 		break;
 	}
 	
 	argument0.counter = 0;
+	argument0.current_period = 
+		irandom_range(argument0.minimum_period, argument0.maximum_period);
 }

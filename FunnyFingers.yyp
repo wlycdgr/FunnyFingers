@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "8f2adde1-b5ef-4bb5-ae3a-586abd5985d4",
+            "Value": {
+                "id": "3440d19b-628e-4388-9f08-5dfd7f815969",
+                "resourcePath": "scripts\\scr_Funny_Finger_Shrink_Or_Grow\\scr_Funny_Finger_Shrink_Or_Grow.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9520ef3f-3d7b-43a4-a49f-44767a20dc32",
             "Value": {
                 "id": "b453560f-6331-4cc0-9589-6ef46050ea62",
@@ -402,7 +410,7 @@
             "Key": "c4bea381-8cda-419a-93e9-50ebeb48376b",
             "Value": {
                 "id": "89fc75c9-1e4b-4153-aeb7-74a32124790d",
-                "resourcePath": "notes\\note2.yy",
+                "resourcePath": "notes\\TODO.yy",
                 "resourceType": "GMNotes"
             }
         },
@@ -550,6 +558,7 @@
         "54ae1b4d-1a6f-4cfd-a519-4a118c0a9aad",
         "a432b54f-8937-42c5-93eb-2a0c08f7735d",
         "6a28f99d-f901-4a41-9980-fc70576329e2",
+        "8f2adde1-b5ef-4bb5-ae3a-586abd5985d4",
         "f01d5551-3448-44b2-b55f-9e768cbea1c6",
         "cab799ce-8d74-4a49-8d5c-cac01986cb64",
         "1e52c28a-8996-49fd-85ea-cf380ba6ea6d",

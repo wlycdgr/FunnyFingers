@@ -11,6 +11,7 @@ funny_finger.target_column = argument1;
 funny_finger.half_of_width_difference_with_column =
 	(sprite_get_width(spr_column) - sprite_get_width(spr_funny_finger)) / 2;
 funny_finger.is_moving = false;
+funny_finger.is_shrinking = true;
 funny_finger.life = 0.3;
 
 funny_finger.x =

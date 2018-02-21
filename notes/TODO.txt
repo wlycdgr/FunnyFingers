@@ -1,8 +1,8 @@
 TODO
 
-- implement period randomization logic for entity activation
-- implement speed randomization logic for entity activation
-- implement shrinking-over-time logic for funny fingers
+- DONE implement period randomization logic for entity activation
+- DONE implement speed randomization logic for entity activation
+- DONE implement shrinking-over-time logic for funny fingers
 - implement collision detection logic for funny fingers v entities:
 	- funny finger switches to grow mode
 - implement collision detection logic for funny fingers v enemies:

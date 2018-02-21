@@ -37,7 +37,7 @@ for (var i = 0; i < argument0; i++){ // playfield_count
 	playfield.energy_generator = scr_Entity_Generator_NEW(
 		obj_Energy, 
 		45, 60, // period min/max, in frames
-		60, 90 // speed min/max, in pixels per second
+		30, 300//60, 90 // speed min/max, in pixels per second
 	);
 	
 	playfield.enemy_generator = scr_Entity_Generator_NEW(

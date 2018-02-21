@@ -2,11 +2,14 @@
 /// @description Top-level runs-every-frame playfield update function
 /// @param playfield Id of playfield
 
-ffs = argument0.funny_fingers;
+playfield = argument0;
+ffs = playfield.funny_fingers;
 
 for (i = array_length_1d(ffs) - 1; i > -1; i--){
+	scr_Funny_Finger_Shrink_Or_Grow(ffs[i]);
+	
 	if (ffs[i].is_moving){
-		scr_Funny_Finger_Move(argument0, i);
+		scr_Funny_Finger_Move(playfield, i);
 	}
 	
 	//scr_Funny_Finger_Animate(ffs[i]);
@@ -17,11 +20,11 @@ for (i = array_length_1d(ffs) - 1; i > -1; i--){
 	// scr_Funny_Finger_Collide(energy)
 }
 
-scr_Playfield_Periodically_Activate_Entity(argument0.enemy_generator);
-scr_Playfield_Periodically_Activate_Entity(argument0.energy_generator);
+scr_Playfield_Periodically_Activate_Entity(playfield.enemy_generator);
+scr_Playfield_Periodically_Activate_Entity(playfield.energy_generator);
 
-scr_Playfield_Move_Active_Entities(argument0.enemy_generator.entities);
-scr_Playfield_Move_Active_Entities(argument0.energy_generator.entities);
+scr_Playfield_Move_Active_Entities(playfield.enemy_generator.entities);
+scr_Playfield_Move_Active_Entities(playfield.energy_generator.entities);
 
 /*
 Collide funny fingers vs enemies
