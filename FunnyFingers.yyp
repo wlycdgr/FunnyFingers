@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0096c3e5-87a3-456f-b5e7-a3f0098c5c7d",
+            "Value": {
+                "id": "6c1a66be-6fd6-4779-a5cc-f6b8ecb526a4",
+                "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ac5f62d-3b3b-446f-93ce-b591a9476fee",
             "Value": {
                 "id": "58e2228c-b7fb-4b85-89b3-b4f585ca60e7",
@@ -132,6 +140,14 @@
                 "id": "209f8c08-215c-496b-b5da-e49357279261",
                 "resourcePath": "scripts\\scr_Playfield_Retrieve_Targeted_Funny_Finger\\scr_Playfield_Retrieve_Targeted_Funny_Finger.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "23a043af-573e-4120-9c58-a15552753bc8",
+            "Value": {
+                "id": "5e188208-d322-4761-b3cc-ead774f94c23",
+                "resourcePath": "sprites\\spr_energy\\spr_energy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
