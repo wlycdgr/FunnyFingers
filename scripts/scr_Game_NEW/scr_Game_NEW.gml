@@ -6,7 +6,8 @@
 
 game = instance_create_layer(0, 0, "Controllers", obj_Game);
 
-game.input_tracker = scr_Input_Tracker_NEW(game);
+game.input_tracker = 
+	instance_create_layer(0, 0, "Controllers", obj_Input_Tracker);
 
 game.is_game_over = false;
 game.game_over_menu = instance_create_layer(
@@ -22,14 +23,7 @@ for (var i = 0; i < argument0; i++){ // playfield_count
 		((i + 1) * (window_width / (argument0 + 1))) - // space playfields evenly horizontally across window
 		((argument1 * playfield_column_width) / 2) // center them relative to the spacings
 	);
-	
-	/*	
-	playfield = scr_Playfield_NEW(
-		playfield_x,
-		((window_height - playfield_height) / 2), // y
-		playfield_height
-	);
-	*/
+
 	playfield = instance_create_layer(
 		playfield_x,
 		((window_height - playfield_height) / 2),

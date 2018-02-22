@@ -591,14 +591,6 @@
             }
         },
         {
-            "Key": "f80b948c-aa84-4460-87d7-b9e1686a6aea",
-            "Value": {
-                "id": "e8de3908-a16a-4486-bfdc-d667fd692837",
-                "resourcePath": "scripts\\scr_Input_Tracker_NEW\\scr_Input_Tracker_NEW.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "fa051e7c-dfaf-492a-a1d0-a97b51bf9c14",
             "Value": {
                 "id": "0bd0e2a3-424b-448d-97f2-98ce8b9f25e4",
@@ -633,7 +625,6 @@
     ],
     "script_order": [
         "fc431f7b-7909-4950-b865-72f5280b2cdb",
-        "f80b948c-aa84-4460-87d7-b9e1686a6aea",
         "fa051e7c-dfaf-492a-a1d0-a97b51bf9c14",
         "85e3a35e-a44f-4342-9049-1435f86231e4",
         "cf04c378-38ec-4cc7-9498-b83817a0aaa6",
