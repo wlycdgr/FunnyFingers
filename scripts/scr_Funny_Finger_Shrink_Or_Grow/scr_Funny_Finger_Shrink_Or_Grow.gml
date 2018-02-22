@@ -17,9 +17,10 @@ else {
 	}
 }
 
+
 funny_finger.y =  
-	playfield.bottom_y - 
-	(playfield.height * funny_finger.life);
+	playfield_bottom_y - 
+	(playfield_height * funny_finger.life);
 
 // If funny finger life is above danger threshold,
 // move danger indicator out of sight

@@ -21,9 +21,8 @@ funny_finger.x =
 	argument0.columns[argument1].x +
 	funny_finger.half_of_width_difference_with_column;
 	
-funny_finger.y =  
-	argument0.bottom_y - 
-	(argument0.height * funny_finger.life);
+event_user(0); // update y pos
+
 	
 funny_finger.danger_danger = instance_create_layer(
 	funny_finger.x,
