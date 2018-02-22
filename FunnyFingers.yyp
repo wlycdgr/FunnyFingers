@@ -287,19 +287,19 @@
             }
         },
         {
+            "Key": "67631ef1-79cb-4597-83c4-13e8ca6cff81",
+            "Value": {
+                "id": "423f1191-738c-49eb-a1bd-5c3a2aa620d0",
+                "resourcePath": "objects\\obj_Enemy_Generator\\obj_Enemy_Generator.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "69220b2d-0c6d-4305-8fd4-e18659fcdbdc",
             "Value": {
                 "id": "f3ed4e8a-033e-48fe-b651-59e6116a5b30",
                 "resourcePath": "rooms\\r_Init\\r_Init.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "6a28f99d-f901-4a41-9980-fc70576329e2",
-            "Value": {
-                "id": "6acc1840-3e83-433c-bfb4-f3ed7da356f0",
-                "resourcePath": "scripts\\scr_Entity_Generator_NEW\\scr_Entity_Generator_NEW.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -372,6 +372,14 @@
                 "id": "908bf2d4-e157-4651-a050-1ee5315279b1",
                 "resourcePath": "scripts\\scr_Playfield_Activate_Move\\scr_Playfield_Activate_Move.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "87855e48-cff5-455a-96fb-cd6300ec0690",
+            "Value": {
+                "id": "2652eff3-7326-425a-a1e3-75ecfc0fb442",
+                "resourcePath": "objects\\obj_Energy_Generator\\obj_Energy_Generator.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -597,6 +605,14 @@
                 "resourcePath": "views\\fdfcc536-b452-4cb2-802a-363c74259a11.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fea23623-1329-491e-85bd-d3b6737917eb",
+            "Value": {
+                "id": "294f6278-1e40-468e-88a3-2d97df9c743c",
+                "resourcePath": "views\\fea23623-1329-491e-85bd-d3b6737917eb.yy",
+                "resourceType": "GMFolder"
+            }
         }
     ],
     "script_order": [
@@ -609,7 +625,6 @@
         "c8c1521c-2a34-48bf-9d44-88ff96ccf23c",
         "54ae1b4d-1a6f-4cfd-a519-4a118c0a9aad",
         "a432b54f-8937-42c5-93eb-2a0c08f7735d",
-        "6a28f99d-f901-4a41-9980-fc70576329e2",
         "8f2adde1-b5ef-4bb5-ae3a-586abd5985d4",
         "cab799ce-8d74-4a49-8d5c-cac01986cb64",
         "1e52c28a-8996-49fd-85ea-cf380ba6ea6d",
