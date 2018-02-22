@@ -7,27 +7,22 @@ game_over_menu = instance_create_layer(
 	window_width, ribbon_menu_y, "GameOverMenu", obj_Game_Over_Menu);
 
 playfields = array_create(playfield_count); // playfield_count
-var i = 0;
-var playfield_x = 0;
-repeat (playfield_count){
-	playfield_x = (
-		((i + 1) * (window_width / (playfield_count + 1))) - // space playfields evenly horizontally across window
-		((column_count * column_width) / 2) // center them relative to the spacings
-	);
-
+for (var i = 0; i < playfield_count; i++){
 	playfields[i] = instance_create_layer(
-		playfield_x, playfield_y,
+		((i + 1) * (window_width / (playfield_count + 1))) - // space playfields evenly horizontally across window
+		((column_count * column_width) / 2), // center them relative to the spacings
+		playfield_y,
 		"Instances",
 		obj_Playfield
 	);
-	
-	i += 1;
 }
 
 scr_Game_Focus_Playfield(id, 0);
 
 // Mask/bg sprites for one playfield mode!
 if (1 == playfield_count){
+	var playfield_x = (window_width - (column_count * column_width)) / 2;
+	
 	var bottom_mask = instance_create_layer(
 		playfield_x, playfield_bottom_y,
 		"BottomMask",
@@ -47,7 +42,7 @@ if (1 == playfield_count){
 	left_side.sprite_index = obj_Sprite_Loader.left_side_sprite;
 	
 	var right_side = instance_create_layer(
-		window_width - ((window_width - (column_count * column_width)) / 2), 0,
+		window_width - playfield_x, 0,
 		"Sides",
 		obj_Billboard);
 	right_side.sprite_index = obj_Sprite_Loader.right_side_sprite;
