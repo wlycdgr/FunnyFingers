@@ -1,4 +1,5 @@
 #macro above_window -1000
+#macro left_of_window -1000
 
 #macro starting_funny_finger_life 0.3
 

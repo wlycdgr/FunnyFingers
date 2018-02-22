@@ -1,3 +1,18 @@
 /// @description Insert description here
-// You can write your code in this editor
-sprite_index = obj_Sprite_Loader.funny_finger_sprite;
+half_of_width_difference_with_column = // TODO macro this
+	(sprite_get_width(obj_Sprite_Loader.column_sprite) - 
+	sprite_get_width(obj_Sprite_Loader.funny_finger_sprite)) / 2;
+is_moving = false;
+is_shrinking = true;
+is_not_funny_anymore = false;
+
+life = starting_funny_finger_life;
+target_life = life;
+
+event_user(0); // set y pos
+
+danger_danger = instance_create_layer(
+	left_of_window, above_window,
+	"DangerDanger",
+	obj_Danger_Danger
+);

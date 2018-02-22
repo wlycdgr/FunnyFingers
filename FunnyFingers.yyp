@@ -111,14 +111,6 @@
             }
         },
         {
-            "Key": "1e52c28a-8996-49fd-85ea-cf380ba6ea6d",
-            "Value": {
-                "id": "137b4174-7e58-45be-a583-b5a300840a39",
-                "resourcePath": "scripts\\scr_Funny_Finger_NEW\\scr_Funny_Finger_NEW.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "21ea016b-78d3-4083-a9f8-82bbfcd71805",
             "Value": {
                 "id": "209f8c08-215c-496b-b5da-e49357279261",
@@ -618,7 +610,6 @@
         "a432b54f-8937-42c5-93eb-2a0c08f7735d",
         "8f2adde1-b5ef-4bb5-ae3a-586abd5985d4",
         "cab799ce-8d74-4a49-8d5c-cac01986cb64",
-        "1e52c28a-8996-49fd-85ea-cf380ba6ea6d",
         "a4f07289-ec60-4dfb-a10e-0ec3fc8dce08",
         "4afebce0-c15f-44e9-ac6f-e1c97145d2c3",
         "22e4d577-b237-4333-83a3-20be936c6b35"

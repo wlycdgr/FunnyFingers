@@ -17,9 +17,17 @@ for (var i = 0; i < funny_finger_count; i++){
 	columns[ff_column_index].occupied = true;
 	columns[ff_column_index].funny_finger_index = i;
 	
-	funny_fingers[i] = scr_Funny_Finger_NEW(id, ff_column_index);
+	funny_fingers[i] = 
+		instance_create_layer(0, 0, "FunnyFingers", obj_Funny_Finger);
+	funny_fingers[i].playfield = id;
+	funny_fingers[i].source_column = ff_column_index;
+	funny_fingers[i].target_column = ff_column_index;
+	funny_fingers[i].x = 
+		columns[ff_column_index].x +
+		funny_fingers[i].half_of_width_difference_with_column;
+	funny_fingers[i].danger_danger.x = funny_fingers[i].x;
 }
-funny_finger_shrink_per_second = 0.025; // TODO remove magic number
+funny_finger_shrink_per_second = 0.025; // TODO macro this
 has_unfunny_finger = false;
 
 energy_generator = 
