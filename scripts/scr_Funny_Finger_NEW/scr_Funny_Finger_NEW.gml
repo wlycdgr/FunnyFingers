@@ -12,7 +12,10 @@ funny_finger.half_of_width_difference_with_column =
 	(sprite_get_width(obj_Sprite_Loader.column_sprite) - sprite_get_width(obj_Sprite_Loader.funny_finger_sprite)) / 2;
 funny_finger.is_moving = false;
 funny_finger.is_shrinking = true;
-funny_finger.life = 0.3;
+
+funny_finger.life = starting_funny_finger_life;
+funny_finger.not_funny_anymore = false;
+funny_finger.endangered_finger = false;
 
 funny_finger.x =
 	argument0.columns[argument1].x +

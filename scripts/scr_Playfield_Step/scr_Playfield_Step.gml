@@ -5,7 +5,15 @@
 playfield = argument0;
 ffs = playfield.funny_fingers;
 
-for (i = array_length_1d(ffs) - 1; i > -1; i--){
+// Death! Sadness! Game Over!
+for (var i = array_length_1d(ffs) - 1; i > -1; i--){
+	if (ffs[i].not_funny_anymore){
+		playfield.has_unfunny_finger = true;
+		return;
+	}
+}
+
+for (var i = array_length_1d(ffs) - 1; i > -1; i--){
 	scr_Funny_Finger_Shrink_Or_Grow(ffs[i]);
 	
 	if (ffs[i].is_moving){

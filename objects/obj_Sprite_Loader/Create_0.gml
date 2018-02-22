@@ -1,4 +1,4 @@
-/// @description Load sprites!
+/// @description Load sprites & set their framerates
 // You can write your code in this editor
 ini_open("sprite_settings.ini");
 column_frames = ini_read_real("frame_counts", "column", 1);

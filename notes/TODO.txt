@@ -8,16 +8,38 @@ TODO
 - BASIC DONE implement correct positioning after move for funny fingers
 - DONE implement masking of funny fingers below playfield
 - DONE implement masking of entities and enemies above playfield
+- DONE implement sprite loading and framerate setting from included files and a sprite settings ini file
+
+- implement scoring system
+	- 1 point for each move
+	
 
 - implement dying-when-you-run-out-of-life logic
 	- warning column that comes down
-	- when warning column collides with funny finger, it's game over
-	- when it's game over, game over menu slides across from the side
-	- 
+	- DONE when funny finger reaches the bottom of the playfield, it's game over
+		- it's at this moment that the warning column reaches the funny finger
+	- DONE when it's game over, game over menu slides across from the side
 	
 - implement collision detection logic for funny fingers v entities:
 	- funny finger switches to grow mode
 - implement collision detection logic for funny fingers v enemies:
 	- game over
-- implement pause game logic
-- implement screen switching logic
+	
+- implement pause menu
+	- pressing [PAUSE] suspends game
+	- pause screen slides in
+	- ? score ticks down slowly on pause screen ?
+	- pause menu has Continue option
+	- pause menu has Restart option
+	- pause menu has Exit To Title option
+	- menu has slide out animation if user chooses Continue or Restart
+	
+- implement screen transitions
+	- screen fades to black when user goes to another screen
+	- new screen fades in
+	
+- implement game over menu
+	- BASIC DONE menu has slide-in animation of menu when game ends
+	- DONE menu has Try Again option that restarts game
+	- DONE menu has Exit To Title option that exits to title screen
+	- menu has slide out animation if user chooses to try again

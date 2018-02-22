@@ -18,6 +18,6 @@ new_playfield.bottom_y = new_playfield.y + new_playfield.height;
 
 new_playfield.funny_finger_shrink_per_second = 0.025; // % of playfield height
 
-new_playfield.has_vanished_finger = false;
+new_playfield.has_unfunny_finger = false;
 
 return new_playfield;

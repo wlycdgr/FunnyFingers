@@ -8,6 +8,10 @@ game = instance_create_layer(0, 0, "Controllers", obj_Game);
 
 game.input_tracker = scr_Input_Tracker_NEW(game);
 
+game.is_game_over = false;
+game.game_over_menu = instance_create_layer(
+	window_get_width(), 180, "GameOverMenu", obj_Game_Over_Menu);
+
 playfield_column_width = 48;
 playfield_height = 512;
 window_width = window_get_width();
@@ -79,7 +83,5 @@ if (1 == argument0){ // 1 playfield visuals
 		obj_Right_Side
 	);
 }
-
-game.is_game_over = false;
 
 return game;
