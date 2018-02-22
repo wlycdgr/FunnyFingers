@@ -575,27 +575,11 @@
             }
         },
         {
-            "Key": "f01d5551-3448-44b2-b55f-9e768cbea1c6",
-            "Value": {
-                "id": "a0fcd609-9523-4426-b7d2-294cc42be557",
-                "resourcePath": "scripts\\scr_Game_NEW\\scr_Game_NEW.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "0c34059b-e1a1-4b36-aa3a-573121ab6d05",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
-            }
-        },
-        {
-            "Key": "fa051e7c-dfaf-492a-a1d0-a97b51bf9c14",
-            "Value": {
-                "id": "0bd0e2a3-424b-448d-97f2-98ce8b9f25e4",
-                "resourcePath": "scripts\\scr_Playfield_Create_And_Position_Columns\\scr_Playfield_Create_And_Position_Columns.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -625,7 +609,6 @@
     ],
     "script_order": [
         "fc431f7b-7909-4950-b865-72f5280b2cdb",
-        "fa051e7c-dfaf-492a-a1d0-a97b51bf9c14",
         "85e3a35e-a44f-4342-9049-1435f86231e4",
         "cf04c378-38ec-4cc7-9498-b83817a0aaa6",
         "cb642fde-a925-445c-937c-daf96a8c401b",
@@ -637,7 +620,6 @@
         "a432b54f-8937-42c5-93eb-2a0c08f7735d",
         "6a28f99d-f901-4a41-9980-fc70576329e2",
         "8f2adde1-b5ef-4bb5-ae3a-586abd5985d4",
-        "f01d5551-3448-44b2-b55f-9e768cbea1c6",
         "cab799ce-8d74-4a49-8d5c-cac01986cb64",
         "1e52c28a-8996-49fd-85ea-cf380ba6ea6d",
         "a4f07289-ec60-4dfb-a10e-0ec3fc8dce08",

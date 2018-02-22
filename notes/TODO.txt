@@ -28,7 +28,7 @@ TODO
 	- link moves together for bonus?
 	
 
-
+- simplify game_over_menu and pause_menu to generic ribbon_menu
 	
 
 

@@ -6,3 +6,12 @@
 
 #macro playfield_height 512
 
+#macro playfield_count 1
+#macro column_count 7
+#macro column_width 48
+#macro funny_finger_count 3
+
+#macro window_height window_get_height()
+#macro window_width window_get_width()
+
+#macro ribbon_menu_y 180

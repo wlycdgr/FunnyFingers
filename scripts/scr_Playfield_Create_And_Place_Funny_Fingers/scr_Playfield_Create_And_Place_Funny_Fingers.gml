@@ -3,11 +3,11 @@
 /// @param {real} playfield Id of playfield
 /// @param {real} funny_finger_count Number of funny fingers to create
 
-column_count = array_length_1d(argument0.columns);
-empty_spots = column_count - funny_finger_count;
-offset = floor(empty_spots / 2);
+var empty_spots = column_count - funny_finger_count;
+var offset = floor(empty_spots / 2);
+var ff_column_index = 0;
 
-for (i = 0; i < argument1; i++){
+for (var i = 0; i < argument1; i++){
 	ff_column_index = i + offset;
 	
 	argument0.columns[ff_column_index].occupied = true;
