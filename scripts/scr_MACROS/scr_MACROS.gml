@@ -2,6 +2,7 @@
 #macro left_of_window -1000
 
 #macro starting_funny_finger_life 0.3
+#macro funny_finger_shrink_per_second 0.025
 
 #macro game_over_menu_slide_per_frame 2 * (window_get_width() / game_get_speed(gamespeed_fps))
 
@@ -11,6 +12,7 @@
 #macro column_count 7
 #macro column_width 48
 #macro funny_finger_count 3
+#macro half_of_empty_columns floor((column_count - funny_finger_count) / 2)
 
 #macro window_height window_get_height()
 #macro window_width window_get_width()
