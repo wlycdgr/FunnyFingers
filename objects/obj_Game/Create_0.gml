@@ -21,14 +21,6 @@ for (var i = 0; i < playfield_count; i++){ // playfield_count
 		obj_Playfield
 	);
 
-	for (var j = 0; j < column_count; j++) { // column_count
-		playfield.columns[j] = scr_Column_NEW(
-			playfield,
-			playfield.x + j * column_width,
-			playfield.y
-		);
-	}
-	
 	scr_Playfield_Create_And_Place_Funny_Fingers(playfield, funny_finger_count);
 	
 	playfield.energy_generator = scr_Entity_Generator_NEW(

@@ -1,6 +1,10 @@
 /// @description Init
 // You can write your code in this editor
-columns = [];
+columns = array_create(column_count, -1);
+for (var i = 0; i < column_count; i++){
+	columns[i] = scr_Column_NEW(id, x + i * column_width, y);
+}
+
 funny_fingers = [];
 
 enemy_generator = -1;
