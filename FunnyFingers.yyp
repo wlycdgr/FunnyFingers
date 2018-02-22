@@ -375,14 +375,6 @@
             }
         },
         {
-            "Key": "85e3a35e-a44f-4342-9049-1435f86231e4",
-            "Value": {
-                "id": "4c126495-30ba-4f4f-a62a-ac0a79156ea7",
-                "resourcePath": "scripts\\scr_Playfield_Create_And_Place_Funny_Fingers\\scr_Playfield_Create_And_Place_Funny_Fingers.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "8f2adde1-b5ef-4bb5-ae3a-586abd5985d4",
             "Value": {
                 "id": "3440d19b-628e-4388-9f08-5dfd7f815969",
@@ -609,7 +601,6 @@
     ],
     "script_order": [
         "fc431f7b-7909-4950-b865-72f5280b2cdb",
-        "85e3a35e-a44f-4342-9049-1435f86231e4",
         "cf04c378-38ec-4cc7-9498-b83817a0aaa6",
         "cb642fde-a925-445c-937c-daf96a8c401b",
         "21ea016b-78d3-4083-a9f8-82bbfcd71805",
