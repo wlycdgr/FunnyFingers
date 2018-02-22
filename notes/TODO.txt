@@ -10,14 +10,16 @@ TODO
 - DONE implement masking of entities and enemies above playfield
 - DONE implement sprite loading and framerate setting from included files and a sprite settings ini file
 
+
 - implement scoring system
 	- 1 point for each move
+	- link moves together for bonus?
 	
 
-- implement dying-when-you-run-out-of-life logic
-	- warning column that comes down
+- FIRST PASS DONE implement dying-when-you-run-out-of-life logic
+	- DONE warning column that comes down
 	- DONE when funny finger reaches the bottom of the playfield, it's game over
-		- it's at this moment that the warning column reaches the funny finger
+		- APPROXIMATELY DONE it's at this moment that the warning column reaches the funny finger
 	- DONE when it's game over, game over menu slides across from the side
 	
 - implement collision detection logic for funny fingers v entities:

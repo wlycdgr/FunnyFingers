@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "11aa2566-5bd7-4e13-b6a0-718c7df70f5c",
+            "Value": {
+                "id": "f3e0fce9-3814-45d1-99d6-2af688780768",
+                "resourcePath": "datafiles_yy\\sprite_settings.ini.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "1329b4b1-d0c9-4b21-b1de-be145c29379f",
             "Value": {
                 "id": "b8c0854f-9353-47e5-965c-5c49a3f8a7b3",
@@ -543,14 +551,6 @@
             }
         },
         {
-            "Key": "cd07e4fd-a97e-43eb-b21a-d4d709f72fbf",
-            "Value": {
-                "id": "77a5f534-ae72-4fba-b198-1ce58d7898f4",
-                "resourcePath": "datafiles_yy\\sprite_settings.ini.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "cf04c378-38ec-4cc7-9498-b83817a0aaa6",
             "Value": {
                 "id": "657b207b-02be-41cf-b8c9-98c3c465d906",
@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "e9a3bacc-dda0-4e2a-b7f3-b2ccf4e5cf5c",
+            "Value": {
+                "id": "1b41c183-2f63-45f3-8dec-a9c497622788",
+                "resourcePath": "objects\\obj_Danger_Danger\\obj_Danger_Danger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f01d5551-3448-44b2-b55f-9e768cbea1c6",
             "Value": {
                 "id": "a0fcd609-9523-4426-b7d2-294cc42be557",
@@ -628,6 +636,14 @@
                 "id": "0bd0e2a3-424b-448d-97f2-98ce8b9f25e4",
                 "resourcePath": "scripts\\scr_Playfield_Create_And_Position_Columns\\scr_Playfield_Create_And_Position_Columns.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fbb12142-06e2-4f59-af36-7ffa07ae231b",
+            "Value": {
+                "id": "a704834a-ad58-4219-b275-c3b0edc6e9cd",
+                "resourcePath": "datafiles_yy\\danger_danger_32x512.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {

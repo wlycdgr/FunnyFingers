@@ -15,7 +15,6 @@ funny_finger.is_shrinking = true;
 
 funny_finger.life = starting_funny_finger_life;
 funny_finger.not_funny_anymore = false;
-funny_finger.endangered_finger = false;
 
 funny_finger.x =
 	argument0.columns[argument1].x +
@@ -24,5 +23,12 @@ funny_finger.x =
 funny_finger.y =  
 	argument0.bottom_y - 
 	(argument0.height * funny_finger.life);
+	
+funny_finger.danger_danger = instance_create_layer(
+	funny_finger.x,
+	above_window,
+	"DangerDanger",
+	obj_Danger_Danger
+);
 
 return funny_finger;
