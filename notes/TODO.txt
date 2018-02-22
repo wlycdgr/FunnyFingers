@@ -9,6 +9,20 @@ TODO
 - DONE implement masking of funny fingers below playfield
 - DONE implement masking of entities and enemies above playfield
 - DONE implement sprite loading and framerate setting from included files and a sprite settings ini file
+- FIRST PASS DONE implement dying-when-you-run-out-of-life logic
+	- DONE warning column that comes down
+	- DONE when funny finger reaches the bottom of the playfield, it's game over
+		- APPROXIMATELY DONE it's at this moment that the warning column reaches the funny finger
+	- DONE when it's game over, game over menu slides across from the side
+- DONE implement collision detection logic for funny fingers v entities:
+	- DONE funny finger switches to grow mode
+	- DONE entity ~disappears
+
+
+- simplify obj_left_side, obj_right_side, obj_top_mask, obj_bottom_mask to obj_billboard
+
+- implement collision detection logic for funny fingers v enemies:
+	- game over
 
 
 - implement scoring system
@@ -16,16 +30,10 @@ TODO
 	- link moves together for bonus?
 	
 
-- FIRST PASS DONE implement dying-when-you-run-out-of-life logic
-	- DONE warning column that comes down
-	- DONE when funny finger reaches the bottom of the playfield, it's game over
-		- APPROXIMATELY DONE it's at this moment that the warning column reaches the funny finger
-	- DONE when it's game over, game over menu slides across from the side
+
 	
-- implement collision detection logic for funny fingers v entities:
-	- funny finger switches to grow mode
-- implement collision detection logic for funny fingers v enemies:
-	- game over
+
+
 	
 - implement pause menu
 	- pressing [PAUSE] suspends game

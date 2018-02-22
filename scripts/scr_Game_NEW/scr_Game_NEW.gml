@@ -77,11 +77,20 @@ if (1 == argument0){ // 1 playfield visuals
 		obj_Left_Side
 	);
 	
+	/*
 	instance_create_layer(
 		window_width - ((window_width - (argument1 * playfield_column_width)) / 2), 0,
 		"Sides",
 		obj_Right_Side
 	);
+	*/
+	
+	var right_side = instance_create_layer(
+		window_width - ((window_width - (argument1 * playfield_column_width)) / 2), 0,
+		"Sides",
+		obj_Billboard
+	);
+	right_side.sprite_index = obj_Sprite_Loader.right_side_sprite;
 }
 
 return game;

@@ -14,6 +14,7 @@ funny_finger.is_moving = false;
 funny_finger.is_shrinking = true;
 
 funny_finger.life = starting_funny_finger_life;
+funny_finger.target_life = funny_finger.life;
 funny_finger.not_funny_anymore = false;
 
 funny_finger.x =

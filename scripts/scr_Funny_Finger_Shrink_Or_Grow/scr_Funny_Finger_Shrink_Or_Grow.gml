@@ -4,13 +4,22 @@
 
 funny_finger = argument0;
 
+// Poor funny finger!
 if (funny_finger.is_shrinking){
 	funny_finger.life -= playfield.funny_finger_shrink_per_second / game_get_speed(gamespeed_fps);
-	
-	funny_finger.y =  
-		playfield.bottom_y - 
-		(playfield.height * funny_finger.life);
 }
+// Funny finger has recently ingested some energy!!
+else {
+	funny_finger.life += 0.002;
+	if (funny_finger.life > funny_finger.target_life){
+		funny_finger.life = funny_finger.target_life;
+		funny_finger.is_shrinking = true;
+	}
+}
+
+funny_finger.y =  
+	playfield.bottom_y - 
+	(playfield.height * funny_finger.life);
 
 // If funny finger life is above danger threshold,
 // move danger indicator out of sight

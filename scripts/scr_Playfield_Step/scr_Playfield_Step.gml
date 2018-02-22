@@ -13,6 +13,12 @@ for (var i = array_length_1d(ffs) - 1; i > -1; i--){
 	}
 }
 
+scr_Playfield_Periodically_Activate_Entity(playfield.enemy_generator);
+scr_Playfield_Periodically_Activate_Entity(playfield.energy_generator);
+
+scr_Playfield_Move_Active_Entities(playfield.enemy_generator.entities);
+scr_Playfield_Move_Active_Entities(playfield.energy_generator.entities);
+
 for (var i = array_length_1d(ffs) - 1; i > -1; i--){
 	scr_Funny_Finger_Shrink_Or_Grow(ffs[i]);
 	
@@ -27,12 +33,6 @@ for (var i = array_length_1d(ffs) - 1; i > -1; i--){
 	// scr_Funny_Finger_Collide(enemy)
 	// scr_Funny_Finger_Collide(energy)
 }
-
-scr_Playfield_Periodically_Activate_Entity(playfield.enemy_generator);
-scr_Playfield_Periodically_Activate_Entity(playfield.energy_generator);
-
-scr_Playfield_Move_Active_Entities(playfield.enemy_generator.entities);
-scr_Playfield_Move_Active_Entities(playfield.energy_generator.entities);
 
 /*
 Collide funny fingers vs enemies
