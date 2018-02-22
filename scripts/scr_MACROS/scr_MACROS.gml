@@ -17,3 +17,4 @@
 #macro ribbon_menu_y 180
 
 #macro playfield_y ((window_height - playfield_height) / 2)
+#macro playfield_bottom_y window_height - (((window_height - playfield_height) / 2))
