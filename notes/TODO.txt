@@ -17,9 +17,7 @@ TODO
 - DONE implement collision detection logic for funny fingers v entities:
 	- DONE funny finger switches to grow mode
 	- DONE entity ~disappears
-
-
-- simplify obj_left_side, obj_right_side, obj_top_mask, obj_bottom_mask to obj_billboard
+- DONE simplify obj_left_side, obj_right_side, obj_top_mask, obj_bottom_mask to obj_billboard
 
 - implement collision detection logic for funny fingers v enemies:
 	- game over

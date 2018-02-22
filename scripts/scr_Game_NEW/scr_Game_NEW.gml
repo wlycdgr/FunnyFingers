@@ -13,7 +13,6 @@ game.game_over_menu = instance_create_layer(
 	window_get_width(), 180, "GameOverMenu", obj_Game_Over_Menu);
 
 playfield_column_width = 48;
-playfield_height = 512;
 window_width = window_get_width();
 window_height = window_get_height();
 
@@ -24,10 +23,18 @@ for (var i = 0; i < argument0; i++){ // playfield_count
 		((argument1 * playfield_column_width) / 2) // center them relative to the spacings
 	);
 	
+	/*	
 	playfield = scr_Playfield_NEW(
 		playfield_x,
 		((window_height - playfield_height) / 2), // y
 		playfield_height
+	);
+	*/
+	playfield = instance_create_layer(
+		playfield_x,
+		((window_height - playfield_height) / 2),
+		"Instances",
+		obj_Playfield
 	);
 	
 	scr_Playfield_Create_And_Position_Columns(

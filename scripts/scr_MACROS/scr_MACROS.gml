@@ -4,3 +4,5 @@
 
 #macro game_over_menu_slide_per_frame 2 * (window_get_width() / game_get_speed(gamespeed_fps))
 
+#macro playfield_height 512
+
