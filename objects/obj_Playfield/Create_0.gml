@@ -1,7 +1,12 @@
 /// @description Init
 columns = array_create(column_count);
 for (var i = 0; i < column_count; i++){
-	columns[i] = scr_Column_NEW(id, x + i * column_width, y);
+	columns[i] = instance_create_layer(
+		x + i * column_width, y,
+		"Columns",
+		obj_Column
+	);
+	columns[i].playfield = id;
 }
 
 funny_fingers = array_create(funny_finger_count);

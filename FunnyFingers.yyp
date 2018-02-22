@@ -591,14 +591,6 @@
             }
         },
         {
-            "Key": "fc431f7b-7909-4950-b865-72f5280b2cdb",
-            "Value": {
-                "id": "6dab800e-7caf-41cf-b973-8b8012444e92",
-                "resourcePath": "scripts\\scr_Column_NEW\\scr_Column_NEW.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "fdfcc536-b452-4cb2-802a-363c74259a11",
             "Value": {
                 "id": "b9623559-750e-4dba-ba0a-413d6e62ac0e",
@@ -616,7 +608,6 @@
         }
     ],
     "script_order": [
-        "fc431f7b-7909-4950-b865-72f5280b2cdb",
         "cf04c378-38ec-4cc7-9498-b83817a0aaa6",
         "cb642fde-a925-445c-937c-daf96a8c401b",
         "21ea016b-78d3-4083-a9f8-82bbfcd71805",
