@@ -57,33 +57,28 @@ for (var i = 0; i < argument0; i++){ // playfield_count
 scr_Game_Focus_Playfield(game, 0);
 
 if (1 == argument0){ // 1 playfield visuals
-	instance_create_layer(
+	var bottom_mask = instance_create_layer(
 		playfield_x,
 		window_height - (((window_height - playfield_height) / 2)),
 		"BottomMask",
-		obj_Bottom_Mask
+		obj_Billboard
 	);
+	bottom_mask.sprite_index = obj_Sprite_Loader.bottom_mask_sprite;
 	
-	instance_create_layer(
+	var top_mask = instance_create_layer(
 		playfield_x,
 		0,
 		"TopMask",
-		obj_Top_Mask
+		obj_Billboard
 	);
+	top_mask.sprite_index = obj_Sprite_Loader.top_mask_sprite;
 	
-	instance_create_layer(
+	var left_side = instance_create_layer(
 		0, 0,
 		"Sides",
-		obj_Left_Side
+		obj_Billboard
 	);
-	
-	/*
-	instance_create_layer(
-		window_width - ((window_width - (argument1 * playfield_column_width)) / 2), 0,
-		"Sides",
-		obj_Right_Side
-	);
-	*/
+	left_side.sprite_index = obj_Sprite_Loader.left_side_sprite;
 	
 	var right_side = instance_create_layer(
 		window_width - ((window_width - (argument1 * playfield_column_width)) / 2), 0,

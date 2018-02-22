@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "1c6ca7cb-3597-49dd-bb1f-04b093dd06db",
-            "Value": {
-                "id": "199b8f89-be21-4603-8843-8a173f6e89cf",
-                "resourcePath": "objects\\obj_Bottom_Mask\\obj_Bottom_Mask.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1d99ddca-f713-4396-8981-74adb0c3e722",
             "Value": {
                 "id": "b971b62e-8182-426e-94dc-8046e23fc21a",
@@ -295,14 +287,6 @@
             }
         },
         {
-            "Key": "63b3a153-50f1-407c-ada2-416b5aad2ef7",
-            "Value": {
-                "id": "95fe347d-630d-4bba-ab88-3c50c9226860",
-                "resourcePath": "objects\\obj_Left_Side\\obj_Left_Side.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "64a9aeb5-2aec-4b05-bbd9-b466bf445015",
             "Value": {
                 "id": "77878e32-404f-40b6-86fa-3dc6ce57eccc",
@@ -420,14 +404,6 @@
                 "id": "b453560f-6331-4cc0-9589-6ef46050ea62",
                 "resourcePath": "views\\9520ef3f-3d7b-43a4-a49f-44767a20dc32.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "9540f69c-ec41-4830-b059-19deabb69b7e",
-            "Value": {
-                "id": "af61c82f-dd78-485c-9b35-1c082ae2880d",
-                "resourcePath": "objects\\obj_Right_Side\\obj_Right_Side.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -628,14 +604,6 @@
                 "id": "e8de3908-a16a-4486-bfdc-d667fd692837",
                 "resourcePath": "scripts\\scr_Input_Tracker_NEW\\scr_Input_Tracker_NEW.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "f9d66803-a97c-49fd-add0-44352a3b08d7",
-            "Value": {
-                "id": "1ce08eb6-b240-403e-a1f6-2aabc1d8939d",
-                "resourcePath": "objects\\obj_Top_Mask\\obj_Top_Mask.yy",
-                "resourceType": "GMObject"
             }
         },
         {
