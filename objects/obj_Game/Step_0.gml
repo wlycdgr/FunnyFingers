@@ -2,11 +2,16 @@
 // You can write your code in this editor
 
 if (is_game_over){
-	if (!game_over_menu.is_in_place_and_active){
-		game_over_menu.x -= game_over_menu_slide_per_frame;
-		if (game_over_menu.x <= 0){
-			game_over_menu.x = 0;
-			game_over_menu.is_in_place_and_active = true;
+	if (game_over_menu.state == rms_selection_made){
+		switch(game_over_menu.selection){
+		case "Restart":
+			room_restart();
+			break;
+		case "Title":
+			room_goto(r_MainMenu);
+			break;
+		default:
+			break;
 		}
 	}
 }
@@ -15,7 +20,7 @@ else {
 		// Is the game over?
 		if (playfields[i].has_unfunny_finger){
 			is_game_over = true;
-			game_over_menu.is_sliding = true;
+			with (game_over_menu) { event_user(0); } // start sliding out
 			exit;
 		}
 	}

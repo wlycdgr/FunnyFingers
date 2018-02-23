@@ -13,6 +13,26 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "ac389a72-c67f-4309-a6bf-dfb476fba42e"
+        },
+        {
+            "id": "962f402b-0e1f-4a74-a6a4-3eddab56d4f5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "ac389a72-c67f-4309-a6bf-dfb476fba42e"
+        },
+        {
+            "id": "7eaf66f0-f9a8-4880-b1f0-4d256982ba7d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 7,
+            "m_owner": "ac389a72-c67f-4309-a6bf-dfb476fba42e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -32,34 +52,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "e0a26cf7-6f0a-4d0b-89f7-94aa1d8802bb",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "false",
-            "varName": "is_in_place_and_active",
-            "varType": 3
-        },
-        {
-            "id": "58fd5a2e-e9c6-459c-aeeb-955162d35b56",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "false",
-            "varName": "is_sliding",
-            "varType": 3
-        },
         {
             "id": "96c3b744-490f-4c24-8d09-7ce8993f5f52",
             "modelName": "GMObjectProperty",
@@ -115,6 +107,48 @@
             "value": "0",
             "varName": "item_labels",
             "varType": 0
+        },
+        {
+            "id": "5552be62-c6be-4738-836f-9b6b36894714",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"MENU\"",
+            "varName": "header",
+            "varType": 2
+        },
+        {
+            "id": "007ccb00-6c3e-4061-8b56-d139eac800c7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"\"",
+            "varName": "selection",
+            "varType": 2
+        },
+        {
+            "id": "f3f60724-50ed-4ec7-a7a5-b4e6fc67aa6e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "state",
+            "varType": 1
         }
     ],
     "solid": false,
