@@ -418,7 +418,7 @@
             "Key": "cab799ce-8d74-4a49-8d5c-cac01986cb64",
             "Value": {
                 "id": "c94351f8-d802-406a-8c80-fd67ccf4c8a1",
-                "resourcePath": "scripts\\scr_Game_Focus_Playfield\\scr_Game_Focus_Playfield.yy",
+                "resourcePath": "scripts\\scr_Focus_Playfield\\scr_Focus_Playfield.yy",
                 "resourceType": "GMScript"
             }
         },

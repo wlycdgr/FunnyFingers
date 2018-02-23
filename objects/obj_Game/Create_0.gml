@@ -8,5 +8,3 @@ for (var i = 0; i < playfield_count; i++){
 		obj_Playfield
 	);
 }
-
-scr_Game_Focus_Playfield(id, 0);

@@ -1,6 +1,7 @@
 global.input_tracker = instance_create_layer(0, 0, "Controllers", obj_Input_Tracker);
 
-instance_create_layer(0, 0, "Controllers", obj_Game);
+global.game = instance_create_layer(0, 0, "Controllers", obj_Game);
+scr_Focus_Playfield(global.game.playfields[0]);
 
 // Mask/bg sprites for one playfield mode!
 if (1 == playfield_count){
