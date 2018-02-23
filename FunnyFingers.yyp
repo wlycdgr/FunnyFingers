@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "213bf66c-7307-4cc8-a2fa-085db72357bc",
+            "Value": {
+                "id": "293a8ed6-0c8d-4837-9285-3d780d9f645f",
+                "resourcePath": "scripts\\scr_Handle_Ribbon_Menu_Selection\\scr_Handle_Ribbon_Menu_Selection.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "22e4d577-b237-4333-83a3-20be936c6b35",
             "Value": {
                 "id": "fcbc462e-307e-4f36-a009-8b997851ee3f",
@@ -529,7 +537,8 @@
     ],
     "script_order": [
         "cab799ce-8d74-4a49-8d5c-cac01986cb64",
-        "22e4d577-b237-4333-83a3-20be936c6b35"
+        "22e4d577-b237-4333-83a3-20be936c6b35",
+        "213bf66c-7307-4cc8-a2fa-085db72357bc"
     ],
     "tutorial": ""
 }

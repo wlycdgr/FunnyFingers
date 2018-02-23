@@ -109,7 +109,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "false",
-            "varName": "is_game_paused",
+            "varName": "is_paused",
             "varType": 3
         }
     ],

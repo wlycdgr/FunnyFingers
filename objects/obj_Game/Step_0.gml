@@ -2,18 +2,10 @@
 // You can write your code in this editor
 
 if (is_game_over){
-	if (game_over_menu.state == rms_selection_made){
-		switch(game_over_menu.selection){
-		case "Restart":
-			room_restart();
-			break;
-		case "Title":
-			room_goto(r_MainMenu);
-			break;
-		default:
-			break;
-		}
-	}
+	scr_Handle_Ribbon_Menu_Selection(game_over_menu);
+}
+else if (is_paused){
+	scr_Handle_Ribbon_Menu_Selection(pause_menu);
 }
 else {
 	for (var i = array_length_1d(playfields) - 1; i > -1; i--){
@@ -25,8 +17,9 @@ else {
 		}
 	}
 	
-	if (keyboard_check_pressed(vk_escape)){ // use input handler, this is stub
-		is_game_paused = true;
+	if (keyboard_check_pressed(vk_enter)){ // use input handler, this is stub
+		is_paused = true;
+		with (pause_menu) { event_user(0); }
 		exit;
 	}
 }

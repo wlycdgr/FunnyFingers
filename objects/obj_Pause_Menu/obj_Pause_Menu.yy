@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_Pause_Menu",
     "eventList": [
-        
+        {
+            "id": "a2d20671-158b-4e1c-ada5-96d8ffedfc20",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "ccbf717e-0869-4340-a47f-ce70c128444a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
