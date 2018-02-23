@@ -1,28 +1,18 @@
 {
-    "id": "0ac5f62d-3b3b-446f-93ce-b591a9476fee",
+    "id": "ac389a72-c67f-4309-a6bf-dfb476fba42e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Game",
+    "name": "obj_Ribbon_Menu",
     "eventList": [
         {
-            "id": "fd1fce74-4dbf-4ddd-986e-8dfaa17ac45c",
+            "id": "1e35a8e4-005a-40b4-8c3a-1f31845fffe0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "0ac5f62d-3b3b-446f-93ce-b591a9476fee"
-        },
-        {
-            "id": "9b226fa9-11f6-440a-92d9-9675fbff0f3b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "0ac5f62d-3b3b-446f-93ce-b591a9476fee"
+            "m_owner": "ac389a72-c67f-4309-a6bf-dfb476fba42e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,49 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "968f6a5f-b74f-4703-9ad6-d24703741369",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "instance_create_layer(window_width, ribbon_menu_y, \"GameOverMenu\", obj_Game_Over_Menu);",
-            "varName": "game_over_menu",
-            "varType": 4
-        },
-        {
-            "id": "a3ccbd39-7c10-4fda-b5b1-0d12d880ed66",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "instance_create_layer(window_width, ribbon_menu_y, \"PauseMenu\", obj_Pause_Menu);",
-            "varName": "pause_menu",
-            "varType": 4
-        },
-        {
-            "id": "76c23fb4-1145-4ec1-9fd0-5ff195e36b3b",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "array_create(playfield_count)",
-            "varName": "playfields",
-            "varType": 4
-        },
-        {
-            "id": "a19694f2-ae38-43fb-8ea7-5926ee6846c5",
+            "id": "e0a26cf7-6f0a-4d0b-89f7-94aa1d8802bb",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -95,11 +43,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "false",
-            "varName": "is_game_over",
+            "varName": "is_in_place_and_active",
             "varType": 3
         },
         {
-            "id": "46e411ab-72b2-4d5a-9bbd-af738090f963",
+            "id": "58fd5a2e-e9c6-459c-aeeb-955162d35b56",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -109,8 +57,64 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "false",
-            "varName": "is_game_paused",
+            "varName": "is_sliding",
             "varType": 3
+        },
+        {
+            "id": "96c3b744-490f-4c24-8d09-7ce8993f5f52",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "item_index",
+            "varType": 1
+        },
+        {
+            "id": "9507d433-0038-445f-9fd4-5b0d82c9703e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "item_count",
+            "varType": 1
+        },
+        {
+            "id": "8c8e7346-43a4-41aa-a448-83990dacc9f6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "item_actions",
+            "varType": 0
+        },
+        {
+            "id": "3ddd4f79-8c4a-4b39-9eb5-4194860ab252",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "item_labels",
+            "varType": 0
         }
     ],
     "solid": false,

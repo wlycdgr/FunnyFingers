@@ -14,5 +14,5 @@ event_user(0); // update y pos
 
 // If dead, die :(
 if (life <= 0.0) {
-	not_funny_anymore = true;
+	is_not_funny_anymore = true;
 }

@@ -20,6 +20,8 @@
 #macro window_width window_get_width()
 
 #macro ribbon_menu_y 180
+#macro ribbon_menu_width window_width
+#macro ribbon_menu_height window_height
 
 #macro playfield_y ((window_height - playfield_height) / 2)
 #macro playfield_bottom_y window_height - (((window_height - playfield_height) / 2))

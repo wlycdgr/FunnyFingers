@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 if (is_game_over){
 	if (!game_over_menu.is_in_place_and_active){
 		game_over_menu.x -= game_over_menu_slide_per_frame;
@@ -15,7 +16,12 @@ else {
 		if (playfields[i].has_unfunny_finger){
 			is_game_over = true;
 			game_over_menu.is_sliding = true;
-			return;
+			exit;
 		}
+	}
+	
+	if (keyboard_check_pressed(vk_escape)){ // use input handler, this is stub
+		is_game_paused = true;
+		exit;
 	}
 }
