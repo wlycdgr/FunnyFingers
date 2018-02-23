@@ -71,14 +71,6 @@
             }
         },
         {
-            "Key": "1b4ec6e8-780c-4aec-baaa-86dec5569b0a",
-            "Value": {
-                "id": "224865a2-375f-4366-8f08-3e08a34009fe",
-                "resourcePath": "views\\1b4ec6e8-780c-4aec-baaa-86dec5569b0a.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "1c394201-cc72-4632-9b86-790c3a40e4c3",
             "Value": {
                 "id": "3c3626e9-14a9-45ae-a481-9f456a41129f",
@@ -351,14 +343,6 @@
             }
         },
         {
-            "Key": "8f2adde1-b5ef-4bb5-ae3a-586abd5985d4",
-            "Value": {
-                "id": "3440d19b-628e-4388-9f08-5dfd7f815969",
-                "resourcePath": "scripts\\scr_Funny_Finger_Shrink_Or_Grow\\scr_Funny_Finger_Shrink_Or_Grow.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "9520ef3f-3d7b-43a4-a49f-44767a20dc32",
             "Value": {
                 "id": "b453560f-6331-4cc0-9589-6ef46050ea62",
@@ -520,7 +504,6 @@
         }
     ],
     "script_order": [
-        "8f2adde1-b5ef-4bb5-ae3a-586abd5985d4",
         "cab799ce-8d74-4a49-8d5c-cac01986cb64",
         "22e4d577-b237-4333-83a3-20be936c6b35"
     ],

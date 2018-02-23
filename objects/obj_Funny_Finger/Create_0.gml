@@ -9,10 +9,9 @@ is_not_funny_anymore = false;
 life = starting_funny_finger_life;
 target_life = life;
 
-event_user(0); // set y pos
-
 danger_danger = instance_create_layer(
 	left_of_window, above_window,
 	"DangerDanger",
 	obj_Danger_Danger
 );
+danger_danger.funny_finger = id;
