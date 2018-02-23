@@ -367,14 +367,6 @@
             }
         },
         {
-            "Key": "a432b54f-8937-42c5-93eb-2a0c08f7735d",
-            "Value": {
-                "id": "1bd9cdfc-5846-4ac7-b994-5f7dbedfb64c",
-                "resourcePath": "scripts\\scr_Playfield_Move_Active_Entities\\scr_Playfield_Move_Active_Entities.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "a4deb9b9-4918-4e64-aefb-88201af36012",
             "Value": {
                 "id": "d03f2d1b-f9d5-4f31-bc2d-ff65d64f62d1",
@@ -528,7 +520,6 @@
         }
     ],
     "script_order": [
-        "a432b54f-8937-42c5-93eb-2a0c08f7735d",
         "8f2adde1-b5ef-4bb5-ae3a-586abd5985d4",
         "cab799ce-8d74-4a49-8d5c-cac01986cb64",
         "22e4d577-b237-4333-83a3-20be936c6b35"

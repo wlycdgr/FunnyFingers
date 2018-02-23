@@ -19,20 +19,6 @@ TODO
 	- DONE entity ~disappears
 - DONE simplify obj_left_side, obj_right_side, obj_top_mask, obj_bottom_mask to obj_billboard
 
-- implement collision detection logic for funny fingers v enemies:
-	- game over
-
-
-- implement scoring system
-	- 1 point for each move
-	- link moves together for bonus?
-	
-
-- simplify game_over_menu and pause_menu to generic ribbon_menu
-	
-
-
-	
 - implement pause menu
 	- pressing [PAUSE] suspends game
 	- pause screen slides in
@@ -41,6 +27,16 @@ TODO
 	- pause menu has Restart option
 	- pause menu has Exit To Title option
 	- menu has slide out animation if user chooses Continue or Restart
+
+- implement collision detection logic for funny fingers v enemies:
+	- game over
+- implement scoring system
+	- 1 point for each move
+	- link moves together for bonus?
+	
+
+- simplify game_over_menu and pause_menu to generic ribbon_menu
+
 	
 - implement screen transitions
 	- screen fades to black when user goes to another screen
