@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "158c2ea6-8736-40c8-abaa-a07cf8771943",
-            "Value": {
-                "id": "ad14558d-9946-4bd2-8223-8515fb2a8883",
-                "resourcePath": "views\\158c2ea6-8736-40c8-abaa-a07cf8771943.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "17cc19c2-581b-40e2-a60d-f5c7951ad7eb",
             "Value": {
                 "id": "99f43d35-60aa-4fdc-a480-1cf2c042e27c",
@@ -196,14 +188,6 @@
                 "id": "89d8858c-d2f3-49a1-b61c-e42ff42022af",
                 "resourcePath": "datafiles_yy\\enemy_32x32.png.yy",
                 "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "4afebce0-c15f-44e9-ac6f-e1c97145d2c3",
-            "Value": {
-                "id": "9bacc154-84dc-4a21-9353-1d33ba71013f",
-                "resourcePath": "scripts\\scr_Funny_Finger_Animate\\scr_Funny_Finger_Animate.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -540,7 +524,6 @@
         "a432b54f-8937-42c5-93eb-2a0c08f7735d",
         "8f2adde1-b5ef-4bb5-ae3a-586abd5985d4",
         "cab799ce-8d74-4a49-8d5c-cac01986cb64",
-        "4afebce0-c15f-44e9-ac6f-e1c97145d2c3",
         "22e4d577-b237-4333-83a3-20be936c6b35"
     ],
     "tutorial": ""
