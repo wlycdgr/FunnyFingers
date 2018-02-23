@@ -1,35 +1,40 @@
 #macro is ==
 #macro is_not !=
-
 #macro not_set -12345
 
 #macro above_window -1000
 #macro left_of_window -1000
 
-#macro starting_funny_finger_life 0.1
-#macro funny_finger_shrink_per_second 0.025
-
-#macro game_over_menu_slide_per_frame 2 * (window_get_width() / game_get_speed(gamespeed_fps))
-
-#macro playfield_height 512
-
-#macro playfield_count 1
-#macro column_count 7
-#macro column_width 48
-#macro funny_finger_count 3
-#macro half_of_empty_columns floor((column_count - funny_finger_count) / 2)
-
 #macro window_height window_get_height()
 #macro window_width window_get_width()
+
+#macro playfield_height 512
+#macro playfield_count 1
+#macro playfield_y ((window_height - playfield_height) / 2)
+#macro playfield_bottom_y window_height - (((window_height - playfield_height) / 2))
+
+#macro column_count 7
+#macro column_width 48
+#macro half_of_empty_columns floor((column_count - funny_finger_count) / 2)
+
+#macro funny_finger_count 3
+#macro starting_funny_finger_life 0.1
+#macro funny_finger_shrink_per_second 0.025
 
 #macro ribbon_menu_y 180
 #macro ribbon_menu_width window_width
 #macro ribbon_menu_height 360
+#macro ribbon_menu_slide_in_speed_in_pixels_per_frame (2 * (window_width / game_get_speed(gamespeed_fps)))
+#macro ribbon_menu_slide_out_speed_in_pixels_per_frame (2 * ribbon_menu_slide_in_speed_in_pixels_per_frame)
 #macro rms_inactive 0
 #macro rms_sliding_in 1
 #macro rms_in_place_and_active 2
 #macro rms_selection_made 3
+#macro rms_sliding_out 4
 
-#macro playfield_y ((window_height - playfield_height) / 2)
-#macro playfield_bottom_y window_height - (((window_height - playfield_height) / 2))
-
+#macro gs_playing 0
+#macro gs_paused 1
+#macro gs_game_over 2
+#macro gs_fading_out 3
+#macro gs_fading_in 4
+#macro gs_restarting 5

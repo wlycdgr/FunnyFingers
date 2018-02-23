@@ -19,13 +19,18 @@ TODO
 	- DONE entity ~disappears
 - DONE simplify obj_left_side, obj_right_side, obj_top_mask, obj_bottom_mask to obj_billboard
 
+- convert game object to state-based logic
+	- playing, paused, game_over, ....?
+
+
+	
 - implement pause menu
 	- pressing [PAUSE] suspends game
-	- pause screen slides in
+	- DONE pause screen slides in
 	- ? score ticks down slowly on pause screen ?
-	- pause menu has Continue option
-	- pause menu has Restart option
-	- pause menu has Exit To Title option
+	- DONE pause menu has Continue option
+	- DONE pause menu has Restart option
+	- DONE pause menu has Exit To Title option
 	- menu has slide out animation if user chooses Continue or Restart
 
 - implement collision detection logic for funny fingers v enemies:
