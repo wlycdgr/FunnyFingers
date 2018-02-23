@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "7a7975d4-f638-4ab3-a232-13d180e3d87a"
+        },
+        {
+            "id": "2d826404-bb49-4706-b380-2dbeb1759cfb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "7a7975d4-f638-4ab3-a232-13d180e3d87a"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -58,7 +68,7 @@
             "resourceFilter": 1023,
             "value": "array_create(funny_finger_count)",
             "varName": "funny_fingers",
-            "varType": 0
+            "varType": 4
         },
         {
             "id": "23fbab9d-9bd5-452f-9329-7d87cdfbe314",
@@ -89,7 +99,7 @@
             "varType": 3
         },
         {
-            "id": "2c25fa0e-2cd4-4cf8-a17b-8fb561c16a70",
+            "id": "98ffa172-1103-4ceb-b5ee-bfac3b0b931c",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -98,9 +108,23 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "True",
-            "varName": "accepting_move_input",
-            "varType": 3
+            "value": "instance_create_layer(0, 0, \"Controllers\", obj_Energy_Generator);",
+            "varName": "energy_generator",
+            "varType": 4
+        },
+        {
+            "id": "766bd71c-d2ad-41d3-96e7-c9d81324f866",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "instance_create_layer(0, 0, \"Controllers\", obj_Enemy_Generator);",
+            "varName": "enemy_generator",
+            "varType": 4
         }
     ],
     "solid": false,

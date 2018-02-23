@@ -43,20 +43,6 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "e5f0d7c8-2c81-4c0d-87ef-255714b35d30",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "instance_create_layer(0, 0, \"Controllers\", obj_Input_Tracker);",
-            "varName": "input_tracker",
-            "varType": 4
-        },
-        {
             "id": "968f6a5f-b74f-4703-9ad6-d24703741369",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

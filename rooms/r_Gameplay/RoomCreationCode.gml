@@ -1,3 +1,5 @@
+global.input_tracker = instance_create_layer(0, 0, "Controllers", obj_Input_Tracker);
+
 instance_create_layer(0, 0, "Controllers", obj_Game);
 
 // Mask/bg sprites for one playfield mode!

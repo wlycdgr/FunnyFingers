@@ -1,3 +1,5 @@
+#macro not_set -12345
+
 #macro above_window -1000
 #macro left_of_window -1000
 

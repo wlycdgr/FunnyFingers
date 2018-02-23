@@ -111,14 +111,6 @@
             }
         },
         {
-            "Key": "21ea016b-78d3-4083-a9f8-82bbfcd71805",
-            "Value": {
-                "id": "209f8c08-215c-496b-b5da-e49357279261",
-                "resourcePath": "scripts\\scr_Playfield_Retrieve_Targeted_Funny_Finger\\scr_Playfield_Retrieve_Targeted_Funny_Finger.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "22e4d577-b237-4333-83a3-20be936c6b35",
             "Value": {
                 "id": "fcbc462e-307e-4f36-a009-8b997851ee3f",
@@ -359,14 +351,6 @@
             }
         },
         {
-            "Key": "842d914e-c9ac-4fe3-94dc-10e55fa145d2",
-            "Value": {
-                "id": "908bf2d4-e157-4651-a050-1ee5315279b1",
-                "resourcePath": "scripts\\scr_Playfield_Activate_Move\\scr_Playfield_Activate_Move.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "87855e48-cff5-455a-96fb-cd6300ec0690",
             "Value": {
                 "id": "2652eff3-7326-425a-a1e3-75ecfc0fb442",
@@ -391,14 +375,6 @@
             }
         },
         {
-            "Key": "9f077938-ec6d-4bbf-8af8-76754ad72865",
-            "Value": {
-                "id": "3e1845a2-5738-41ac-b113-d733dc6a21b6",
-                "resourcePath": "views\\9f077938-ec6d-4bbf-8af8-76754ad72865.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "a432b54f-8937-42c5-93eb-2a0c08f7735d",
             "Value": {
                 "id": "1bd9cdfc-5846-4ac7-b994-5f7dbedfb64c",
@@ -412,14 +388,6 @@
                 "id": "d03f2d1b-f9d5-4f31-bc2d-ff65d64f62d1",
                 "resourcePath": "objects\\obj_Debugger\\obj_Debugger.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "a4f07289-ec60-4dfb-a10e-0ec3fc8dce08",
-            "Value": {
-                "id": "ebc6fed4-0a35-4f0b-a444-ef91114d3139",
-                "resourcePath": "scripts\\scr_Funny_Finger_Move\\scr_Funny_Finger_Move.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -471,27 +439,11 @@
             }
         },
         {
-            "Key": "c57ee39a-eb6b-4a2c-95f7-da8f1629a05e",
-            "Value": {
-                "id": "bddd4ea6-eb2a-4f7f-814e-5e5d95791b17",
-                "resourcePath": "scripts\\scr_Playfield_Identify_Target_Column\\scr_Playfield_Identify_Target_Column.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "c75a445c-dd5a-4329-a649-348592ff7c74",
             "Value": {
                 "id": "d8bdd2ac-22d7-4af5-847d-e339afde3116",
                 "resourcePath": "views\\c75a445c-dd5a-4329-a649-348592ff7c74.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "c8c1521c-2a34-48bf-9d44-88ff96ccf23c",
-            "Value": {
-                "id": "c43e6368-1e1a-4fc6-9cd7-4303240237c4",
-                "resourcePath": "scripts\\scr_Playfield_Handle_Move_Input\\scr_Playfield_Handle_Move_Input.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -503,27 +455,11 @@
             }
         },
         {
-            "Key": "cb642fde-a925-445c-937c-daf96a8c401b",
-            "Value": {
-                "id": "0b2d0fab-53cd-4e99-84e1-8c81f6ee93ed",
-                "resourcePath": "scripts\\scr_Playfield_Handle_Input\\scr_Playfield_Handle_Input.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "7ac8e4a8-6422-46dd-9caf-7a0cfc739a99",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
-            }
-        },
-        {
-            "Key": "cf04c378-38ec-4cc7-9498-b83817a0aaa6",
-            "Value": {
-                "id": "657b207b-02be-41cf-b8c9-98c3c465d906",
-                "resourcePath": "scripts\\scr_Playfield_Step\\scr_Playfield_Step.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -600,17 +536,10 @@
         }
     ],
     "script_order": [
-        "cf04c378-38ec-4cc7-9498-b83817a0aaa6",
-        "cb642fde-a925-445c-937c-daf96a8c401b",
-        "21ea016b-78d3-4083-a9f8-82bbfcd71805",
-        "c57ee39a-eb6b-4a2c-95f7-da8f1629a05e",
-        "842d914e-c9ac-4fe3-94dc-10e55fa145d2",
-        "c8c1521c-2a34-48bf-9d44-88ff96ccf23c",
         "54ae1b4d-1a6f-4cfd-a519-4a118c0a9aad",
         "a432b54f-8937-42c5-93eb-2a0c08f7735d",
         "8f2adde1-b5ef-4bb5-ae3a-586abd5985d4",
         "cab799ce-8d74-4a49-8d5c-cac01986cb64",
-        "a4f07289-ec60-4dfb-a10e-0ec3fc8dce08",
         "4afebce0-c15f-44e9-ac6f-e1c97145d2c3",
         "22e4d577-b237-4333-83a3-20be936c6b35"
     ],
