@@ -117,6 +117,20 @@
             "value": "room",
             "varName": "current_room",
             "varType": 0
+        },
+        {
+            "id": "fd1b2456-21ef-40fb-9874-f99ea375e7cd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "room",
+            "varName": "target_room",
+            "varType": 0
         }
     ],
     "solid": false,

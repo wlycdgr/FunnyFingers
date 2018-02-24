@@ -41,10 +41,11 @@ TODO
 	- DONE menu has slide out animation if user chooses to try again
 	
 - DONE don't do nothing when game is paused or over
-
-- implement nyu incubator screen
+- DONE implement nyu incubator screen
 
 - title of game
+
+- implement company logo screen
 
 - 
 - implement title menu

@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1cc4d639-3ee8-4c7a-b5ea-352750b1aab5",
+            "Value": {
+                "id": "b962cfb7-1bef-433c-ab48-a226a496eb3a",
+                "resourcePath": "objects\\obj_NYU_Incubator_Logo_Room_Controller\\obj_NYU_Incubator_Logo_Room_Controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1d99ddca-f713-4396-8981-74adb0c3e722",
             "Value": {
                 "id": "b971b62e-8182-426e-94dc-8046e23fc21a",
@@ -351,6 +359,14 @@
             }
         },
         {
+            "Key": "8a436d88-e379-47d6-9da4-a9b78e111c67",
+            "Value": {
+                "id": "46a607ea-b729-4642-aec1-f47f87712dad",
+                "resourcePath": "datafiles_yy\\nyu_incubator_logo.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "9520ef3f-3d7b-43a4-a49f-44767a20dc32",
             "Value": {
                 "id": "b453560f-6331-4cc0-9589-6ef46050ea62",
@@ -484,6 +500,14 @@
                 "id": "86311a16-40e4-473a-949c-9328abd1f0b6",
                 "resourcePath": "views\\dd4a171a-5367-4700-bc47-92bc67fed2b7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e44767aa-adf5-4ed6-a89d-30a8186be7d3",
+            "Value": {
+                "id": "2afbbda6-1994-4b7b-8ea9-38176357e3ff",
+                "resourcePath": "rooms\\r_NYUIncubatorLogo\\r_NYUIncubatorLogo.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

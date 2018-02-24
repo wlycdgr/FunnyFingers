@@ -5,6 +5,8 @@
 #macro above_window -1000
 #macro left_of_window -1000
 
+#macro game_fps game_get_speed(gamespeed_fps)
+
 #macro window_height window_get_height()
 #macro window_width window_get_width()
 
@@ -24,7 +26,7 @@
 #macro ribbon_menu_y 180
 #macro ribbon_menu_width window_width
 #macro ribbon_menu_height 360
-#macro ribbon_menu_slide_in_speed_in_pixels_per_frame (2 * (window_width / game_get_speed(gamespeed_fps)))
+#macro ribbon_menu_slide_in_speed_in_pixels_per_frame (2 * (window_width / game_fps))
 #macro ribbon_menu_slide_out_speed_in_pixels_per_frame (2 * ribbon_menu_slide_in_speed_in_pixels_per_frame)
 #macro rms_inactive 0
 #macro rms_sliding_in 1

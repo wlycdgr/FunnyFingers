@@ -15,5 +15,7 @@ case fs_fading_out:
 		opacity = 0.95;
 		state = fs_done;
 	}
+	room_goto(target_room);
+	
 	break;
 }
