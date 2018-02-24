@@ -1,6 +1,9 @@
 /// @description Update based on state
 
 switch (state) {
+case gs_fading_out:
+	break;
+	
 case gs_game_over:
 	if (rms_selection_made == game_over_menu.state) {
 		scr_Handle_Ribbon_Menu_Selection(game_over_menu);

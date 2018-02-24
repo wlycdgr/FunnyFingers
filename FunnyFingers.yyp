@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "c438c890-bf59-4a03-af6e-08a97e57bbc4",
+            "Value": {
+                "id": "0b2ab1f1-9c58-4994-adac-594c65ee8577",
+                "resourcePath": "objects\\obj_Fader\\obj_Fader.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c4bea381-8cda-419a-93e9-50ebeb48376b",
             "Value": {
                 "id": "89fc75c9-1e4b-4153-aeb7-74a32124790d",
