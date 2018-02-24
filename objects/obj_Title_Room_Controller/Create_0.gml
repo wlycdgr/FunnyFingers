@@ -8,3 +8,9 @@ title_billboard.x =
 	(sprite_get_width(title_billboard.sprite_index) / 2);
 	
 title_billboard.y = 50;
+
+
+menu_item_index = 0;
+menu_item_count = 2;
+menu_item_labels = ["Play", "Exit"];
+menu_selection_made = false;
