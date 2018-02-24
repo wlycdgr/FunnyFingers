@@ -49,8 +49,3 @@ sprite_set_speed(top_mask_sprite, top_framerate, spritespeed_framespersecond);
 sprite_set_speed(left_side_sprite, left_framerate, spritespeed_framespersecond);
 sprite_set_speed(right_side_sprite, right_framerate, spritespeed_framespersecond);
 sprite_set_speed(danger_danger_sprite, danger_danger_framerate, spritespeed_framespersecond);
-
-column_sprite_speed = sprite_get_speed(column_sprite);
-energy_sprite_speed = sprite_get_speed(energy_sprite);
-energy_sprite_speed_type = sprite_get_speed_type(energy_sprite);
-

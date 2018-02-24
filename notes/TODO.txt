@@ -48,8 +48,10 @@ TODO
 - implement title menu
 	- DONE game title sprite
 	- menu:
-		- play
-		- exit
+		- DONE play
+		- DONE exit
+	- selection highlighting
+	- cursor
 
 - implement collision detection logic for funny fingers v enemies:
 	- game over
