@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "3182793e-9405-4dd0-8b63-7e4e6d88e136",
+            "Value": {
+                "id": "606f4bb3-0126-4195-a41c-813287cf98df",
+                "resourcePath": "datafiles_yy\\font_1184x24.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "31f1e911-4028-4935-8cf3-11aac57f7547",
             "Value": {
                 "id": "087594e6-5aaf-4bb4-8035-f1ff71fc28ff",
@@ -164,6 +172,14 @@
                 "id": "ac2b0fc6-073c-430d-bf67-15c1f337fdca",
                 "resourcePath": "views\\3ab05c4b-cabf-431c-a00b-f59fe8c4def3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3ab717af-90db-427d-96f2-a143205a1a30",
+            "Value": {
+                "id": "573a6e45-b362-44be-a5b9-e9d96ffd56b6",
+                "resourcePath": "datafiles_yy\\font_4736x96.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -308,6 +324,22 @@
                 "id": "217c84cc-4b65-4b40-8687-3781be026243",
                 "resourcePath": "datafiles_yy\\energy_32x32.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "76e16c7d-d6e2-4a3a-862a-e4c4975bb13d",
+            "Value": {
+                "id": "3384dfa6-df08-49ed-9306-0c1153f30f3c",
+                "resourcePath": "datafiles_yy\\font_7104x128.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "7a3ed283-226b-41d0-9666-3eb93864f0a1",
+            "Value": {
+                "id": "754f56f3-791c-4252-952f-12253a86b2a3",
+                "resourcePath": "notes\\font_notes.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
@@ -564,6 +596,14 @@
                 "id": "1b41c183-2f63-45f3-8dec-a9c497622788",
                 "resourcePath": "objects\\obj_Danger_Danger\\obj_Danger_Danger.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f3e68b63-77b3-4495-9975-11d6b520ca85",
+            "Value": {
+                "id": "57b5d71f-363b-40ca-88d1-dca77c910882",
+                "resourcePath": "datafiles_yy\\font_1568x24.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
