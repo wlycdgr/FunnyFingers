@@ -42,8 +42,7 @@ TODO
 	
 - DONE don't do nothing when game is paused or over
 - DONE implement nyu incubator screen
-
-- title of game
+- DONE title of game in window chrome
 
 - implement company logo screen
 
