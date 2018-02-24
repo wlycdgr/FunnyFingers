@@ -19,36 +19,55 @@ TODO
 	- DONE entity ~disappears
 - DONE simplify obj_left_side, obj_right_side, obj_top_mask, obj_bottom_mask to obj_billboard
 
-- convert game object to state-based logic
-	- playing, paused, game_over, ....?
-
-
-	
-- implement pause menu
-	- pressing [PAUSE] suspends game
+- DONE convert game object to state-based logic
+- BASIC DONE implement pause menu
+	- DONE pressing [PAUSE] suspends game
 	- DONE pause screen slides in
-	- ? score ticks down slowly on pause screen ?
 	- DONE pause menu has Continue option
 	- DONE pause menu has Restart option
 	- DONE pause menu has Exit To Title option
-	- menu has slide out animation if user chooses Continue or Restart
+	- DONE menu has slide out animation if user chooses Continue or Restart
+	
+- BASIC DONE implement screen transitions
+	- DONE screen fades to black when user goes to another screen
+	- DONE new screen fades in
+	
+- DONE simplify game_over_menu and pause_menu to generic ribbon_menu
+
+- BASIC DONE implement game over menu
+	- BASIC DONE menu has slide-in animation of menu when game ends
+	- DONE menu has Try Again option that restarts game
+	- DONE menu has Exit To Title option that exits to title screen
+	- DONE menu has slide out animation if user chooses to try again
+
+- implement nyu incubator screen
+
+- title of game
+
+- 
+- implement title menu
+	- game title
+	- menu:
+		- play
+		- exit
 
 - implement collision detection logic for funny fingers v enemies:
 	- game over
+	
 - implement scoring system
 	- 1 point for each move
 	- link moves together for bonus?
 	
-
-- simplify game_over_menu and pause_menu to generic ribbon_menu
-
+- implement scoring display
+	- during gameplay
+	- on pause game menu (? score ticks down slowly here ? )
+	- on game over menu
 	
-- implement screen transitions
-	- screen fades to black when user goes to another screen
-	- new screen fades in
+- implement test achievement
+	- user scores 10 points
 	
-- implement game over menu
-	- BASIC DONE menu has slide-in animation of menu when game ends
-	- DONE menu has Try Again option that restarts game
-	- DONE menu has Exit To Title option that exits to title screen
-	- menu has slide out animation if user chooses to try again
+- implement high score storage
+	- user's score is uploaded to steam leaderboard
+
+
+
