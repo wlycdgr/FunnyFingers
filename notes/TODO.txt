@@ -46,7 +46,6 @@ TODO
 
 - implement company logo screen
 
-- 
 - implement title menu
 	- game title
 	- menu:
