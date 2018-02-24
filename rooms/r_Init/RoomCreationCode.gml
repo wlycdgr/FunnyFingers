@@ -1,0 +1,1 @@
+global.fader = instance_create_layer(0, 0, "Fader", obj_Fader);

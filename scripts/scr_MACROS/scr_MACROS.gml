@@ -38,3 +38,8 @@
 #macro gs_fading_out 3
 #macro gs_fading_in 4
 #macro gs_restarting 5
+
+#macro fs_inactive 0
+#macro fs_fading_in 1
+#macro fs_fading_out 2
+#macro fs_done 3

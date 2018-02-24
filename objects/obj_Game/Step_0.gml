@@ -2,6 +2,9 @@
 
 switch (state) {
 case gs_fading_out:
+	if (fs_done = global.fader.state) {
+		room_goto(r_MainMenu);
+	}
 	break;
 	
 case gs_game_over:
