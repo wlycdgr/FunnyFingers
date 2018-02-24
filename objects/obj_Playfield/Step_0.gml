@@ -1,5 +1,8 @@
 /// @description Update
 
+// If the game is paused, over, etc we don't need to update
+if (gs_playing != global.game.state) exit;
+
 // Check for death / sadness / game over
 for (var i = funny_finger_count - 1; i > -1; i--){
 	if (funny_fingers[i].is_not_funny_anymore){

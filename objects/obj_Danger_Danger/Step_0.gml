@@ -1,7 +1,8 @@
 /// @description Insert description here
-// You can write your code in this editor
-// If funny finger life is above danger threshold,
-// move danger indicator out of sight
+
+// If the game is paused, over, etc we don't need to update
+if (gs_playing != global.game.state) exit;
+
 x = funny_finger.x;
 
 if (funny_finger.life > 0.1) {

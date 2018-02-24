@@ -39,6 +39,8 @@ TODO
 	- DONE menu has Try Again option that restarts game
 	- DONE menu has Exit To Title option that exits to title screen
 	- DONE menu has slide out animation if user chooses to try again
+	
+- DONE don't do nothing when game is paused or over
 
 - implement nyu incubator screen
 

@@ -1,4 +1,7 @@
-/// @description Insert description here
+/// @description Periodically activate new entities
+
+// If the game is paused, over, etc we don't need to update
+if (gs_playing != global.game.state) exit;
 
 counter += 1;
 if (counter >= current_period) { 

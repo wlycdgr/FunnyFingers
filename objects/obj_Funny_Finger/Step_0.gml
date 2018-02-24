@@ -1,5 +1,8 @@
 /// @description Insert description here
 
+// If the game is paused, over, etc we don't need to update
+if (gs_playing != global.game.state) exit;
+
 if (is_moving) event_user(1); // move
 
 if (is_shrinking) {
