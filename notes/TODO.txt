@@ -46,7 +46,7 @@ TODO
 - DONE implement company logo screen
 
 - implement title menu
-	- game title
+	- DONE game title sprite
 	- menu:
 		- play
 		- exit

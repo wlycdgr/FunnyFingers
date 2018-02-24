@@ -24,6 +24,7 @@ ini_close();
 
 nyu_incubator_logo_sprite = sprite_add("nyu_incubator_logo.jpg", 1, false, false, 0, 0);
 logo_sprite = sprite_add("logo_600x540.png", 1, false, false, 0, 0);
+title_sprite = sprite_add("title_800x300.png", 1, false, false, 0, 0);
 
 column_sprite = sprite_add("column_48x512.png", column_frames, false, false, 0, 0);
 funny_finger_sprite = sprite_add("funny_finger_32x512.png", funny_finger_frames, false, false, 0, 0);
