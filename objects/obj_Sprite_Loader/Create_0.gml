@@ -1,6 +1,8 @@
 /// @description Load sprites & set their framerates
 // You can write your code in this editor
 ini_open("sprite_settings.ini");
+logo_frames = ini_read_real("frame_counts", "logo", 1);
+title_frames = ini_read_real("frame_counts", "title", 1);
 column_frames = ini_read_real("frame_counts", "column", 1);
 funny_finger_frames = ini_read_real("frame_counts", "funny_finger", 1);
 energy_frames = ini_read_real("frame_counts", "energy", 1);
@@ -11,6 +13,8 @@ left_side_frames = ini_read_real("frame_counts", "left", 1);
 right_side_frames = ini_read_real("frame_counts", "right", 1);
 danger_danger_frames = ini_read_real("frame_count", "danger_danger", 1);
 
+logo_framerate = ini_read_real("framerates", "logo", 16);
+title_framerate = ini_read_real("framerates", "title", 16);
 column_framerate = ini_read_real("framerates", "column", 16);
 funny_finger_framerate = ini_read_real("framerates", "funny_finger", 16);
 enemy_framerate = ini_read_real("framerates", "enemy", 16);

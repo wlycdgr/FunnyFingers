@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "11aa2566-5bd7-4e13-b6a0-718c7df70f5c",
-            "Value": {
-                "id": "f3e0fce9-3814-45d1-99d6-2af688780768",
-                "resourcePath": "datafiles_yy\\sprite_settings.ini.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "1329b4b1-d0c9-4b21-b1de-be145c29379f",
             "Value": {
                 "id": "b8c0854f-9353-47e5-965c-5c49a3f8a7b3",
@@ -388,6 +380,14 @@
                 "id": "b453560f-6331-4cc0-9589-6ef46050ea62",
                 "resourcePath": "views\\9520ef3f-3d7b-43a4-a49f-44767a20dc32.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9df25f51-1844-41d3-a981-c289f75f40c3",
+            "Value": {
+                "id": "088b2b86-d6f6-485c-8766-f3c1aa29cfa3",
+                "resourcePath": "datafiles_yy\\sprite_settings.ini.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
