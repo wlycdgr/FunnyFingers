@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Init
 nyu_incubator_logo_billboard = instance_create_layer(0, 0, "Instances", obj_Billboard);
 nyu_incubator_logo_billboard.sprite_index = obj_Sprite_Loader.nyu_incubator_logo_sprite;
 

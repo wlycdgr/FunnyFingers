@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "167f2cc5-cad7-4c09-ba90-7350cc2b65b5",
+            "Value": {
+                "id": "3799495e-94b8-4225-b4f8-0c07ffedc7b3",
+                "resourcePath": "objects\\obj_Logo_Room_Controller\\obj_Logo_Room_Controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "17cc19c2-581b-40e2-a60d-f5c7951ad7eb",
             "Value": {
                 "id": "99f43d35-60aa-4fdc-a480-1cf2c042e27c",
@@ -311,6 +319,14 @@
             }
         },
         {
+            "Key": "7cb93308-ee8a-4bf0-ac19-d99611fee7a2",
+            "Value": {
+                "id": "b5e30724-817f-4842-9391-fbc8aa2143ef",
+                "resourcePath": "datafiles_yy\\logo_600x540.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "7ddc6622-c75f-4179-84c9-1e99c165ad21",
             "Value": {
                 "id": "070c0acb-ac8c-4962-a5d1-34e9eeff7cb3",
@@ -500,6 +516,14 @@
                 "id": "86311a16-40e4-473a-949c-9328abd1f0b6",
                 "resourcePath": "views\\dd4a171a-5367-4700-bc47-92bc67fed2b7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e23a7fd3-0b94-4cc0-b500-0a5e16221018",
+            "Value": {
+                "id": "ec76b28c-1472-4f50-bcae-de59f248cd31",
+                "resourcePath": "rooms\\r_Logo\\r_Logo.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
