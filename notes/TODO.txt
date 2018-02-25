@@ -71,7 +71,7 @@ Feb 24
 - draw score:
 	- DONE score readout in top left
 	- score readout on pause menu
-	- score readout in game over menu
+	- BASIC DONE score readout in game over menu
 	
 - tick down score on pause menu, slowly but still
 	
@@ -100,7 +100,7 @@ Feb 24
 	- lose 1 point (lose combo?) for each invalid move
 	- link moves together for bonus?
 	- cash out in pause screen to lock down score
-	- if you die instead, you get no points :( hehehhehehe
+	- DONE if you die instead, you get no points :( hehehhehehe
 
 
 

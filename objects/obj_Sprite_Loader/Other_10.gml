@@ -7,5 +7,6 @@ global.font_debug = font_Roboto_10;
 global.font_menu_header = font_Roboto_24;
 global.font_menu_item = font_Roboto_16;
 global.font_score = font_Roboto_24;
+global.font_notice = font_Roboto_16;
 
 

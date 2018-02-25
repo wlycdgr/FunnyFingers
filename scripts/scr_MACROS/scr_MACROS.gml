@@ -5,6 +5,8 @@
 #macro above_window -1000
 #macro left_of_window -1000
 
+#macro the_color_of_failure c_black
+
 #macro game_fps game_get_speed(gamespeed_fps)
 
 #macro window_height window_get_height()
