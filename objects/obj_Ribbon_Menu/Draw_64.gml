@@ -25,12 +25,21 @@ draw_line_width(
 draw_set_font(global.font_menu_header);
 draw_set_color(c_black);
 var center_x = x + ribbon_menu_width / 2;
-draw_text(center_x, y + 20, header);
+draw_text(
+	center_x - (string_width(header) / 2), 
+	y + 50, 
+	header
+);
 
 draw_set_font(global.font_menu_item);
 for (var i = 0; i < array_length_1d(item_labels); i++) {
 	if (i == item_index) { draw_set_color(menu_color_selected); }
 	else { draw_set_color(menu_color_unselected); }
 	
-	draw_text(center_x, y + 50 + i * 15, item_labels[i]);
+	var item_label = item_labels[i];
+	draw_text(
+		center_x - (string_width(item_label) / 2), 
+		y + 150 + i * 35, 
+		item_label
+	);
 }

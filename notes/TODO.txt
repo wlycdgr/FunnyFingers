@@ -62,7 +62,7 @@ Feb 24
 		- DONE exit
 	- DONE selection highlighting
 	- DONE positioning
-	
+
 - fix positioning on game over and pause menus
 
 - implement collision detection logic for funny fingers v enemies:
