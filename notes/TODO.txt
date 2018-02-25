@@ -45,6 +45,18 @@ TODO
 - DONE title of game in window chrome
 - DONE implement company logo screen
 
+
+Feb 24
+- DONE BUT NEVER MIND - GOING WITH GOOGLE FONTS prepare font template for Marley
+	- DONE (36 seems to be enough!) try out different sizes for Arial to see what is the minimum largest size I need. 96? 64?
+		make it 36!
+		1800x36
+	- DONE create a sample font sprite strip at that size
+	- DONE create a file that has markings where the letters are separated 
+	& shows what letter should go in each slot
+	
+- plug in placeholder Roboto .ttf Google Font while Marls looks for better fits
+
 - implement title menu
 	- DONE game title sprite
 	- menu:

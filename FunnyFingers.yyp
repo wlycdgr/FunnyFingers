@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "20eeb7f8-fb21-4f83-9f98-74704a359093",
+            "Value": {
+                "id": "0c5171e4-0509-46a0-b705-f892bdacf68a",
+                "resourcePath": "fonts\\font_Arial_36\\font_Arial_36.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "213bf66c-7307-4cc8-a2fa-085db72357bc",
             "Value": {
                 "id": "293a8ed6-0c8d-4837-9285-3d780d9f645f",
@@ -135,14 +143,6 @@
             }
         },
         {
-            "Key": "3182793e-9405-4dd0-8b63-7e4e6d88e136",
-            "Value": {
-                "id": "606f4bb3-0126-4195-a41c-813287cf98df",
-                "resourcePath": "datafiles_yy\\font_1184x24.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "31f1e911-4028-4935-8cf3-11aac57f7547",
             "Value": {
                 "id": "087594e6-5aaf-4bb4-8035-f1ff71fc28ff",
@@ -172,14 +172,6 @@
                 "id": "ac2b0fc6-073c-430d-bf67-15c1f337fdca",
                 "resourcePath": "views\\3ab05c4b-cabf-431c-a00b-f59fe8c4def3.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "3ab717af-90db-427d-96f2-a143205a1a30",
-            "Value": {
-                "id": "573a6e45-b362-44be-a5b9-e9d96ffd56b6",
-                "resourcePath": "datafiles_yy\\font_4736x96.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -227,6 +219,14 @@
             "Value": {
                 "id": "89d8858c-d2f3-49a1-b61c-e42ff42022af",
                 "resourcePath": "datafiles_yy\\enemy_32x32.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "4b30e011-822b-4f9c-89a6-a7740078c8dd",
+            "Value": {
+                "id": "5af4a0c6-63be-4fbe-bb91-b02524a5d000",
+                "resourcePath": "datafiles_yy\\Roboto-Regular.ttf.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -303,14 +303,6 @@
             }
         },
         {
-            "Key": "6c2c03a1-1cd6-4de1-8278-603db02a6536",
-            "Value": {
-                "id": "da10410c-0de7-434e-9f78-a276708d97c8",
-                "resourcePath": "notes\\gameplay_logic.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "6ed27370-bd48-4155-bfa2-b9efdc8ca7d9",
             "Value": {
                 "id": "2094dd9c-1f38-4bcb-a119-bad56b42c038",
@@ -324,22 +316,6 @@
                 "id": "217c84cc-4b65-4b40-8687-3781be026243",
                 "resourcePath": "datafiles_yy\\energy_32x32.png.yy",
                 "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "76e16c7d-d6e2-4a3a-862a-e4c4975bb13d",
-            "Value": {
-                "id": "3384dfa6-df08-49ed-9306-0c1153f30f3c",
-                "resourcePath": "datafiles_yy\\font_7104x128.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "7a3ed283-226b-41d0-9666-3eb93864f0a1",
-            "Value": {
-                "id": "754f56f3-791c-4252-952f-12253a86b2a3",
-                "resourcePath": "notes\\font_notes.yy",
-                "resourceType": "GMNotes"
             }
         },
         {
@@ -535,14 +511,6 @@
             }
         },
         {
-            "Key": "d530e325-82ec-4924-a887-a9306daa84f8",
-            "Value": {
-                "id": "4512525d-f8f4-40b1-bb25-64c2725ae287",
-                "resourcePath": "notes\\game_flow_logic.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "dcb9650a-e818-4006-b898-971814578881",
             "Value": {
                 "id": "46d46d38-c302-4732-a98c-fdcfe4eed88a",
@@ -599,10 +567,10 @@
             }
         },
         {
-            "Key": "f3e68b63-77b3-4495-9975-11d6b520ca85",
+            "Key": "ef77e552-7749-4c73-a5f1-3b643337ad04",
             "Value": {
-                "id": "57b5d71f-363b-40ca-88d1-dca77c910882",
-                "resourcePath": "datafiles_yy\\font_1568x24.png.yy",
+                "id": "9ff828aa-1cf0-43a4-8764-4f8e9a9b615f",
+                "resourcePath": "datafiles_yy\\LICENSE.txt.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
