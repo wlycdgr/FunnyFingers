@@ -65,27 +65,42 @@ Feb 24
 - DONE fix positioning on game over and pause menus
 - DONE implement collision detection logic for funny fingers v enemies:
 	- DONE game over
-
-
-- implement SUPER BASIC version of scoring system:
-	- 1 point for each valid move
+- DONE implement SUPER BASIC version of scoring system:
+	- DONE 10 points for each valid move
 	
 - draw score:
-	- score readout in top left
+	- DONE score readout in top left
 	- score readout on pause menu
 	- score readout in game over menu
 	
-- iterate on score system
-	- lose 1 point (lose combo?) for each invalid move
-	- link moves together for bonus?
+- tick down score on pause menu, slowly but still
+	
+
 	
 - implement sound placeholders
 	
 - implement test achievement
 	- user scores 10 points
 	
+- implement achievement screen
+	- accessible from main menu
+	- lists achievements
+		- icon (grayed out if locked)
+		- description (grayed out if locked)
+	
 - implement high score storage
 	- user's score is uploaded to steam leaderboard
+	
+- implement leaderboards screen
+	- global - top 100
+	- friends only
+	- display high score screen if user has achieved a high score at the end of a match
+	
+- iterate on score system
+	- lose 1 point (lose combo?) for each invalid move
+	- link moves together for bonus?
+	- cash out in pause screen to lock down score
+	- if you die instead, you get no points :( hehehhehehe
 
 
 
