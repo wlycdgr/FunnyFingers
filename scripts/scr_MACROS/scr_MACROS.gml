@@ -28,6 +28,8 @@
 #macro ribbon_menu_height 360
 #macro ribbon_menu_slide_in_speed_in_pixels_per_frame (2 * (window_width / game_fps))
 #macro ribbon_menu_slide_out_speed_in_pixels_per_frame (2 * ribbon_menu_slide_in_speed_in_pixels_per_frame)
+#macro menu_color_selected c_red
+#macro menu_color_unselected c_black
 #macro rms_inactive 0
 #macro rms_sliding_in 1
 #macro rms_in_place_and_active 2

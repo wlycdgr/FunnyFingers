@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "20eeb7f8-fb21-4f83-9f98-74704a359093",
-            "Value": {
-                "id": "0c5171e4-0509-46a0-b705-f892bdacf68a",
-                "resourcePath": "fonts\\font_Arial_36\\font_Arial_36.yy",
-                "resourceType": "GMFont"
-            }
-        },
-        {
             "Key": "213bf66c-7307-4cc8-a2fa-085db72357bc",
             "Value": {
                 "id": "293a8ed6-0c8d-4837-9285-3d780d9f645f",
