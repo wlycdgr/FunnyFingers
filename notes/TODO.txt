@@ -54,16 +54,16 @@ Feb 24
 	- DONE create a sample font sprite strip at that size
 	- DONE create a file that has markings where the letters are separated 
 	& shows what letter should go in each slot
-	
-- plug in placeholder Roboto .ttf Google Font while Marls looks for better fits
-
-- implement title menu
+- DONE plug in placeholder Roboto .ttf Google Font while Marls looks for better fits
+- DONE implement title menu
 	- DONE game title sprite
-	- menu:
+	- DONE menu:
 		- DONE play
 		- DONE exit
-	- selection highlighting
-	- cursor
+	- DONE selection highlighting
+	- DONE positioning
+	
+- fix positioning on game over and pause menus
 
 - implement collision detection logic for funny fingers v enemies:
 	- game over

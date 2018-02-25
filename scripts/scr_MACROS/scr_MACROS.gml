@@ -9,6 +9,7 @@
 
 #macro window_height window_get_height()
 #macro window_width window_get_width()
+#macro window_x_center window_width / 2
 
 #macro playfield_height 512
 #macro playfield_count 1
