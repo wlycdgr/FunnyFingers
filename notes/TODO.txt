@@ -62,11 +62,11 @@ Feb 24
 		- DONE exit
 	- DONE selection highlighting
 	- DONE positioning
-
-- fix positioning on game over and pause menus
-
-- implement collision detection logic for funny fingers v enemies:
-	- game over
+- DONE fix positioning on game over and pause menus
+- DONE implement collision detection logic for funny fingers v enemies:
+	- DONE game over
+	
+- implement sound placeholders
 	
 - implement scoring system
 	- 1 point for each move

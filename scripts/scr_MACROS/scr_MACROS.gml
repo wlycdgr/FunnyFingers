@@ -21,7 +21,7 @@
 #macro half_of_empty_columns floor((column_count - funny_finger_count) / 2)
 
 #macro funny_finger_count 3
-#macro starting_funny_finger_life 0.1
+#macro starting_funny_finger_life 0.3
 #macro funny_finger_shrink_per_second 0.025
 
 #macro ribbon_menu_y 180
