@@ -73,6 +73,16 @@
             "enumb": 14,
             "eventtype": 7,
             "m_owner": "0ac5f62d-3b3b-446f-93ce-b591a9476fee"
+        },
+        {
+            "id": "8f0d5b52-432d-4d57-b930-f510e91aef89",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "0ac5f62d-3b3b-446f-93ce-b591a9476fee"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -147,6 +157,34 @@
             "value": "gs_playing",
             "varName": "state",
             "varType": 1
+        },
+        {
+            "id": "4dd2e4a5-c173-4cf8-82e0-cfbf801ba352",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "global.game_score",
+            "varType": 1
+        },
+        {
+            "id": "559ce1e8-459d-46ee-8232-f5d2a57b0c30",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "global.target_score",
+            "varType": 0
         }
     ],
     "solid": false,

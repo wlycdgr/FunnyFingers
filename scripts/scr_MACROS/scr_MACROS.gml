@@ -11,6 +11,9 @@
 #macro window_width window_get_width()
 #macro window_x_center window_width / 2
 
+#macro score_color c_black
+#macro score_valid_move 10
+
 #macro playfield_height 512
 #macro playfield_count 1
 #macro playfield_y ((window_height - playfield_height) / 2)

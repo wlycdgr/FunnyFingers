@@ -65,17 +65,21 @@ Feb 24
 - DONE fix positioning on game over and pause menus
 - DONE implement collision detection logic for funny fingers v enemies:
 	- DONE game over
+
+
+- implement SUPER BASIC version of scoring system:
+	- 1 point for each valid move
 	
-- implement sound placeholders
+- draw score:
+	- score readout in top left
+	- score readout on pause menu
+	- score readout in game over menu
 	
-- implement scoring system
-	- 1 point for each move
+- iterate on score system
+	- lose 1 point (lose combo?) for each invalid move
 	- link moves together for bonus?
 	
-- implement scoring display
-	- during gameplay
-	- on pause game menu (? score ticks down slowly here ? )
-	- on game over menu
+- implement sound placeholders
 	
 - implement test achievement
 	- user scores 10 points

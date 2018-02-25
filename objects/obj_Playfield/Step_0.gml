@@ -49,7 +49,6 @@ if (0 != ff_move_direction){
 
 	// Identify the column to move to,
 	// if one is available
-	var target_column_index = -1;
 	if (-1 == ff_move_direction) { // trying to move left
 		for (var i = targeted_ff.source_column - 1; i > -1; i--){
 			if (!columns[i].occupied) {
@@ -66,4 +65,6 @@ if (0 != ff_move_direction){
 			}
 		}
 	}
+	
+	global.target_score += score_valid_move;
 }

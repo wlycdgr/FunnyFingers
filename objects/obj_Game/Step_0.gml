@@ -14,6 +14,8 @@ case gs_paused:
 	break;
 	
 case gs_playing:
+	if (global.target_score > global.game_score) { global.game_score += 1; }
+	
 	for (var i = array_length_1d(playfields) - 1; i > -1; i--){
 		if (playfields[i].has_unfunny_finger) 
 			{ event_user(0); } // on game over
