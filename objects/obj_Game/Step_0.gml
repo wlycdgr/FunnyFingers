@@ -8,13 +8,18 @@ case gs_game_over:
 	break;
 
 case gs_paused:
+	if (global.game_score > global.target_score) {
+		global.game_score -= score_pause_penalty_per_frame;
+	}
+	
 	if (rms_selection_made == pause_menu.state) {
 		scr_Handle_Ribbon_Menu_Selection(pause_menu);
 	}
 	break;
 	
 case gs_playing:
-	if (global.target_score > global.game_score) { global.game_score += 1; }
+	if (global.target_score > global.game_score) 
+		{ global.game_score += score_grow_to_target_per_frame; }
 	
 	for (var i = array_length_1d(playfields) - 1; i > -1; i--){
 		if (playfields[i].has_unfunny_finger) 

@@ -67,15 +67,23 @@ Feb 24
 	- DONE game over
 - DONE implement SUPER BASIC version of scoring system:
 	- DONE 10 points for each valid move
-	
-- draw score:
+- DONE draw score:
 	- DONE score readout in top left
-	- score readout on pause menu
+	- DONE (well, don't need it) score readout on pause menu
 	- BASIC DONE score readout in game over menu
-	
-- tick down score on pause menu, slowly but still
+- DONE tick down score on pause menu, slowly but still
 	
 
+- do an initial round of balancing the core mechanics
+	- expose:
+		min/max enemy speed
+		min/max energy speed
+		min/max enemy period
+		min/max energy period
+		move time
+		shrink speed
+		energy value
+		grow speed
 	
 - implement sound placeholders
 	
@@ -90,6 +98,8 @@ Feb 24
 	
 - implement high score storage
 	- user's score is uploaded to steam leaderboard
+	- on choosing Cashout in Pause menu
+	- only let user do this if their score would be a high score
 	
 - implement leaderboards screen
 	- global - top 100

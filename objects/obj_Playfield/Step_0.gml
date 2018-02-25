@@ -66,5 +66,5 @@ if (0 != ff_move_direction){
 		}
 	}
 	
-	global.target_score += score_valid_move;
+	global.target_score += score_valid_move_base_value;
 }

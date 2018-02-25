@@ -6,6 +6,7 @@
 #macro left_of_window -1000
 
 #macro the_color_of_failure c_black
+#macro the_color_of_information c_black
 
 #macro game_fps game_get_speed(gamespeed_fps)
 
@@ -14,7 +15,9 @@
 #macro window_x_center window_width / 2
 
 #macro score_color c_black
-#macro score_valid_move 10
+#macro score_valid_move_base_value 100
+#macro score_grow_to_target_per_frame 10
+#macro score_pause_penalty_per_frame 1
 
 #macro playfield_height 512
 #macro playfield_count 1
