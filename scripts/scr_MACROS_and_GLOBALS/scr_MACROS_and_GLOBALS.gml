@@ -14,8 +14,12 @@
 #macro window_width window_get_width()
 #macro window_x_center window_width / 2
 
-#macro core_enemy_speed_per_sec_min 45;
-#macro core_enemy_speed_per_sec_max 60;
+#macro core_enemy_speed_per_sec_min_default 45;
+global.core_enemy_speed_per_sec_min = core_enemy_speed_per_sec_min_default;
+#macro core_enemy_speed_per_sec_max_default 60;
+global.core_enemy_speed_per_sec_max = core_enemy_speed_per_sec_max_default;
+
+#macro core_energy_speed_per_sec_min_default 
 
 #macro score_color c_black
 #macro score_valid_move_base_value 100

@@ -114,7 +114,7 @@
             "Key": "22e4d577-b237-4333-83a3-20be936c6b35",
             "Value": {
                 "id": "fcbc462e-307e-4f36-a009-8b997851ee3f",
-                "resourcePath": "scripts\\scr_MACROS\\scr_MACROS.yy",
+                "resourcePath": "scripts\\scr_MACROS_and_GLOBALS\\scr_MACROS_and_GLOBALS.yy",
                 "resourceType": "GMScript"
             }
         },
