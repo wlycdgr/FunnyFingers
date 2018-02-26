@@ -1,6 +1,6 @@
 /// @description Set speed & sprite
 // You can write your code in this editor
-sprite_index = obj_Sprite_Loader.energy_sprite;
+sprite_index = global.sprites_and_fonts.energy_sprite;
 
-minimum_speed = 30;
-maximum_speed = 300;
+minimum_speed = global.core_energy_speed_per_sec_min;
+maximum_speed = global.core_energy_speed_per_sec_max;

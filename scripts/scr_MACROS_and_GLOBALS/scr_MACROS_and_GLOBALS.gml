@@ -1,5 +1,17 @@
-#macro is ==
-#macro is_not !=
+// Core Mechanics 
+#macro core_enemy_speed_per_sec_min_default 45
+global.core_enemy_speed_per_sec_min = core_enemy_speed_per_sec_min_default;
+#macro core_enemy_speed_per_sec_max_default 60
+global.core_enemy_speed_per_sec_max = core_enemy_speed_per_sec_max_default;
+#macro core_energy_speed_per_sec_min_default 30
+global.core_energy_speed_per_sec_min = core_energy_speed_per_sec_min_default;
+#macro core_energy_speed_per_sec_max_default 300
+global.core_energy_speed_per_sec_max = core_energy_speed_per_sec_max_default;
+// /Core Mechanics
+
+
+
+
 #macro not_set -12345
 
 #macro above_window -1000
@@ -14,18 +26,6 @@
 #macro window_width window_get_width()
 #macro window_x_center window_width / 2
 
-#macro core_enemy_speed_per_sec_min_default 45;
-global.core_enemy_speed_per_sec_min = core_enemy_speed_per_sec_min_default;
-#macro core_enemy_speed_per_sec_max_default 60;
-global.core_enemy_speed_per_sec_max = core_enemy_speed_per_sec_max_default;
-
-#macro core_energy_speed_per_sec_min_default 
-
-#macro score_color c_black
-#macro score_valid_move_base_value 100
-#macro score_grow_to_target_per_frame 10
-#macro score_pause_penalty_per_frame 1
-
 #macro playfield_height 512
 #macro playfield_count 1
 #macro playfield_y ((window_height - playfield_height) / 2)
@@ -38,6 +38,11 @@ global.core_enemy_speed_per_sec_max = core_enemy_speed_per_sec_max_default;
 #macro funny_finger_count 3
 #macro starting_funny_finger_life 0.3
 #macro funny_finger_shrink_per_second 0.025
+
+#macro score_color c_black
+#macro score_valid_move_base_value 100
+#macro score_grow_to_target_per_frame 10
+#macro score_pause_penalty_per_frame 1
 
 #macro ribbon_menu_y 180
 #macro ribbon_menu_width window_width
