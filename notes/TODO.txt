@@ -77,7 +77,7 @@ Feb 24
 - do an initial round of balancing the core mechanics
 	- expose:
 		DONE min/max enemy speed
-		min/max energy speed
+		DONE min/max energy speed
 		min/max enemy period
 		min/max energy period
 		move time

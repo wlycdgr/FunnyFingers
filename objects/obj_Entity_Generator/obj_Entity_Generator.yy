@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "3cacfbe1-5d40-49c0-a474-4bebb2b005d9"
+        },
+        {
+            "id": "bace2bf2-7e11-48b5-ae3c-9f0856b2230e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 7,
+            "m_owner": "3cacfbe1-5d40-49c0-a474-4bebb2b005d9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -71,7 +81,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "counter",
+            "varName": "counter_in_sec",
             "varType": 0
         },
         {
@@ -85,7 +95,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "minimum_period",
+            "varName": "minimum_period_in_sec",
             "varType": 0
         },
         {
@@ -99,7 +109,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "maximum_period",
+            "varName": "maximum_period_in_sec",
             "varType": 0
         },
         {
@@ -113,7 +123,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "current_period",
+            "varName": "current_period_in_sec",
             "varType": 0
         }
     ],
