@@ -82,7 +82,7 @@ Feb 24
 		DONE min/max energy period
 		DONE move time
 		DONE shrink speed
-		starting life
+		DONE starting life
 		energy value
 		grow speed
 	

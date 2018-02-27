@@ -3,7 +3,7 @@ is_moving = false;
 is_shrinking = true;
 is_not_funny_anymore = false;
 
-life = starting_funny_finger_life;
+life = global.core_funny_finger_starting_life_x_100 / 100;
 target_life = life;
 
 danger_danger = instance_create_layer(

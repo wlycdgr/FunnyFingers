@@ -39,6 +39,12 @@ global.core_funny_finger_move_time_in_sec = core_funny_finger_move_time_in_sec_d
 #macro core_funny_finger_shrink_per_sec_x_1000_default 25
 global.core_funny_finger_shrink_per_sec_x_1000 = 
 	core_funny_finger_shrink_per_sec_x_1000_default;
+	
+	
+	
+#macro core_funny_finger_starting_life_x_100_default 30
+global.core_funny_finger_starting_life_x_100 = 
+	core_funny_finger_starting_life_x_100_default;
 // /Core Mechanics
 
 

@@ -9,6 +9,7 @@ energy_minimum_period_in_sec_default = core_energy_minimum_period_in_sec_default
 energy_maximum_period_in_sec_default = core_energy_maximum_period_in_sec_default;
 funny_finger_move_time_in_sec_default = core_funny_finger_move_time_in_sec_default;
 funny_finger_shrink_per_sec_x_1000_default = core_funny_finger_shrink_per_sec_x_1000_default;
+funny_finger_starting_life_x_100_default = core_funny_finger_starting_life_x_100_default;
 item_defaults = [
 	enemy_speed_per_sec_min_default, 
 	enemy_speed_per_sec_max_default,
@@ -19,8 +20,10 @@ item_defaults = [
 	energy_minimum_period_in_sec_default,
 	energy_maximum_period_in_sec_default,
 	funny_finger_move_time_in_sec_default,
-	funny_finger_shrink_per_sec_x_1000_default
+	funny_finger_shrink_per_sec_x_1000_default,
+	funny_finger_starting_life_x_100_default
 ];
+
 
 
 enemy_speed_per_sec_min = global.core_enemy_speed_per_sec_min;
@@ -33,6 +36,7 @@ energy_minimum_period_in_sec = global.core_energy_minimum_period_in_sec;
 energy_maximum_period_in_sec = global.core_energy_maximum_period_in_sec;
 funny_finger_move_time_in_sec = global.core_funny_finger_move_time_in_sec;
 funny_finger_shrink_per_sec_x_1000 = global.core_funny_finger_shrink_per_sec_x_1000;
+funny_finger_starting_life_x_100 = global.core_funny_finger_starting_life_x_100;
 item_values = [
 	enemy_speed_per_sec_min,
 	enemy_speed_per_sec_max,
@@ -43,10 +47,11 @@ item_values = [
 	energy_minimum_period_in_sec,
 	energy_maximum_period_in_sec,
 	funny_finger_move_time_in_sec,
-	funny_finger_shrink_per_sec_x_1000
+	funny_finger_shrink_per_sec_x_1000,
+	funny_finger_starting_life_x_100
 ];
 
-item_increments = [1, 1, 1, 1, 0.01, 0.01, 0.01, 0.01, 0.01, 1];
+item_increments = [1, 1, 1, 1, 0.01, 0.01, 0.01, 0.01, 0.01, 1, 1];
 
 item_labels = [
 	"Enemy min speed", 
@@ -58,7 +63,8 @@ item_labels = [
 	"Energy min period",
 	"Energy max period",
 	"Funny finger move time",
-	"Funny finger shrink per sec"
+	"Funny finger shrink per sec",
+	"Funny finger starting life"
 ];
 
 item_count = array_length_1d(item_labels);
