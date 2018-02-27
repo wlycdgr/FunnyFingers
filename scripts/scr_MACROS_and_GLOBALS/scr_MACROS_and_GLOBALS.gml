@@ -45,6 +45,11 @@ global.core_funny_finger_shrink_per_sec_x_1000 =
 #macro core_funny_finger_starting_life_x_100_default 30
 global.core_funny_finger_starting_life_x_100 = 
 	core_funny_finger_starting_life_x_100_default;
+	
+	
+
+#macro core_energy_value_x_100_default 10
+global.core_energy_value_x_100 = core_energy_value_x_100_default;
 // /Core Mechanics
 
 

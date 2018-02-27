@@ -83,8 +83,8 @@ Feb 24
 		DONE move time
 		DONE shrink speed
 		DONE starting life
-		energy value
-		grow speed
+		DONE energy value
+		grow time
 	
 - implement sound placeholders
 	
