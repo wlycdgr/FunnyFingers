@@ -84,8 +84,19 @@ Feb 24
 		DONE shrink speed
 		DONE starting life
 		DONE energy value
-		grow time
+		DONE grow time
+
+
+- implement high score storage
+	- user's score is uploaded to steam leaderboard
+	- on choosing Cashout in Pause menu
+	- only let user do this if their score would be a high score
 	
+- implement leaderboards screen
+	- global - top 100
+	- friends only
+	- display high score screen if user has achieved a high score at the end of a match
+
 - implement sound placeholders
 	
 - implement test achievement
@@ -97,20 +108,14 @@ Feb 24
 		- icon (grayed out if locked)
 		- description (grayed out if locked)
 	
-- implement high score storage
-	- user's score is uploaded to steam leaderboard
-	- on choosing Cashout in Pause menu
-	- only let user do this if their score would be a high score
+
 	
-- implement leaderboards screen
-	- global - top 100
-	- friends only
-	- display high score screen if user has achieved a high score at the end of a match
+
 	
 - iterate on score system
 	- lose 1 point (lose combo?) for each invalid move
 	- link moves together for bonus?
-	- cash out in pause screen to lock down score
+	- DONE cash out in pause screen to lock down score
 	- DONE if you die instead, you get no points :( hehehhehehe
 
 

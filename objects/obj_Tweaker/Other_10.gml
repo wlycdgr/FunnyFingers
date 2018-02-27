@@ -11,3 +11,5 @@ global.core_energy_maximum_period_in_sec = item_values[7];
 global.core_funny_finger_move_time_in_sec = item_values[8];
 global.core_funny_finger_shrink_per_sec_x_1000 = item_values[9];
 global.core_funny_finger_starting_life_x_100 = item_values[10];
+global.core_energy_value_x_100 = item_values[11];
+global.core_funny_finger_grow_time_in_sec = item_values[12];

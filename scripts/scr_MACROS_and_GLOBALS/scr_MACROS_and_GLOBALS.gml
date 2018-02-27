@@ -50,6 +50,11 @@ global.core_funny_finger_starting_life_x_100 =
 
 #macro core_energy_value_x_100_default 10
 global.core_energy_value_x_100 = core_energy_value_x_100_default;
+
+
+
+#macro core_funny_finger_grow_time_in_sec_default 1.0
+global.core_funny_finger_grow_time_in_sec = core_funny_finger_grow_time_in_sec_default;
 // /Core Mechanics
 
 

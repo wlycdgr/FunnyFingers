@@ -11,6 +11,7 @@ funny_finger_move_time_in_sec_default = core_funny_finger_move_time_in_sec_defau
 funny_finger_shrink_per_sec_x_1000_default = core_funny_finger_shrink_per_sec_x_1000_default;
 funny_finger_starting_life_x_100_default = core_funny_finger_starting_life_x_100_default;
 energy_value_x_100_default = core_energy_value_x_100_default;
+funny_finger_grow_time_in_sec_default = core_funny_finger_grow_time_in_sec_default;
 item_defaults = [
 	enemy_speed_per_sec_min_default, 
 	enemy_speed_per_sec_max_default,
@@ -23,8 +24,10 @@ item_defaults = [
 	funny_finger_move_time_in_sec_default,
 	funny_finger_shrink_per_sec_x_1000_default,
 	funny_finger_starting_life_x_100_default,
-	energy_value_x_100_default
+	energy_value_x_100_default,
+	funny_finger_grow_time_in_sec_default
 ];
+
 
 
 enemy_speed_per_sec_min = global.core_enemy_speed_per_sec_min;
@@ -39,6 +42,7 @@ funny_finger_move_time_in_sec = global.core_funny_finger_move_time_in_sec;
 funny_finger_shrink_per_sec_x_1000 = global.core_funny_finger_shrink_per_sec_x_1000;
 funny_finger_starting_life_x_100 = global.core_funny_finger_starting_life_x_100;
 energy_value_x_100 = global.core_energy_value_x_100;
+funny_finger_grow_time_in_sec = global.core_funny_finger_grow_time_in_sec;
 item_values = [
 	enemy_speed_per_sec_min,
 	enemy_speed_per_sec_max,
@@ -51,12 +55,10 @@ item_values = [
 	funny_finger_move_time_in_sec,
 	funny_finger_shrink_per_sec_x_1000,
 	funny_finger_starting_life_x_100,
-	energy_value_x_100
+	energy_value_x_100,
+	funny_finger_grow_time_in_sec
 ];
 
-
-#macro core_energy_value_x_100_default 10
-global.core_energy_value_x_100 = core_energy_value_x_100_default;
 
 item_increments = [
 	1, // enemy min speed
@@ -70,7 +72,8 @@ item_increments = [
 	0.01, // funny finger move time
 	1, // funny finger shrink per sec
 	1, // funny finger startling life
-	1 // energy value
+	1, // energy value
+	0.01 // funny finger grow time in sec
 ];
 
 item_labels = [
@@ -85,7 +88,8 @@ item_labels = [
 	"Funny finger move time",
 	"Funny finger shrink per sec",
 	"Funny finger starting life",
-	"Energy value"
+	"Energy value",
+	"Funny finger grow time"
 ];
 
 item_count = array_length_1d(item_labels);

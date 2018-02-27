@@ -15,7 +15,7 @@ if (is_shrinking) {
 	life -= shrink_per_frame;
 }
 else {
-	life += 0.002; // TODO macro this
+	life += grow_per_frame; // TODO macro this
 	if (life >= target_life) { is_shrinking = true; }
 }
 		
