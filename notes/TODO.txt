@@ -85,6 +85,7 @@ Feb 24
 		DONE starting life
 		DONE energy value
 		DONE grow time
+	- actually do the round of balancing
 
 
 - implement high score storage

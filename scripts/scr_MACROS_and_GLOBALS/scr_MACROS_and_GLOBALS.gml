@@ -1,16 +1,16 @@
 // Core Mechanics 
-#macro core_enemy_speed_per_sec_min_default 45
+#macro core_enemy_speed_per_sec_min_default 125
 global.core_enemy_speed_per_sec_min = core_enemy_speed_per_sec_min_default;
 
-#macro core_enemy_speed_per_sec_max_default 60
+#macro core_enemy_speed_per_sec_max_default 175
 global.core_enemy_speed_per_sec_max = core_enemy_speed_per_sec_max_default;
 
 
 
-#macro core_energy_speed_per_sec_min_default 30
+#macro core_energy_speed_per_sec_min_default 225
 global.core_energy_speed_per_sec_min = core_energy_speed_per_sec_min_default;
 
-#macro core_energy_speed_per_sec_max_default 300
+#macro core_energy_speed_per_sec_max_default 275
 global.core_energy_speed_per_sec_max = core_energy_speed_per_sec_max_default;
 
 

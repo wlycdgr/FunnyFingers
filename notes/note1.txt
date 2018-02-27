@@ -1,0 +1,7 @@
+Values
+
+enemy min speed 150
+enemy max speed 199
+energy min speed 200
+energy max speed 250
+it's a start!
