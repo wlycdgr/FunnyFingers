@@ -44,9 +44,6 @@ if (0 != ff_move_direction){
 		index_counter += 1;
 	}
 	
-	// Notde down that it is moving
-	targeted_ff.is_moving = true;
-
 	// Identify the column to move to,
 	// if one is available
 	if (-1 == ff_move_direction) { // trying to move left
@@ -65,6 +62,8 @@ if (0 != ff_move_direction){
 			}
 		}
 	}
+	
+	with (targeted_ff) { event_user(2); } // Initiate move
 	
 	global.target_score += score_valid_move_base_value;
 }

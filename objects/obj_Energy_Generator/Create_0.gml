@@ -1,6 +1,6 @@
 /// @description Init
-minimum_period = global.core_energy_minimum_period_in_sec;
-maximum_period = global.core_energy_maximum_period_in_sec;
+minimum_period_in_sec = global.core_energy_minimum_period_in_sec;
+maximum_period_in_sec = global.core_energy_maximum_period_in_sec;
 
 event_user(0);
 

@@ -1,15 +1,6 @@
 /// @description Move
 // You can write your code in this editor
-
-target_x =
-	playfield.columns[target_column].x + 
-	half_of_width_difference_with_column;
-	
-source_x = 
-	playfield.columns[source_column].x +
-	half_of_width_difference_with_column;
-	
-x += (target_x - source_x) / 10.0; // TODO macro this speed
+x += move_amount_in_pixels_per_frame;
 
 // Has the funny finger reached/overshot the target column?
 if (
@@ -17,7 +8,6 @@ if (
 	(target_x <= source_x && x <= target_x)
 ){
 	// Yes, the funny finger has reached the target column!
-	
 	x = target_x;
 	
 	// clear the column that the funny finger was in

@@ -78,9 +78,9 @@ Feb 24
 	- expose:
 		DONE min/max enemy speed
 		DONE min/max energy speed
-		min/max enemy period
-		min/max energy period
-		move time
+		DONE min/max enemy period
+		DONE min/max energy period
+		DONE move time
 		shrink speed
 		energy value
 		grow speed

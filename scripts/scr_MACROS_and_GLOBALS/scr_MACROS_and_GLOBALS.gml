@@ -23,11 +23,20 @@ global.core_enemy_maximum_period_in_sec = core_enemy_maximum_period_in_sec_defau
 
 
 
-#macro core_energy_minimum_period_in_sec_default 0.75
+#macro core_energy_minimum_period_in_sec_default 1.25//0.75
 global.core_energy_minimum_period_in_sec = core_energy_minimum_period_in_sec_default;
 
-#macro core_energy_maximum_period_in_sec_default 1.0
+#macro core_energy_maximum_period_in_sec_default 1.5//1.0
 global.core_energy_maximum_period_in_sec = core_energy_maximum_period_in_sec_default;
+
+
+
+#macro core_funny_finger_move_time_in_sec_default 0.15
+global.core_funny_finger_move_time_in_sec = core_funny_finger_move_time_in_sec_default;
+
+
+
+
 // /Core Mechanics
 
 
@@ -59,6 +68,7 @@ global.core_energy_maximum_period_in_sec = core_energy_maximum_period_in_sec_def
 #macro funny_finger_count 3
 #macro starting_funny_finger_life 0.3
 #macro funny_finger_shrink_per_second 0.025
+#macro half_of_width_difference_with_column 8
 
 #macro score_color c_black
 #macro score_valid_move_base_value 100
