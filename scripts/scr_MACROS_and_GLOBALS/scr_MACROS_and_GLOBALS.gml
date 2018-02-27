@@ -36,7 +36,9 @@ global.core_funny_finger_move_time_in_sec = core_funny_finger_move_time_in_sec_d
 
 
 
-
+#macro core_funny_finger_shrink_per_sec_x_1000_default 25
+global.core_funny_finger_shrink_per_sec_x_1000 = 
+	core_funny_finger_shrink_per_sec_x_1000_default;
 // /Core Mechanics
 
 
@@ -67,7 +69,6 @@ global.core_funny_finger_move_time_in_sec = core_funny_finger_move_time_in_sec_d
 
 #macro funny_finger_count 3
 #macro starting_funny_finger_life 0.3
-#macro funny_finger_shrink_per_second 0.025
 #macro half_of_width_difference_with_column 8
 
 #macro score_color c_black

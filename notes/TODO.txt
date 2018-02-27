@@ -81,7 +81,8 @@ Feb 24
 		DONE min/max enemy period
 		DONE min/max energy period
 		DONE move time
-		shrink speed
+		DONE shrink speed
+		starting life
 		energy value
 		grow speed
 	
