@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "65ea4094-1f86-4fe9-bf04-cf3ed571b17a",
+            "Value": {
+                "id": "9add165e-3aa9-4b5d-a0c4-ed51e2174a59",
+                "resourcePath": "objects\\obj_Steam_Liason\\obj_Steam_Liason.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "67631ef1-79cb-4597-83c4-13e8ca6cff81",
             "Value": {
                 "id": "423f1191-738c-49eb-a1bd-5c3a2aa620d0",
