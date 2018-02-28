@@ -13,3 +13,5 @@ draw_text(5, 505, "app_id: " + string(app_id));
 draw_text(5, 520, "user_account_id: " + string(user_account_id));
 draw_text(5, 535, "current_language: " + current_language);
 draw_text(5, 550, "available_languages: " + available_languages);
+
+draw_text(5, 580, "stat_test_1: " + string(stat_test_1));

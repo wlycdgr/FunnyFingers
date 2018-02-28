@@ -9,3 +9,5 @@ app_id = steam_get_app_id();
 user_account_id = steam_get_user_account_id();
 current_language = steam_current_game_language();
 available_languages = steam_available_languages();
+
+stat_test_1 = steam_get_stat_int("stat_test_1");
