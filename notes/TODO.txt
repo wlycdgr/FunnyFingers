@@ -115,7 +115,8 @@ Feb 27
 		- description (grayed out if locked)
 	
 
-	
+- implement support for Steam screenshots 
+(through steam_is_screenshot_requested and steam_send_screenshot)
 
 	
 - iterate on score system
