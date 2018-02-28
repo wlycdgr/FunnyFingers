@@ -86,23 +86,17 @@ Feb 27
 		DONE energy value
 		DONE grow time
 	- DONE actually do the round of balancing
-
 - DONE implement Cashout logic
 	- DONE user's score is uploaded to steam leaderboard on choosing Cashout in Pause menu
 	- DONE after successful upload, go to Leaderboards room
-
-
-- implement leaderboards screen
+- BASIC DONE implement leaderboards screen
 	- DONE menu option on title screen
 	- DONE can return to title screen
 	- DONE header: "HIGH SCORES"
-	- tabs: "Overall / Around Player / Friends"
-	- 
-	- when coming from title screen, show top overall scores
-	- when coming from Cashout, show around-user scores
-	- 10 results per page
+	- DONE tabs: "Overall / Around Player / Friends"
+	- DONE when coming from title screen, show top overall scores
+	- DONE when coming from Cashout, show around-user scores
 	- DONE Q / P to switch between overall / around-user / friends modes
-	- W / O to switch between pages
 	- DONE menu with
 		DONE Play
 		DONE Title
