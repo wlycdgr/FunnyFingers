@@ -92,14 +92,25 @@ Feb 27
 	- DONE can return to title screen
 	- DONE header: "LEADERBOARDS"
 	- sub header: "GLOBAL / FRIENDS"
-	- format: 10 results per page
-		Name		Score
-	- display high score screen if user has achieved a high score at the end of a match
-
-- implement high score storage
-	- user's score is uploaded to steam leaderboard
-	- on choosing Cashout in Pause menu
+	- when coming from title screen, show top overall scores
+	- when coming from Cashout, show around-user scores
+	- 10 results per page
+	- Q / P to switch between overall / around-user / friends modes
+	- W / O to switch between pages
+	- menu with
+		Play
+		Title
+	- standard arrow keys controls for menu	
+	
+- implement Cashout logic
+	- DONE user's score is uploaded to steam leaderboard on choosing Cashout in Pause menu
 	- only let user do this if their score would be a high score
+		- before a round starts, get user's high score
+		- display this high score in score readout
+		- gray out Cashout option if user's current score is below their high score
+	- after successful upload, go to Leaderboards room
+
+		
 	
 
 
