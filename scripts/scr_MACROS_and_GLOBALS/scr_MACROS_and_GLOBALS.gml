@@ -43,6 +43,7 @@ global.core_funny_finger_grow_time_in_sec =
 
 // Steam
 #macro steam_high_scores_table_name "High Scores"
+#macro steam_achievement_count 2
 // /Steam
 
 
