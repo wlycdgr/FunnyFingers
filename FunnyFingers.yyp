@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "15b4cf25-9b66-449e-a5fa-426bc26fc652",
+            "Value": {
+                "id": "c5571139-85f2-40ef-9e90-1ad5ff67327d",
+                "resourcePath": "objects\\obj_Achievements_Controller\\obj_Achievements_Controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "160e62ba-dc18-468a-a128-4a9334c15b2f",
+            "Value": {
+                "id": "17ac39da-fcc0-43fe-8362-9c8790fe51f0",
+                "resourcePath": "scripts\\scr_Draw_Header\\scr_Draw_Header.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "167f2cc5-cad7-4c09-ba90-7350cc2b65b5",
             "Value": {
                 "id": "3799495e-94b8-4225-b4f8-0c07ffedc7b3",
@@ -559,6 +575,14 @@
             }
         },
         {
+            "Key": "cd704319-be20-4e64-a5b4-9efe252f280f",
+            "Value": {
+                "id": "fd555f9a-779a-4f83-9512-3d8ee2fa19ba",
+                "resourcePath": "views\\cd704319-be20-4e64-a5b4-9efe252f280f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cdaddfa3-3920-4804-8da9-be630a80eba3",
             "Value": {
                 "id": "99aeb4e2-1ab1-4bde-acde-3f14079c1daa",
@@ -567,11 +591,27 @@
             }
         },
         {
+            "Key": "da3cb6d4-afac-4fc1-9e18-e6d83f23353a",
+            "Value": {
+                "id": "3302bf60-da05-4ce0-957a-f7cdc5fc2fd7",
+                "resourcePath": "scripts\\scr_Init_Header\\scr_Init_Header.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dcb9650a-e818-4006-b898-971814578881",
             "Value": {
                 "id": "46d46d38-c302-4732-a98c-fdcfe4eed88a",
                 "resourcePath": "datafiles_yy\\funny_finger_32x512.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "dd40c584-6106-4759-889b-555a38480305",
+            "Value": {
+                "id": "41606705-868c-43e2-b75b-47977b92b7f2",
+                "resourcePath": "rooms\\r_Achievements\\r_Achievements.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -670,7 +710,9 @@
         "678f5e16-9839-48e9-837c-a3b611f73331",
         "2f8b3a73-a1bd-4cdd-97e9-ebee3c55fa5a",
         "33293c6a-5674-4875-b8d2-78e8ba10bf13",
-        "b6fdf947-cf8d-47b6-a7a0-b47040561eff"
+        "b6fdf947-cf8d-47b6-a7a0-b47040561eff",
+        "160e62ba-dc18-468a-a128-4a9334c15b2f",
+        "da3cb6d4-afac-4fc1-9e18-e6d83f23353a"
     ],
     "tutorial": ""
 }

@@ -103,7 +103,11 @@ Feb 27
 	- DONE standard arrow keys controls for menu	
 
 
-		
+- implement achievement screen
+	- accessible from main menu
+	- lists achievements
+		- icon (grayed out if locked)
+		- description (grayed out if locked)
 
 	
 
@@ -112,11 +116,7 @@ Feb 27
 - implement test achievement
 	- user scores 10 points
 	
-- implement achievement screen
-	- accessible from main menu
-	- lists achievements
-		- icon (grayed out if locked)
-		- description (grayed out if locked)
+
 	
 
 - implement support for Steam screenshots 
