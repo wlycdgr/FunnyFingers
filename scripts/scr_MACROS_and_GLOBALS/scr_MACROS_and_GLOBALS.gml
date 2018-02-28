@@ -26,16 +26,16 @@ global.core_energy_maximum_period_in_sec =
 #macro core_funny_finger_move_time_in_sec_default 0.1
 global.core_funny_finger_move_time_in_sec = 
 	core_funny_finger_move_time_in_sec_default;
-#macro core_funny_finger_shrink_per_sec_x_1000_default 35
+#macro core_funny_finger_shrink_per_sec_x_1000_default 30
 global.core_funny_finger_shrink_per_sec_x_1000 = 
 	core_funny_finger_shrink_per_sec_x_1000_default;
-#macro core_funny_finger_starting_life_x_100_default 25
+#macro core_funny_finger_starting_life_x_100_default 30
 global.core_funny_finger_starting_life_x_100 = 
 	core_funny_finger_starting_life_x_100_default;
 #macro core_energy_value_x_100_default 15
 global.core_energy_value_x_100 = 
 	core_energy_value_x_100_default;
-#macro core_funny_finger_grow_time_in_sec_default 0.25
+#macro core_funny_finger_grow_time_in_sec_default 0.35
 global.core_funny_finger_grow_time_in_sec = 
 	core_funny_finger_grow_time_in_sec_default;
 // /Core Mechanics

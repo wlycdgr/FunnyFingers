@@ -7,8 +7,4 @@ title_billboard.x =
 	(sprite_get_width(title_billboard.sprite_index) / 2);	
 title_billboard.y = 50;
 
-
-menu_item_index = 0;
-menu_item_labels = ["Play", "High Scores", "Exit"];
-menu_item_count = array_length_1d(menu_item_labels);
-menu_selection_made = false;
+scr_Init_Menu(id, ["Play", "Achievements", "High Scores", "Exit"]);

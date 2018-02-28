@@ -17,6 +17,10 @@ else if (keyboard_check_pressed(vk_enter)) {
 	argument0.menu_selection_made = true;
 	
 	switch (argument0.menu_item_labels[argument0.menu_item_index]) {
+	case "Achievements":
+		scr_Fade_To(r_Achievements);
+		break;
+		
 	case "Exit":
 		game_end();
 		break;

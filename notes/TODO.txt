@@ -104,7 +104,8 @@ Feb 27
 
 
 - implement achievement screen
-	- accessible from main menu
+	- DONE accessible from main menu
+	- DONE header: "ACHIEVEMENTS"
 	- lists achievements
 		- icon (grayed out if locked)
 		- description (grayed out if locked)
