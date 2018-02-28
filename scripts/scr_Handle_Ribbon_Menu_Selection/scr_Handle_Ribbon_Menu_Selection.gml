@@ -2,7 +2,7 @@
 switch(argument0.selection){
 case "CashOut":
 	with (global.steam) { event_user(1); } // upload score to leaderboard
-	with (global.game) { event_user(4); } // return to title
+	with (global.game) { event_user(5); } // go to high scores room
 	break;
 	
 case "Continue":

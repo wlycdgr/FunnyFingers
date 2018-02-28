@@ -87,6 +87,11 @@ Feb 27
 		DONE grow time
 	- DONE actually do the round of balancing
 
+- DONE implement Cashout logic
+	- DONE user's score is uploaded to steam leaderboard on choosing Cashout in Pause menu
+	- DONE after successful upload, go to Leaderboards room
+
+
 - implement leaderboards screen
 	- DONE menu option on title screen
 	- DONE can return to title screen
@@ -101,18 +106,11 @@ Feb 27
 		DONE Play
 		DONE Title
 	- DONE standard arrow keys controls for menu	
-	
-- implement Cashout logic
-	- DONE user's score is uploaded to steam leaderboard on choosing Cashout in Pause menu
-	- only let user do this if their score would be a high score
-		- before a round starts, get user's high score
-		- display this high score in score readout
-		- gray out Cashout option if user's current score is below their high score
-	- after successful upload, go to Leaderboards room
+
 
 		
-	
 
+	
 
 - implement sound placeholders
 	
@@ -136,5 +134,16 @@ Feb 27
 	- DONE cash out in pause screen to lock down score
 	- DONE if you die instead, you get no points :( hehehhehehe
 
+- change cash out flow
+	- Space during gameplay brings up Are You Sure? cashout menu
+	- Score ticks down on this menu
+	- Options are Yes / No
+	- Defaults to Yes
+	- Tapping Space again cashes out (or possibly it's one key for Yes and another for No)
+
+- only let user cash out high score
+	- before a game starts, get player's high score
+	- display this high score in score readout
+	- do nothing on Cashout input if user's current score is below their high score
 
 
