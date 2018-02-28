@@ -96,7 +96,8 @@ Feb 27
 	- DONE menu option on title screen
 	- DONE can return to title screen
 	- DONE header: "HIGH SCORES"
-	- sub header: "GLOBAL / FRIENDS"
+	- tabs: "Overall / Around Player / Friends"
+	- 
 	- when coming from title screen, show top overall scores
 	- when coming from Cashout, show around-user scores
 	- 10 results per page
