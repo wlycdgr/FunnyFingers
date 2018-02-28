@@ -5,3 +5,7 @@ is_overlay_enabled = steam_is_overlay_enabled();
 persona_name = steam_get_persona_name();
 user_steam_id = steam_get_user_steam_id();
 is_user_logged_on = steam_is_user_logged_on();
+app_id = steam_get_app_id();
+user_account_id = steam_get_user_account_id();
+current_language = steam_current_game_language();
+available_languages = steam_available_languages();
