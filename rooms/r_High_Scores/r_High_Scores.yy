@@ -1,6 +1,6 @@
 
 {
-    "name": "r_Leaderboards",
+    "name": "r_High_Scores",
     "id": "cdaddfa3-3920-4804-8da9-be630a80eba3",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

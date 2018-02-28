@@ -90,7 +90,7 @@ Feb 27
 - implement leaderboards screen
 	- DONE menu option on title screen
 	- DONE can return to title screen
-	- DONE header: "LEADERBOARDS"
+	- DONE header: "HIGH SCORES"
 	- sub header: "GLOBAL / FRIENDS"
 	- when coming from title screen, show top overall scores
 	- when coming from Cashout, show around-user scores

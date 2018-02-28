@@ -14,11 +14,11 @@ else if (keyboard_check_pressed(vk_enter)) {
 		game_end();
 		break;
 	
-	case "Leaderboards":
+	case "High Scores":
 		menu_selection_made = true;
 		with (global.fader) {
 			event_user(0);
-			target_room = r_Leaderboards;
+			target_room = r_High_Scores;
 		}
 		break;
 		

@@ -138,8 +138,16 @@
             "Key": "2f410a04-fe2f-4907-b6bf-485255465982",
             "Value": {
                 "id": "ec04c254-8ed9-4ff9-b793-4e7a4801f66f",
-                "resourcePath": "objects\\obj_Leaderboards_Room_Controller\\obj_Leaderboards_Room_Controller.yy",
+                "resourcePath": "objects\\obj_High_Scores_Room_Controller\\obj_High_Scores_Room_Controller.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2f8b3a73-a1bd-4cdd-97e9-ebee3c55fa5a",
+            "Value": {
+                "id": "11037d25-9875-4c31-af1e-26334e1d7c68",
+                "resourcePath": "scripts\\scr_Draw_Menu\\scr_Draw_Menu.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -538,7 +546,7 @@
             "Key": "cdaddfa3-3920-4804-8da9-be630a80eba3",
             "Value": {
                 "id": "99aeb4e2-1ab1-4bde-acde-3f14079c1daa",
-                "resourcePath": "rooms\\r_Leaderboards\\r_Leaderboards.yy",
+                "resourcePath": "rooms\\r_High_Scores\\r_High_Scores.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -643,7 +651,8 @@
         "cab799ce-8d74-4a49-8d5c-cac01986cb64",
         "22e4d577-b237-4333-83a3-20be936c6b35",
         "213bf66c-7307-4cc8-a2fa-085db72357bc",
-        "678f5e16-9839-48e9-837c-a3b611f73331"
+        "678f5e16-9839-48e9-837c-a3b611f73331",
+        "2f8b3a73-a1bd-4cdd-97e9-ebee3c55fa5a"
     ],
     "tutorial": ""
 }

@@ -2,7 +2,7 @@
     "id": "2f410a04-fe2f-4907-b6bf-485255465982",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Leaderboards_Room_Controller",
+    "name": "obj_High_Scores_Room_Controller",
     "eventList": [
         {
             "id": "73518b98-8a18-4243-af1c-4ea33e162fe8",
@@ -22,6 +22,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
+            "m_owner": "2f410a04-fe2f-4907-b6bf-485255465982"
+        },
+        {
+            "id": "91cb3b64-bf3b-4797-8abf-511f9add755d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "2f410a04-fe2f-4907-b6bf-485255465982"
         }
     ],
