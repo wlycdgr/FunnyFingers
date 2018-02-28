@@ -8,7 +8,7 @@
     "exportAction": 0,
     "exportDir": "",
     "fileName": "danger_danger_32x512.png",
-    "filePath": "datafiles",
+    "filePath": "datafiles\\Gameplay",
     "freeData": false,
     "origName": "",
     "overwrite": false,

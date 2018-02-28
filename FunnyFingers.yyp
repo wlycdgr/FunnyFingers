@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1ae01c13-4316-4a2e-b1e8-8a225cd3730d",
+            "Value": {
+                "id": "141ce58d-b841-4e6b-9caa-8183a82e1c59",
+                "resourcePath": "notes\\Achievements.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "1c394201-cc72-4632-9b86-790c3a40e4c3",
             "Value": {
                 "id": "3c3626e9-14a9-45ae-a481-9f456a41129f",
@@ -210,7 +218,7 @@
             "Key": "3bf8c6f3-0fc4-4ed3-b783-972f816da7d3",
             "Value": {
                 "id": "2707408f-d92f-4afc-bfed-2e58788c5a97",
-                "resourcePath": "datafiles_yy\\top_336x104.png.yy",
+                "resourcePath": "datafiles_yy\\Gameplay\\top_336x104.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -250,7 +258,7 @@
             "Key": "49c158d8-9763-46dd-a5f2-0413710e0568",
             "Value": {
                 "id": "89d8858c-d2f3-49a1-b61c-e42ff42022af",
-                "resourcePath": "datafiles_yy\\enemy_32x32.png.yy",
+                "resourcePath": "datafiles_yy\\Gameplay\\enemy_32x32.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -282,7 +290,7 @@
             "Key": "548649ea-daaa-4275-a743-28661da6033c",
             "Value": {
                 "id": "584f9a1b-5025-42fd-81d4-7e9bf5572c46",
-                "resourcePath": "datafiles_yy\\column_48x512.png.yy",
+                "resourcePath": "datafiles_yy\\Gameplay\\column_48x512.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -378,7 +386,7 @@
             "Key": "72597bfc-66ab-417e-99b1-85bc7842a3fa",
             "Value": {
                 "id": "217c84cc-4b65-4b40-8687-3781be026243",
-                "resourcePath": "datafiles_yy\\energy_32x32.png.yy",
+                "resourcePath": "datafiles_yy\\Gameplay\\energy_32x32.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -402,7 +410,7 @@
             "Key": "7ddc6622-c75f-4179-84c9-1e99c165ad21",
             "Value": {
                 "id": "070c0acb-ac8c-4962-a5d1-34e9eeff7cb3",
-                "resourcePath": "datafiles_yy\\left_472x720.png.yy",
+                "resourcePath": "datafiles_yy\\Gameplay\\left_472x720.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -447,19 +455,27 @@
             }
         },
         {
+            "Key": "91d9f495-fd2d-4b86-8780-2b3faf50326f",
+            "Value": {
+                "id": "463a8fd1-6569-4d80-9904-05a92ef3a338",
+                "resourcePath": "datafiles_yy\\ach_0_64x64.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "932f3379-1d1b-497c-b1a8-08fd42c7a320",
+            "Value": {
+                "id": "74e578dd-ceaf-46b1-aff5-dded976af624",
+                "resourcePath": "datafiles_yy\\ach_1_64x64.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "9520ef3f-3d7b-43a4-a49f-44767a20dc32",
             "Value": {
                 "id": "b453560f-6331-4cc0-9589-6ef46050ea62",
                 "resourcePath": "views\\9520ef3f-3d7b-43a4-a49f-44767a20dc32.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "9df25f51-1844-41d3-a981-c289f75f40c3",
-            "Value": {
-                "id": "088b2b86-d6f6-485c-8766-f3c1aa29cfa3",
-                "resourcePath": "datafiles_yy\\sprite_settings.ini.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -498,7 +514,7 @@
             "Key": "af42fbd5-66cb-41f7-b2d6-0ca72d82d966",
             "Value": {
                 "id": "ccef2229-1579-4c45-83e4-c458c57b432d",
-                "resourcePath": "datafiles_yy\\bottom_336x104.png.yy",
+                "resourcePath": "datafiles_yy\\Gameplay\\bottom_336x104.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -522,7 +538,7 @@
             "Key": "b7aa6e98-7895-4967-b821-f42bfa33b226",
             "Value": {
                 "id": "60238305-cde8-43a1-b3b7-94c7b4c1c18f",
-                "resourcePath": "datafiles_yy\\right_472x720.png.yy",
+                "resourcePath": "datafiles_yy\\Gameplay\\right_472x720.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -618,7 +634,7 @@
             "Key": "dcb9650a-e818-4006-b898-971814578881",
             "Value": {
                 "id": "46d46d38-c302-4732-a98c-fdcfe4eed88a",
-                "resourcePath": "datafiles_yy\\funny_finger_32x512.png.yy",
+                "resourcePath": "datafiles_yy\\Gameplay\\funny_finger_32x512.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -695,10 +711,18 @@
             }
         },
         {
+            "Key": "f8dca17f-0855-44b2-952d-224a7a2b915d",
+            "Value": {
+                "id": "9cbe1a12-35c3-45e1-b29d-26bfbbbb00e5",
+                "resourcePath": "views\\f8dca17f-0855-44b2-952d-224a7a2b915d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "fbb12142-06e2-4f59-af36-7ffa07ae231b",
             "Value": {
                 "id": "a704834a-ad58-4219-b275-c3b0edc6e9cd",
-                "resourcePath": "datafiles_yy\\danger_danger_32x512.png.yy",
+                "resourcePath": "datafiles_yy\\Gameplay\\danger_danger_32x512.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },

@@ -107,7 +107,7 @@ Feb 27
 	- DONE accessible from main menu
 	- DONE header: "ACHIEVEMENTS"
 	- lists achievements
-		- icon (grayed out if locked)
+		- DONE icon (grayed out if locked)
 		- description (grayed out if locked)
 
 	
@@ -142,4 +142,5 @@ Feb 27
 	- display this high score in score readout
 	- do nothing on Cashout input if user's current score is below their high score
 
-
+- add checks so that game does not break if any sprite asset is not available or misnamed
+- 
