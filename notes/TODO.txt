@@ -101,7 +101,7 @@ Feb 27
 	- when coming from title screen, show top overall scores
 	- when coming from Cashout, show around-user scores
 	- 10 results per page
-	- Q / P to switch between overall / around-user / friends modes
+	- DONE Q / P to switch between overall / around-user / friends modes
 	- W / O to switch between pages
 	- DONE menu with
 		DONE Play
