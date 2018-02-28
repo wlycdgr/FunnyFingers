@@ -1,63 +1,49 @@
 // Core Mechanics 
 #macro core_enemy_speed_per_sec_min_default 125
-global.core_enemy_speed_per_sec_min = core_enemy_speed_per_sec_min_default;
-
+global.core_enemy_speed_per_sec_min = 
+	core_enemy_speed_per_sec_min_default;
 #macro core_enemy_speed_per_sec_max_default 175
-global.core_enemy_speed_per_sec_max = core_enemy_speed_per_sec_max_default;
-
-
-
+global.core_enemy_speed_per_sec_max = 
+	core_enemy_speed_per_sec_max_default;
 #macro core_energy_speed_per_sec_min_default 225
-global.core_energy_speed_per_sec_min = core_energy_speed_per_sec_min_default;
-
+global.core_energy_speed_per_sec_min = 
+	core_energy_speed_per_sec_min_default;
 #macro core_energy_speed_per_sec_max_default 275
-global.core_energy_speed_per_sec_max = core_energy_speed_per_sec_max_default;
-
-
-
+global.core_energy_speed_per_sec_max = 
+	core_energy_speed_per_sec_max_default;
 #macro core_enemy_minimum_period_in_sec_default 1.25
-global.core_enemy_minimum_period_in_sec = core_enemy_minimum_period_in_sec_default;
-
+global.core_enemy_minimum_period_in_sec = 
+	core_enemy_minimum_period_in_sec_default;
 #macro core_enemy_maximum_period_in_sec_default 1.5
-global.core_enemy_maximum_period_in_sec = core_enemy_maximum_period_in_sec_default;
-
-
-
+global.core_enemy_maximum_period_in_sec = 
+	core_enemy_maximum_period_in_sec_default;
 #macro core_energy_minimum_period_in_sec_default 0.75
-global.core_energy_minimum_period_in_sec = core_energy_minimum_period_in_sec_default;
-
+global.core_energy_minimum_period_in_sec = 
+	core_energy_minimum_period_in_sec_default;
 #macro core_energy_maximum_period_in_sec_default 1.25
-global.core_energy_maximum_period_in_sec = core_energy_maximum_period_in_sec_default;
-
-
-
+global.core_energy_maximum_period_in_sec = 
+	core_energy_maximum_period_in_sec_default;
 #macro core_funny_finger_move_time_in_sec_default 0.1
-global.core_funny_finger_move_time_in_sec = core_funny_finger_move_time_in_sec_default;
-
-
-
+global.core_funny_finger_move_time_in_sec = 
+	core_funny_finger_move_time_in_sec_default;
 #macro core_funny_finger_shrink_per_sec_x_1000_default 35
 global.core_funny_finger_shrink_per_sec_x_1000 = 
 	core_funny_finger_shrink_per_sec_x_1000_default;
-	
-	
-	
 #macro core_funny_finger_starting_life_x_100_default 25
 global.core_funny_finger_starting_life_x_100 = 
 	core_funny_finger_starting_life_x_100_default;
-	
-	
-
 #macro core_energy_value_x_100_default 15
-global.core_energy_value_x_100 = core_energy_value_x_100_default;
-
-
-
+global.core_energy_value_x_100 = 
+	core_energy_value_x_100_default;
 #macro core_funny_finger_grow_time_in_sec_default 0.25
-global.core_funny_finger_grow_time_in_sec = core_funny_finger_grow_time_in_sec_default;
+global.core_funny_finger_grow_time_in_sec = 
+	core_funny_finger_grow_time_in_sec_default;
 // /Core Mechanics
 
 
+// Steam
+#macro steam_high_scores_table_name "High Scores"
+// /Steam
 
 
 #macro not_set -12345

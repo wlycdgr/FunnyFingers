@@ -13,3 +13,5 @@ menu_selection_made = false;
 tabs_item_index = 0;
 tabs_item_labels = ["Overall", "Around you", "Friends"];
 tabs_item_count = array_length_1d(tabs_item_labels);
+
+event_user(0); // load scores for selected tab
