@@ -97,10 +97,10 @@ Feb 27
 	- 10 results per page
 	- Q / P to switch between overall / around-user / friends modes
 	- W / O to switch between pages
-	- menu with
-		Play
-		Title
-	- standard arrow keys controls for menu	
+	- DONE menu with
+		DONE Play
+		DONE Title
+	- DONE standard arrow keys controls for menu	
 	
 - implement Cashout logic
 	- DONE user's score is uploaded to steam leaderboard on choosing Cashout in Pause menu

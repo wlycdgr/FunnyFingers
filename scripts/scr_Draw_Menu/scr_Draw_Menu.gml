@@ -4,6 +4,7 @@
 // @param menu_item_labels An array of menu item label strings
 
 draw_set_font(global.font_menu_item);
+
 for (var i = 0; i < argument1; i++) {
 	if (i == argument0) { draw_set_color(menu_color_selected); }
 	else { draw_set_color(menu_color_unselected); }
@@ -15,3 +16,5 @@ for (var i = 0; i < argument1; i++) {
 		item_label
 	);
 }
+
+draw_set_color(c_black);

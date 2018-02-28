@@ -9,5 +9,3 @@ draw_text(
 );
 
 scr_Draw_Menu(menu_item_index, menu_item_count, menu_item_labels);
-
-draw_set_color(c_black);
