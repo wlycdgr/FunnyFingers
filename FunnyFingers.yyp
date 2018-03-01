@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "c51897f5-6bc6-4561-acad-2aff6a162c8a",
+            "Value": {
+                "id": "bf99c026-3bce-4fa5-81fa-d41233efe760",
+                "resourcePath": "scripts\\scr_Toggle_Steam_Achievement\\scr_Toggle_Steam_Achievement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c75a445c-dd5a-4329-a649-348592ff7c74",
             "Value": {
                 "id": "d8bdd2ac-22d7-4af5-847d-e339afde3116",
@@ -785,7 +793,8 @@
         "2f8b3a73-a1bd-4cdd-97e9-ebee3c55fa5a",
         "600eb0e0-f46f-49eb-ab0c-c445545d7641",
         "da3cb6d4-afac-4fc1-9e18-e6d83f23353a",
-        "160e62ba-dc18-468a-a128-4a9334c15b2f"
+        "160e62ba-dc18-468a-a128-4a9334c15b2f",
+        "c51897f5-6bc6-4561-acad-2aff6a162c8a"
     ],
     "tutorial": ""
 }

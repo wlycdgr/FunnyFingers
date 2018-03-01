@@ -108,7 +108,7 @@ Feb 27
 	- DONE header: "ACHIEVEMENTS"
 	- lists achievements
 		- DONE icon (grayed out if locked)
-		- description (grayed out if locked)
+		- DONE description (grayed out if locked)
 
 	
 

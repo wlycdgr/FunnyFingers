@@ -15,3 +15,13 @@ draw_text(5, 535, "current_language: " + current_language);
 draw_text(5, 550, "available_languages: " + available_languages);
 
 draw_text(5, 580, "stat_test_1: " + string(stat_test_1));
+
+draw_text(5, 610, "STEAM ACHIEVEMENTS (Ctrl + A + # to toggle)");
+draw_text(
+	5, 625, "QWEIOP: " + 
+	scr_bool2str(ds_map_find_value(achievement_states, "ach_0_qweiop"))
+);
+draw_text(
+	5, 640, "Qualifier: " + 
+	scr_bool2str(ds_map_find_value(achievement_states, "ach_1_qualifier"))
+);
