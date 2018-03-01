@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "151db787-eb52-479e-8be9-a2a37de47a5d",
+            "Value": {
+                "id": "222623b7-016b-4713-88ca-7809ae4fe896",
+                "resourcePath": "datafiles_yy\\AchievementIcons\\ach_unlocked_0_64x64.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "15b4cf25-9b66-449e-a5fa-426bc26fc652",
             "Value": {
                 "id": "c5571139-85f2-40ef-9e90-1ad5ff67327d",
@@ -83,6 +91,14 @@
             "Value": {
                 "id": "99f43d35-60aa-4fdc-a480-1cf2c042e27c",
                 "resourcePath": "views\\17cc19c2-581b-40e2-a60d-f5c7951ad7eb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "19d5470a-ba6e-4111-af7a-1f3d41c94883",
+            "Value": {
+                "id": "d4dea246-eb2e-4cc3-8433-7b92bb3b21c7",
+                "resourcePath": "views\\19d5470a-ba6e-4111-af7a-1f3d41c94883.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -431,11 +447,27 @@
             }
         },
         {
+            "Key": "8153d837-f06f-42d6-94ed-8ead957b0860",
+            "Value": {
+                "id": "ef5115cc-d8e8-41c6-98d0-4ad56c594a2d",
+                "resourcePath": "datafiles_yy\\AchievementIcons\\ach_locked_1_64x64.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "815a1e41-c8e8-4e4c-b4fa-6624bd98579f",
             "Value": {
                 "id": "ce454164-5192-4bce-beb8-3d9f0ddd9051",
                 "resourcePath": "objects\\obj_Billboard\\obj_Billboard.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "852196a7-f1b4-40aa-9a2f-b1b73832da59",
+            "Value": {
+                "id": "bc1a9c50-2baf-44ab-bec7-8e3495c5ada4",
+                "resourcePath": "datafiles_yy\\AchievementIcons\\ach_locked_0_64x64.jpg.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -451,22 +483,6 @@
             "Value": {
                 "id": "46a607ea-b729-4642-aec1-f47f87712dad",
                 "resourcePath": "datafiles_yy\\nyu_incubator_logo.jpg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "91d9f495-fd2d-4b86-8780-2b3faf50326f",
-            "Value": {
-                "id": "463a8fd1-6569-4d80-9904-05a92ef3a338",
-                "resourcePath": "datafiles_yy\\ach_0_64x64.jpg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "932f3379-1d1b-497c-b1a8-08fd42c7a320",
-            "Value": {
-                "id": "74e578dd-ceaf-46b1-aff5-dded976af624",
-                "resourcePath": "datafiles_yy\\ach_1_64x64.jpg.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -583,6 +599,14 @@
             }
         },
         {
+            "Key": "c7a94611-47cf-41ec-a87e-c946e6ca7f84",
+            "Value": {
+                "id": "97ac5322-6151-493e-bb0e-763e9255ac87",
+                "resourcePath": "datafiles_yy\\sprite_settings.ini.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "cab799ce-8d74-4a49-8d5c-cac01986cb64",
             "Value": {
                 "id": "c94351f8-d802-406a-8c80-fd67ccf4c8a1",
@@ -628,6 +652,14 @@
                 "id": "3302bf60-da05-4ce0-957a-f7cdc5fc2fd7",
                 "resourcePath": "scripts\\scr_Init_Header\\scr_Init_Header.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "daa54d73-f8bc-403f-9538-f84656506b94",
+            "Value": {
+                "id": "7bacb75e-3702-476b-88da-06a0303c88cf",
+                "resourcePath": "datafiles_yy\\AchievementIcons\\ach_unlocked_1_64x64.jpg.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {

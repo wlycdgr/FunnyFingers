@@ -2,5 +2,6 @@
 * qualifier (achieve a score of 10k+, which qualifies you for the main leaderboard)
 * triple up (cash out successfully with at least 3x current high score, previous high score
 must be qualifier or better)
-
+* best friend (have the highest score on a 10+ person friend leaderboard)
+* one shot (you posted a score to the One Shot leaderboard. One shot to get your best combined 3 run score in a single session).
 * multitable (achieve a score of 10k+ while playing two playfields)
