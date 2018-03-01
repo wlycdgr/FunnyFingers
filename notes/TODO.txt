@@ -102,15 +102,52 @@ Feb 27
 		DONE Title
 	- DONE standard arrow keys controls for menu	
 
-
-- implement achievement screen
+Feb 28:
+- DONE implement achievement screen
 	- DONE accessible from main menu
 	- DONE header: "ACHIEVEMENTS"
-	- lists achievements
-		- DONE icon (grayed out if locked)
-		- DONE description (grayed out if locked)
+	- DONE lists achievements
+		- DONE 'locked' version of icon used if achievement is not locked
+		- DONE 'unlocked' version of icon user if achievement is not unlocked
+		- DONE description
+- DONE create leaderboards on Steam:
+	DONE cool
+	DONE easy
+	DONE medium
+	DONE hard
+	DONE difficult
+	DONE one shot
 
-	
+- implement controls tutorial being the only thing you can do until you complete it, at the beginning
+
+- implement Cool (1 avatar) / Easy (2 avatars) / Medium (3 avatars) / Hard ( 4 avatars) / Difficult (5 avatars)
+	- implement easy & medium
+		- title/Play -> difficulty select menu on same screen
+		
+- implement sweet spot mechanic
+- implement one shot mode:
+	- 3 avatars
+	- preset sequence, same for everyone
+	- different sequence for each of the three runs
+
+
+
+- design the achievements
+	- DONE "QWEIOP" complete controls tutorial.
+	- "The Dabbler" score 5k on easy, qualifying for the Easy leaderboard
+	- DONE "Qualifier" score 10k on medium, qualifying for the Medium leaderboard
+	- "Up And Comer" score 20k on hard, qualifying for the Hard leaderboard
+	- "Fignermukcre" score 30k on fignermukcre, qualifying for the Fignermukcre leaderboard
+	- "Triple Up" cashout at 3x+ current high score. Minimum 10k -> 30k
+	- "I Coulda Been A Contender" you attempted a One Shot / medium but failed to qualify for the leaderboard
+		(one chance to get highest combined three run score)
+	- "Best Friend" have highest score on a friend leaderboard with 9+ entries (save for an update?)
+	- "Fenix Fingers" 10x sweet spots in a row
+	- "The Score Is Right" submit a score 1 more than your previous high score
+	- "A Longest Word" spell a ten letter word with your inputs 
+		TYPEWRITER, PEPPERROOT, PEPPERWORT, PERPETUITY, PEWTERWORT, 
+		PIROUETTER, PREREQUIRE, PRETORTURE, PROPRIETOR, REPERTOIRE, 
+		REPETITORY, TETTERWORT
 
 - implement sound placeholders
 	
@@ -123,12 +160,6 @@ Feb 27
 - implement support for Steam screenshots 
 (through steam_is_screenshot_requested and steam_send_screenshot)
 
-	
-- iterate on score system
-	- lose 1 point (lose combo?) for each invalid move
-	- link moves together for bonus?
-	- DONE cash out in pause screen to lock down score
-	- DONE if you die instead, you get no points :( hehehhehehe
 
 - change cash out flow
 	- Space during gameplay brings up Are You Sure? cashout menu
@@ -143,4 +174,3 @@ Feb 27
 	- do nothing on Cashout input if user's current score is below their high score
 
 - add checks so that game does not break if any sprite asset is not available or misnamed
-- 
