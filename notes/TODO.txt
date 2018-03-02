@@ -125,12 +125,33 @@ March 1
 	- DONE add placeholder icons
 	- load and display all the placeholders in game
 
-- implement controls tutorial being the only thing you can do until you complete it, at the beginning
+March 2
+
+
+
+
+- change cash out flow
+	- Space during gameplay brings up Are You Sure? cashout menu
+	- Score ticks down on this menu
+	- Options are Yes / No
+	- Defaults to Yes
+	- Tapping Space again cashes out (or possibly it's one key for Yes and another for No)
+	
+- add stat tracking for achievements that need it
+	- The Dabbler / best_score_so_far_easy
+	- The Qualifier / best_score_so_far_medium
+	- The Up And Comer / best_score_so_far_hard
+	- Fignermukcre / best_score_so_far_fignermukcre
+	- Triple Up / best_qualifying_cashout_multiple_so_far
+	- Fenix Fingers / best_sweet_spots_run_so_far
+	- Level 99 / lifetime_cool_points_total
 
 - implement Cool (1 avatar) / Easy (2 avatars) / Medium (3 avatars) / Hard ( 4 avatars) / Difficult (5 avatars)
 	- implement easy & medium
 		- title/Play -> difficulty select menu on same screen
-		
+
+- implement tutorial being the only thing you can do until you complete it, at the beginning
+
 - implement sweet spot mechanic
 - implement one shot mode:
 	- 3 avatars
@@ -144,27 +165,16 @@ March 1
 	
 
 - implement sound placeholders
-	
-- implement test achievement
-	- user scores 10 points
-	
-- implement "Level 99"
-	- shows the CirclMaster quote when  you hit it
-	"Life does not have inherent meaning; to say that our lives are pointless and our achievements meaningless is to state the obvious. No matter how grand our achievements or how broad their scope, time turns all to dust and death destroys all memory. But that does not mean we cannot ascribe our own meaning to what we do. It is because nothing has meaning unto itself that we are free to create meaning, to make metaphor, and in doing so reflect on ourselves and our world.
 
-Leveling to 99 in the first reactor is pointless and meaningless. So why do I do it? I do it to express my hatred, and more importantly my disdain, for Dick Tree. I do it to express the camaraderie I feel for those of us who have followed this topic for years only to be disappointed by [Dick Tree]. I do it to prove to myself that I can persevere. The act is meaningless; I give it meaning." - CirclMaster
+- implement "Level 99" text pop
+	- shows the CirclMaster quote when  you hit it
 	
 
 - implement support for Steam screenshots 
 (through steam_is_screenshot_requested and steam_send_screenshot)
 
 
-- change cash out flow
-	- Space during gameplay brings up Are You Sure? cashout menu
-	- Score ticks down on this menu
-	- Options are Yes / No
-	- Defaults to Yes
-	- Tapping Space again cashes out (or possibly it's one key for Yes and another for No)
+
 
 - only let user cash out high score
 	- before a game starts, get player's high score
