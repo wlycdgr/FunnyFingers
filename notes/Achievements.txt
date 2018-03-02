@@ -1,27 +1,17 @@
-* qweiop (beat tutorial and demonstrate understanding of controls)
-* qualifier (achieve a score of 10k+, which qualifies you for the main leaderboard)
-* triple up (cash out successfully with at least 3x current high score, previous high score
-must be qualifier or better)
-* best friend (have the highest score on a 10+ person friend leaderboard)
-* one shot (you posted a score to the One Shot leaderboard. One shot to get your best combined 3 run score in a single session).
-* LATER multitable (achieve a score of 10k+ while playing two playfields)
-* fenix fingers (10x sweet spots in a row)
-* 
-
-
+- design the achievements
 	- DONE "QWEIOP" complete controls tutorial.
 	- "The Dabbler" score 5k on easy, qualifying for the Easy leaderboard
 	- DONE "Qualifier" score 10k on medium, qualifying for the Medium leaderboard
 	- "Up And Comer" score 20k on hard, qualifying for the Hard leaderboard
 	- "Fignermukcre" score 30k on fignermukcre, qualifying for the Fignermukcre leaderboard
-	- "Triple Up" cashout at 3x+ current high score. Minimum 10k -> 30k
+	- "Triple Up" cashout on Medium at 3x+ current high score. Minimum 10k -> 30k
 	- "I Coulda Been A Contender" you attempted a One Shot / medium but failed to qualify for the leaderboard
 		(one chance to get highest combined three run score)
-	- "Best Friend" have highest score on a friend leaderboard with 9+ entries (save for an update?)
+	- "Best Friend" have highest score on a friend leaderboard with 9+ entries
 	- "Fenix Fingers" 10x sweet spots in a row
 	- "The Score Is Right" submit a score 1 more than your previous high score
 	- "A Longest Word" spell a ten letter word with your inputs 
 		TYPEWRITER, PEPPERROOT, PEPPERWORT, PERPETUITY, PEWTERWORT, 
 		PIROUETTER, PREREQUIRE, PRETORTURE, PROPRIETOR, REPERTOIRE, 
 		REPETITORY, TETTERWORT
-	- "Level 99" accumulate a total of 2,452,814 points across all playthroughs
+	- "Level 99" accumulate a lifetime total of 2,452,814 points on Easy

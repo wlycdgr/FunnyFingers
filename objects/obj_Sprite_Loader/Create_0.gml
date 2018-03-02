@@ -11,6 +11,7 @@ top_mask_frames = ini_read_real("frame_counts", "top", 1);
 left_side_frames = ini_read_real("frame_counts", "left", 1);
 right_side_frames = ini_read_real("frame_counts", "right", 1);
 danger_danger_frames = ini_read_real("frame_count", "danger_danger", 1);
+ach_icon_frames = ini_read_real("frame_count", "ach_icon", 1);
 
 logo_framerate = ini_read_real("framerates", "logo", 16);
 title_framerate = ini_read_real("framerates", "title", 16);
@@ -23,11 +24,7 @@ top_framerate = ini_read_real("framerates", "top", 16);
 left_framerate = ini_read_real("framerates", "left", 16);
 right_framerate = ini_read_real("framerates", "right", 16);
 danger_danger_framerate = ini_read_real("framerates", "right", 16);
-
-for (var i = 0; i < steam_achievement_count; i++) {
-	ach_framess[i] = ini_read_real("frame_count", "ach_" + string(i), 1);
-	ach_framerates[i] = ini_read_real("framerates", "ach_" + string(i), 16);
-}
+ach_icon_framerate = ini_read_real("framerates", "ach_icon", 16);
 ini_close();
 
 
@@ -58,13 +55,23 @@ sprite_set_speed(danger_danger_sprite, danger_danger_framerate, spritespeed_fram
 
 var filename = "";
 for (var i = 0; i < steam_achievement_count; i++) {
-	filename = "AchievementIcons/ach_locked_" + string(i) + "_64x64.jpg";
+	filename = "AchievementIcons/ach_" + string(i) + "_locked_64x64.jpg";
 	ach_locked_sprites[i] = 
-		sprite_add(filename, ach_framess[i], false, false, 0, 0);
+		sprite_add(filename, ach_icon_frames, false, false, 0, 0);
+	sprite_set_speed(
+		ach_locked_sprites[i], 
+		ach_icon_framerate, 
+		spritespeed_framespersecond
+	);
 	
-	filename = "AchievementIcons/ach_unlocked_" + string(i) + "_64x64.jpg";
+	filename = "AchievementIcons/ach_" + string(i) + "_unlocked_64x64.jpg";
 	ach_unlocked_sprites[i] = 
-		sprite_add(filename, ach_framess[i], false, false, 0, 0);
+		sprite_add(filename, ach_icon_frames, false, false, 0, 0);
+	sprite_set_speed(
+		ach_unlocked_sprites[i],
+		ach_icon_framerate,
+		spritespeed_framespersecond
+	);
 }
 
 
