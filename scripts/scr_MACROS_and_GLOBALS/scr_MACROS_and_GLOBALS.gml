@@ -77,27 +77,32 @@ global.core_funny_finger_grow_time_in_sec =
 #macro score_color c_black
 #macro score_valid_move_base_value 100
 #macro score_grow_to_target_per_frame 10
-#macro score_pause_penalty_per_frame 1
+#macro score_cashout_dialogue_penalty_per_frame 1
 
-#macro ribbon_menu_y 180
-#macro ribbon_menu_width window_width
-#macro ribbon_menu_height 360
-#macro ribbon_menu_slide_in_speed_in_pixels_per_frame (2 * (window_width / game_fps))
-#macro ribbon_menu_slide_out_speed_in_pixels_per_frame (2 * ribbon_menu_slide_in_speed_in_pixels_per_frame)
+#macro sliding_ribbon_y 180
+#macro sliding_ribbon_width window_width
+#macro sliding_ribbon_height 360
+#macro sliding_ribbon_slide_in_speed_in_pixels_per_frame (2 * (window_width / game_fps))
+#macro sliding_ribbon_slide_out_speed_in_pixels_per_frame (2 * sliding_ribbon_slide_in_speed_in_pixels_per_frame)
+#macro srs_inactive 0
+#macro srs_sliding_in 1
+#macro srs_ready 2
+#macro srs_selection_made 3
+#macro srs_sliding_out 4
+
 #macro menu_color_selected c_red
 #macro menu_color_unselected c_black
-#macro rms_inactive 0
-#macro rms_sliding_in 1
-#macro rms_in_place_and_active 2
-#macro rms_selection_made 3
-#macro rms_sliding_out 4
+#macro menu_halign fa_center
+#macro menu_vertical_spacing 35
 
-#macro gs_playing 0
-#macro gs_paused 1
-#macro gs_game_over 2
+#macro gs_cashed_out 0
+#macro gs_cashout_dialogue 1
+#macro gs_fading_in 2
 #macro gs_fading_out 3
-#macro gs_fading_in 4
-#macro gs_restarting 5
+#macro gs_game_over 4
+#macro gs_playing 5
+#macro gs_restarting 6
+#macro gs_viewing_high_scores 7
 
 #macro fs_inactive 0
 #macro fs_fading_in 1

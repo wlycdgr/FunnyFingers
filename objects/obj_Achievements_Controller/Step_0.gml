@@ -1,4 +1,7 @@
 /// @description Update
-if (menu_selection_made) exit;
+if (!menu.active) exit;
 
-scr_Update_Menu(id);
+scr_Menu_Scroll(menu);
+if (scr_Menu_Selection_Made(menu)) {
+	scr_Menu_Act_On_Selection(menu);
+}

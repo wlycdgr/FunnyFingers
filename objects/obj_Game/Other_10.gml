@@ -1,3 +1,3 @@
 /// @description On game over
-with (game_over_menu) { event_user(0); }
+with (game_over_sliding_ribbon) { event_user(0); }
 state = gs_game_over;

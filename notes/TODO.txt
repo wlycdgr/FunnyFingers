@@ -131,11 +131,12 @@ March 2
 
 
 - change cash out flow
-	- Space during gameplay brings up Are You Sure? cashout menu
-	- Score ticks down on this menu
-	- Options are Yes / No
-	- Defaults to Yes
-	- Tapping Space again cashes out (or possibly it's one key for Yes and another for No)
+	- Space during gameplay brings up Cashout? menu
+	- Score ticks down while on this menu
+	- Options are LEFT for Yes, RIGHT for No
+	- Readout: Score: [score] / [high score] : Current High Score
+		- bright if will be new high score
+		- dark if will not be new high score
 	
 - add stat tracking for achievements that need it
 	- The Dabbler / best_score_so_far_easy

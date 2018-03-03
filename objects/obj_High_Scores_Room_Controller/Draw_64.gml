@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // draw HEADER
-scr_Draw_Header(id);
+scr_String_Draw(header);
 
 // draw TABS
 draw_set_font(global.font_menu_header);
@@ -42,4 +42,5 @@ with (global.steam){
 		);
 	}
 }
-scr_Draw_Menu(menu_item_index, menu_item_count, menu_item_labels);
+
+scr_Menu_Draw(menu);

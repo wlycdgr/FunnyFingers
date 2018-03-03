@@ -39,7 +39,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "GameOverMenu",
+            "name": "Menus",
             "id": "349471cd-76ae-4aaf-ac3a-ae8cb2b1db5a",
             "depth": 100,
             "grid_x": 32,
@@ -65,8 +65,8 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "PauseMenu",
-            "id": "7b595185-0e66-4474-93ea-76157a55995f",
+            "name": "SlidingRibbons",
+            "id": "e3f3abb3-321f-4157-95a3-47e616eee634",
             "depth": 200,
             "grid_x": 32,
             "grid_y": 32,

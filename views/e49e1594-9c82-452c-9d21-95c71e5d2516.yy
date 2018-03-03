@@ -4,12 +4,13 @@
     "mvc": "1.1",
     "name": "e49e1594-9c82-452c-9d21-95c71e5d2516",
     "children": [
-        "ccbf717e-0869-4340-a47f-ce70c128444a",
         "64a9aeb5-2aec-4b05-bbd9-b466bf445015",
-        "ac389a72-c67f-4309-a6bf-dfb476fba42e"
+        "ac389a72-c67f-4309-a6bf-dfb476fba42e",
+        "568d9ab1-b053-4b6e-baf7-c787719a357f",
+        "e47158dc-bbe9-47ae-ab31-a394cf626d7c"
     ],
     "filterType": "GMObject",
-    "folderName": "Ribbon_Menus",
+    "folderName": "Sliding_Ribbons",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

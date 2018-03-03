@@ -1,19 +1,27 @@
 /// @description Update based on state
 
 switch (state) {
-case gs_game_over:
-	if (rms_selection_made == game_over_menu.state) {
-		scr_Handle_Ribbon_Menu_Selection(game_over_menu);
+case gs_cashed_out:
+	if (srs_inactive == cashout_dialogue_sliding_ribbon.state) {
+		with (high_scores_sliding_ribbon) { event_user(0); }
+		state = gs_viewing_high_scores;
 	}
 	break;
-
-case gs_paused:
-	if (global.game_score > global.target_score) {
-		global.game_score -= score_pause_penalty_per_frame;
-	}
 	
-	if (rms_selection_made == pause_menu.state) {
-		scr_Handle_Ribbon_Menu_Selection(pause_menu);
+case gs_cashout_dialogue:
+	global.game_score = max(
+		global.target_score,
+		global.game_score - score_cashout_dialogue_penalty_per_frame
+	);
+
+	if (srs_selection_made == cashout_dialogue_sliding_ribbon.state) {
+		scr_Menu_Act_On_Selection(cashout_dialogue_sliding_ribbon.menu);
+	}
+	break;
+	
+case gs_game_over:
+	if (srs_selection_made == game_over_sliding_ribbon.state) {
+		scr_Menu_Act_On_Selection(game_over_sliding_ribbon.menu);
 	}
 	break;
 	
@@ -25,16 +33,23 @@ case gs_playing:
 		if (playfields[i].has_unfunny_finger) 
 			{ event_user(0); } // on game over
 	}
-	if (keyboard_check_pressed(vk_enter)) 
-		{ event_user(1); } // on pause
+	if (global.input_tracker.is_cashout_dialogue_pressed) 
+		{ event_user(1); } // on cashout dialogue request
 	break;
 		
 case gs_restarting:
 	if (
-		rms_inactive == game_over_menu.state &&
-		rms_inactive == pause_menu.state
+		srs_inactive == game_over_sliding_ribbon.state &&
+		srs_inactive == cashout_dialogue_sliding_ribbon.state &&
+		srs_inactive == high_scores_sliding_ribbon.state
 	) {
 		room_restart();
+	}
+	break;
+	
+case gs_viewing_high_scores:
+	if (srs_selection_made == high_scores_sliding_ribbon.state) {
+		scr_Menu_Act_On_Selection(high_scores_sliding_ribbon.menu);
 	}
 	break;
 }

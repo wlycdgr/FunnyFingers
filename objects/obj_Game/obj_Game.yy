@@ -85,7 +85,7 @@
             "m_owner": "0ac5f62d-3b3b-446f-93ce-b591a9476fee"
         },
         {
-            "id": "c79eeeef-83ba-4ef9-9b35-c57e2e415fcd",
+            "id": "0d8082ea-e80e-4d67-be32-4a9d87564473",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -112,34 +112,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "968f6a5f-b74f-4703-9ad6-d24703741369",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "instance_create_layer(window_width, ribbon_menu_y, \"GameOverMenu\", obj_Game_Over_Menu);",
-            "varName": "game_over_menu",
-            "varType": 4
-        },
-        {
-            "id": "a3ccbd39-7c10-4fda-b5b1-0d12d880ed66",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "instance_create_layer(window_width, ribbon_menu_y, \"PauseMenu\", obj_Pause_Menu);",
-            "varName": "pause_menu",
-            "varType": 4
-        },
         {
             "id": "76c23fb4-1145-4ec1-9fd0-5ff195e36b3b",
             "modelName": "GMObjectProperty",

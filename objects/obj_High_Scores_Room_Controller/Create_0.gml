@@ -1,7 +1,16 @@
-/// @description Insert description here
-// You can write your code in this editor
-scr_Init_Header(id, "High Scores");
-scr_Init_Menu(id, ["Play", "Achievements", "Title"]);
+/// @description Init
+header = scr_String_NEW(
+	"Instances",
+	window_x_center, playfield_y, fa_center,
+	"High Scores",
+	global.font_leaderboard_header,
+	c_black
+);
+
+menu = scr_Menu_NEW(
+	window_x_center, 550, 
+	["Play", "Achievements", "Title"]
+);
 
 tabs_item_index = 0;
 tabs_item_labels = ["Overall", "Around you", "Friends"];

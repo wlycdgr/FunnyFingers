@@ -1,7 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
-scr_Init_Header(id, "Achievements");
-scr_Init_Menu(id, ["Play", "High Scores", "Title"]);
+header = scr_String_NEW(
+	"Instances",
+	window_x_center, playfield_y, fa_center,
+	"Achievements",
+	global.font_leaderboard_header,
+	c_black
+);
+
+menu = scr_Menu_NEW(
+	window_x_center, 550,
+	["Play", "High Scores", "Title"]
+);
 
 var ach_steam_api_names = [
 	"ach_0_qweiop",
@@ -27,7 +37,6 @@ for (var i = 0; i < len; i++) {
 		ach_sprites[i] = global.sprites_and_fonts.ach_locked_sprites[i];
 	}
 }
-
 
 ach_titles = [
 	"QWEIOP",
