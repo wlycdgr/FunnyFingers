@@ -131,12 +131,39 @@ March 2
 
 
 - change cash out flow
-	- Space during gameplay brings up Cashout? menu
-	- Score ticks down while on this menu
-	- Options are LEFT for Yes, RIGHT for No
-	- Readout: Score: [score] / [high score] : Current High Score
-		- bright if will be new high score
-		- dark if will not be new high score
+	- Display score in the middle of the sliding ribbon menu, like so:
+		Score: [score, ticking down] / [high score] : Current High Score
+	- DONE Space during gameplay brings up Cashout? menu
+	- DONE Score ticks down while on this menu
+	- DONE Menu with the following options:
+		Cashout!
+		Continue
+		Exit To Title
+	- DONE 'Continue' just continues the game
+	- DONE 'Exit To Title' does just that
+	- Cashout!...
+		- ends current game
+		- submits high score
+		- DONE slides Cashout? menu away
+		- DONE slides in High Scores ribbon
+
+- implement High Scores ribbon
+	- DONE Menu with the following options:
+		Try Again
+		Exit To Title
+	- Displays around-user score with 10 entries
+	- Displays correct leaderboard
+
+- implement multiple difficulty levels
+	- Cool: 1 avatar, 12 columns
+	- Easy: 2 avatars, 6 columns
+	- Medium: 3 avatars, 7 columns
+	- Hard: 4 avatars, 9 columns
+	- Difficult: 5 avatars, 12 columns
+	
+	- On Main Menu, Play causes a new menu to display instead of going directly to gameplay screen
+	- The new menu has "Choose Difficulty" header
+	- The new menu has 5 options: Cool, Easy, Medium, Hard, Difficult
 	
 - add stat tracking for achievements that need it
 	- The Dabbler / best_score_so_far_easy
@@ -147,9 +174,7 @@ March 2
 	- Fenix Fingers / best_sweet_spots_run_so_far
 	- Level 99 / lifetime_cool_points_total
 
-- implement Cool (1 avatar) / Easy (2 avatars) / Medium (3 avatars) / Hard ( 4 avatars) / Difficult (5 avatars)
-	- implement easy & medium
-		- title/Play -> difficulty select menu on same screen
+
 
 - implement tutorial being the only thing you can do until you complete it, at the beginning
 
