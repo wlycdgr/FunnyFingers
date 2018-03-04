@@ -3,7 +3,7 @@ header = scr_String_NEW(
 	"Instances",
 	window_x_center, playfield_y, fa_center,
 	"High Scores",
-	global.font_leaderboard_header,
+	global.font_leaderboards_header,
 	c_black
 );
 

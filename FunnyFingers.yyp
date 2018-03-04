@@ -463,19 +463,19 @@
             }
         },
         {
+            "Key": "684a0ff3-dfcc-40b1-a242-f76de4dc0f65",
+            "Value": {
+                "id": "259f9c20-12a8-406f-8cbf-c95a2d2b4be8",
+                "resourcePath": "datafiles_yy\\title_sprite.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "69220b2d-0c6d-4305-8fd4-e18659fcdbdc",
             "Value": {
                 "id": "f3ed4e8a-033e-48fe-b651-59e6116a5b30",
                 "resourcePath": "rooms\\r_Init\\r_Init.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "6ed27370-bd48-4155-bfa2-b9efdc8ca7d9",
-            "Value": {
-                "id": "2094dd9c-1f38-4bcb-a119-bad56b42c038",
-                "resourcePath": "datafiles_yy\\title_800x300.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {

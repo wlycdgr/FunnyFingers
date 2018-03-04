@@ -128,6 +128,8 @@ March 1
 March 2
 
 
+March 4
+
 
 
 - change cash out flow
@@ -184,23 +186,13 @@ March 2
 	- preset sequence, same for everyone
 	- different sequence for each of the three runs
 
-
-
-
-
-	
-
 - implement sound placeholders
 
 - implement "Level 99" text pop
 	- shows the CirclMaster quote when  you hit it
 	
-
 - implement support for Steam screenshots 
 (through steam_is_screenshot_requested and steam_send_screenshot)
-
-
-
 
 - only let user cash out high score
 	- before a game starts, get player's high score
