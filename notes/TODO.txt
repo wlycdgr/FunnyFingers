@@ -140,8 +140,25 @@ March 4
 	- DONE Making a selection in this menu sets the global game settings and goes to gameplay
 	- DONE Game objects initialize themselves based on global game settings values
 	- DONE The new menu has 5 options: Cool, Easy, Medium, Hard, Difficult
+- DONE remove placeholder sprites in main gameplay screen
+- DOEN implement sweet spot mechanic
+	- DONE sweet spot counter displays below playfield
+	- DONE it has two ticks near the middle, the area between them is the sweet spot
+	- DONE a lil bigger tick travels back and forth across the counter
+	- DONE need to move while tick is in sweet spot to increase / maintain mutliplier
+	- DONE multiplier maxes out at (? 4 ? )  and stays maxed as long as you continue to hit sweet spot on each pass
+	- DONE the higher the multiplier, the faster the tick moves
+	- DONE failing to move successfully at least once during a sweet spot resets multiplier to 1
+	- DONE illegal move attempt resets multiplier
+	- DONE the score awarded for each successful move is multiplied by the multiplier
+	
 
-- remove placeholder sprites in main gameplay screen
+
+- implement one shot mode:
+	- 3 avatars
+	- preset sequence, same for everyone
+	- different sequence for each of the three runs
+- implement submission to the correct leaderboards, based on current difficulty
 
 - change cash out flow
 	- Display score in the middle of the sliding ribbon menu, like so:
@@ -167,16 +184,6 @@ March 4
 	- Displays around-user score with 10 entries
 	- Displays correct leaderboard
 
-- implement multiple difficulty levels
-	- Cool: 1 avatar, 12 columns
-	- Easy: 2 avatars, 6 columns
-	- Medium: 3 avatars, 7 columns
-	- Hard: 4 avatars, 9 columns
-	- Difficult: 5 avatars, 12 columns
-	
-	- On Main Menu, Play causes a new menu to display instead of going directly to gameplay screen
-	- The new menu has "Choose Difficulty" header
-	- The new menu has 5 options: Cool, Easy, Medium, Hard, Difficult
 	
 - add stat tracking for achievements that need it
 	- The Dabbler / best_score_so_far_easy
@@ -191,11 +198,7 @@ March 4
 
 - implement tutorial being the only thing you can do until you complete it, at the beginning
 
-- implement sweet spot mechanic
-- implement one shot mode:
-	- 3 avatars
-	- preset sequence, same for everyone
-	- different sequence for each of the three runs
+
 
 - implement sound placeholders
 

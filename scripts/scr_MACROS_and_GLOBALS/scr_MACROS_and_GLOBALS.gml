@@ -81,9 +81,9 @@ global.core_funny_finger_grow_time_in_sec =
 #macro half_of_width_difference_with_column 8
 
 #macro score_color c_black
-#macro score_valid_move_base_value 100
-#macro score_grow_to_target_per_frame 10
-#macro score_cashout_dialogue_penalty_per_frame 1
+#macro score_valid_move_base_value 25
+#macro score_grow_to_target_per_frame 1
+#macro score_cashout_dialogue_penalty_per_frame 0.1
 
 #macro sliding_ribbon_y 180
 #macro sliding_ribbon_width window_width
@@ -114,3 +114,15 @@ global.core_funny_finger_grow_time_in_sec =
 #macro fs_fading_in 1
 #macro fs_fading_out 2
 #macro fs_done 3
+
+#macro marker_max_seconds_to_cross 5.0
+#macro marker_min_seconds_to_cross 2.0
+#macro marker_sweet_spot_counter_min 1
+#macro marker_sweet_spot_counter_max 4
+#macro marker_time_to_cross_in_seconds_reduction_for_successful_sweet_spot_move 1.0
+
+#macro ssb_max_multiplier 4
+#macro ssb_min_multiplier 1
+#macro ssb_max_seconds_for_marker_to_cross 5.0
+#macro ssb_min_seconds_for_marker_to_cross 2.0
+#macro ssb_marker_time_to_cross_reduction_in_seconds_for_successful_sweet_spot_move 1.0

@@ -39,3 +39,5 @@ for (var i = 0; i < global.game_settings.funny_finger_count; i++){
 energy_generator.playfield = id;
 
 enemy_generator.playfield = id;
+
+sweet_spot_bar = scr_Sweet_Spot_Bar_NEW(id);

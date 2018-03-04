@@ -639,6 +639,14 @@
             }
         },
         {
+            "Key": "a42faca6-7d96-4868-b0cb-464449307b68",
+            "Value": {
+                "id": "38107c7d-4b0a-4f06-95de-487268e460e3",
+                "resourcePath": "scripts\\scr_Sweet_Spot_Bar_NEW\\scr_Sweet_Spot_Bar_NEW.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a43486dc-bd3f-4e97-9e9d-c2818d636d5e",
             "Value": {
                 "id": "c40ee7e3-0317-45f3-a2aa-357d9c95c072",
@@ -863,6 +871,14 @@
             }
         },
         {
+            "Key": "d7a7aacb-d7d7-4c4a-aada-d790ae10a5a4",
+            "Value": {
+                "id": "0359273e-b3d2-447f-a588-e638505d0d3b",
+                "resourcePath": "objects\\obj_Sweet_Spot_Bar\\obj_Sweet_Spot_Bar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dc31b76b-08f3-4b48-ac64-65a04cecb510",
             "Value": {
                 "id": "4b197b08-dfa3-430e-b03d-fc77a0584a37",
@@ -1054,7 +1070,8 @@
         "8e080a33-821f-47d0-953d-6a0ce92cbccc",
         "0d58728d-082f-42e6-8614-f0e23f133cac",
         "c51897f5-6bc6-4561-acad-2aff6a162c8a",
-        "6cd67805-f2ae-40b0-a142-766f4e5fb59d"
+        "6cd67805-f2ae-40b0-a142-766f4e5fb59d",
+        "a42faca6-7d96-4868-b0cb-464449307b68"
     ],
     "tutorial": ""
 }
