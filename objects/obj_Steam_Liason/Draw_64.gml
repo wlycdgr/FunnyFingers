@@ -1,6 +1,8 @@
 /// @description Draw steam info
+/*
 draw_set_font(global.font_debug);
 draw_set_color(the_color_of_information);
+draw_set_halign(fa_left);
 
 draw_text(5, 400, "STEAM INFO");
 draw_text(5, 415, "is_initialised: " + scr_bool2str(is_initialised));
@@ -25,3 +27,4 @@ draw_text(
 	5, 640, "1. Qualifier: " + 
 	scr_bool2str(ds_map_find_value(achievement_states, "ach_1_qualifier"))
 );
+*/

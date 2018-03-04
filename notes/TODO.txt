@@ -130,17 +130,18 @@ March 2
 
 March 4
 
-- implement multiple difficulty levels
+- BASIC DONE implement multiple difficulty levels
 	- Cool: 1 avatar, 12 columns
 	- Easy: 2 avatars, 6 columns
 	- Medium: 3 avatars, 7 columns
 	- Hard: 4 avatars, 9 columns
 	- Difficult: 5 avatars, 12 columns
-	
-	- On Main Menu, Play causes a new menu to display instead of going directly to gameplay screen
-	- The new menu has "Choose Difficulty" header
-	- The new menu has 5 options: Cool, Easy, Medium, Hard, Difficult
+	- DONE On Main Menu, Play causes a new menu to display instead of going directly to gameplay screen
+	- DONE Making a selection in this menu sets the global game settings and goes to gameplay
+	- DONE Game objects initialize themselves based on global game settings values
+	- DONE The new menu has 5 options: Cool, Easy, Medium, Hard, Difficult
 
+- remove placeholder sprites in main gameplay screen
 
 - change cash out flow
 	- Display score in the middle of the sliding ribbon menu, like so:

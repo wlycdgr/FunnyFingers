@@ -68,7 +68,7 @@ else if (
 	global.input_tracker.is_fourth_leftmost_pressed &&
 	global.game_settings.funny_finger_count > 3
 ) {
-	ff_move_direciton = -1;
+	ff_move_direction = -1;
 	index = 3;
 }
 

@@ -4,6 +4,7 @@ global.game = instance_create_layer(0, 0, "Controllers", obj_Game);
 scr_Focus_Playfield(global.game.playfields[0]);
 
 // Mask/bg sprites for one playfield mode!
+/*
 if (1 == playfield_count){
 	var playfield_x = (window_width - (global.game_settings.column_count * column_width)) / 2;
 	
@@ -31,3 +32,4 @@ if (1 == playfield_count){
 		obj_Billboard);
 	right_side.sprite_index = obj_Sprite_Loader.right_side_sprite;
 }
+*/

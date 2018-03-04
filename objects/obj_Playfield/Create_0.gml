@@ -7,6 +7,8 @@ funny_fingers = array_create(global.game_settings.funny_finger_count);
 energy_generator = instance_create_layer(0, 0, "Controllers", obj_Energy_Generator);
 enemy_generator = instance_create_layer(0, 0, "Controllers", obj_Enemy_Generator);
 
+width = global.game_settings.column_count * column_width;
+
 for (var i = 0; i < global.game_settings.column_count; i++){
 	columns[i] = instance_create_layer(
 		x + i * column_width, y,
