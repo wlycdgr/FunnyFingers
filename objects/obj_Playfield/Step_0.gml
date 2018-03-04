@@ -4,7 +4,7 @@
 if (gs_playing != global.game.state) exit;
 
 // Check for death / sadness / game over
-for (var i = funny_finger_count - 1; i > -1; i--){
+for (var i = global.game_settings.funny_finger_count - 1; i > -1; i--){
 	if (funny_fingers[i].is_not_funny_anymore){
 		has_unfunny_finger = true;
 		exit;
@@ -16,7 +16,7 @@ if (!focused) exit;
 
 // Check to see whether any funny finger is moving
 // If so, don't accept more move input
-for (var i = funny_finger_count - 1; i > -1; i--){
+for (var i = global.game_settings.funny_finger_count - 1; i > -1; i--){
 	if (funny_fingers[i].is_moving) exit;
 }
 
@@ -24,18 +24,83 @@ for (var i = funny_finger_count - 1; i > -1; i--){
 // check for that input and handle it if necessary
 var ff_move_direction = 0;
 var index = 0;
-	
+
 if (global.input_tracker.is_leftmost_pressed) { ff_move_direction = -1; }
-else if (global.input_tracker.is_rightmost_pressed) { ff_move_direction = 1; index = 2}
-else if (global.input_tracker.is_second_leftmost_pressed) { ff_move_direction = -1; index = 1 }
-else if (global.input_tracker.is_second_rightmost_pressed ){ ff_move_direction = 1; index = 1; }
-else if (global.input_tracker.is_third_leftmost_pressed) { ff_move_direction = -1; index = 2; }
-else if (global.input_tracker.is_third_rightmost_pressed){ ff_move_direction = 1; }
+
+else if (global.input_tracker.is_rightmost_pressed) {
+	ff_move_direction = 1;
+	index = global.game_settings.funny_finger_count - 1;
+}
+
+else if (
+	global.input_tracker.is_second_leftmost_pressed &&
+	global.game_settings.funny_finger_count > 1
+) {
+	ff_move_direction = -1;
+	index = 1;
+}
+
+else if (
+	global.input_tracker.is_second_rightmost_pressed &&
+	global.game_settings.funny_finger_count > 1
+) {
+	ff_move_direction = 1;
+	index = global.game_settings.funny_finger_count - 2;
+}
+
+else if (
+	global.input_tracker.is_third_leftmost_pressed &&
+	global.game_settings.funny_finger_count > 2
+) {
+	ff_move_direction = -1;
+	index = 2;
+}
+
+else if (
+	global.input_tracker.is_third_rightmost_pressed &&
+	global.game_settings.funny_finger_count > 2
+) {
+	ff_move_direction = 1;
+	index = global.game_settings.funny_finger_count - 3;
+}
+
+else if (
+	global.input_tracker.is_fourth_leftmost_pressed &&
+	global.game_settings.funny_finger_count > 3
+) {
+	ff_move_direciton = -1;
+	index = 3;
+}
+
+else if (
+	global.input_tracker.is_fourth_rightmost_pressed &&
+	global.game_settings.funny_finger_count > 3
+) {
+	ff_move_direction = 1;
+	index = global.game_settings.funny_finger_count - 4;
+}
+
+else if (
+	global.input_tracker.is_fifth_leftmost_pressed &&
+	global.game_settings.funny_finger_count > 4
+) {
+	ff_move_direction = -1;
+	index = 4;
+}
+
+else if (
+	global.input_tracker.is_fifth_rightmost_pressed &&
+	global.game_settings.funny_finger_count > 4
+) {
+	ff_move_direction = 1;
+	index = global.game_settings.funny_finger_count - 5;
+}
+
 	
 if (0 != ff_move_direction){
 	// Identify the funny finger that we should try to move
 	var index_counter = 0;
-	for (var i = 0; i < column_count; i++) {
+	for (var i = 0; i < global.game_settings.column_count; i++) {
 		if (!columns[i].occupied) continue;
 		if (index_counter == index) { 
 			var targeted_ff = columns[i].funny_finger_id;
@@ -55,7 +120,7 @@ if (0 != ff_move_direction){
 		}
 	}
 	else if (1 == ff_move_direction) { // trying to move right
-		for (var i = targeted_ff.source_column + 1; i < column_count; i++){
+		for (var i = targeted_ff.source_column + 1; i < global.game_settings.column_count; i++){
 			if (!columns[i].occupied){
 				targeted_ff.target_column = i;
 				break;

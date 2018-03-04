@@ -8,7 +8,8 @@
         "a4deb9b9-4918-4e64-aefb-88201af36012",
         "c438c890-bf59-4a03-af6e-08a97e57bbc4",
         "c186446c-f3ac-4a1d-810e-834a1a247471",
-        "65ea4094-1f86-4fe9-bf04-cf3ed571b17a"
+        "65ea4094-1f86-4fe9-bf04-cf3ed571b17a",
+        "58dcbadc-1425-4882-ba83-780d52999e09"
     ],
     "filterType": "GMObject",
     "folderName": "Persistent",

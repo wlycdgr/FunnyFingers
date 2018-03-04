@@ -7,7 +7,13 @@ title_billboard.x =
 	(sprite_get_width(title_billboard.sprite_index) / 2);	
 title_billboard.y = 50;
 
-menu = scr_Menu_NEW(
+main_menu = scr_Menu_NEW(
 	window_x_center, 550,
 	["Play", "Achievements", "High Scores", "Exit"]
 );
+
+difficulty_menu = scr_Menu_NEW(
+	window_x_center, 500,
+	["Cool", "Easy", "Medium", "Hard", "Difficult", "Back To Main Menu"]
+);
+difficulty_menu.active = false;

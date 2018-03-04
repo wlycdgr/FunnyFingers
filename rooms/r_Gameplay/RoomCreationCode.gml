@@ -5,7 +5,7 @@ scr_Focus_Playfield(global.game.playfields[0]);
 
 // Mask/bg sprites for one playfield mode!
 if (1 == playfield_count){
-	var playfield_x = (window_width - (column_count * column_width)) / 2;
+	var playfield_x = (window_width - (global.game_settings.column_count * column_width)) / 2;
 	
 	var bottom_mask = instance_create_layer(
 		playfield_x, playfield_bottom_y,

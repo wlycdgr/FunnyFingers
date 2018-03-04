@@ -130,6 +130,16 @@ March 2
 
 March 4
 
+- implement multiple difficulty levels
+	- Cool: 1 avatar, 12 columns
+	- Easy: 2 avatars, 6 columns
+	- Medium: 3 avatars, 7 columns
+	- Hard: 4 avatars, 9 columns
+	- Difficult: 5 avatars, 12 columns
+	
+	- On Main Menu, Play causes a new menu to display instead of going directly to gameplay screen
+	- The new menu has "Choose Difficulty" header
+	- The new menu has 5 options: Cool, Easy, Medium, Hard, Difficult
 
 
 - change cash out flow

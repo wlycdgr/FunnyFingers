@@ -1,5 +1,13 @@
 /// @description Init
-for (var i = 0; i < column_count; i++){
+has_unfunny_finger = false;
+focused = false;
+
+columns = array_create(global.game_settings.column_count);
+funny_fingers = array_create(global.game_settings.funny_finger_count);
+energy_generator = instance_create_layer(0, 0, "Controllers", obj_Energy_Generator);
+enemy_generator = instance_create_layer(0, 0, "Controllers", obj_Enemy_Generator);
+
+for (var i = 0; i < global.game_settings.column_count; i++){
 	columns[i] = instance_create_layer(
 		x + i * column_width, y,
 		"Columns",
@@ -8,8 +16,9 @@ for (var i = 0; i < column_count; i++){
 	columns[i].playfield = id;
 }
 
-for (var i = 0; i < funny_finger_count; i++){
-	var ff_column_index = i + half_of_empty_columns;
+for (var i = 0; i < global.game_settings.funny_finger_count; i++){
+	var ff_column_index = i + 
+		floor((global.game_settings.column_count - global.game_settings.funny_finger_count) / 2);
 		
 	funny_fingers[i] = 
 		instance_create_layer(0, 0, "FunnyFingers", obj_Funny_Finger);

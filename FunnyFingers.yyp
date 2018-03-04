@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "58dcbadc-1425-4882-ba83-780d52999e09",
+            "Value": {
+                "id": "33336006-c11c-47a7-af10-a3863c299936",
+                "resourcePath": "objects\\obj_Game_Settings\\obj_Game_Settings.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5afe5451-9bd0-49be-8b2b-a211f0a01d3e",
             "Value": {
                 "id": "834bdccb-b818-4758-97e8-3764ce1ddae1",
@@ -476,6 +484,14 @@
                 "id": "f3ed4e8a-033e-48fe-b651-59e6116a5b30",
                 "resourcePath": "rooms\\r_Init\\r_Init.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6cd67805-f2ae-40b0-a142-766f4e5fb59d",
+            "Value": {
+                "id": "d6424b36-ee28-4a11-91cc-45d0e39538ce",
+                "resourcePath": "scripts\\scr_Generate_Entities\\scr_Generate_Entities.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -618,7 +634,7 @@
             "Key": "a16aced3-abaf-4620-94f7-1fe1df8f03df",
             "Value": {
                 "id": "fb3160df-c7d3-4f48-bf11-49454395ac1f",
-                "resourcePath": "objects\\obj_Title_Room_Controller\\obj_Title_Room_Controller.yy",
+                "resourcePath": "objects\\obj_Main_Menu_Room_Controller\\obj_Main_Menu_Room_Controller.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -695,14 +711,6 @@
             }
         },
         {
-            "Key": "af42fbd5-66cb-41f7-b2d6-0ca72d82d966",
-            "Value": {
-                "id": "ccef2229-1579-4c45-83e4-c458c57b432d",
-                "resourcePath": "datafiles_yy\\Gameplay\\bottom_336x104.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "b29c19b6-ef21-4d43-ae4e-19588f7ac1fd",
             "Value": {
                 "id": "8eb5e698-f4ce-415b-81e8-b22cee28b1fb",
@@ -764,6 +772,14 @@
                 "id": "0b2ab1f1-9c58-4994-adac-594c65ee8577",
                 "resourcePath": "objects\\obj_Fader\\obj_Fader.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c48bbaba-30be-4d7d-b0a6-e6f71a8e81a7",
+            "Value": {
+                "id": "cdab0623-83b4-4f65-bd5b-bf0a12e3eed5",
+                "resourcePath": "datafiles_yy\\Gameplay\\bottom_336x104.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1037,7 +1053,8 @@
         "09760fc0-4fac-4fd2-ba6d-671093bacb27",
         "8e080a33-821f-47d0-953d-6a0ce92cbccc",
         "0d58728d-082f-42e6-8614-f0e23f133cac",
-        "c51897f5-6bc6-4561-acad-2aff6a162c8a"
+        "c51897f5-6bc6-4561-acad-2aff6a162c8a",
+        "6cd67805-f2ae-40b0-a142-766f4e5fb59d"
     ],
     "tutorial": ""
 }

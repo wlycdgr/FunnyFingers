@@ -2,7 +2,8 @@
 is_active = true;
 		
 // randomly align entity with one of its playfield's columns
-var random_column_index = irandom_range(0, column_count - 1);
+var random_column_index = 
+	irandom_range(0, global.game_settings.column_count - 1);
 x = generator.playfield.columns[random_column_index].x;
 x +=
 	(sprite_get_width(obj_Sprite_Loader.column_sprite) - 

@@ -66,12 +66,18 @@ global.core_funny_finger_grow_time_in_sec =
 #macro playfield_y ((window_height - playfield_height) / 2)
 #macro playfield_bottom_y window_height - (((window_height - playfield_height) / 2))
 
-#macro column_count 7
+#macro column_count_cool 12
+#macro column_count_easy 6
+#macro column_count_medium 7
+#macro column_count_hard 9
+#macro column_count_difficult 12
 #macro column_width 48
-#macro half_of_empty_columns floor((column_count - funny_finger_count) / 2)
 
-#macro funny_finger_count 3
-#macro starting_funny_finger_life 0.3
+#macro funny_finger_count_cool 1
+#macro funny_finger_count_easy 2
+#macro funny_finger_count_medium 3
+#macro funny_finger_count_hard 4
+#macro funny_finger_count_difficult 5
 #macro half_of_width_difference_with_column 8
 
 #macro score_color c_black
