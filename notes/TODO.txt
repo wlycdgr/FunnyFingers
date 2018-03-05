@@ -152,18 +152,30 @@ March 4
 	- DONE illegal move attempt resets multiplier
 	- DONE the score awarded for each successful move is multiplied by the multiplier
 - DONE implement submission to the correct leaderboards, based on current difficulty
-
 - DONE load user's current high score on game start
 - DONE display that score in score readout
-- do not allow player to activate Cashout dialogue unless current score is better than current high score
-- display "score: [ticking down score] / [high score]: high score" on Cashout dialogue ribbon
-
+- DONE do not allow player to activate Cashout dialogue unless current score is better than current high score
+- DONE simplify sweet spot mechanic to:
+	- DONE after a successful move,
+		- DONE multiplier ticks up unless at max
+		- DONE a progress bar resets to full and start draining down
+	- DONE must successfully move again before progress bar runs out to keep combo going
+	- DONE bad move
+		- DONE resets multiplier
+	
 
 - implement unlocks
 	- medium unlocks at 5k on easy, pops The Dabbler
 	- hard unlocks at 10k on medium, pops The Qualifier
 	- fignermukcre unlocks at 20k on hard, pops The Up And Comer
 	- 30k on Fignermukcre puts you on leaderboard, pops Fignermukcre
+	
+
+
+- display "score: [ticking down score] / [high score]: high score" on Cashout dialogue ribbon
+
+
+
 	
 - implement tutorial being the only thing you can do until you complete it, at the beginning
 

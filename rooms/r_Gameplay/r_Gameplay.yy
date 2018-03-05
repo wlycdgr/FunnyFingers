@@ -117,7 +117,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "SweetSpotBar",
+            "name": "MultiplierBar",
             "id": "8aecc159-79ef-48ab-8138-87944887de52",
             "depth": 400,
             "grid_x": 32,

@@ -128,18 +128,18 @@ if (0 != ff_move_direction){
 		}
 	}
 	
-	// award points & possibly increment sweet spot counter
+	// award points & possibly increment multiplier
 	// in case of valid move
 	if (targeted_ff.source_column != targeted_ff.target_column) {		
-		// increase sweet spot multiplier
-		with (sweet_spot_bar) { event_user(0); } 
+		// increase multiplier
+		with (multiplier_bar) { event_user(0); } 
 		
 		global.scoreboard.target_score += 
-			sweet_spot_bar.multiplier * 
+			multiplier_bar.multiplier * 
 			score_valid_move_base_value;
 	}
 	else {
-		with (sweet_spot_bar) { event_user(12); } // reset multiplier!
+		with (multiplier_bar) { event_user(12); } // reset multiplier!
 	}
 	
 	with (targeted_ff) { event_user(2); } // Initiate move

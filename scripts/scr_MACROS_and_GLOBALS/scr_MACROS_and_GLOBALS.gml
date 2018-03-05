@@ -85,10 +85,11 @@ global.core_funny_finger_grow_time_in_sec =
 #macro funny_finger_count_difficult 5
 #macro half_of_width_difference_with_column 8
 
-#macro score_color c_black
 #macro score_valid_move_base_value 25
 #macro score_grow_to_target_per_frame 1
 #macro score_cashout_dialogue_penalty_per_frame 0.1
+#macro scoreboard_color_cashout_enabled c_green
+#macro scoreboard_color_cashout_disabled c_red
 
 #macro sliding_ribbon_y 180
 #macro sliding_ribbon_width window_width
@@ -126,8 +127,8 @@ global.core_funny_finger_grow_time_in_sec =
 #macro marker_sweet_spot_counter_max 4
 #macro marker_time_to_cross_in_seconds_reduction_for_successful_sweet_spot_move 1.0
 
-#macro ssb_max_multiplier 4
-#macro ssb_min_multiplier 1
-#macro ssb_max_seconds_for_marker_to_cross 5.0
-#macro ssb_min_seconds_for_marker_to_cross 2.0
-#macro ssb_marker_time_to_cross_reduction_in_seconds_for_successful_sweet_spot_move 1.0
+#macro mb_max_multiplier 4
+#macro mb_min_multiplier 1
+#macro mb_max_seconds_to_drain 7.0
+#macro mb_min_seconds_to_drain 2.0
+#macro mb_time_to_drain_reduction_in_seconds_for_successful_move 0.5

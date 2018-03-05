@@ -650,7 +650,7 @@
             "Key": "a42faca6-7d96-4868-b0cb-464449307b68",
             "Value": {
                 "id": "38107c7d-4b0a-4f06-95de-487268e460e3",
-                "resourcePath": "scripts\\scr_Sweet_Spot_Bar_NEW\\scr_Sweet_Spot_Bar_NEW.yy",
+                "resourcePath": "scripts\\scr_Multiplier_Bar_NEW\\scr_Multiplier_Bar_NEW.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -882,7 +882,7 @@
             "Key": "d7a7aacb-d7d7-4c4a-aada-d790ae10a5a4",
             "Value": {
                 "id": "0359273e-b3d2-447f-a588-e638505d0d3b",
-                "resourcePath": "objects\\obj_Sweet_Spot_Bar\\obj_Sweet_Spot_Bar.yy",
+                "resourcePath": "objects\\obj_Multiplier_Bar\\obj_Multiplier_Bar.yy",
                 "resourceType": "GMObject"
             }
         },

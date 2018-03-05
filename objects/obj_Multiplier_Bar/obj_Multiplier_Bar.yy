@@ -2,7 +2,7 @@
     "id": "d7a7aacb-d7d7-4c4a-aada-d790ae10a5a4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Sweet_Spot_Bar",
+    "name": "obj_Multiplier_Bar",
     "eventList": [
         {
             "id": "e6179857-e2ae-4146-ad58-741a2246c5fc",
@@ -51,26 +51,6 @@
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 25,
-            "eventtype": 7,
-            "m_owner": "d7a7aacb-d7d7-4c4a-aada-d790ae10a5a4"
-        },
-        {
-            "id": "7ac27c31-6763-4725-ab2e-8a9fff31eed4",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 24,
-            "eventtype": 7,
-            "m_owner": "d7a7aacb-d7d7-4c4a-aada-d790ae10a5a4"
-        },
-        {
-            "id": "01283d5a-d0fd-4c93-99b5-623de801857b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 23,
             "eventtype": 7,
             "m_owner": "d7a7aacb-d7d7-4c4a-aada-d790ae10a5a4"
         },

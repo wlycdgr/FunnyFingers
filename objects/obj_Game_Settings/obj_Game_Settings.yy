@@ -50,6 +50,20 @@
             "value": "column_count_medium",
             "varName": "column_count",
             "varType": 1
+        },
+        {
+            "id": "4620165f-59d7-4143-9662-c04909fd3af1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "steam_high_scores_leaderboard",
+            "varType": 0
         }
     ],
     "solid": false,

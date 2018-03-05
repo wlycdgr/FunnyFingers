@@ -40,4 +40,4 @@ energy_generator.playfield = id;
 
 enemy_generator.playfield = id;
 
-sweet_spot_bar = scr_Sweet_Spot_Bar_NEW(id);
+multiplier_bar = scr_Multiplier_Bar_NEW(id);
