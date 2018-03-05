@@ -1,6 +1,5 @@
 /// @description Init
-achievement_states = ds_map_create();
-ds_map_add(achievement_states, "ach_0_qweiop", steam_get_achievement("ach_0_qweiop"));
-ds_map_add(achievement_states, "ach_1_qualifier", steam_get_achievement("ach_1_qualifier"));
+unlocked[steam_ach_QWEIOP] = steam_get_achievement("ach_0_qweiop");
+unlocked[steam_ach_The_Dabbler] = steam_get_achievement("ach_1_the_dabbler");
 
 event_user(0);

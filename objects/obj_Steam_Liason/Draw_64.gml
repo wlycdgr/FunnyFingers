@@ -21,10 +21,10 @@ draw_text(5, 580, "stat_test_1: " + string(stat_test_1));
 draw_text(5, 610, "STEAM ACHIEVEMENTS (Ctrl + A + # to toggle)");
 draw_text(
 	5, 625, "0. QWEIOP: " + 
-	scr_bool2str(ds_map_find_value(achievement_states, "ach_0_qweiop"))
+	scr_bool2str(unlocked[steam_ach_QWEIOP])
 );
 draw_text(
-	5, 640, "1. Qualifier: " + 
-	scr_bool2str(ds_map_find_value(achievement_states, "ach_1_qualifier"))
+	5, 640, "1. The Dabbler: " + 
+	scr_bool2str(unlocked[steam_ach_The_Dabbler])
 );
 */

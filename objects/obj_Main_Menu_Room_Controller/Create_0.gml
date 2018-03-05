@@ -12,8 +12,18 @@ main_menu = scr_Menu_NEW(
 	["Play", "One Shot", "Achievements", "High Scores", "Exit"]
 );
 
+difficulty_menu_labels[0] = "Cool";
+difficulty_menu_labels[1] = "Easy";
+var index = 2;
+if (global.steam.unlocked[steam_ach_The_Dabbler]) {
+	difficulty_menu_labels[index] = "Medium";
+	index += 1;
+}
+
+difficulty_menu_labels[index] = "Back To Main Menu";
 difficulty_menu = scr_Menu_NEW(
 	window_x_center, 500,
-	["Cool", "Easy", "Medium", "Hard", "Difficult", "Back To Main Menu"]
+	difficulty_menu_labels
+	//["Cool", "Easy", "Medium", "Hard", "Difficult", "Back To Main Menu"]
 );
 difficulty_menu.active = false;
