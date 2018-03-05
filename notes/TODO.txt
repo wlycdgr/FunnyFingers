@@ -165,7 +165,7 @@ March 4
 	
 
 - implement unlocks
-	- initially only cool and easy are unlocked
+	- DONE initially only cool and easy are unlocked
 	- medium unlocks at 5k on easy, pops The Dabbler
 	- hard unlocks at 10k on medium, pops The Qualifier
 	- fignermukcre unlocks at 20k on hard, pops The Up And Comer

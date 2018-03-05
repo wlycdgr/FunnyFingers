@@ -810,7 +810,7 @@
             "Key": "c51897f5-6bc6-4561-acad-2aff6a162c8a",
             "Value": {
                 "id": "bf99c026-3bce-4fa5-81fa-d41233efe760",
-                "resourcePath": "scripts\\scr_Toggle_Steam_Achievement\\scr_Toggle_Steam_Achievement.yy",
+                "resourcePath": "scripts\\scr_Toggle_Achievement\\scr_Toggle_Achievement.yy",
                 "resourceType": "GMScript"
             }
         },

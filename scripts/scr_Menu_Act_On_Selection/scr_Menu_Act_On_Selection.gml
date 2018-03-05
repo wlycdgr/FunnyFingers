@@ -34,6 +34,11 @@ case "Hard":
 	}
 	scr_Fade_To(r_Gameplay);
 	break;
+case "??????":
+case "????":
+case "?????????":
+	argument0.active = true;
+	break;
 case "Difficult":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_difficult;
@@ -68,14 +73,14 @@ case "Exit To Title":
 case "High Scores":
 	scr_Fade_To(r_High_Scores);
 	break;
-case "One Shot":
-	scr_Fade_To(r_One_Shot);
-	break;
 case "Play":
 	with (global.main_menu_controller) {
 		main_menu.active = false;
 		difficulty_menu.active = true;
 	}
+	break;
+case "Play Game":
+	scr_Fade_To(r_Gameplay);
 	break;
 case "Title":
 	scr_Fade_To(r_MainMenu);

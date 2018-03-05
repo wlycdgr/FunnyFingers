@@ -9,7 +9,7 @@ header = scr_String_NEW(
 
 menu = scr_Menu_NEW(
 	window_x_center, 550, 
-	["Play", "Achievements", "Title"]
+	["Play Game", "Achievements", "Title"]
 );
 
 tabs_item_index = 0;

@@ -9,21 +9,31 @@ title_billboard.y = 50;
 
 main_menu = scr_Menu_NEW(
 	window_x_center, 550,
-	["Play", "One Shot", "Achievements", "High Scores", "Exit"]
+	["Play", "Achievements", "High Scores", "Exit"]
 );
 
 difficulty_menu_labels[0] = "Cool";
 difficulty_menu_labels[1] = "Easy";
-var index = 2;
-if (global.steam.unlocked[steam_ach_The_Dabbler]) {
-	difficulty_menu_labels[index] = "Medium";
-	index += 1;
-}
 
-difficulty_menu_labels[index] = "Back To Main Menu";
+if (global.steam.unlocked[steam_ach_The_Dabbler]) { 
+	difficulty_menu_labels[2] = "Medium";
+}
+else { difficulty_menu_labels[2] = "??????"; }
+
+if (global.steam.unlocked[steam_ach_The_Qualifier]) {
+	difficulty_menu_labels[3] = "Hard";
+}
+else { difficulty_menu_labels[3] = "????"; }
+
+if (global.steam.unlocked[steam_ach_The_Up_And_Comer]) {
+	difficulty_menu_labels[4] = "Difficult";
+}
+else { difficulty_menu_labels[4] = "?????????"; }
+
+difficulty_menu_labels[5] = "Back To Main Menu";
+
 difficulty_menu = scr_Menu_NEW(
 	window_x_center, 500,
 	difficulty_menu_labels
-	//["Cool", "Easy", "Medium", "Hard", "Difficult", "Back To Main Menu"]
 );
 difficulty_menu.active = false;
