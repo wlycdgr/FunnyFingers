@@ -44,6 +44,11 @@ global.core_funny_finger_grow_time_in_sec =
 // Steam
 #macro steam_high_scores_table_name "High Scores"
 #macro steam_achievement_count 12
+#macro steam_high_scores_leaderboard_cool "Cool"
+#macro steam_high_scores_leaderboard_easy "Easy"
+#macro steam_high_scores_leaderboard_medium "Medium"
+#macro steam_high_scores_leaderboard_hard "Hard"
+#macro steam_high_scores_leaderboard_difficult "Difficult"
 // /Steam
 
 

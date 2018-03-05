@@ -167,6 +167,20 @@
             "value": "0",
             "varName": "global.target_score",
             "varType": 0
+        },
+        {
+            "id": "50397ffe-8e32-4d3f-93c3-cfe1a6979ca0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "global.current_high_score",
+            "varType": 0
         }
     ],
     "solid": false,

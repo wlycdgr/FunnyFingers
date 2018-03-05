@@ -134,7 +134,7 @@ if (0 != ff_move_direction){
 		// increase sweet spot multiplier
 		with (sweet_spot_bar) { event_user(0); } 
 		
-		global.target_score += 
+		global.scoreboard.target_score += 
 			sweet_spot_bar.multiplier * 
 			score_valid_move_base_value;
 	}

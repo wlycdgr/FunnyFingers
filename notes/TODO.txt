@@ -141,7 +141,7 @@ March 4
 	- DONE Game objects initialize themselves based on global game settings values
 	- DONE The new menu has 5 options: Cool, Easy, Medium, Hard, Difficult
 - DONE remove placeholder sprites in main gameplay screen
-- DOEN implement sweet spot mechanic
+- DONE implement sweet spot mechanic
 	- DONE sweet spot counter displays below playfield
 	- DONE it has two ticks near the middle, the area between them is the sweet spot
 	- DONE a lil bigger tick travels back and forth across the counter
@@ -151,14 +151,50 @@ March 4
 	- DONE failing to move successfully at least once during a sweet spot resets multiplier to 1
 	- DONE illegal move attempt resets multiplier
 	- DONE the score awarded for each successful move is multiplied by the multiplier
+- DONE implement submission to the correct leaderboards, based on current difficulty
+
+- DONE load user's current high score on game start
+- DONE display that score in score readout
+- do not allow player to activate Cashout dialogue unless current score is better than current high score
+- display "score: [ticking down score] / [high score]: high score" on Cashout dialogue ribbon
+
+
+- implement unlocks
+	- medium unlocks at 5k on easy, pops The Dabbler
+	- hard unlocks at 10k on medium, pops The Qualifier
+	- fignermukcre unlocks at 20k on hard, pops The Up And Comer
+	- 30k on Fignermukcre puts you on leaderboard, pops Fignermukcre
 	
+- implement tutorial being the only thing you can do until you complete it, at the beginning
+
+- implement sound placeholders
+
+- implement "Level 99" text pop
+	- shows the CirclMaster quote when  you hit it
+	
+- implement support for Steam screenshots 
+(through steam_is_screenshot_requested and steam_send_screenshot)
 
 
+
+- add checks so that game does not break if any sprite asset is not available or misnamed
+
+- implement High Scores ribbon
+	- DONE Menu with the following options:
+		Try Again
+		Exit To Title
+	- Displays around-user score with 10 entries
+	- Displays correct leaderboard
+
+LATER:
 - implement one shot mode:
-	- 3 avatars
-	- preset sequence, same for everyone
+	- medium only to start
+	- preset sequence
+	- same sequence for everyone
 	- different sequence for each of the three runs
-- implement submission to the correct leaderboards, based on current difficulty
+
+
+
 
 - change cash out flow
 	- Display score in the middle of the sliding ribbon menu, like so:
@@ -177,12 +213,7 @@ March 4
 		- DONE slides Cashout? menu away
 		- DONE slides in High Scores ribbon
 
-- implement High Scores ribbon
-	- DONE Menu with the following options:
-		Try Again
-		Exit To Title
-	- Displays around-user score with 10 entries
-	- Displays correct leaderboard
+
 
 	
 - add stat tracking for achievements that need it
@@ -196,21 +227,11 @@ March 4
 
 
 
-- implement tutorial being the only thing you can do until you complete it, at the beginning
 
 
 
-- implement sound placeholders
 
-- implement "Level 99" text pop
-	- shows the CirclMaster quote when  you hit it
+
+
+
 	
-- implement support for Steam screenshots 
-(through steam_is_screenshot_requested and steam_send_screenshot)
-
-- only let user cash out high score
-	- before a game starts, get player's high score
-	- display this high score in score readout
-	- do nothing on Cashout input if user's current score is below their high score
-
-- add checks so that game does not break if any sprite asset is not available or misnamed

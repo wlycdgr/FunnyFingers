@@ -9,7 +9,7 @@ title_billboard.y = 50;
 
 main_menu = scr_Menu_NEW(
 	window_x_center, 550,
-	["Play", "Achievements", "High Scores", "Exit"]
+	["Play", "One Shot", "Achievements", "High Scores", "Exit"]
 );
 
 difficulty_menu = scr_Menu_NEW(

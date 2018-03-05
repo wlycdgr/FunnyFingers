@@ -9,9 +9,12 @@ case gs_cashed_out:
 	break;
 	
 case gs_cashout_dialogue:
-	global.game_score = max(
-		global.target_score,
-		global.game_score - score_cashout_dialogue_penalty_per_frame
+	global.scoreboard.current_score = max(
+		global.scoreboard.target_score,
+		(
+			global.scoreboard.current_score - 
+			score_cashout_dialogue_penalty_per_frame
+		)
 	);
 
 	if (srs_selection_made == cashout_dialogue_sliding_ribbon.state) {
@@ -26,8 +29,8 @@ case gs_game_over:
 	break;
 	
 case gs_playing:
-	if (global.target_score > global.game_score) 
-		{ global.game_score += score_grow_to_target_per_frame; }
+	if (global.scoreboard.target_score > global.scoreboard.current_score) 
+		{ global.scoreboard.current_score += score_grow_to_target_per_frame; }
 	
 	for (var i = array_length_1d(playfields) - 1; i > -1; i--){
 		if (playfields[i].has_unfunny_finger) 
