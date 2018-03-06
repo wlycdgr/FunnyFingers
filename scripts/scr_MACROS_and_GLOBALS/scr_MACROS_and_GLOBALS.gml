@@ -42,7 +42,6 @@ global.core_funny_finger_grow_time_in_sec =
 
 
 // Steam
-#macro steam_high_scores_table_name "High Scores"
 #macro steam_achievement_count 11
 #macro steam_ach_QWEIOP 0
 #macro steam_ach_The_Dabbler 1
@@ -55,7 +54,7 @@ global.core_funny_finger_grow_time_in_sec =
 #macro steam_ach_The_Score_Is_Right 8
 #macro steam_ach_A_Longest_Word 9
 #macro steam_ach_Level_99 10
-#macro steam_ach_The_Dabbler_min_unlock_score 500
+#macro steam_ach_The_Dabbler_min_unlock_score 100
 
 #macro steam_high_scores_leaderboard_cool "Cool"
 #macro steam_high_scores_leaderboard_easy "Easy"

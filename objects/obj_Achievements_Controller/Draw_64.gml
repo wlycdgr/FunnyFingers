@@ -1,12 +1,15 @@
 /// @description Draw
-
 scr_String_Draw(header);
 
 draw_set_font(global.font_menu_item);
 draw_set_color(the_color_of_information);
-for (var i = 0; i < steam_achievement_count; i++) {
-	draw_sprite(ach_sprites[i], 0, 200, 200 + i * 100);
-	draw_text(275, 200 + i * 100, global.steam.ach_names[i]);
-}
+draw_set_halign(fa_left);
+
+var big_half = ceil(steam_achievement_count / 2);
+
+scr_Draw_Achievements_Column(col_1_x, 0, 3);
+scr_Draw_Achievements_Column(col_2_x, 3, 6);
+scr_Draw_Achievements_Column(col_3_x, 7, 9);
+scr_Draw_Achievements_Column(col_4_x, 10, steam_achievement_count);
 
 scr_Menu_Draw(menu);

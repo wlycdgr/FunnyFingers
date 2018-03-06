@@ -1,4 +1,10 @@
 /// @description Init
+draw_debug = false;
+
+hs_names = array_create(10, "");
+hs_ranks = array_create(10, 0);
+hs_scores = array_create(10, 0);
+hs_count = 0;
 
 ach_api_names = [
 	"ach_0_qweiop",

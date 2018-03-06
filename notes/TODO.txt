@@ -129,7 +129,6 @@ March 2
 
 
 March 4
-
 - BASIC DONE implement multiple difficulty levels
 	- Cool: 1 avatar, 12 columns
 	- Easy: 2 avatars, 6 columns
@@ -162,11 +161,20 @@ March 4
 	- DONE must successfully move again before progress bar runs out to keep combo going
 	- DONE bad move
 		- DONE resets multiplier
-	
 
+
+March 5
+- DONE fix up achievements screen so it displays something like correctly
+
+
+March 6
+- fix high scores screen
+	- displays around-user for highest unlocked by default
+	
+	
 - implement unlocks
 	- DONE initially only cool and easy are unlocked
-	- medium unlocks at 5k on easy, pops The Dabbler
+	- DONE medium unlocks at [score threshold] on easy, pops The Dabbler
 	- hard unlocks at 10k on medium, pops The Qualifier
 	- fignermukcre unlocks at 20k on hard, pops The Up And Comer
 	- 30k on Fignermukcre puts you on leaderboard, pops Fignermukcre
@@ -175,6 +183,13 @@ March 4
 	- selecting them does nothing
 	- 
 	
+- implement / try fingers having "armor" on the sides and/or top that lets them absorb one red hit from that side
+per game
+
+- implement some way to regenerate the armor -
+	- dump bonus?
+	- spend half the points?
+	- maybe you can't directly, but reaching max multiplier randomly regenerates one piece of armor?
 
 
 - display "score: [ticking down score] / [high score]: high score" on Cashout dialogue ribbon
@@ -192,7 +207,7 @@ March 4
 - implement support for Steam screenshots 
 (through steam_is_screenshot_requested and steam_send_screenshot)
 
-
+- add stat tracking for Level 99, to display total lifetime points so far
 
 - add checks so that game does not break if any sprite asset is not available or misnamed
 
@@ -203,19 +218,10 @@ March 4
 	- Displays around-user score with 10 entries
 	- Displays correct leaderboard
 
-LATER:
-- implement one shot mode:
-	- medium only to start
-	- preset sequence
-	- same sequence for everyone
-	- different sequence for each of the three runs
-
-
-
-
 - change cash out flow
 	- Display score in the middle of the sliding ribbon menu, like so:
 		Score: [score, ticking down] / [high score] : Current High Score
+	- Cashout submits new high score
 	- DONE Space during gameplay brings up Cashout? menu
 	- DONE Score ticks down while on this menu
 	- DONE Menu with the following options:
@@ -225,25 +231,18 @@ LATER:
 	- DONE 'Continue' just continues the game
 	- DONE 'Exit To Title' does just that
 	- Cashout!...
-		- ends current game
-		- submits high score
+		- DONE ends current game
 		- DONE slides Cashout? menu away
 		- DONE slides in High Scores ribbon
 
 
 
-	
-- add stat tracking for achievements that need it
-	- The Dabbler / best_score_so_far_easy
-	- The Qualifier / best_score_so_far_medium
-	- The Up And Comer / best_score_so_far_hard
-	- Fignermukcre / best_score_so_far_fignermukcre
-	- Triple Up / best_qualifying_cashout_multiple_so_far
-	- Fenix Fingers / best_sweet_spots_run_so_far
-	- Level 99 / lifetime_cool_points_total
-
-
-
+LATER:
+- implement one shot mode:
+	- medium only to start
+	- preset sequence
+	- same sequence for everyone
+	- different sequence for each of the three runs
 
 
 

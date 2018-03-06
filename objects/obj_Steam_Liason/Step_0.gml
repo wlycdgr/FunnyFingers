@@ -16,4 +16,6 @@ if (
 	else if (keyboard_check_pressed(ord("8"))) { scr_Toggle_Achievement("ach_8_the_score_is_right"); }
 	else if (keyboard_check_pressed(ord("9"))) { scr_Toggle_Achievement("ach_9_a_longest_word"); }
 	else if (keyboard_check_pressed(ord("Z"))) { scr_Toggle_Achievement("ach_10_a_level_99"); }
+	
+	else if (keyboard_check_pressed(ord("V"))) { draw_debug = !draw_debug; }
 }

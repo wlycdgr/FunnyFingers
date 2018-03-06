@@ -1,31 +1,64 @@
 /// @description Callback for leaderboard update
-
 var id_value = ds_map_find_value(async_load, "id");
 
-if (high_score_get_id == id_value) {
+if (high_scores_get_id == id_value) {
 	var entries = ds_map_find_value(async_load, "entries");
-	
-	var map = json_decode(entries);
-	
-	if ds_map_exists(map, "default") {
+	if (is_undefined(entries)) {
+		hs_count = 0;
 		ds_map_destroy(map);
 		exit;
 	}
-	else {
-		var list = ds_map_find_value(map, "entries");
-		var len = ds_list_size(list);
-		var entry;
-		for(var i = 0; i < len; i++) {
-			entry = ds_list_find_value(list, i );
-			high_score_leaderboard_names[i] = 
-				ds_map_find_value(entry, "name");
-			high_score_leaderboard_scores[i] = 
-				ds_map_find_value(entry, "score");
-			high_score_leaderboard_ranks[i] = 
-				ds_map_find_value(entry, "rank");
-		}
+	
+	var map = json_decode(entries);
+	if (-1 == map) {
+		hs_count = 0;
+		ds_map_destroy(map);
+		exit;
 	}
 	
+	if ds_map_exists(map, "default") {
+		hs_count = 0;
+		ds_map_destroy(map);
+		exit;
+	}
+	
+	var list = ds_map_find_value(map, "entries");
+	if (is_undefined(list)) {
+		hs_count = 0;
+		ds_map_destroy(map);
+		exit;
+	}
+
+	var len = ds_list_size(list);
+	var entry;
+	var hs_name;
+	var hs_score;
+	var hs_rank;
+	for(var i = 0; i < len; i++) {
+		entry = ds_list_find_value(list, i );
+		if (is_undefined(entry)) {
+			hs_count = i;
+			ds_map_destroy(map);
+			exit;
+		}
+		
+		hs_name = ds_map_find_value(entry, "name");
+		hs_score = ds_map_find_value(entry, "score");
+		hs_rank = ds_map_find_value(entry, "rank");
+		
+		if (is_undefined(hs_name) || is_undefined(hs_score) || is_undefined(hs_rank)) {
+			hs_count = i;
+			ds_map_destroy(map);
+			exit;
+		}
+		
+		hs_names[i] = hs_name;
+		hs_scores[i] = hs_score;
+		hs_ranks[i] = hs_rank;
+	}
+
+	hs_count = len - 1;
+
 	ds_map_destroy(map);
 }
 

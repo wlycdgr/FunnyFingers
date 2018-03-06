@@ -12,8 +12,20 @@ menu = scr_Menu_NEW(
 	["Play Game", "Achievements", "Title"]
 );
 
-tabs_item_index = 0;
-tabs_item_labels = ["Overall", "Around you", "Friends"];
-tabs_item_count = array_length_1d(tabs_item_labels);
 
-event_user(0); // load scores for selected tab
+leaderboards_ribbon_labels = 
+	["Cool", "Easy", "Medium", "Hard", "Difficult"];
+leaderboards_ribbon_count = array_length_1d(leaderboards_ribbon_labels);
+if (global.steam.unlocked[steam_ach_The_Up_And_Comer]) { leaderboards_ribbon_index = 4; }
+else if (global.steam.unlocked[steam_ach_The_Qualifier]) { leaderboards_ribbon_index = 3; }
+else if (global.steam.unlocked[steam_ach_The_Dabbler]) { leaderboards_ribbon_index = 2; }
+else { leaderboards_ribbon_index = 1; }
+
+
+filters_ribbon_labels = ["Overall", "Around you", "Friends"];
+filters_ribbon_count = array_length_1d(filters_ribbon_labels);
+filters_ribbon_index = 1;
+
+// To start with, load the around-user scores for the high scores table 
+// for the highest unlocked difficulty level
+event_user(0);

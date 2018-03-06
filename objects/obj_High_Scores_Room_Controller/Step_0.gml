@@ -7,18 +7,39 @@ if (scr_Menu_Selection_Made(menu)) {
 }
 
 
+// Scroll the leaderboards ribbon
+// TODO: generalize Menu scroll function so I can use it for this
 if (keyboard_check_pressed(ord("P"))) {
-	tabs_item_index = 
-		(tabs_item_index + 1) %
-		tabs_item_count;
+	leaderboards_ribbon_index = 
+		(leaderboards_ribbon_index + 1) %
+		leaderboards_ribbon_count;
 	
 	event_user(0); // load scores for newly selected tab
 }
 
 else if (keyboard_check_pressed(ord("Q"))) {
-	tabs_item_index =
-		(tabs_item_index - 1 + tabs_item_count) %
-		tabs_item_count;
+	leaderboards_ribbon_index =
+		(leaderboards_ribbon_index - 1 + leaderboards_ribbon_count) %
+		leaderboards_ribbon_count;
+		
+	event_user(0); // load scoresd for newly selected ta
+}
+
+
+// Scroll the filters ribbon
+// TODO: same todo as for leaderboards ribbon
+if (keyboard_check_pressed(ord("O"))) {
+	filters_ribbon_index = 
+		(filters_ribbon_index + 1) %
+		filters_ribbon_count;
+	
+	event_user(0); // load scores for newly selected tab
+}
+
+else if (keyboard_check_pressed(ord("W"))) {
+	filters_ribbon_index =
+		(filters_ribbon_index - 1 + filters_ribbon_count) %
+		filters_ribbon_count;
 		
 	event_user(0); // load scoresd for newly selected ta
 }
