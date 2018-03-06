@@ -1,11 +1,10 @@
 /// @description Init
-header = scr_String_NEW(
-	"Instances",
-	window_x_center, playfield_y, fa_center,
-	"High Scores",
-	global.font_leaderboards_header,
-	c_black
-);
+header_billboard = instance_create_layer(0, 0, "Menus", obj_Billboard);
+header_billboard.sprite_index = global.sprites_and_fonts.high_scores_header_sprite;
+header_billboard.x =
+	window_width / 2 - 
+	(sprite_get_width(header_billboard.sprite_index) / 2);	
+header_billboard.y = header_y;
 
 menu = scr_Menu_NEW(
 	window_x_center, 550, 

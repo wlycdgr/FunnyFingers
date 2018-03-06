@@ -1,9 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// draw HEADER
-scr_String_Draw(header);
-
 // Leaderboards ribbon
 draw_set_font(global.font_menu_header);
 for (var i = 0; i < leaderboards_ribbon_count; i++){

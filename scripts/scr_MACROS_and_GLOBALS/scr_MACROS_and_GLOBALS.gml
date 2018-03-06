@@ -78,6 +78,9 @@ global.core_funny_finger_grow_time_in_sec =
 #macro window_width window_get_width()
 #macro window_x_center window_width / 2
 
+#macro title_y 150
+#macro header_y 75
+
 #macro playfield_height 512
 #macro playfield_count 1
 #macro playfield_y ((window_height - playfield_height) / 2)

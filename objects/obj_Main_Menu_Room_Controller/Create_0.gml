@@ -1,14 +1,14 @@
 /// @description Init
 // You can write your code in this editor
 title_billboard = instance_create_layer(0, 0, "Title", obj_Billboard);
-title_billboard.sprite_index = obj_Sprite_Loader.title_sprite;
+title_billboard.sprite_index = global.sprites_and_fonts.title_sprite;
 title_billboard.x =
 	window_width / 2 - 
 	(sprite_get_width(title_billboard.sprite_index) / 2);	
-title_billboard.y = 50;
+title_billboard.y = title_y;
 
 main_menu = scr_Menu_NEW(
-	window_x_center, 550,
+	window_x_center, 500,
 	["Play", "Achievements", "High Scores", "Exit"]
 );
 

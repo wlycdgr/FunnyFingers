@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "150a5bec-8a0d-4b3a-b946-8f0be8e596d1",
+            "Value": {
+                "id": "83c15340-e6c4-498c-a9cf-7079e505e7ef",
+                "resourcePath": "datafiles_yy\\spr_achievements.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "150adbdd-4555-4d73-8785-ba644bc4e234",
             "Value": {
                 "id": "37b48ebe-9145-4dca-870f-b3316a2b5928",
@@ -767,6 +775,14 @@
             }
         },
         {
+            "Key": "b9fa7522-4656-4778-a2b2-98c60cf7d798",
+            "Value": {
+                "id": "a9692929-62f9-479a-a8b6-1f17e9dc6f35",
+                "resourcePath": "datafiles_yy\\spr_high_scores.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "bbe37cb4-12bb-4ff5-9e13-a6308dde3f93",
             "Value": {
                 "id": "fce3a91d-34a2-4819-8c89-4301f48a818a",
@@ -935,6 +951,14 @@
             }
         },
         {
+            "Key": "deb16828-9c21-498f-aa45-4802334adab9",
+            "Value": {
+                "id": "6d7f0316-944a-48b4-b9e8-b39e01ec9b72",
+                "resourcePath": "datafiles_yy\\spr_funny_fingers.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "e23a7fd3-0b94-4cc0-b500-0a5e16221018",
             "Value": {
                 "id": "ec76b28c-1472-4f50-bcae-de59f248cd31",
@@ -1044,14 +1068,6 @@
                 "id": "9cbe1a12-35c3-45e1-b29d-26bfbbbb00e5",
                 "resourcePath": "views\\f8dca17f-0855-44b2-952d-224a7a2b915d.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "fa5d549c-89ba-4426-bc0e-91196b586041",
-            "Value": {
-                "id": "69bfa66c-fad1-46e5-a15a-46ef041499a8",
-                "resourcePath": "datafiles_yy\\title_sprite.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {

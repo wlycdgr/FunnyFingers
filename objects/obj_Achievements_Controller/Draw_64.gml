@@ -1,6 +1,4 @@
 /// @description Draw
-scr_String_Draw(header);
-
 draw_set_font(global.font_menu_item);
 draw_set_color(the_color_of_information);
 draw_set_halign(fa_left);
