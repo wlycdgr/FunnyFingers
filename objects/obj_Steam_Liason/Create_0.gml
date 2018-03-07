@@ -1,14 +1,21 @@
 /// @description Init
-draw_debug = false;
+draw_debug = true;
+step_debug = true;
 
+// connection status stuff
+is_initialised = false;
+are_stats_ready = false
+ach_unlock_states_retrieved = false;
+
+// high score stuff
 high_scores_get_id = not_set;
 user_high_score_get_id = not_set;
-
 hs_names = array_create(10, "");
 hs_ranks = array_create(10, 0);
 hs_scores = array_create(10, 0);
 hs_count = 0;
 
+// achievements stuff
 ach_api_names = [
 	"ach_0_qweiop",
 	"ach_1_the_dabbler",
@@ -23,10 +30,6 @@ ach_api_names = [
 	"ach_10_level_99"
 ];
 ach_count = array_length_1d(ach_api_names);
-
-for (var i = 0; i < ach_count; i++) {
-	unlocked[i] = steam_get_achievement(ach_api_names[i]);
-}
 
 ach_names = [
 	"QWEIOP",
@@ -55,5 +58,3 @@ ach_debug_names = [
 	"9. A Longest Word: ",
 	"Z. Level 99: ",
 ];
-
-event_user(0);

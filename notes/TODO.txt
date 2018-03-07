@@ -170,27 +170,43 @@ March 5
 March 6
 - DONE implement leaderboards and filters ribbons in high scores room
 - DONE load and display around-user for highest unlocked difficulty by default
-	
-	
-- implement difficulty level unlocking
+- DONE implement difficulty level unlocking
 	- DONE initially only Cool and Easy are unlocked
-	- DONE Medium unlocks at [score threshold] on Easy, pops The Dabbler
-	- Hard unlocks at [score threshold] on Medium, pops The Qualifier
-	- Difficult unlocks at [score threshold] on Hard, pops The Up And Comer
-	- 30k on Difficult puts you on leaderboard, pops Fignermukcre
+	- DONE Medium unlocks at [5k | score threshold] on Easy, pops The Dabbler
+	- DONE Hard unlocks at [10k | score threshold] on Medium, pops The Qualifier
+	- DONE Difficult unlocks at [20k | score threshold] on Hard, pops The Up And Comer
+	- DONE [30k | score threshold] on Difficult pops Fignermukcre
 	- DONE locked modes show up as question marks on difficulty menu
 	- DONE selecting them does nothing
+- SORTA DONE display "score: [ticking down score] / [high score]: high score" on Cashout dialogue ribbon
+
 
 - implement / try fingers having "armor" on the sides and/or top that lets them absorb one red hit from that side
 per game
+
 
 - implement some way to regenerate the armor -
 	- dump bonus?
 	- spend half the points?
 	- maybe you can't directly, but reaching max multiplier randomly regenerates one piece of armor?
 
+- implement other achievement unlocks
+	- Triple Up: test with easy, 3x+ from 100+
+	- Best Friend: get Marls to install and play
+	- No Pressure: test out reaching 20x multiplier on Easy
+	- The Score Is Right: test taking over by 10 or less
+	- A Longest Word: test on Difficult but without enemies / death
+	- Level 99 - 
+		- create stat
+		- update stat
 
-- display "score: [ticking down score] / [high score]: high score" on Cashout dialogue ribbon
+
+- implement Kickstarter backers can unlock everything right away by typing their last name in three times at the title screen
+
+
+
+
+
 
 
 

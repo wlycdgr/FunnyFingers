@@ -1,17 +1,32 @@
-- design the achievements
-	- DONE "QWEIOP" complete controls tutorial.
-	- "The Dabbler" score 5k on easy, qualifying for the Easy leaderboard
-	- DONE "Qualifier" score 10k on medium, qualifying for the Medium leaderboard
-	- "Up And Comer" score 20k on hard, qualifying for the Hard leaderboard
-	- "Fignermukcre" score 30k on fignermukcre, qualifying for the Fignermukcre leaderboard
-	- "Triple Up" cashout on Medium at 3x+ current high score. Minimum 10k -> 30k
-	- "I Coulda Been A Contender" you attempted a One Shot / medium but failed to qualify for the leaderboard
-		(one chance to get highest combined three run score)
-	- "Best Friend" have highest score on a friend leaderboard with 9+ entries
-	- "Fenix Fingers" 10x sweet spots in a row
-	- "The Score Is Right" submit a score 1 more than your previous high score
-	- "A Longest Word" spell a ten letter word with your inputs 
-		TYPEWRITER, PEPPERROOT, PEPPERWORT, PERPETUITY, PEWTERWORT, 
-		PIROUETTER, PREREQUIRE, PRETORTURE, PROPRIETOR, REPERTOIRE, 
-		REPETITORY, TETTERWORT
-	- "Level 99" accumulate a lifetime total of 2,452,814 points on Easy
+0. QWEIOP
+Complete the tutorial.
+
+1. The Dabbler
+Cashout 5k+ on Easy, unlocking Medium.
+
+2. The Qualifier
+Cashout 10k+ on Medium, unlocking Hard.
+
+3. The Up And Comer
+Cash out 20k+ on Hard, unlocking Difficult.
+
+4. Fignermukcre
+Cashout 30k+ on Difficult.
+
+5. Triple Up
+Cashout 3x+ your previous 10k+ high score on Medium or higher.
+
+6. Best Friend
+Achieve the highest score on any Friends leaderboard with 10+ entries.
+
+7. No Pressure
+Max out the multiplier on Hard or higher.
+
+8. The Score Is Right
+Take the over by 1.
+
+9. A Longest Word
+Spell out TYPEWRITER with your moves on Difficult.
+
+10. Level 99
+Accumulate a lifetime total of 2,452,814 points on Cool.

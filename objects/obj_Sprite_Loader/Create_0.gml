@@ -33,6 +33,7 @@ logo_sprite = sprite_add("logo_600x540.png", 1, false, false, 0, 0);
 title_sprite = sprite_add("spr_funny_fingers.png", 1, false, false, 0, 0);
 achievements_header_sprite = sprite_add("spr_achievements.png", 1, false, false, 0, 0);
 high_scores_header_sprite = sprite_add("spr_high_scores.png", 1, false, false, 0, 0);
+game_over_header_sprite = sprite_add("spr_game_over.png", 1, false, false, 0, 0);
 column_sprite = sprite_add("Gameplay/column_48x512.png", column_frames, false, false, 0, 0);
 funny_finger_sprite = sprite_add("Gameplay/funny_finger_32x512.png", funny_finger_frames, false, false, 0, 0);
 energy_sprite = sprite_add("Gameplay/energy_32x32.png", energy_frames, false, false, 0, 0);

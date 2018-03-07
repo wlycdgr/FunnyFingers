@@ -1,26 +1,26 @@
 // Core Mechanics 
-#macro core_enemy_speed_per_sec_min_default 125
+#macro core_enemy_speed_per_sec_min_default 125 // 275 //175 //125
 global.core_enemy_speed_per_sec_min = 
 	core_enemy_speed_per_sec_min_default;
-#macro core_enemy_speed_per_sec_max_default 175
+#macro core_enemy_speed_per_sec_max_default 175 // 325 // 225 // 175
 global.core_enemy_speed_per_sec_max = 
 	core_enemy_speed_per_sec_max_default;
-#macro core_energy_speed_per_sec_min_default 225
+#macro core_energy_speed_per_sec_min_default 225 // 375 //275 // 225
 global.core_energy_speed_per_sec_min = 
 	core_energy_speed_per_sec_min_default;
-#macro core_energy_speed_per_sec_max_default 275
+#macro core_energy_speed_per_sec_max_default 275 // 425 //325 //275
 global.core_energy_speed_per_sec_max = 
 	core_energy_speed_per_sec_max_default;
-#macro core_enemy_minimum_period_in_sec_default 1.25
+#macro core_enemy_minimum_period_in_sec_default 1.25 // 0.95 // 1.25
 global.core_enemy_minimum_period_in_sec = 
 	core_enemy_minimum_period_in_sec_default;
-#macro core_enemy_maximum_period_in_sec_default 1.5
+#macro core_enemy_maximum_period_in_sec_default 1.5 // 1.2 // 1.5
 global.core_enemy_maximum_period_in_sec = 
 	core_enemy_maximum_period_in_sec_default;
-#macro core_energy_minimum_period_in_sec_default 0.75
+#macro core_energy_minimum_period_in_sec_default 0.75 // 0.45 //0.75
 global.core_energy_minimum_period_in_sec = 
 	core_energy_minimum_period_in_sec_default;
-#macro core_energy_maximum_period_in_sec_default 1.25
+#macro core_energy_maximum_period_in_sec_default 1.25 // 0.95 //1.25
 global.core_energy_maximum_period_in_sec = 
 	core_energy_maximum_period_in_sec_default;
 #macro core_funny_finger_move_time_in_sec_default 0.1
@@ -54,7 +54,10 @@ global.core_funny_finger_grow_time_in_sec =
 #macro steam_ach_The_Score_Is_Right 8
 #macro steam_ach_A_Longest_Word 9
 #macro steam_ach_Level_99 10
-#macro steam_ach_The_Dabbler_min_unlock_score 100
+#macro steam_ach_The_Dabbler_unlock_score 50
+#macro steam_ach_The_Qualifier_unlock_score 100
+#macro steam_ach_The_Up_And_Comer_unlock_score 200
+#macro steam_ach_Fignermukcre_unlock_score 50
 
 #macro steam_high_scores_leaderboard_cool "Cool"
 #macro steam_high_scores_leaderboard_easy "Easy"
@@ -86,11 +89,11 @@ global.core_funny_finger_grow_time_in_sec =
 #macro playfield_y ((window_height - playfield_height) / 2)
 #macro playfield_bottom_y window_height - (((window_height - playfield_height) / 2))
 
-#macro column_count_cool 12
+#macro column_count_cool 5
 #macro column_count_easy 6
 #macro column_count_medium 7
-#macro column_count_hard 9
-#macro column_count_difficult 12
+#macro column_count_hard 8
+#macro column_count_difficult 9
 #macro column_width 48
 
 #macro funny_finger_count_cool 1

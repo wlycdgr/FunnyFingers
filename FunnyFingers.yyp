@@ -87,19 +87,19 @@
             }
         },
         {
+            "Key": "109aafa2-64cc-4f82-82e7-9fc2ab7ed0d7",
+            "Value": {
+                "id": "6d0ff771-0a87-4872-a3cc-70bb39f0a636",
+                "resourcePath": "datafiles_yy\\spr_high_scores.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "1329b4b1-d0c9-4b21-b1de-be145c29379f",
             "Value": {
                 "id": "b8c0854f-9353-47e5-965c-5c49a3f8a7b3",
                 "resourcePath": "objects\\obj_Column\\obj_Column.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "150a5bec-8a0d-4b3a-b946-8f0be8e596d1",
-            "Value": {
-                "id": "83c15340-e6c4-498c-a9cf-7079e505e7ef",
-                "resourcePath": "datafiles_yy\\spr_achievements.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "8990a2d7-24f4-4eb3-9eea-920b11e7961e",
+            "Value": {
+                "id": "eecd5359-41b9-4913-8a8a-9031be654add",
+                "resourcePath": "datafiles_yy\\spr_game_over.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "8a436d88-e379-47d6-9da4-a9b78e111c67",
             "Value": {
                 "id": "46a607ea-b729-4642-aec1-f47f87712dad",
@@ -791,14 +799,6 @@
             }
         },
         {
-            "Key": "b9fa7522-4656-4778-a2b2-98c60cf7d798",
-            "Value": {
-                "id": "a9692929-62f9-479a-a8b6-1f17e9dc6f35",
-                "resourcePath": "datafiles_yy\\spr_high_scores.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "bbe37cb4-12bb-4ff5-9e13-a6308dde3f93",
             "Value": {
                 "id": "fce3a91d-34a2-4819-8c89-4301f48a818a",
@@ -955,6 +955,14 @@
             "Value": {
                 "id": "6d7f0316-944a-48b4-b9e8-b39e01ec9b72",
                 "resourcePath": "datafiles_yy\\spr_funny_fingers.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "e05a70c6-d054-4a56-87a8-4801c3a46da7",
+            "Value": {
+                "id": "ca6a0aa4-f076-4950-a0d2-3163f9aac04b",
+                "resourcePath": "datafiles_yy\\spr_achievements.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },

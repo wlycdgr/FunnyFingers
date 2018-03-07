@@ -1,5 +1,5 @@
 {
-    "id": "b9fa7522-4656-4778-a2b2-98c60cf7d798",
+    "id": "109aafa2-64cc-4f82-82e7-9fc2ab7ed0d7",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "spr_high_scores.png",

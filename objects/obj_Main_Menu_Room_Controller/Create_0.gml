@@ -8,7 +8,7 @@ title_billboard.x =
 title_billboard.y = title_y;
 
 main_menu = scr_Menu_NEW(
-	window_x_center, 500,
+	window_x_center, 450,
 	["Play", "Achievements", "High Scores", "Exit"]
 );
 
@@ -33,7 +33,7 @@ else { difficulty_menu_labels[4] = "?????????"; }
 difficulty_menu_labels[5] = "Back To Main Menu";
 
 difficulty_menu = scr_Menu_NEW(
-	window_x_center, 500,
+	window_x_center, 450,
 	difficulty_menu_labels
 );
 difficulty_menu.active = false;
