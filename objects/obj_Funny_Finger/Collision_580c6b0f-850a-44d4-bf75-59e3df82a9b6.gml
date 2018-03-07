@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Lose armor or kaput
 if (!is_moving) {
 	if (armor_top) {
 		armor_top = false;

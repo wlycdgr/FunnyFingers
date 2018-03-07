@@ -5,10 +5,10 @@ global.core_enemy_speed_per_sec_min =
 #macro core_enemy_speed_per_sec_max_default 175 // 325 // 225 // 175
 global.core_enemy_speed_per_sec_max = 
 	core_enemy_speed_per_sec_max_default;
-#macro core_energy_speed_per_sec_min_default 225 // 375 //275 // 225
+#macro core_energy_speed_per_sec_min_default 325 //225 // 375 //275 // 225
 global.core_energy_speed_per_sec_min = 
 	core_energy_speed_per_sec_min_default;
-#macro core_energy_speed_per_sec_max_default 275 // 425 //325 //275
+#macro core_energy_speed_per_sec_max_default 375 // 275 // 425 //325 //275
 global.core_energy_speed_per_sec_max = 
 	core_energy_speed_per_sec_max_default;
 #macro core_enemy_minimum_period_in_sec_default 1.25 // 0.95 // 1.25
@@ -17,16 +17,16 @@ global.core_enemy_minimum_period_in_sec =
 #macro core_enemy_maximum_period_in_sec_default 1.5 // 1.2 // 1.5
 global.core_enemy_maximum_period_in_sec = 
 	core_enemy_maximum_period_in_sec_default;
-#macro core_energy_minimum_period_in_sec_default 0.75 // 0.45 //0.75
+#macro core_energy_minimum_period_in_sec_default 0.5 //0.75 // 0.45 //0.75
 global.core_energy_minimum_period_in_sec = 
 	core_energy_minimum_period_in_sec_default;
-#macro core_energy_maximum_period_in_sec_default 1.25 // 0.95 //1.25
+#macro core_energy_maximum_period_in_sec_default 0.75 //1.25 // 0.95 //1.25
 global.core_energy_maximum_period_in_sec = 
 	core_energy_maximum_period_in_sec_default;
 #macro core_funny_finger_move_time_in_sec_default 0.1
 global.core_funny_finger_move_time_in_sec = 
 	core_funny_finger_move_time_in_sec_default;
-#macro core_funny_finger_shrink_per_sec_x_1000_default 30
+#macro core_funny_finger_shrink_per_sec_x_1000_default 60 // 30
 global.core_funny_finger_shrink_per_sec_x_1000 = 
 	core_funny_finger_shrink_per_sec_x_1000_default;
 #macro core_funny_finger_starting_life_x_100_default 30
@@ -35,7 +35,7 @@ global.core_funny_finger_starting_life_x_100 =
 #macro core_energy_value_x_100_default 15
 global.core_energy_value_x_100 = 
 	core_energy_value_x_100_default;
-#macro core_funny_finger_grow_time_in_sec_default 0.35
+#macro core_funny_finger_grow_time_in_sec_default 0.7 // 0.35
 global.core_funny_finger_grow_time_in_sec = 
 	core_funny_finger_grow_time_in_sec_default;
 // /Core Mechanics

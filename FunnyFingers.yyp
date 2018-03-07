@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "1bfb8e74-5b6c-4d4e-b92f-2bdd3535e7c0",
+            "Value": {
+                "id": "3e1d4b48-5d8c-46f5-99e0-62cadc0c0f38",
+                "resourcePath": "datafiles_yy\\MenuItemLabels\\spr_play.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "1c394201-cc72-4632-9b86-790c3a40e4c3",
             "Value": {
                 "id": "3c3626e9-14a9-45ae-a481-9f456a41129f",
@@ -519,6 +527,14 @@
             }
         },
         {
+            "Key": "70caded6-01a1-4413-be64-c646de2e7e79",
+            "Value": {
+                "id": "d3d6863b-7f59-4ce6-961a-f6fd55b7beb0",
+                "resourcePath": "datafiles_yy\\MenuItemLabels\\spr_high_scores.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "76d8116b-cc08-4f3c-b90c-1f9cd9bc85f4",
             "Value": {
                 "id": "772fb52e-287a-47cd-a0a4-728184aa687b",
@@ -540,6 +556,14 @@
                 "id": "71285a90-1ede-4b94-b405-eeb2af14c013",
                 "resourcePath": "objects\\obj_Menu\\obj_Menu.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7bd9cac1-d4a9-4503-bac4-985b2105dfab",
+            "Value": {
+                "id": "b9428c8b-0c67-4d46-8664-c7fb0bb38e3c",
+                "resourcePath": "datafiles_yy\\MenuItemLabels\\spr_continue.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -711,6 +735,14 @@
             }
         },
         {
+            "Key": "a5ed8074-8415-4d85-a0a4-d85c5d587175",
+            "Value": {
+                "id": "cae3cf88-9c86-423d-839b-83921f2e4c78",
+                "resourcePath": "datafiles_yy\\MenuItemLabels\\spr_try_again.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "a6b67ddb-e8c6-4e74-9985-c4f7719d2d34",
             "Value": {
                 "id": "acfc542e-e688-49fe-89b1-9c8086a64dad",
@@ -732,6 +764,14 @@
                 "id": "ca010eda-03b2-4e6b-9ef8-6fde1a8f31bc",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa536f00-68f0-46cf-aa3c-4d1952e45216",
+            "Value": {
+                "id": "f4b381b0-b388-4b2f-ac9c-0d4f8756e505",
+                "resourcePath": "datafiles_yy\\MenuItemLabels\\spr_cashout.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -815,6 +855,14 @@
             }
         },
         {
+            "Key": "c3e6edd0-133d-478f-87ef-4896d386452e",
+            "Value": {
+                "id": "f1a671d9-566c-4ef6-bcf8-6b3826bf1fd8",
+                "resourcePath": "views\\c3e6edd0-133d-478f-87ef-4896d386452e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c438c890-bf59-4a03-af6e-08a97e57bbc4",
             "Value": {
                 "id": "0b2ab1f1-9c58-4994-adac-594c65ee8577",
@@ -884,6 +932,14 @@
                 "id": "99aeb4e2-1ab1-4bde-acde-3f14079c1daa",
                 "resourcePath": "rooms\\r_High_Scores\\r_High_Scores.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "cea25d00-63ae-4626-b392-b0858c15e415",
+            "Value": {
+                "id": "e1004c74-e16a-41d2-9c13-6ccf442e2f65",
+                "resourcePath": "datafiles_yy\\MenuItemLabels\\spr_main_menu.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1012,6 +1068,14 @@
                 "id": "5a18564f-5f82-45d6-9d28-3c6cc18965a6",
                 "resourcePath": "views\\e6b364ea-c9e0-43b7-8647-237c7305df91.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e9a0b9fd-9d1f-4753-8efd-3f8baccaf1e3",
+            "Value": {
+                "id": "a108fd6c-8347-4533-8aca-a6fbadb6f8bb",
+                "resourcePath": "datafiles_yy\\MenuItemLabels\\spr_achievements.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
