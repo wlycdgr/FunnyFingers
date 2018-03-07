@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0a7f8220-d0d1-48e4-905c-7d5ca22065be",
+            "Value": {
+                "id": "1232984e-2911-4561-9164-066bfcd57d02",
+                "resourcePath": "datafiles_yy\\Gameplay\\energy_32x32.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "0ac5f62d-3b3b-446f-93ce-b591a9476fee",
             "Value": {
                 "id": "58e2228c-b7fb-4b85-89b3-b4f585ca60e7",
@@ -343,14 +351,6 @@
             }
         },
         {
-            "Key": "49c158d8-9763-46dd-a5f2-0413710e0568",
-            "Value": {
-                "id": "89d8858c-d2f3-49a1-b61c-e42ff42022af",
-                "resourcePath": "datafiles_yy\\Gameplay\\enemy_32x32.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "4b30e011-822b-4f9c-89a6-a7740078c8dd",
             "Value": {
                 "id": "5af4a0c6-63be-4fbe-bb91-b02524a5d000",
@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "59827bc7-19d4-4d96-a37a-864d1657eb59",
+            "Value": {
+                "id": "27749f1a-a5a8-4167-ad00-2ec346454e3c",
+                "resourcePath": "datafiles_yy\\Gameplay\\funny_finger_32x512.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "5afe5451-9bd0-49be-8b2b-a211f0a01d3e",
             "Value": {
                 "id": "834bdccb-b818-4758-97e8-3764ce1ddae1",
@@ -428,6 +436,14 @@
                 "id": "a24bde45-6cc8-4a5f-9b29-06c818357a17",
                 "resourcePath": "views\\5bd3e45e-f41b-4788-b6d8-6fe5cc3ea5b7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5df11595-43a3-40fc-b239-154fea7f93d6",
+            "Value": {
+                "id": "5b0ad95e-8838-4823-be33-5e4ebb00203b",
+                "resourcePath": "datafiles_yy\\sprite_settings.ini.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -500,14 +516,6 @@
                 "id": "d6424b36-ee28-4a11-91cc-45d0e39538ce",
                 "resourcePath": "scripts\\scr_Generate_Entities\\scr_Generate_Entities.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "72597bfc-66ab-417e-99b1-85bc7842a3fa",
-            "Value": {
-                "id": "217c84cc-4b65-4b40-8687-3781be026243",
-                "resourcePath": "datafiles_yy\\Gameplay\\energy_32x32.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -628,6 +636,14 @@
                 "id": "b453560f-6331-4cc0-9589-6ef46050ea62",
                 "resourcePath": "views\\9520ef3f-3d7b-43a4-a49f-44767a20dc32.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "97d99937-c43e-48f5-b4c5-69d2714406c0",
+            "Value": {
+                "id": "3f3b2f5e-91e5-41cf-959c-7f5039e98a75",
+                "resourcePath": "datafiles_yy\\Gameplay\\enemy_32x32.png.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -791,14 +807,6 @@
             }
         },
         {
-            "Key": "bee6d1b7-079d-490e-8dd7-4ea62212db0f",
-            "Value": {
-                "id": "0c790722-0f74-4ee6-8c8b-fbfc4d14a8e9",
-                "resourcePath": "datafiles_yy\\sprite_settings.ini.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "c186446c-f3ac-4a1d-810e-834a1a247471",
             "Value": {
                 "id": "0fa7b827-c275-4b7d-92a5-100a21f27efc",
@@ -924,14 +932,6 @@
                 "id": "d93de26d-a769-42b4-807c-c5e939cab994",
                 "resourcePath": "views\\dc5035d2-b553-4e80-bae5-94a9de523d18.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "dcb9650a-e818-4006-b898-971814578881",
-            "Value": {
-                "id": "46d46d38-c302-4732-a98c-fdcfe4eed88a",
-                "resourcePath": "datafiles_yy\\Gameplay\\funny_finger_32x512.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {

@@ -1,6 +1,9 @@
 /// @description Init
 draw_debug = false;
 
+high_scores_get_id = not_set;
+user_high_score_get_id = not_set;
+
 hs_names = array_create(10, "");
 hs_ranks = array_create(10, 0);
 hs_scores = array_create(10, 0);

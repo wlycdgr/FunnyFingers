@@ -168,21 +168,19 @@ March 5
 
 
 March 6
-- fix high scores screen
-	- displays around-user for highest unlocked by default
+- DONE implement leaderboards and filters ribbons in high scores room
+- DONE load and display around-user for highest unlocked difficulty by default
 	
 	
-- implement unlocks
-	- DONE initially only cool and easy are unlocked
-	- DONE medium unlocks at [score threshold] on easy, pops The Dabbler
-	- hard unlocks at 10k on medium, pops The Qualifier
-	- fignermukcre unlocks at 20k on hard, pops The Up And Comer
-	- 30k on Fignermukcre puts you on leaderboard, pops Fignermukcre
-	
-	- locked modes show up in gray on difficulty menu
-	- selecting them does nothing
-	- 
-	
+- implement difficulty level unlocking
+	- DONE initially only Cool and Easy are unlocked
+	- DONE Medium unlocks at [score threshold] on Easy, pops The Dabbler
+	- Hard unlocks at [score threshold] on Medium, pops The Qualifier
+	- Difficult unlocks at [score threshold] on Hard, pops The Up And Comer
+	- 30k on Difficult puts you on leaderboard, pops Fignermukcre
+	- DONE locked modes show up as question marks on difficulty menu
+	- DONE selecting them does nothing
+
 - implement / try fingers having "armor" on the sides and/or top that lets them absorb one red hit from that side
 per game
 

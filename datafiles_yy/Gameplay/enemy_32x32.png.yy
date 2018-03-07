@@ -1,5 +1,5 @@
 {
-    "id": "49c158d8-9763-46dd-a5f2-0413710e0568",
+    "id": "97d99937-c43e-48f5-b4c5-69d2714406c0",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "enemy_32x32.png",

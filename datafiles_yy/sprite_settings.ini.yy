@@ -1,5 +1,5 @@
 {
-    "id": "bee6d1b7-079d-490e-8dd7-4ea62212db0f",
+    "id": "5df11595-43a3-40fc-b239-154fea7f93d6",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "sprite_settings.ini",
