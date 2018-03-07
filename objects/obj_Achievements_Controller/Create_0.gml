@@ -9,7 +9,7 @@ header_billboard.y = header_y;
 
 menu = scr_Menu_NEW(
 	window_x_center, 550,
-	["Play Game", "High Scores", "Title"]
+	["Main Menu"]
 );
 
 

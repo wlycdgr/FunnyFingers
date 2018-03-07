@@ -8,15 +8,23 @@
 
 var menu = argument0;
 
-draw_set_font(global.font_menu_item);
-draw_set_halign(menu_halign);
+//draw_set_font(global.font_menu_item);
+//draw_set_halign(menu_halign);
 
 for (var i = 0; i < menu.item_count; i++) {
-	if (i == menu.index) { draw_set_color(menu_color_selected); }
-	else { draw_set_color(menu_color_unselected); }
-	
-	draw_text(
-		menu.x, menu.label_y_positions[i],
-		menu.labels[i]
+	//if (i == menu.index) { draw_set_color(menu_color_selected); }
+	//else { draw_set_color(menu_color_unselected); }
+
+	draw_sprite(
+		menu.label_sprites[i], 0,
+		menu.x, menu.label_y_positions[i]
 	);
+	
+	if (i == menu.index) {
+		draw_rectangle(
+			menu.x - 28, menu.label_y_positions[i],
+			menu.x - 4, menu.label_y_positions[i] + 24,
+			false
+		);
+	}
 }

@@ -44,6 +44,15 @@ left_side_sprite = sprite_add("Gameplay/left_472x720.png", left_side_frames, fal
 right_side_sprite = sprite_add("Gameplay/right_472x720.png", right_side_frames, false, false, 0, 0);
 danger_danger_sprite = sprite_add("Gameplay/danger_danger_32x512.png", danger_danger_frames, false, false, 0, 0);
 
+// menu item sprites
+menu_item_label_achievements_sprite = sprite_add("MenuItemLabels/spr_achievements.png", 1, false, false, 0, 0);
+menu_item_label_high_scores_sprite = sprite_add("MenuItemLabels/spr_high_scores.png", 1, false, false, 0, 0);
+menu_item_label_cashout_sprite = sprite_add("MenuItemLabels/spr_cashout.png", 1, false, false, 0, 0);
+menu_item_label_play_sprite = sprite_add("MenuItemLabels/spr_play.png", 1, false, false, 0, 0);
+menu_item_label_try_again_sprite = sprite_add("MenuItemLabels/spr_try_again.png", 1, false, false, 0, 0);
+menu_item_label_continue_sprite = sprite_add("MenuItemLabels/spr_continue.png", 1, false, false, 0, 0);
+menu_item_label_main_menu_sprite = sprite_add("MenuItemLabels/spr_main_menu.png", 1, false, false, 0, 0);
+
 
 sprite_set_speed(column_sprite, column_framerate, spritespeed_framespersecond);
 sprite_set_speed(funny_finger_sprite, funny_finger_framerate, spritespeed_framespersecond);

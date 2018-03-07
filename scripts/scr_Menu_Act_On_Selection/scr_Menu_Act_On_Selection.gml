@@ -67,8 +67,13 @@ case "Continue":
 case "Exit":
 	game_end();
 	break;
-case "Exit To Title":
-	with (global.game) { event_user(4); }
+case "Main Menu":
+	if (room == r_Gameplay) {
+		with (global.game) { event_user(4); }
+	}
+	else {
+		scr_Fade_To(r_MainMenu);
+	}
 	break;
 case "High Scores":
 	scr_Fade_To(r_High_Scores);
