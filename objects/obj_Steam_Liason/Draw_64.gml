@@ -9,12 +9,15 @@ draw_text(5, 200, "STEAM INFO");
 draw_text(5, 215, "is_initialised: " + scr_bool2str(is_initialised));
 draw_text(5, 230, "are_stats_ready: " + scr_bool2str(are_stats_ready));
 draw_text(5, 260, "STEAM ACHIEVEMENTS (Ctrl + A + # to toggle)");
-for (var i = 0; i < steam_achievement_count; i++) {
-	draw_text(
-		5, 275 + i * 15,
-		ach_debug_names[i] +
-		scr_bool2str(unlocked[i])
-	);
+
+if (ach_unlock_states_retrieved) {
+	for (var i = 0; i < steam_achievement_count; i++) {
+		draw_text(
+			5, 275 + i * 15,
+			ach_debug_names[i] +
+			scr_bool2str(unlocked[i])
+		);
+	}
 }
 
 

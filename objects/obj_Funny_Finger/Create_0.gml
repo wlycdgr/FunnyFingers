@@ -1,4 +1,8 @@
-/// @description Insert description here
+/// @description Init
+armor_top = true;
+armor_left = true;
+armor_right = true;
+
 is_moving = false;
 is_shrinking = true;
 is_not_funny_anymore = false;

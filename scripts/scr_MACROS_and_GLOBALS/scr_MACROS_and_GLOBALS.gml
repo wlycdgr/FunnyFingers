@@ -141,6 +141,6 @@ global.core_funny_finger_grow_time_in_sec =
 
 #macro mb_max_multiplier 100
 #macro mb_min_multiplier 1
-#macro mb_max_seconds_to_drain 7.0
-#macro mb_min_seconds_to_drain 2.0
-#macro mb_time_to_drain_reduction_in_seconds_for_successful_move 0.5
+#macro mb_max_seconds_to_drain 3.0
+#macro mb_min_seconds_to_drain 1.0
+#macro mb_time_to_drain_reduction_in_seconds_for_successful_move 0.02
