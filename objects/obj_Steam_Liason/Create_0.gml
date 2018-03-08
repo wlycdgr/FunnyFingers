@@ -2,6 +2,9 @@
 draw_debug = true;
 step_debug = true;
 
+// screenshot counter
+screenshot_number = 0;
+
 // connection status stuff
 is_initialised = false;
 are_stats_ready = false

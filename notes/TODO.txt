@@ -179,16 +179,17 @@ March 6
 	- DONE locked modes show up as question marks on difficulty menu
 	- DONE selecting them does nothing
 - SORTA DONE display "score: [ticking down score] / [high score]: high score" on Cashout dialogue ribbon
-
-
-- implement / try fingers having "armor" on the sides and/or top that lets them absorb one red hit from that side
+- DONE  implement / try fingers having "armor" on the sides and/or top that lets them absorb one red hit from that side
 per game
+- DONE integrate menu item, header, ribbon header sprites
 
 
-- implement some way to regenerate the armor -
-	- dump bonus?
-	- spend half the points?
-	- maybe you can't directly, but reaching max multiplier randomly regenerates one piece of armor?
+March 7
+
+- implement support for Steam screenshots 
+(through steam_is_screenshot_requested and steam_send_screenshot)
+
+- simplify armor to just one piece that is destroyed when an enemy touches a funny finger anywhere
 
 - implement other achievement unlocks
 	- Triple Up: test with easy, 3x+ from 100+
@@ -199,29 +200,16 @@ per game
 	- Level 99 - 
 		- create stat
 		- update stat
-
+		- text pop when you hit it with the CirclMaster quote
+- implement tutorial being the only thing you can do until you complete it, at the beginning
 
 - implement Kickstarter backers can unlock everything right away by typing their last name in three times at the title screen
 
-
-
-
-
-
-
-
-	
-- implement tutorial being the only thing you can do until you complete it, at the beginning
-
 - implement sound placeholders
 
-- implement "Level 99" text pop
-	- shows the CirclMaster quote when  you hit it
-	
-- implement support for Steam screenshots 
-(through steam_is_screenshot_requested and steam_send_screenshot)
 
-- add stat tracking for Level 99, to display total lifetime points so far
+
+- balance for all difficulties
 
 - add checks so that game does not break if any sprite asset is not available or misnamed
 
