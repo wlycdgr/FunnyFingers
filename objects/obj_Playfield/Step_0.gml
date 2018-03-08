@@ -15,9 +15,36 @@ for (var i = global.game_settings.funny_finger_count - 1; i > -1; i--){
 if (!focused) exit;
 
 // Check to see whether any funny finger is moving
-// If so, don't accept more move input
+// If so, 
+// * reset multiplier if there is move input
+// * otherwise, do not accept any more move input and return
 for (var i = global.game_settings.funny_finger_count - 1; i > -1; i--){
-	if (funny_fingers[i].is_moving) exit;
+	if (funny_fingers[i].is_moving) {
+		if (
+			global.input_tracker.is_leftmost_pressed ||
+			global.input_tracker.is_rightmost_pressed ||
+			(global.game_settings.funny_finger_count > 1 && 
+				(global.input_tracker.is_second_leftmost_pressed ||
+				 global.input_tracker.is_second_rightmost_pressed)
+			) ||
+			(global.game_settings.funny_finger_count > 2 &&
+				(global.input_tracker.is_third_leftmost_pressed ||
+				 global.input_tracker.is_third_rightmost_pressed)
+			) ||
+			(global.game_settings.funny_finger_count > 3 &&
+				(global.input_tracker.is_fourth_leftmost_pressed ||
+				 global.input_tracker.is_fourth_rightmost_pressed)
+			) ||
+			(global.game_settings.funny_finger_count > 4 &&
+				(global.input_tracker.is_fifth_leftmost_pressed ||
+				 global.input_tracker.is_fifth_rightmost_pressed)
+			)
+		) {
+			with (multiplier_bar) { event_user(12); }
+		}
+		
+		exit;
+	}
 }
 
 // If this playfield IS focused AND IS currently accepting move input,
