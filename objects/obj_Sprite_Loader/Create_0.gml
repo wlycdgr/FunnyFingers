@@ -51,7 +51,7 @@ achievements_header_sprite = sprite_add("spr_achievements.png", 1, false, false,
 high_scores_header_sprite = sprite_add("spr_high_scores.png", 1, false, false, 0, 0);
 
 // ribbon menu header sprites
-ribbon_menu_header_game_over_sprite = sprite_add("spr_game_over.png", 1, false, false, 0, 0);
+ribbon_menu_header_game_over_sprite = sprite_add("RibbonMenuHeaders/spr_game_over.png", 1, false, false, 0, 0);
 
 
 // menu item sprites

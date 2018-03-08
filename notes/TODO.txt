@@ -209,7 +209,7 @@ March 7
 		- DONE slides in High Scores ribbon
 
 - implement other achievement unlocks
-	- Triple Up: test with easy, 3x+ from 100+
+	- DONE Triple Up: test with easy, 3x+ from 100+
 	- Best Friend: get Marls to install and play
 	- No Pressure: test out reaching 20x multiplier on Easy
 	- The Score Is Right: test taking over by 10 or less
@@ -224,7 +224,7 @@ March 7
 
 - implement sound placeholders
 
-
+- handle steam failing to upload score
 
 - balance for all difficulties
 
