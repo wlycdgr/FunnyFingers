@@ -1,4 +1,4 @@
-/// @description On bad move attempt
+/// @description Reset multiplier
 multiplier = mb_min_multiplier;
 fully_drained = true;
 fill_x = 0;

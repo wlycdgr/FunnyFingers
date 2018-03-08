@@ -1,7 +1,5 @@
 /// @description Init
-armor_top = true;
-armor_left = true;
-armor_right = true;
+has_armor = true;
 
 is_moving = false;
 is_shrinking = true;

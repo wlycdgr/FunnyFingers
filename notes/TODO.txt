@@ -185,11 +185,10 @@ per game
 
 
 March 7
-
-- implement support for Steam screenshots 
+- DONE implement support for Steam screenshots 
 (through steam_is_screenshot_requested and steam_send_screenshot)
 
-- simplify armor to just one piece that is destroyed when an enemy touches a funny finger anywhere
+- DONE simplify armor to just one piece that is destroyed when an enemy touches a funny finger anywhere
 
 - implement other achievement unlocks
 	- Triple Up: test with easy, 3x+ from 100+

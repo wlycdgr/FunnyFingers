@@ -79,11 +79,20 @@ case "High Scores":
 	scr_Fade_To(r_High_Scores);
 	break;
 case "Play":
+	with (global.game_settings) {
+		funny_finger_count = funny_finger_count_easy;
+		column_count = column_count_easy;
+		steam_high_scores_leaderboard = steam_high_scores_leaderboard_easy;
+	}
+	scr_Fade_To(r_Gameplay);
+	
+	/*
 	with (global.main_menu_controller) {
 		main_menu.active = false;
 		difficulty_menu.active = true;
 	}
 	break;
+	*/
 case "Play Game":
 	scr_Fade_To(r_Gameplay);
 	break;
