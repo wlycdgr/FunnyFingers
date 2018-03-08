@@ -131,6 +131,20 @@
             "value": "0",
             "varName": "vertical_speed",
             "varType": 0
+        },
+        {
+            "id": "ae9af68e-6ae8-4f50-8dad-e8794b42409c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-1",
+            "varName": "last_random_column_index",
+            "varType": 1
         }
     ],
     "solid": false,

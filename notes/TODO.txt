@@ -189,6 +189,24 @@ March 7
 (through steam_is_screenshot_requested and steam_send_screenshot)
 - DONE simplify armor to just one piece that is destroyed when an enemy touches a funny finger anywhere
 - DONE trying to move before a move is completed resets the multiplier
+- DONE keep track of last column that we put an enemy/energy into, 
+	roll again one time if we get same column
+- DONE change cash out flow
+	- DONE Display score in the middle of the sliding ribbon menu, like so:
+		Score: [score, ticking down] / [high score] : Current High Score
+	- DONE Cashout submits new high score
+	- DONE Space during gameplay brings up Cashout? menu
+	- DONE Score ticks down while on this menu
+	- DONE Menu with the following options:
+		Cashout!
+		Continue
+		Exit To Title
+	- DONE 'Continue' just continues the game
+	- DONE 'Exit To Title' does just that
+	- DONE Cashout!...
+		- DONE ends current game
+		- DONE slides Cashout? menu away
+		- DONE slides in High Scores ribbon
 
 - implement other achievement unlocks
 	- Triple Up: test with easy, 3x+ from 100+
@@ -219,22 +237,7 @@ March 7
 	- Displays around-user score with 10 entries
 	- Displays correct leaderboard
 
-- change cash out flow
-	- Display score in the middle of the sliding ribbon menu, like so:
-		Score: [score, ticking down] / [high score] : Current High Score
-	- Cashout submits new high score
-	- DONE Space during gameplay brings up Cashout? menu
-	- DONE Score ticks down while on this menu
-	- DONE Menu with the following options:
-		Cashout!
-		Continue
-		Exit To Title
-	- DONE 'Continue' just continues the game
-	- DONE 'Exit To Title' does just that
-	- Cashout!...
-		- DONE ends current game
-		- DONE slides Cashout? menu away
-		- DONE slides in High Scores ribbon
+
 
 
 

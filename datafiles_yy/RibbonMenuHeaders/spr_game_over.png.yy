@@ -8,7 +8,7 @@
     "exportAction": 0,
     "exportDir": "",
     "fileName": "spr_game_over.png",
-    "filePath": "datafiles",
+    "filePath": "datafiles\\RibbonMenuHeaders",
     "freeData": false,
     "origName": "",
     "overwrite": false,

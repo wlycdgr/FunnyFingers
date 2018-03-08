@@ -29,20 +29,30 @@ ini_close();
 
 
 nyu_incubator_logo_sprite = sprite_add("nyu_incubator_logo.jpg", 1, false, false, 0, 0);
+
 logo_sprite = sprite_add("logo_600x540.png", 1, false, false, 0, 0);
+
 title_sprite = sprite_add("spr_funny_fingers.png", 1, false, false, 0, 0);
-achievements_header_sprite = sprite_add("spr_achievements.png", 1, false, false, 0, 0);
-high_scores_header_sprite = sprite_add("spr_high_scores.png", 1, false, false, 0, 0);
-game_over_header_sprite = sprite_add("spr_game_over.png", 1, false, false, 0, 0);
+
 column_sprite = sprite_add("Gameplay/column_48x512.png", column_frames, false, false, 0, 0);
 funny_finger_sprite = sprite_add("Gameplay/funny_finger_32x512.png", funny_finger_frames, false, false, 0, 0);
 energy_sprite = sprite_add("Gameplay/energy_32x32.png", energy_frames, false, false, 0, 0);
 enemy_sprite = sprite_add("Gameplay/enemy_32x32.png", enemy_frames, false, false, 0, 0);
+danger_danger_sprite = sprite_add("Gameplay/danger_danger_32x512.png", danger_danger_frames, false, false, 0, 0);
+
 bottom_mask_sprite = sprite_add("Gameplay/bottom_336x104.png", bottom_mask_frames, false, false, 0, 0);
 top_mask_sprite = sprite_add("Gameplay/top_336x104.png", top_mask_frames, false, false, 0, 0);
 left_side_sprite = sprite_add("Gameplay/left_472x720.png", left_side_frames, false, false, 0, 0);
 right_side_sprite = sprite_add("Gameplay/right_472x720.png", right_side_frames, false, false, 0, 0);
-danger_danger_sprite = sprite_add("Gameplay/danger_danger_32x512.png", danger_danger_frames, false, false, 0, 0);
+
+
+// room header sprites
+achievements_header_sprite = sprite_add("spr_achievements.png", 1, false, false, 0, 0);
+high_scores_header_sprite = sprite_add("spr_high_scores.png", 1, false, false, 0, 0);
+
+// ribbon menu header sprites
+ribbon_menu_header_game_over_sprite = sprite_add("spr_game_over.png", 1, false, false, 0, 0);
+
 
 // menu item sprites
 menu_item_label_achievements_sprite = sprite_add("MenuItemLabels/spr_achievements.png", 1, false, false, 0, 0);

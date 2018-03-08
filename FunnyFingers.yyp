@@ -634,7 +634,7 @@
             "Key": "8990a2d7-24f4-4eb3-9eea-920b11e7961e",
             "Value": {
                 "id": "eecd5359-41b9-4913-8a8a-9031be654add",
-                "resourcePath": "datafiles_yy\\spr_game_over.png.yy",
+                "resourcePath": "datafiles_yy\\RibbonMenuHeaders\\spr_game_over.png.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -772,6 +772,14 @@
                 "id": "f4b381b0-b388-4b2f-ac9c-0d4f8756e505",
                 "resourcePath": "datafiles_yy\\MenuItemLabels\\spr_cashout.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "aae79ca2-0a53-4e90-9ace-35e3a2f819da",
+            "Value": {
+                "id": "8c5376d3-d610-4a87-b57d-f521efdcfd37",
+                "resourcePath": "views\\aae79ca2-0a53-4e90-9ace-35e3a2f819da.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
