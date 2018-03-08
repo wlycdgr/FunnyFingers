@@ -1,7 +1,9 @@
 /// @description On successful move
 if (is_refilling) exit;
 
-multiplier = min(mb_max_multiplier, multiplier + 1);
+event_user(1);
+
+
 current_time_in_seconds_to_drain = max(
 	mb_min_seconds_to_drain,
 	(

@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "d40fa8c9-c2bb-4ee7-812e-c02d00e1de37",
     "children": [
-        "c51897f5-6bc6-4561-acad-2aff6a162c8a"
+        "c51897f5-6bc6-4561-acad-2aff6a162c8a",
+        "fee404b0-2c5c-459c-857d-f755ff7bc29a"
     ],
     "filterType": "GMScript",
     "folderName": "Steam",

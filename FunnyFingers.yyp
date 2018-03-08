@@ -1173,6 +1173,14 @@
                 "resourcePath": "views\\fea23623-1329-491e-85bd-d3b6737917eb.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fee404b0-2c5c-459c-857d-f755ff7bc29a",
+            "Value": {
+                "id": "badfaf24-ffae-486c-8c2f-6f1e8ff8e177",
+                "resourcePath": "scripts\\scr_Steam_UnlockAchievement_NoPressure\\scr_Steam_UnlockAchievement_NoPressure.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -1190,6 +1198,7 @@
         "8e080a33-821f-47d0-953d-6a0ce92cbccc",
         "0d58728d-082f-42e6-8614-f0e23f133cac",
         "c51897f5-6bc6-4561-acad-2aff6a162c8a",
+        "fee404b0-2c5c-459c-857d-f755ff7bc29a",
         "6cd67805-f2ae-40b0-a142-766f4e5fb59d",
         "a42faca6-7d96-4868-b0cb-464449307b68",
         "b3e865f8-c389-43a0-9e1d-22872cc1ae88"

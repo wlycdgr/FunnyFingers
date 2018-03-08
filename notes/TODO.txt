@@ -207,28 +207,41 @@ March 7
 		- DONE ends current game
 		- DONE slides Cashout? menu away
 		- DONE slides in High Scores ribbon
+- DONE implement and test Steam achievement unlocking: Triple Up
+- DONE implement & test Steam achievement unlocking: No Pressure
+	to test, check for reaching 20x on Easy
+	
+- implement & test Steam achievement unlocking: The Score Is Right
+	to check, check for taking over by 10 or less
+	
+- implement & test Steam achievement unlocking: A Longest Word
+	test on Difficult, but without enemies / death
+	
+- implement & test Steam achievement unlocking: Level 99
+	- create "lifetime Cool points" stat
+	- load stat when starting game
+	- update stat whenever we finish a game of Cool
+	- text pop with CirclMaster quote when we hit it
+	- test with something like a couple thousand 
 
-- implement other achievement unlocks
-	- DONE Triple Up: test with easy, 3x+ from 100+
-	- Best Friend: get Marls to install and play
-	- No Pressure: test out reaching 20x multiplier on Easy
-	- The Score Is Right: test taking over by 10 or less
-	- A Longest Word: test on Difficult but without enemies / death
-	- Level 99 - 
-		- create stat
-		- update stat
-		- text pop when you hit it with the CirclMaster quote
+
 - implement tutorial being the only thing you can do until you complete it, at the beginning
 
 - implement Kickstarter backers can unlock everything right away by typing their last name in three times at the title screen
 
 - implement sound placeholders
 
+- implement and test Best Friend unlocking
+
 - handle steam failing to upload score
 
 - balance for all difficulties
 
 - add checks so that game does not break if any sprite asset is not available or misnamed
+
+- dynamically assign multiplier incrementing handler script at launch time based on unlock status of No Pressure
+achievement, so we don't need to check whether we should unlock it all the time ifwhen it's already popped
+
 
 - implement High Scores ribbon
 	- DONE Menu with the following options:

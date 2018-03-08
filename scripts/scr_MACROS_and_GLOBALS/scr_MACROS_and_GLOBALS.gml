@@ -1,4 +1,42 @@
+// Game context
+#macro game_fps game_get_speed(gamespeed_fps)
+
+#macro window_height window_get_height()
+#macro window_width window_get_width()
+#macro window_x_center window_width / 2
+// /Game context
+
+
+// Game Settings
+#macro column_count_cool 5
+#macro column_count_easy 6
+#macro column_count_medium 7
+#macro column_count_hard 8
+#macro column_count_difficult 9
+#macro column_width 48
+
+#macro funny_finger_count_cool 1
+#macro funny_finger_count_easy 2
+#macro funny_finger_count_medium 3
+#macro funny_finger_count_hard 4
+#macro funny_finger_count_difficult 5
+#macro half_of_width_difference_with_column 8
+
+#macro game_difficulty_cool 0
+#macro game_difficulty_easy 1
+#macro game_difficulty_medium 2
+#macro game_difficulty_hard 3
+#macro game_difficulty_difficult 4
+// /Game Settings
+
+
 // Core Mechanics 
+#macro mb_max_multiplier 100
+#macro mb_min_multiplier 1
+#macro mb_max_seconds_to_drain 3.0
+#macro mb_min_seconds_to_drain 1.0
+#macro mb_time_to_drain_reduction_in_seconds_for_successful_move 0.02
+
 #macro core_enemy_speed_per_sec_min_default 125
 global.core_enemy_speed_per_sec_min = 
 	core_enemy_speed_per_sec_min_default;
@@ -60,6 +98,8 @@ global.core_funny_finger_grow_time_in_sec =
 #macro steam_ach_Fignermukcre_unlock_score 50
 #macro steam_ach_Triple_Up_multiple 3
 #macro steam_ach_Triple_Up_minimum_previous_high_score 10000 // ten thousand
+#macro steam_ach_No_Pressure_multiplier_value_requirement mb_max_multiplier
+#macro steam_ach_No_Pressure_minimum_difficulty_requirement game_difficulty_medium
 
 #macro steam_high_scores_leaderboard_cool "Cool"
 #macro steam_high_scores_leaderboard_easy "Easy"
@@ -77,11 +117,7 @@ global.core_funny_finger_grow_time_in_sec =
 #macro the_color_of_failure c_black
 #macro the_color_of_information c_black
 
-#macro game_fps game_get_speed(gamespeed_fps)
 
-#macro window_height window_get_height()
-#macro window_width window_get_width()
-#macro window_x_center window_width / 2
 
 #macro title_y 150
 #macro header_y 75
@@ -91,19 +127,9 @@ global.core_funny_finger_grow_time_in_sec =
 #macro playfield_y ((window_height - playfield_height) / 2)
 #macro playfield_bottom_y window_height - (((window_height - playfield_height) / 2))
 
-#macro column_count_cool 5
-#macro column_count_easy 6
-#macro column_count_medium 7
-#macro column_count_hard 8
-#macro column_count_difficult 9
-#macro column_width 48
 
-#macro funny_finger_count_cool 1
-#macro funny_finger_count_easy 2
-#macro funny_finger_count_medium 3
-#macro funny_finger_count_hard 4
-#macro funny_finger_count_difficult 5
-#macro half_of_width_difference_with_column 8
+
+
 
 #macro score_valid_move_base_value 1
 #macro score_grow_to_target_per_frame 1
@@ -141,8 +167,5 @@ global.core_funny_finger_grow_time_in_sec =
 #macro fs_fading_out 2
 #macro fs_done 3
 
-#macro mb_max_multiplier 100
-#macro mb_min_multiplier 1
-#macro mb_max_seconds_to_drain 3.0
-#macro mb_min_seconds_to_drain 1.0
-#macro mb_time_to_drain_reduction_in_seconds_for_successful_move 0.02
+
+
