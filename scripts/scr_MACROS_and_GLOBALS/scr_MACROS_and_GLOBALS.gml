@@ -85,7 +85,7 @@ global.core_funny_finger_grow_time_in_sec =
 #macro steam_ach_The_Dabbler 1
 #macro steam_ach_The_Qualifier 2
 #macro steam_ach_The_Up_And_Comer 3
-#macro steam_ach_Fignermuckre 4
+#macro steam_ach_Fignermukcre 4
 #macro steam_ach_Triple_Up 5
 #macro steam_ach_Best_Friend 6 
 #macro steam_ach_No_Pressure 7
@@ -133,7 +133,7 @@ global.core_funny_finger_grow_time_in_sec =
 
 #macro score_valid_move_base_value 1
 #macro score_grow_to_target_per_frame 1
-#macro score_cashout_dialogue_penalty_per_frame 0.1
+#macro score_cashout_dialogue_penalty_per_frame 1
 #macro scoreboard_color_cashout_enabled c_green
 #macro scoreboard_color_cashout_disabled c_red
 

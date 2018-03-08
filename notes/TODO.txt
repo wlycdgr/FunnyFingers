@@ -210,8 +210,7 @@ March 7
 - DONE implement and test Steam achievement unlocking: Triple Up
 - DONE implement & test Steam achievement unlocking: No Pressure
 	to test, check for reaching 20x on Easy
-	
-- implement & test Steam achievement unlocking: The Score Is Right
+- DONE implement & test Steam achievement unlocking: The Score Is Right
 	to check, check for taking over by 10 or less
 	
 - implement & test Steam achievement unlocking: A Longest Word
