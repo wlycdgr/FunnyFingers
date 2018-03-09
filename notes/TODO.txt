@@ -212,17 +212,36 @@ March 7
 	to test, check for reaching 20x on Easy
 - DONE implement & test Steam achievement unlocking: The Score Is Right
 	to check, check for taking over by 10 or less
-	
-- implement & test Steam achievement unlocking: A Longest Word
+- DONE implement & test Steam achievement unlocking: A Longest Word
 	test on Difficult, but without enemies / death
-	
+
+MARCH 9
+- DONE update TODO
+- remove Cashout mechanic (save for Turn Motherfucker Turn)
+	- Cashout menu -> Pause menu
+		- "Cashout!" option - > Restart
+		- "Continue" stays same
+		- "Main Menu" stays same
+		- header changes from "Cashout?" to "Game Paused"
+- remove Triple Up achievement 
+	- for simplicity, leave it in the code but just remove unlocking logic and remove from Steam dashboard
+- add lifetime points leaderboard for Cool difficulty
+- add time-to-cap leaderboards for Easy, Medium, Hard
+- leave regular uncapped high score leaderboard on Difficult
+- modify Best Friend achievement to only apply to Difficult high score leaderboard
 - implement & test Steam achievement unlocking: Level 99
 	- create "lifetime Cool points" stat
 	- load stat when starting game
 	- update stat whenever we finish a game of Cool
 	- text pop with CirclMaster quote when we hit it
 	- test with something like a couple thousand 
-
+	
+- implement High Scores ribbon
+	- DONE Menu with the following options:
+		Try Again
+		Exit To Title
+	- Displays around-user score with 10 entries
+	- Displays correct leaderboard
 
 - implement tutorial being the only thing you can do until you complete it, at the beginning
 
@@ -232,38 +251,13 @@ March 7
 
 - implement and test Best Friend unlocking
 
+- BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
+
 - handle steam failing to upload score
-
-- balance for all difficulties
-
 - add checks so that game does not break if any sprite asset is not available or misnamed
+- ensure no crash-because-global.steam.unlocked-not-initialized if user not logged in to Steam or connection lost at launch
 
 - dynamically assign multiplier incrementing handler script at launch time based on unlock status of No Pressure
 achievement, so we don't need to check whether we should unlock it all the time ifwhen it's already popped
 
 
-- implement High Scores ribbon
-	- DONE Menu with the following options:
-		Try Again
-		Exit To Title
-	- Displays around-user score with 10 entries
-	- Displays correct leaderboard
-
-
-
-
-
-LATER:
-- implement one shot mode:
-	- medium only to start
-	- preset sequence
-	- same sequence for everyone
-	- different sequence for each of the three runs
-
-
-
-
-
-
-
-	

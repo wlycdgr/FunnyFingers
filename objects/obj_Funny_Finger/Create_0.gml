@@ -24,4 +24,6 @@ shrink_per_frame =
 	game_fps;
 grow_per_frame = 
 	(global.core_energy_value_x_100 / 100) / // distance to grow
-	(global.core_funny_finger_grow_time_in_sec * game_fps)
+	(global.core_funny_finger_grow_time_in_sec * game_fps);
+	
+event_user(0);

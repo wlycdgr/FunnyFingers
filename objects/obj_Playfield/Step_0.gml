@@ -17,35 +17,41 @@ if (!focused) exit;
 // Check to see whether any funny finger is moving
 // If so, 
 // * reset multiplier if there is move input
+// * reset TYPERWRITER index if there is move input
 // * otherwise, do not accept any more move input and return
 for (var i = global.game_settings.funny_finger_count - 1; i > -1; i--){
 	if (funny_fingers[i].is_moving) {
 		if (
 			global.input_tracker.is_leftmost_pressed ||
 			global.input_tracker.is_rightmost_pressed ||
-			(global.game_settings.funny_finger_count > 1 && 
+			(global.game_settings.difficulty > game_difficulty_cool && 
 				(global.input_tracker.is_second_leftmost_pressed ||
 				 global.input_tracker.is_second_rightmost_pressed)
 			) ||
-			(global.game_settings.funny_finger_count > 2 &&
+			(global.game_settings.difficulty > game_difficulty_easy &&
 				(global.input_tracker.is_third_leftmost_pressed ||
 				 global.input_tracker.is_third_rightmost_pressed)
 			) ||
-			(global.game_settings.funny_finger_count > 3 &&
+			(global.game_settings.difficulty > game_difficulty_medium &&
 				(global.input_tracker.is_fourth_leftmost_pressed ||
 				 global.input_tracker.is_fourth_rightmost_pressed)
 			) ||
-			(global.game_settings.funny_finger_count > 4 &&
+			(global.game_settings.difficulty > game_difficulty_hard &&
 				(global.input_tracker.is_fifth_leftmost_pressed ||
 				 global.input_tracker.is_fifth_rightmost_pressed)
 			)
 		) {
 			with (multiplier_bar) { event_user(12); }
+			
+			if (game_difficulty_difficult == global.game_settings.difficulty) {
+				TYPEWRITER_letters_index = 0;
+			}
 		}
 		
 		exit;
 	}
 }
+
 
 // If this playfield IS focused AND IS currently accepting move input,
 // check for that input and handle it if necessary
@@ -171,5 +177,26 @@ if (0 != ff_move_direction){
 	
 	with (targeted_ff) { event_user(2); } // Initiate move
 	
-
+	
+	// If we are at max difficulty, check to see if we are typing TYPEWRITER
+	if (
+		game_difficulty_difficult == global.game_settings.difficulty &&
+		!global.steam.unlocked[steam_ach_A_Longest_Word]
+	) {
+		if (targeted_ff.source_column != targeted_ff.target_column) {
+			if (keyboard_check_pressed(ord(TYPEWRITER_letters[TYPEWRITER_letters_index]))) {
+				TYPEWRITER_letters_index += 1;
+				if (TYPEWRITER_letters_index == TYPEWRITER_letters_length) {
+					scr_Steam_UnlockAchievement_ALongestWord();
+				}
+			}
+			else {
+				TYPEWRITER_letters_index = 0; // start over!
+			}
+		}
+		
+		else {
+			TYPEWRITER_letters_index = 0;
+		}
+	}
 }

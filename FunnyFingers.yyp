@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "36826cf7-6384-4a1b-8a52-97a8679de7b3",
+            "Value": {
+                "id": "0fe6611c-6c1a-4e98-975d-f10d2d2f538e",
+                "resourcePath": "scripts\\scr_Steam_UnlockAchievement_ALongestWord\\scr_Steam_UnlockAchievement_ALongestWord.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "36d53171-1bee-4a5f-9c87-e1cd2ffa1128",
             "Value": {
                 "id": "bdb06fd4-eed6-461a-bb96-db0f46bdf3df",
@@ -1199,6 +1207,7 @@
         "0d58728d-082f-42e6-8614-f0e23f133cac",
         "c51897f5-6bc6-4561-acad-2aff6a162c8a",
         "fee404b0-2c5c-459c-857d-f755ff7bc29a",
+        "36826cf7-6384-4a1b-8a52-97a8679de7b3",
         "6cd67805-f2ae-40b0-a142-766f4e5fb59d",
         "a42faca6-7d96-4868-b0cb-464449307b68",
         "b3e865f8-c389-43a0-9e1d-22872cc1ae88"
