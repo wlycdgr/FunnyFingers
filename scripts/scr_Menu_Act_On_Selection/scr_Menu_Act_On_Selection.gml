@@ -77,9 +77,6 @@ case "Main Menu":
 		scr_Fade_To(r_MainMenu);
 	}
 	break;
-case "High Scores":
-	scr_Fade_To(r_High_Scores);
-	break;
 case "Play":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_easy;

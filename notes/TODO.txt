@@ -239,7 +239,18 @@ MARCH 9
 	- DONE remove TTF font loading logic from obj_Sprite_Loader
 	- DONE remove all references to TTF fonts in any code
 	
-- remove High Scores screen - the leaderboards are on Steam!
+- DONE remove High Scores screen
+	- DONE remove High Scores room
+	- DONE remove High Scores controller
+	- DONE remove High Scores menu item in Main Menu
+	- DONE remove act-on-menu-item-selection logic
+	
+- replace existing high score retrieval logic with simpler logic:
+	- on Gameplay room start, retrieve current score and rank
+	- on Game Over, submit new score if it is new high score
+	- if new score is new high score, display new rank and score
+	- if old score is higher, display old rank and score
+		
 - add lifetime points leaderboard for Cool difficulty
 - add time-to-cap leaderboards for Easy, Medium, Hard
 - leave regular uncapped high score leaderboard on Difficult
