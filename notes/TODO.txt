@@ -238,7 +238,6 @@ MARCH 9
 	- DONE remove TTF font resource & license
 	- DONE remove TTF font loading logic from obj_Sprite_Loader
 	- DONE remove all references to TTF fonts in any code
-	
 - DONE remove High Scores screen
 	- DONE remove High Scores room
 	- DONE remove High Scores controller
