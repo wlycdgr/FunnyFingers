@@ -234,8 +234,11 @@ MARCH 9
 	- DONE remove sprite loading logic
 	- DONE remove menu item in main menu
 	- DONE remove act-on-menu-item-selection logic
+- DONE remove TTF font
+	- DONE remove TTF font resource & license
+	- DONE remove TTF font loading logic from obj_Sprite_Loader
+	- DONE remove all references to TTF fonts in any code
 	
-- remove TTF font loading
 - remove High Scores screen - the leaderboards are on Steam!
 - add lifetime points leaderboard for Cool difficulty
 - add time-to-cap leaderboards for Easy, Medium, Hard

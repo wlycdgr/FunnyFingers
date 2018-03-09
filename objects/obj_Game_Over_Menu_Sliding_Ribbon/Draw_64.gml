@@ -9,7 +9,6 @@ event_inherited();
 scr_Menu_Draw(menu);
 
 // Draw a message to make the player feel sad
-draw_set_font(global.font_menu_item);
 draw_set_color(the_color_of_failure);
 var womp = "Sadly, your score does not count :(";
 var womp_womp = "Cash out manually in the pause menu (Space / Enter / Escape) to retain a score.";
