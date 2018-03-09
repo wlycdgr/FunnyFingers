@@ -1063,14 +1063,6 @@
             }
         },
         {
-            "Key": "e47158dc-bbe9-47ae-ab31-a394cf626d7c",
-            "Value": {
-                "id": "5180f409-8bc9-4066-af98-2bc6fa60141e",
-                "resourcePath": "objects\\obj_High_Scores_Sliding_Ribbon\\obj_High_Scores_Sliding_Ribbon.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "e49e1594-9c82-452c-9d21-95c71e5d2516",
             "Value": {
                 "id": "1778eec3-99b4-4012-ad3d-8357821e50a3",

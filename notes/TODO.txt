@@ -222,7 +222,7 @@ MARCH 9
 		- DONE "Cashout!" option - > "Try Again"
 		- DONE "Continue" stays same
 		- DONE "Main Menu" stays same
-	- remove High Scores sliding ribbon
+	- DONE remove High Scores sliding ribbon
 	- instead, show score info on Game Over screen, using the following logic:
 		- if haven't reached leaderboard & new high score, show "New high score! [score]"
 		- if haven't reached leaderboard & not new high scores, show "[score] / [high score]"
