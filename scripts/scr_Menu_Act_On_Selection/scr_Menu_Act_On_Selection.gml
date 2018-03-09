@@ -60,9 +60,6 @@ case "Back To Main Menu":
 	break;
 	
 // other menus
-case "Achievements":
-	scr_Fade_To(r_Achievements);
-	break;
 case "Cashout!":
 	with (global.game) { event_user(5); }
 	break;

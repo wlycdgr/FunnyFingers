@@ -227,9 +227,15 @@ MARCH 9
 		- DONE remove mentions
 		- DONE remove unlocking logic and 
 		- DONE remove from Steam dashboard
-
-		
-- remove Achievements screen - they are on Steam!
+- DONE remove Achievements screen - they are on Steam!
+	- DONE remove room
+	- DONE remove controller
+	- DONE remove sprites resources
+	- DONE remove sprite loading logic
+	- DONE remove menu item in main menu
+	- DONE remove act-on-menu-item-selection logic
+	
+- remove TTF font loading
 - remove High Scores screen - the leaderboards are on Steam!
 - add lifetime points leaderboard for Cool difficulty
 - add time-to-cap leaderboards for Easy, Medium, Hard

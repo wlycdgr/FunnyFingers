@@ -9,7 +9,7 @@ title_billboard.y = title_y;
 
 main_menu = scr_Menu_NEW(
 	window_x_center, 450,
-	["Play", "Achievements", "High Scores", "Exit"]
+	["Play", "High Scores", "Exit"]
 );
 
 difficulty_menu_labels[0] = "Cool";

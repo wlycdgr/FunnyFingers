@@ -47,7 +47,6 @@ right_side_sprite = sprite_add("Gameplay/right_472x720.png", right_side_frames, 
 
 
 // room header sprites
-achievements_header_sprite = sprite_add("spr_achievements.png", 1, false, false, 0, 0);
 high_scores_header_sprite = sprite_add("spr_high_scores.png", 1, false, false, 0, 0);
 
 // ribbon menu header sprites
@@ -74,27 +73,4 @@ sprite_set_speed(left_side_sprite, left_framerate, spritespeed_framespersecond);
 sprite_set_speed(right_side_sprite, right_framerate, spritespeed_framespersecond);
 sprite_set_speed(danger_danger_sprite, danger_danger_framerate, spritespeed_framespersecond);
 
-
-var filename = "";
-for (var i = 0; i < steam_achievement_count; i++) {
-	filename = "AchievementIcons/ach_" + string(i) + "_locked_64x64.jpg";
-	ach_locked_sprites[i] = 
-		sprite_add(filename, ach_icon_frames, false, false, 0, 0);
-	sprite_set_speed(
-		ach_locked_sprites[i], 
-		ach_icon_framerate, 
-		spritespeed_framespersecond
-	);
-	
-	filename = "AchievementIcons/ach_" + string(i) + "_unlocked_64x64.jpg";
-	ach_unlocked_sprites[i] = 
-		sprite_add(filename, ach_icon_frames, false, false, 0, 0);
-	sprite_set_speed(
-		ach_unlocked_sprites[i],
-		ach_icon_framerate,
-		spritespeed_framespersecond
-	);
-}
-
-
-event_user(0); // LOAD FONT
+event_user(0);
