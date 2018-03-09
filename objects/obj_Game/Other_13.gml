@@ -4,6 +4,6 @@ if (state == gs_paused) {
 	ribbon = paused_sliding_ribbon;
 }
 
-with (ribbon) { state = srs_sliding_out; }
+with (ribbon) { event_user(2); } // on begin sliding out
 
 state = gs_restarting;

@@ -17,8 +17,7 @@ case srs_ready:
 case srs_sliding_in:
 	x -= sliding_ribbon_slide_in_speed_in_pixels_per_frame;
 	if (x <= slide_in_x_target) {
-		x = slide_in_x_target;
-		state = srs_ready;
+		event_user(1);
 	}
 	break;
 	

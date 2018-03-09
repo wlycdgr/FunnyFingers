@@ -246,6 +246,11 @@ MARCH 9
 	- DONE remove high scores header sprite resource
 	- DONE remove high scores header sprite loading logic
 - DONE removed extraneous entries from act on menu selection script
+- DONE implement semantic menu navigation and selection input handling logic, 
+	with support for WASD and JIKL as well as arrow keys, and Space and Enter for selection
+	
+- make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
+which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
 
 - replace existing high score retrieval logic with simpler logic:
 	- on Gameplay room start, retrieve current score and rank

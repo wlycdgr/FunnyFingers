@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_Menu",
     "eventList": [
-        
+        {
+            "id": "7cdf95b2-663c-4d21-afdb-2f962594de9d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "7ab679eb-9ff4-427a-ad93-451924280bad"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
