@@ -80,7 +80,7 @@ global.core_funny_finger_grow_time_in_sec =
 
 
 // Steam
-#macro steam_achievement_count 11
+#macro steam_achievement_count 10
 #macro steam_ach_QWEIOP 0
 #macro steam_ach_The_Dabbler 1
 #macro steam_ach_The_Qualifier 2

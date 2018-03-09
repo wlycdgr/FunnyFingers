@@ -543,14 +543,6 @@
             }
         },
         {
-            "Key": "76d8116b-cc08-4f3c-b90c-1f9cd9bc85f4",
-            "Value": {
-                "id": "772fb52e-287a-47cd-a0a4-728184aa687b",
-                "resourcePath": "datafiles_yy\\AchievementIcons\\ach_5_unlocked_64x64.jpg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "7a7975d4-f638-4ab3-a232-13d180e3d87a",
             "Value": {
                 "id": "e754b572-00b6-42ac-8f50-9506074c2426",
@@ -747,14 +739,6 @@
             "Value": {
                 "id": "cae3cf88-9c86-423d-839b-83921f2e4c78",
                 "resourcePath": "datafiles_yy\\MenuItemLabels\\spr_try_again.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "a6b67ddb-e8c6-4e74-9985-c4f7719d2d34",
-            "Value": {
-                "id": "acfc542e-e688-49fe-89b1-9c8086a64dad",
-                "resourcePath": "datafiles_yy\\AchievementIcons\\ach_5_locked_64x64.jpg.yy",
                 "resourceType": "GMIncludedFile"
             }
         },

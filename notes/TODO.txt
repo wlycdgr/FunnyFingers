@@ -223,13 +223,14 @@ MARCH 9
 		- DONE "Continue" stays same
 		- DONE "Main Menu" stays same
 	- DONE remove High Scores sliding ribbon
-	- instead, show score info on Game Over screen, using the following logic:
-		- if haven't reached leaderboard & new high score, show "New high score! [score]"
-		- if haven't reached leaderboard & not new high scores, show "[score] / [high score]"
-		- if on leaderboard, show around-user
-		- if on leaderboard and high score, show "New High Score!" text, "+ [number of ranks]"
-- remove Triple Up achievement 
-	- for simplicity, leave it in the code but just remove unlocking logic and remove from Steam dashboard
+- DONE remove Triple Up achievement 
+		- DONE remove mentions
+		- DONE remove unlocking logic and 
+		- DONE remove from Steam dashboard
+
+		
+- remove Achievements screen - they are on Steam!
+- remove High Scores screen - the leaderboards are on Steam!
 - add lifetime points leaderboard for Cool difficulty
 - add time-to-cap leaderboards for Easy, Medium, Hard
 - leave regular uncapped high score leaderboard on Difficult
@@ -241,21 +242,18 @@ MARCH 9
 	- update stat whenever we finish a game of Cool
 	- text pop with CirclMaster quote when we hit it
 	- test with something like a couple thousand 
+- implement and test Best Friend unlocking
 	
-- implement High Scores ribbon
-	- DONE Menu with the following options:
-		Try Again
-		Exit To Title
-	- Displays around-user score with 10 entries
-	- Displays correct leaderboard
+- instead, show score info on Game Over screen, using the following logic:
+	- if haven't reached leaderboard & new high score, show "New high score! [score]"
+	- if haven't reached leaderboard & not new high scores, show "[score] / [high score]"
+	- if on leaderboard, show around-user
+	- if on leaderboard and high score, show "New High Score!" text, "+ [number of ranks]"
 
 - implement tutorial being the only thing you can do until you complete it, at the beginning
 
-- implement Kickstarter backers can unlock everything right away by typing their last name in three times at the title screen
-
 - implement sound placeholders
 
-- implement and test Best Friend unlocking
 
 - BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
 
@@ -266,4 +264,6 @@ MARCH 9
 - dynamically assign multiplier incrementing handler script at launch time based on unlock status of No Pressure
 achievement, so we don't need to check whether we should unlock it all the time ifwhen it's already popped
 
-
+KS:
+- implement Kickstarter backers can unlock everything right away by typing their last name in three times at the title screen
+- implement Credits

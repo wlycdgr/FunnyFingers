@@ -21,25 +21,6 @@ if (
 			unlocked[steam_ach_The_Score_Is_Right] = true;
 		}
 	}
-
-	// check reqs for
-	// TRIPLE UP
-	// and pop if met
-	if (!unlocked[steam_ach_Triple_Up]) {
-		if (
-			steam_high_scores_leaderboard_medium == global.game_settings.steam_high_scores_leaderboard ||
-			steam_high_scores_leaderboard_hard == global.game_settings.steam_high_scores_leaderboard ||
-			steam_high_scores_leaderboard_difficult = global.game_settings.steam_high_scores_leaderboard
-		) {
-			if (
-				global.scoreboard.current_score > (global.scoreboard.current_high_score * steam_ach_Triple_Up_multiple) &&
-				global.scoreboard.current_high_score > steam_ach_Triple_Up_minimum_previous_high_score
-			) {
-				steam_set_achievement("ach_5_triple_up");
-				unlocked[steam_ach_Triple_Up] = true;
-			}
-		}
-	}
 	
 	//  UPDATE CURRENT HIGH SCORE
 	global.scoreboard.current_high_score = global.scoreboard.current_score;
