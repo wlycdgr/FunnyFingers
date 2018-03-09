@@ -30,7 +30,7 @@ if (global.steam.unlocked[steam_ach_The_Up_And_Comer]) {
 }
 else { difficulty_menu_labels[4] = "?????????"; }
 
-difficulty_menu_labels[5] = "Back To Main Menu";
+difficulty_menu_labels[5] = "Main Menu";
 
 difficulty_menu = scr_Menu_NEW(
 	window_x_center, 450,

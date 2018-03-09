@@ -52,17 +52,8 @@ case "Difficult":
 	}
 	scr_Fade_To(r_Gameplay);
 	break;
-case "Back To Main Menu":
-	with (global.main_menu_controller) {
-		difficulty_menu.active = false;
-		main_menu.active = true;
-	}
-	break;
 	
 // other menus
-case "Cashout!":
-	with (global.game) { event_user(5); }
-	break;
 case "Continue":
 	with (global.game) { event_user(2); }
 	break;
@@ -94,12 +85,6 @@ case "Play":
 	}
 	break;
 	*/
-case "Play Game":
-	scr_Fade_To(r_Gameplay);
-	break;
-case "Title":
-	scr_Fade_To(r_MainMenu);
-	break;
 case "Try Again":
 	with (global.game) { event_user(3); }
 	break;

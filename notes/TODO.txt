@@ -245,7 +245,8 @@ MARCH 9
 	- DONE remove act-on-menu-item-selection logic
 	- DONE remove high scores header sprite resource
 	- DONE remove high scores header sprite loading logic
-	
+- DONE removed extraneous entries from act on menu selection script
+
 - replace existing high score retrieval logic with simpler logic:
 	- on Gameplay room start, retrieve current score and rank
 	- on Game Over, submit new score if it is new high score
