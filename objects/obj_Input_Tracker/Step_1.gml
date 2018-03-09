@@ -1,7 +1,7 @@
 /// @description Set input flags
 // You can write your code in this editor
 is_exit_pressed = keyboard_check_pressed(vk_escape);
-is_cashout_dialogue_pressed = keyboard_check_pressed(vk_space);
+is_pause_pressed = keyboard_check_pressed(vk_space);
 
 // Funny Fingers movement
 is_leftmost_pressed = keyboard_check_pressed(ord("Q"));

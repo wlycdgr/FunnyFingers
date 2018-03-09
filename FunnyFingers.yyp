@@ -410,7 +410,7 @@
             "Key": "568d9ab1-b053-4b6e-baf7-c787719a357f",
             "Value": {
                 "id": "e6e078be-eb61-4338-81f4-5f344e6f1ffb",
-                "resourcePath": "objects\\obj_Cashout_Dialogue_Sliding_Ribbon\\obj_Cashout_Dialogue_Sliding_Ribbon.yy",
+                "resourcePath": "objects\\obj_Paused_Sliding_Ribbon\\obj_Paused_Sliding_Ribbon.yy",
                 "resourceType": "GMObject"
             }
         },

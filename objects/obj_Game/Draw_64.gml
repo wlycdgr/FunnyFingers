@@ -2,10 +2,10 @@
 // You can write your code in this editor
 draw_set_font(global.font_score);
 if (global.scoreboard.current_score > global.scoreboard.current_high_score) {
-	draw_set_color(scoreboard_color_cashout_enabled);
+	draw_set_color(scoreboard_color_new_high_score);
 }
 else {
-	draw_set_color(scoreboard_color_cashout_disabled);
+	draw_set_color(scoreboard_color_default);
 }
 draw_set_halign(fa_left);
 

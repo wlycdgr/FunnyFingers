@@ -217,18 +217,24 @@ March 7
 
 MARCH 9
 - DONE update TODO
-- remove Cashout mechanic (save for Turn Motherfucker Turn)
-	- Cashout menu -> Pause menu
-		- "Cashout!" option - > Restart
-		- "Continue" stays same
-		- "Main Menu" stays same
-		- header changes from "Cashout?" to "Game Paused"
+- remove Cashout mechanic (save it for Turn Motherfucker Turn)
+	- DONE Cashout menu -> Pause menu
+		- DONE "Cashout!" option - > "Try Again"
+		- DONE "Continue" stays same
+		- DONE "Main Menu" stays same
+	- remove High Scores sliding ribbon
+	- instead, show score info on Game Over screen, using the following logic:
+		- if haven't reached leaderboard & new high score, show "New high score! [score]"
+		- if haven't reached leaderboard & not new high scores, show "[score] / [high score]"
+		- if on leaderboard, show around-user
+		- if on leaderboard and high score, show "New High Score!" text, "+ [number of ranks]"
 - remove Triple Up achievement 
 	- for simplicity, leave it in the code but just remove unlocking logic and remove from Steam dashboard
 - add lifetime points leaderboard for Cool difficulty
 - add time-to-cap leaderboards for Easy, Medium, Hard
 - leave regular uncapped high score leaderboard on Difficult
 - modify Best Friend achievement to only apply to Difficult high score leaderboard
+- get & add asset: "Paused" sliding ribbon header
 - implement & test Steam achievement unlocking: Level 99
 	- create "lifetime Cool points" stat
 	- load stat when starting game

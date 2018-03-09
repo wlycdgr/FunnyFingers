@@ -2,7 +2,7 @@
     "id": "568d9ab1-b053-4b6e-baf7-c787719a357f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Cashout_Dialogue_Sliding_Ribbon",
+    "name": "obj_Paused_Sliding_Ribbon",
     "eventList": [
         {
             "id": "d231170d-b8bb-4e1e-bd7f-9be93448085c",

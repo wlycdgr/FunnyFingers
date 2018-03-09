@@ -1,24 +1,17 @@
 /// @description Update based on state
 
 switch (state) {
-case gs_cashed_out:
-	if (srs_inactive == cashout_dialogue_sliding_ribbon.state) {
-		with (high_scores_sliding_ribbon) { event_user(0); }
-		state = gs_viewing_high_scores;
-	}
-	break;
-	
-case gs_cashout_dialogue:
+case gs_paused:
 	global.scoreboard.current_score = max(
 		global.scoreboard.target_score,
 		(
 			global.scoreboard.current_score - 
-			score_cashout_dialogue_penalty_per_frame
+			score_pause_penalty_per_frame
 		)
 	);
 
-	if (srs_selection_made == cashout_dialogue_sliding_ribbon.state) {
-		scr_Menu_Act_On_Selection(cashout_dialogue_sliding_ribbon.menu);
+	if (srs_selection_made == paused_sliding_ribbon.state) {
+		scr_Menu_Act_On_Selection(paused_sliding_ribbon.menu);
 	}
 	break;
 	
@@ -36,14 +29,14 @@ case gs_playing:
 		if (playfields[i].has_unfunny_finger) 
 			{ event_user(0); } // on game over
 	}
-	if (global.input_tracker.is_cashout_dialogue_pressed) 
-		{ event_user(1); } // on cashout dialogue request
+	if (global.input_tracker.is_pause_pressed) 
+		{ event_user(1); } // on pause
 	break;
 		
 case gs_restarting:
 	if (
 		srs_inactive == game_over_sliding_ribbon.state &&
-		srs_inactive == cashout_dialogue_sliding_ribbon.state &&
+		srs_inactive == paused_sliding_ribbon.state &&
 		srs_inactive == high_scores_sliding_ribbon.state
 	) {
 		room_restart();

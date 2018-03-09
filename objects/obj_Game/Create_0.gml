@@ -3,8 +3,8 @@ game_over_sliding_ribbon = instance_create_layer(
 	window_width, sliding_ribbon_y, "SlidingRibbons", obj_Game_Over_Menu_Sliding_Ribbon
 );
 
-cashout_dialogue_sliding_ribbon = instance_create_layer(
-	window_width, sliding_ribbon_y, "SlidingRibbons", obj_Cashout_Dialogue_Sliding_Ribbon
+paused_sliding_ribbon = instance_create_layer(
+	window_width, sliding_ribbon_y, "SlidingRibbons", obj_Paused_Sliding_Ribbon
 );
 
 high_scores_sliding_ribbon = instance_create_layer(

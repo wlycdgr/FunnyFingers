@@ -133,9 +133,9 @@ global.core_funny_finger_grow_time_in_sec =
 
 #macro score_valid_move_base_value 1
 #macro score_grow_to_target_per_frame 1
-#macro score_cashout_dialogue_penalty_per_frame 1
-#macro scoreboard_color_cashout_enabled c_green
-#macro scoreboard_color_cashout_disabled c_red
+#macro score_pause_penalty_per_frame 0.1
+#macro scoreboard_color_new_high_score c_green
+#macro scoreboard_color_default c_black
 
 #macro sliding_ribbon_y 180
 #macro sliding_ribbon_width window_width
@@ -153,14 +153,13 @@ global.core_funny_finger_grow_time_in_sec =
 #macro menu_halign fa_center
 #macro menu_vertical_spacing 35
 
-#macro gs_cashed_out 0
-#macro gs_cashout_dialogue 1
-#macro gs_fading_in 2
-#macro gs_fading_out 3
-#macro gs_game_over 4
-#macro gs_playing 5
-#macro gs_restarting 6
-#macro gs_viewing_high_scores 7
+#macro gs_fading_in 0
+#macro gs_fading_out 1
+#macro gs_game_over 2
+#macro gs_paused 3
+#macro gs_playing 4
+#macro gs_restarting 5
+#macro gs_viewing_high_scores 6
 
 #macro fs_inactive 0
 #macro fs_fading_in 1
