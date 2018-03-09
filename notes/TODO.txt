@@ -243,6 +243,8 @@ MARCH 9
 	- DONE remove High Scores controller
 	- DONE remove High Scores menu item in Main Menu
 	- DONE remove act-on-menu-item-selection logic
+	- DONE remove high scores header sprite resource
+	- DONE remove high scores header sprite loading logic
 	
 - replace existing high score retrieval logic with simpler logic:
 	- on Gameplay room start, retrieve current score and rank

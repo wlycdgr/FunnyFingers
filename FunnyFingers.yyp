@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "109aafa2-64cc-4f82-82e7-9fc2ab7ed0d7",
-            "Value": {
-                "id": "6d0ff771-0a87-4872-a3cc-70bb39f0a636",
-                "resourcePath": "datafiles_yy\\spr_high_scores.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "1329b4b1-d0c9-4b21-b1de-be145c29379f",
             "Value": {
                 "id": "b8c0854f-9353-47e5-965c-5c49a3f8a7b3",

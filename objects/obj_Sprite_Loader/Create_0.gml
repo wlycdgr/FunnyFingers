@@ -45,13 +45,8 @@ top_mask_sprite = sprite_add("Gameplay/top_336x104.png", top_mask_frames, false,
 left_side_sprite = sprite_add("Gameplay/left_472x720.png", left_side_frames, false, false, 0, 0);
 right_side_sprite = sprite_add("Gameplay/right_472x720.png", right_side_frames, false, false, 0, 0);
 
-
-// room header sprites
-high_scores_header_sprite = sprite_add("spr_high_scores.png", 1, false, false, 0, 0);
-
 // ribbon menu header sprites
 ribbon_menu_header_game_over_sprite = sprite_add("RibbonMenuHeaders/spr_game_over.png", 1, false, false, 0, 0);
-
 
 // menu item sprites
 menu_item_label_achievements_sprite = sprite_add("MenuItemLabels/spr_achievements.png", 1, false, false, 0, 0);
