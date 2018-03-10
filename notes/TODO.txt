@@ -260,15 +260,14 @@ MARCH 9
 	- DONE display tracking time in score area for Easy / Medium / Hard
 	- DONE continue tracking time while game is paused
 - DONE end game on Easy / Medium / Hard when score cap reached
-	
-- modify score updating process
+- DONE modify score updating process
 	- DONE for Cool, take current leaderboard score, add just-achieved score, and send the sum
 	- DONE for Easy / Medium / Hard
 		- DONE if score below cap, do not send anything
 		- DONE if score hit cap, and frame count is BELOW current leaderboard entry (or there is no leaderboard entry), send new frame count
-	- for Difficult, don't change anything
-		- update if the high score is best
-		- otherwise never mind
+	- DONE for Difficult, don't change anything
+		- DONE update if the high score is best
+		- DONE otherwise never mind
 	
 - modify Best Friend achievement to only apply to Difficult high score leaderboard
 - get & add asset: "Paused" sliding ribbon header

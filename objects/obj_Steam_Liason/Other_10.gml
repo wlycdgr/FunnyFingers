@@ -21,6 +21,7 @@ if (step_debug) {
 	stat_easy_frames = steam_get_stat_int("stat_easy_frames");
 	stat_medium_frames = steam_get_stat_int("stat_medium_frames");
 	stat_hard_frames = steam_get_stat_int("stat_hard_frames");
+	stat_difficult_high_score = steam_get_stat_int("stat_difficult_high_score");
 }
 
 ////if (step_debug) {

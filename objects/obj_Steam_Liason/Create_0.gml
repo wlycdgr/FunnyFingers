@@ -15,6 +15,7 @@ stat_lifetime_cool_points = not_set;
 stat_easy_frames = not_set;
 stat_medium_frames = not_set;
 stat_hard_frames = not_set;
+stat_difficult_high_score = not_set;
 
 // high score stuff
 high_scores_get_id = not_set;

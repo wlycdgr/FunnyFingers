@@ -14,13 +14,14 @@ draw_text(5, 275, "stat_lifetime_cool_points: " + string(stat_lifetime_cool_poin
 draw_text(5, 290, "stat_easy_frames: " + string(stat_easy_frames));
 draw_text(5, 305, "stat_medium_frames: " + string(stat_medium_frames));
 draw_text(5, 320, "stat_hard_frames: " + string(stat_hard_frames));
+draw_text(5, 335, "stat_difficult_high_score: " + string(stat_difficult_high_score));
 
-draw_text(5, 350, "STEAM ACHIEVEMENTS (Ctrl + A + # to toggle)");
+draw_text(5, 365, "STEAM ACHIEVEMENTS (Ctrl + A + # to toggle)");
 
 if (ach_unlock_states_retrieved) {
 	for (var i = 0; i < steam_achievement_count; i++) {
 		draw_text(
-			5, 365 + i * 15,
+			5, 380 + i * 15,
 			ach_debug_names[i] +
 			scr_bool2str(unlocked[i])
 		);
