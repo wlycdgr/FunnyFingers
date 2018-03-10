@@ -16,3 +16,9 @@ for (var i = 0; i < playfield_count; i++){
 		obj_Playfield
 	);
 }
+
+should_display_frames = (
+	game_difficulty_easy == global.game_settings.difficulty ||
+	game_difficulty_medium == global.game_settings.difficulty ||
+	game_difficulty_hard == global.game_settings.difficulty
+);

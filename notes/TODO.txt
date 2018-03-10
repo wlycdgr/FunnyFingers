@@ -248,19 +248,27 @@ MARCH 9
 - DONE removed extraneous entries from act on menu selection script
 - DONE implement semantic menu navigation and selection input handling logic, 
 	with support for WASD and JIKL as well as arrow keys, and Space and Enter for selection
+- DONE modify leaderboards on Steam side:
+	- DONE edit Cool leaderboard to be Lifetime Cool Points
+	- DONE edit Easy leaderboard to be Easy Times, in frames, ascending
+	- DONE edit Medium leaderboard to be Medium Times, in frames, ascending
+	- DONE edit Hard leaderboard to be Hard Times, in frames, ascending
+	- DONE edit Difficult leaderboard to be....actually, that doesn't need to change
 	
-- make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
-which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
 
-- replace existing high score retrieval logic with simpler logic:
-	- on Gameplay room start, retrieve current score and rank
-	- on Game Over, submit new score if it is new high score
-	- if new score is new high score, display new rank and score
-	- if old score is higher, display old rank and score
-		
-- add lifetime points leaderboard for Cool difficulty
-- add time-to-cap leaderboards for Easy, Medium, Hard
-- leave regular uncapped high score leaderboard on Difficult
+- add time tracking logic
+	- DONE just track frames
+	- DONE begin tracking time at game start
+	- display tracking time in score area for Easy / Medium / Hard
+	- DONE continue tracking time while game is paused
+	
+- modify score updating process
+	- DONE for Cool, take current leaderboard score, add just-achieved score, and send the sum
+	- for Easy / Medium / Hard
+		- if score below cap, do not send anything
+		- if score hit cap, and frame count is BELOW current leaderboard entry (or there is no leaderboard entry), send new frame count
+	- for Difficult, don't change anything
+	
 - modify Best Friend achievement to only apply to Difficult high score leaderboard
 - get & add asset: "Paused" sliding ribbon header
 - implement & test Steam achievement unlocking: Level 99
@@ -270,6 +278,15 @@ which causes any other reds or blues you come in contact with during that time t
 	- text pop with CirclMaster quote when we hit it
 	- test with something like a couple thousand 
 - implement and test Best Friend unlocking
+
+- make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
+which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
+
+- replace existing high score retrieval logic with simpler logic:
+	- on Gameplay room start, retrieve current score and rank
+	- on Game Over, submit new score if it is new high score
+	- if new score is new high score, display new rank and score
+	- if old score is higher, display old rank and score
 	
 - instead, show score info on Game Over screen, using the following logic:
 	- if haven't reached leaderboard & new high score, show "New high score! [score]"

@@ -101,11 +101,11 @@ global.core_funny_finger_grow_time_in_sec =
 #macro steam_ach_No_Pressure_multiplier_value_requirement mb_max_multiplier
 #macro steam_ach_No_Pressure_minimum_difficulty_requirement game_difficulty_medium
 
-#macro steam_high_scores_leaderboard_cool "Cool"
-#macro steam_high_scores_leaderboard_easy "Easy"
-#macro steam_high_scores_leaderboard_medium "Medium"
-#macro steam_high_scores_leaderboard_hard "Hard"
-#macro steam_high_scores_leaderboard_difficult "Difficult"
+#macro steam_leaderboard_cool "Lifetime Cool Points"
+#macro steam_leaderboard_easy "Easy Times"
+#macro steam_leaderboard_medium "Medium Times"
+#macro steam_leaderboard_hard "Hard Times"
+#macro steam_leaderboard_difficult "High Scores"
 // /Steam
 
 
@@ -159,7 +159,6 @@ global.core_funny_finger_grow_time_in_sec =
 #macro gs_paused 3
 #macro gs_playing 4
 #macro gs_restarting 5
-#macro gs_viewing_high_scores 6
 
 #macro fs_inactive 0
 #macro fs_fading_in 1

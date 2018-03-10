@@ -62,7 +62,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "steam_high_scores_leaderboard",
+            "varName": "steam_leaderboard",
             "varType": 0
         },
         {
