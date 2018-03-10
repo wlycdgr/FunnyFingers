@@ -17,10 +17,10 @@ case gs_game_over:
 	break;
 	
 case gs_paused:
-	global.scoreboard.current_score = max(
-		global.scoreboard.target_score,
+	global.scoreboard.points = max(
+		global.scoreboard.target_points,
 		(
-			global.scoreboard.current_score - 
+			global.scoreboard.points - 
 			score_pause_penalty_per_frame
 		)
 	);
@@ -31,15 +31,25 @@ case gs_paused:
 	break;
 	
 case gs_playing:
-	if (global.scoreboard.target_score > global.scoreboard.current_score) 
-		{ global.scoreboard.current_score += score_grow_to_target_per_frame; }
+	if (global.scoreboard.target_points > global.scoreboard.points) { 
+		global.scoreboard.points += score_grow_to_target_per_frame;
+	}
+
+	if (
+		global.scoreboard.capped &&
+		global.scoreboard.points >= global.scoreboard.cap
+	) {
+		{ event_user(0); } // but, a happy game over!
+	}
 	
 	for (var i = array_length_1d(playfields) - 1; i > -1; i--){
 		if (playfields[i].has_unfunny_finger) 
 			{ event_user(0); } // on game over
 	}
+	
 	if (global.input_tracker.is_pause_pressed) 
 		{ event_user(1); } // on pause
+		
 	break;
 		
 case gs_restarting:

@@ -41,7 +41,7 @@ for (var i = global.game_settings.funny_finger_count - 1; i > -1; i--){
 				 global.input_tracker.is_fifth_rightmost_pressed)
 			)
 		) {
-			with (multiplier_bar) { event_user(12); }
+			with (multiplier_bar) { event_user(12); } // reset multiplier
 			
 			if (game_difficulty_difficult == global.game_settings.difficulty) {
 				TYPEWRITER_letters_index = 0;
@@ -167,7 +167,7 @@ if (0 != ff_move_direction){
 		// increase multiplier
 		with (multiplier_bar) { event_user(0); } 
 		
-		global.scoreboard.target_score += 
+		global.scoreboard.target_points += 
 			multiplier_bar.multiplier * 
 			score_valid_move_base_value;
 	}

@@ -16,6 +16,13 @@ if (!ach_unlock_states_retrieved) {
 	ach_unlock_states_retrieved = true;
 }
 
+if (step_debug) {
+	stat_lifetime_cool_points = steam_get_stat_int("stat_lifetime_cool_points");
+	stat_easy_frames = steam_get_stat_int("stat_easy_frames");
+	stat_medium_frames = steam_get_stat_int("stat_medium_frames");
+	stat_hard_frames = steam_get_stat_int("stat_hard_frames");
+}
+
 ////if (step_debug) {
 //	is_initialised = steam_initialised();
 //	are_stats_ready = steam_stats_ready();

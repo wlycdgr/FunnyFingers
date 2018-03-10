@@ -70,10 +70,10 @@ case "Main Menu":
 	break;
 case "Play":
 	with (global.game_settings) {
-		funny_finger_count = funny_finger_count_cool;
-		column_count = column_count_cool;
-		steam_leaderboard = steam_leaderboard_cool;
-		difficulty = game_difficulty_cool;
+		funny_finger_count = funny_finger_count_medium;
+		column_count = column_count_medium;
+		steam_leaderboard = steam_leaderboard_medium;
+		difficulty = game_difficulty_medium;
 	}
 	scr_Fade_To(r_Gameplay);
 	break;

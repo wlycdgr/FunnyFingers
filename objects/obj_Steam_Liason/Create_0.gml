@@ -10,6 +10,12 @@ is_initialised = false;
 are_stats_ready = false
 ach_unlock_states_retrieved = false;
 
+// stat stuff
+stat_lifetime_cool_points = not_set;
+stat_easy_frames = not_set;
+stat_medium_frames = not_set;
+stat_hard_frames = not_set;
+
 // high score stuff
 high_scores_get_id = not_set;
 user_high_score_get_id = not_set;

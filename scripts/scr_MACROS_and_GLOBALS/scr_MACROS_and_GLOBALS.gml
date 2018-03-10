@@ -106,6 +106,10 @@ global.core_funny_finger_grow_time_in_sec =
 #macro steam_leaderboard_medium "Medium Times"
 #macro steam_leaderboard_hard "Hard Times"
 #macro steam_leaderboard_difficult "High Scores"
+
+#macro steam_leaderboard_score_cap_easy 200 // TEST VALUE!!!!
+#macro steam_leaderboard_score_cap_medium 200 // TEST VALUE!!!!
+#macro steam_leaderboard_score_cap_hard 200 // TEST VALUE!!!!
 // /Steam
 
 

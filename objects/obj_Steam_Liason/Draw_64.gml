@@ -5,20 +5,27 @@ draw_set_color(the_color_of_information);
 draw_set_halign(fa_left);
 
 draw_text(5, 200, "STEAM INFO");
+
 draw_text(5, 215, "is_initialised: " + scr_bool2str(is_initialised));
 draw_text(5, 230, "are_stats_ready: " + scr_bool2str(are_stats_ready));
-draw_text(5, 260, "STEAM ACHIEVEMENTS (Ctrl + A + # to toggle)");
+
+draw_text(5, 260, "STATS");
+draw_text(5, 275, "stat_lifetime_cool_points: " + string(stat_lifetime_cool_points));
+draw_text(5, 290, "stat_easy_frames: " + string(stat_easy_frames));
+draw_text(5, 305, "stat_medium_frames: " + string(stat_medium_frames));
+draw_text(5, 320, "stat_hard_frames: " + string(stat_hard_frames));
+
+draw_text(5, 350, "STEAM ACHIEVEMENTS (Ctrl + A + # to toggle)");
 
 if (ach_unlock_states_retrieved) {
 	for (var i = 0; i < steam_achievement_count; i++) {
 		draw_text(
-			5, 275 + i * 15,
+			5, 365 + i * 15,
 			ach_debug_names[i] +
 			scr_bool2str(unlocked[i])
 		);
 	}
 }
-
 
 //draw_text(5, 245, "is_overlay_enabled: " + scr_bool2str(is_overlay_enabled));
 //draw_text(5, 260, "persona_name: " + persona_name);
