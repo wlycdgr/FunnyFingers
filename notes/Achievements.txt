@@ -1,32 +1,68 @@
-0. QWEIOP
-Complete the tutorial.
+EASY:
+The Challenger
+The Lucky Loser
+The Qualifier
 
-1. The Dabbler
-Cashout 5k+ on Easy, unlocking Medium.
+MEDIUM:
+The Journeyman
+The Dark Horse
+The Up And Comer
+
+HARD:
+The Consummate Professional
+The Threat
+The Contender
+
+DIFFICULT:
+The Champion
+The Living Legend
+Fignermukcre
+
+
+0. The Challenger
+Score 3k+ on Easy.
+
+1. The Lucky Loser
+Score 10k+ on Easy.
 
 2. The Qualifier
-Cashout 10k+ on Medium, unlocking Hard.
+Score 35k+ on Easy, unlocking Medium.
 
-3. The Up And Comer
-Cash out 20k+ on Hard, unlocking Difficult.
+3. The Journeyman
+Score 3k+ on Medium.
 
-4. Fignermukcre
-Cashout 30k+ on Difficult.
+4. The Dark Horse
+Score 10k+ on Medium.
 
-5. Triple Up
-Cashout 3x+ your previous 10k+ high score on Medium or higher.
+5. The Up And Comer
+Score 35k+ on Medium, unlocking Hard.
 
-6. Best Friend
-Achieve the highest score on any Friends leaderboard with 10+ entries.
+6. The Consummate Professional
+Score 3k+ on Hard.
 
-7. No Pressure
-Max out the multiplier on Hard or higher.
+7. The Threat
+Score 10k+ on Hard.
 
-8. The Score Is Right
-Take the over by 1.
+8. The Contender
+Score 35k+ on Hard, unlocking Difficult.
 
-9. A Longest Word
-Spell out TYPEWRITER with your moves on Difficult.
+9. The Champion
+Score 3k+ on Difficult.
 
-10. Level 99
+10. The Living Legend
+Score 10k+ on Difficult.
+
+11. Fignermukcre
+Score 35k+ on Difficult.
+
+12. Best Friend
+Achieve the best score on any Friends leaderboard with 10+ entries.
+
+13. No Pressure
+Max out the multiplier on Medium or higher.
+
+14. Level 99
 Accumulate a lifetime total of 2,452,814 points on Cool.
+
+15. QWEIOP
+Complete the tutorial.

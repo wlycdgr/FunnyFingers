@@ -268,7 +268,13 @@ MARCH 9
 	- DONE for Difficult, don't change anything
 		- DONE update if the high score is best
 		- DONE otherwise never mind
-	
+
+- update achievements!
+
+- remove Score Is Right achievement
+	- DONE remove unlocking logic from Steam Liason object
+
+- modify No Pressure so that it only unlocks in Difficult difficulty (not Hard)
 - modify Best Friend achievement to only apply to Difficult high score leaderboard
 - get & add asset: "Paused" sliding ribbon header
 - implement & test Steam achievement unlocking: Level 99
@@ -279,8 +285,7 @@ MARCH 9
 	- test with something like a couple thousand 
 - implement and test Best Friend unlocking
 
-- remove Score Is Right achievement
-	- DONE remove unlocking logic from Steam Liason object
+
 
 - make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
 which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
