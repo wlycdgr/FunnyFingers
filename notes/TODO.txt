@@ -273,10 +273,11 @@ MARCH 9
 March 10
 - DONE updated achievements on Steam
 - DONE update achievement logic in code
+- DONE remove TTF-related String script fonts & String object
 
+- add frames leaderboards for 3k, 10k thresholds for Easy, Medium, Hard, Difficult on Steam.
 
-- remove TTF-related String script fonts & String object
-- add frames leaderboards for 3k, 10k thresholds for Easy, Medium, Hard, Difficult
+- update leaderboard logic in code.
 
 - simplify/abstract movement handling logic, it is insane right now
 

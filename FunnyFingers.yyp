@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "0d58728d-082f-42e6-8614-f0e23f133cac",
-            "Value": {
-                "id": "0c982763-9abc-46a6-afd0-6715c03ff62a",
-                "resourcePath": "scripts\\scr_String_NEW\\scr_String_NEW.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "1314c3f0-1a07-4b20-96c0-fa6347994f3f",
             "Value": {
                 "id": "1783a678-ef85-4c8e-a6f9-5464ab42a4c9",
@@ -455,14 +447,6 @@
             }
         },
         {
-            "Key": "7fa19e37-7b23-4a49-91b1-a45ad78ef1b1",
-            "Value": {
-                "id": "76365c32-b2c0-4d45-b815-3a91dcb67134",
-                "resourcePath": "views\\7fa19e37-7b23-4a49-91b1-a45ad78ef1b1.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "801025d6-437f-4a5c-97f2-fcf5cc5e2db3",
             "Value": {
                 "id": "2e5af8b3-d72a-410f-96ae-49889bc41156",
@@ -508,22 +492,6 @@
                 "id": "46a607ea-b729-4642-aec1-f47f87712dad",
                 "resourcePath": "datafiles_yy\\nyu_incubator_logo.jpg.yy",
                 "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "8e080a33-821f-47d0-953d-6a0ce92cbccc",
-            "Value": {
-                "id": "78dcae9c-8ac9-484e-8067-d610867786a8",
-                "resourcePath": "scripts\\scr_String_Draw\\scr_String_Draw.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "919ea4eb-9091-4cc6-9ca2-209915dd4a5c",
-            "Value": {
-                "id": "3299543e-f780-4f03-8d8a-a0ada2d6a068",
-                "resourcePath": "objects\\obj_String\\obj_String.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -923,8 +891,6 @@
         "678f5e16-9839-48e9-837c-a3b611f73331",
         "a43486dc-bd3f-4e97-9e9d-c2818d636d5e",
         "09760fc0-4fac-4fd2-ba6d-671093bacb27",
-        "8e080a33-821f-47d0-953d-6a0ce92cbccc",
-        "0d58728d-082f-42e6-8614-f0e23f133cac",
         "c51897f5-6bc6-4561-acad-2aff6a162c8a",
         "fee404b0-2c5c-459c-857d-f755ff7bc29a",
         "c1ab8cee-c00b-434f-aaf7-c08319b9f5bb",
