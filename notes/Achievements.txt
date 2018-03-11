@@ -1,24 +1,3 @@
-EASY:
-The Challenger
-The Lucky Loser
-The Qualifier
-
-MEDIUM:
-The Journeyman
-The Dark Horse
-The Up And Comer
-
-HARD:
-The Consummate Professional
-The Threat
-The Contender
-
-DIFFICULT:
-The Champion
-The Living Legend
-Fignermukcre
-
-
 0. The Challenger
 Score 3k+ on Easy.
 
@@ -28,25 +7,25 @@ Score 10k+ on Easy.
 2. The Qualifier
 Score 35k+ on Easy, unlocking Medium.
 
-3. The Journeyman
+3. The Wildcard
 Score 3k+ on Medium.
 
-4. The Dark Horse
+4. The Up And Comer
 Score 10k+ on Medium.
 
-5. The Up And Comer
+5. The Breakout Performer
 Score 35k+ on Medium, unlocking Hard.
 
-6. The Consummate Professional
+6. The Pro
 Score 3k+ on Hard.
 
-7. The Threat
+7. The Contender
 Score 10k+ on Hard.
 
-8. The Contender
+8. The Champion
 Score 35k+ on Hard, unlocking Difficult.
 
-9. The Champion
+9. The Hall Of Famer
 Score 3k+ on Difficult.
 
 10. The Living Legend
@@ -66,3 +45,23 @@ Accumulate a lifetime total of 2,452,814 points on Cool.
 
 15. QWEIOP
 Complete the tutorial.
+
+EASY:
+The Challenger
+The Lucky Loser
+The Qualifier
+
+MEDIUM:
+The Journeyman
+The Dark Horse
+The Up And Comer
+
+HARD:
+The Consummate Professional
+The Threat
+The Contender
+
+DIFFICULT:
+The Champion
+The Living Legend
+Fignermukcre

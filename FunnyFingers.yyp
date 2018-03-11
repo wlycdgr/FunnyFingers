@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "01cf388e-ea45-433e-a8a2-6d9cc6e7a1a8",
-            "Value": {
-                "id": "e61e5988-522c-44e5-b949-2e0f7a8876a6",
-                "resourcePath": "views\\01cf388e-ea45-433e-a8a2-6d9cc6e7a1a8.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "0252d75a-808a-4e57-bf4f-a43ea1d553ba",
             "Value": {
                 "id": "a3c6eb0a-5a9d-411f-90dd-7be10ff8b3cf",
@@ -204,14 +196,6 @@
                 "id": "c68f3a91-b73f-4203-84a0-8f3df68671c3",
                 "resourcePath": "views\\3338708d-3b5f-4596-ab35-da41589b83c9.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "36826cf7-6384-4a1b-8a52-97a8679de7b3",
-            "Value": {
-                "id": "0fe6611c-6c1a-4e98-975d-f10d2d2f538e",
-                "resourcePath": "scripts\\scr_Steam_UnlockAchievement_ALongestWord\\scr_Steam_UnlockAchievement_ALongestWord.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -647,14 +631,6 @@
             }
         },
         {
-            "Key": "b3e865f8-c389-43a0-9e1d-22872cc1ae88",
-            "Value": {
-                "id": "098ca9cc-ee24-44bb-9c4e-583ef7b256a8",
-                "resourcePath": "scripts\\scr_Draw_Achievements_Column\\scr_Draw_Achievements_Column.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "b6fdf947-cf8d-47b6-a7a0-b47040561eff",
             "Value": {
                 "id": "b6891bed-5a3a-47a8-a098-d34f5df373e8",
@@ -951,12 +927,10 @@
         "0d58728d-082f-42e6-8614-f0e23f133cac",
         "c51897f5-6bc6-4561-acad-2aff6a162c8a",
         "fee404b0-2c5c-459c-857d-f755ff7bc29a",
-        "36826cf7-6384-4a1b-8a52-97a8679de7b3",
         "c1ab8cee-c00b-434f-aaf7-c08319b9f5bb",
         "1314c3f0-1a07-4b20-96c0-fa6347994f3f",
         "6cd67805-f2ae-40b0-a142-766f4e5fb59d",
-        "a42faca6-7d96-4868-b0cb-464449307b68",
-        "b3e865f8-c389-43a0-9e1d-22872cc1ae88"
+        "a42faca6-7d96-4868-b0cb-464449307b68"
     ],
     "tutorial": ""
 }

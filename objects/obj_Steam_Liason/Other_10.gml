@@ -11,7 +11,11 @@ if (!are_stats_ready) {
 
 if (!ach_unlock_states_retrieved) { 
 	for (var i = 0; i < ach_count; i++) {
-		unlocked[i] = steam_get_achievement(ach_api_names[i]);
+		ds_map_add(
+			unlocked, 
+			ach_api_names[i],
+			steam_get_achievement(ach_api_names[i])
+		);
 	}
 	ach_unlock_states_retrieved = true;
 }
@@ -35,6 +39,4 @@ if (step_debug) {
 //	user_account_id = steam_get_user_account_id();
 //	current_language = steam_current_game_language();
 //	available_languages = steam_available_languages();
-
-//	stat_test_1 = steam_get_stat_int("stat_test_1");
 ////}

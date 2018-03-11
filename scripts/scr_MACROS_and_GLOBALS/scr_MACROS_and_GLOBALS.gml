@@ -80,24 +80,28 @@ global.core_funny_finger_grow_time_in_sec =
 
 
 // Steam
-#macro steam_achievement_count 10
-#macro steam_ach_QWEIOP 0
-#macro steam_ach_The_Dabbler 1
+#macro steam_achievement_count 16
+#macro steam_ach_The_Challenger 0
+#macro steam_ach_The_Lucky_Loser 1
 #macro steam_ach_The_Qualifier 2
-#macro steam_ach_The_Up_And_Comer 3
-#macro steam_ach_Fignermukcre 4
-#macro steam_ach_Triple_Up 5
-#macro steam_ach_Best_Friend 6 
-#macro steam_ach_No_Pressure 7
-#macro steam_ach_The_Score_Is_Right 8
-#macro steam_ach_A_Longest_Word 9
-#macro steam_ach_Level_99 10
-#macro steam_ach_The_Dabbler_unlock_score 50
-#macro steam_ach_The_Qualifier_unlock_score 100
-#macro steam_ach_The_Up_And_Comer_unlock_score 200
-#macro steam_ach_Fignermukcre_unlock_score 50
-#macro steam_ach_Triple_Up_multiple 3
-#macro steam_ach_Triple_Up_minimum_previous_high_score 10000 // ten thousand
+#macro steam_ach_The_Wildcard 3
+#macro steam_ach_The_Up_And_Comer 4
+#macro steam_ach_The_Breakout_Performer 5
+#macro steam_ach_The_Pro 6
+#macro steam_ach_The_Contender 7
+#macro steam_ach_The_Champion 8
+#macro steam_ach_The_Hall_Of_Famer 9
+#macro steam_ach_The_Living_Legend 10
+#macro steam_ach_Fignermukcre 11
+#macro steam_ach_Best_Friend 12
+#macro steam_ach_No_Pressure 13
+#macro steam_ach_Level_99 14
+#macro steam_ach_QWEIOP 15
+
+#macro steam_ach_unlock_score_low 3000 // three thou
+#macro steam_ach_unlock_score_med 10000 // ten thou
+#macro steam_ach_unlock_score_high 35000 // 35k
+
 #macro steam_ach_No_Pressure_multiplier_value_requirement mb_max_multiplier
 #macro steam_ach_No_Pressure_minimum_difficulty_requirement game_difficulty_medium
 

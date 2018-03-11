@@ -16,14 +16,14 @@ draw_text(5, 305, "stat_medium_frames: " + string(stat_medium_frames));
 draw_text(5, 320, "stat_hard_frames: " + string(stat_hard_frames));
 draw_text(5, 335, "stat_difficult_high_score: " + string(stat_difficult_high_score));
 
-draw_text(5, 365, "STEAM ACHIEVEMENTS (Ctrl + A + # to toggle)");
+draw_text(5, 365, "STEAM ACHIEVEMENTS (Ctrl + X + # to toggle)");
 
 if (ach_unlock_states_retrieved) {
 	for (var i = 0; i < steam_achievement_count; i++) {
 		draw_text(
 			5, 380 + i * 15,
 			ach_debug_names[i] +
-			scr_bool2str(unlocked[i])
+			scr_bool2str(ds_map_find_value(unlocked, ach_api_names[i]))
 		);
 	}
 }
@@ -36,5 +36,3 @@ if (ach_unlock_states_retrieved) {
 //draw_text(5, 320, "user_account_id: " + string(user_account_id));
 //draw_text(5, 335, "current_language: " + current_language);
 //draw_text(5, 350, "available_languages: " + available_languages);
-
-//draw_text(5, 380, "stat_test_1: " + string(stat_test_1));

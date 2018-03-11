@@ -17,7 +17,6 @@ if (!focused) exit;
 // Check to see whether any funny finger is moving
 // If so, 
 // * reset multiplier if there is move input
-// * reset TYPERWRITER index if there is move input
 // * otherwise, do not accept any more move input and return
 for (var i = global.game_settings.funny_finger_count - 1; i > -1; i--){
 	if (funny_fingers[i].is_moving) {
@@ -42,10 +41,6 @@ for (var i = global.game_settings.funny_finger_count - 1; i > -1; i--){
 			)
 		) {
 			with (multiplier_bar) { event_user(12); } // reset multiplier
-			
-			if (game_difficulty_difficult == global.game_settings.difficulty) {
-				TYPEWRITER_letters_index = 0;
-			}
 		}
 		
 		exit;
@@ -176,27 +171,4 @@ if (0 != ff_move_direction){
 	}
 	
 	with (targeted_ff) { event_user(2); } // Initiate move
-	
-	
-	// If we are at max difficulty, check to see if we are typing TYPEWRITER
-	if (
-		game_difficulty_difficult == global.game_settings.difficulty &&
-		!global.steam.unlocked[steam_ach_A_Longest_Word]
-	) {
-		if (targeted_ff.source_column != targeted_ff.target_column) {
-			if (keyboard_check_pressed(ord(TYPEWRITER_letters[TYPEWRITER_letters_index]))) {
-				TYPEWRITER_letters_index += 1;
-				if (TYPEWRITER_letters_index == TYPEWRITER_letters_length) {
-					scr_Steam_UnlockAchievement_ALongestWord();
-				}
-			}
-			else {
-				TYPEWRITER_letters_index = 0; // start over!
-			}
-		}
-		
-		else {
-			TYPEWRITER_letters_index = 0;
-		}
-	}
 }

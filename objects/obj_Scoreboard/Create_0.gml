@@ -8,6 +8,7 @@ current_rank = 0;
 current_high_score = 0;
 current_lowest_frame_count = 0;
 
+// TODO extend/edit/update this to account for three caps/thresholds per difficulty
 capped = 
 	game_difficulty_easy == global.game_settings.difficulty ||
 	game_difficulty_medium == global.game_settings.difficulty ||

@@ -20,8 +20,18 @@ case game_difficulty_cool:
 	
 case game_difficulty_easy:
 	scr_Steam_UnlockIfAppropriate(
-		steam_ach_The_Dabbler,
-		steam_ach_The_Dabbler_unlock_score
+		steam_ach_The_Challenger,
+		steam_ach_unlock_score_low
+	);
+	
+	scr_Steam_UnlockIfAppropriate(
+		steam_ach_The_Lucky_Loser,
+		steam_ach_unlock_score_med
+	);
+	
+	scr_Steam_UnlockIfAppropriate(
+		steam_ach_The_Qualifier,
+		steam_ach_unlock_score_high
 	);
 	
 	scr_Steam_UpdateFramesStatAndLeaderboard("stat_easy_frames");
@@ -30,8 +40,18 @@ case game_difficulty_easy:
 	
 case game_difficulty_medium:
 	scr_Steam_UnlockIfAppropriate(
-		steam_ach_The_Qualifier,
-		steam_ach_The_Qualifier_unlock_score
+		steam_ach_The_Wildcard,
+		steam_ach_unlock_score_low
+	);
+	
+	scr_Steam_UnlockIfAppropriate(
+		steam_ach_The_Up_And_Comer,
+		steam_ach_unlock_score_med
+	);
+	
+	scr_Steam_UnlockIfAppropriate(
+		steam_ach_The_Breakout_Performer,
+		steam_ach_unlock_score_high
 	);
 
 	scr_Steam_UpdateFramesStatAndLeaderboard("stat_medium_frames");
@@ -40,8 +60,18 @@ case game_difficulty_medium:
 	
 case game_difficulty_hard:
 	scr_Steam_UnlockIfAppropriate(
-		steam_ach_The_Up_And_Comer,
-		steam_ach_The_Up_And_Comer_unlock_score
+		steam_ach_The_Pro,
+		steam_ach_unlock_score_low
+	);
+	
+	scr_Steam_UnlockIfAppropriate(
+		steam_ach_The_Contender,
+		steam_ach_unlock_score_med
+	);
+	
+	scr_Steam_UnlockIfAppropriate(
+		steam_ach_The_Champion,
+		steam_ach_unlock_score_high
 	);
 
 	scr_Steam_UpdateFramesStatAndLeaderboard("stat_hard_frames");
@@ -50,8 +80,18 @@ case game_difficulty_hard:
 
 case game_difficulty_difficult:
 	scr_Steam_UnlockIfAppropriate(
+		steam_ach_The_Hall_Of_Famer,
+		steam_ach_unlock_score_low
+	);
+	
+	scr_Steam_UnlockIfAppropriate(
+		steam_ach_The_Living_Legend,
+		steam_ach_unlock_score_med
+	);
+	
+	scr_Steam_UnlockIfAppropriate(
 		steam_ach_Fignermukcre,
-		steam_ach_Fignermukcre_unlock_score
+		steam_ach_unlock_score_high
 	);
 	
 	if (global.scoreboard.points > steam_get_stat_int("stat_difficult_high_score")) {

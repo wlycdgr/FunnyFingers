@@ -41,7 +41,3 @@ energy_generator.playfield = id;
 enemy_generator.playfield = id;
 
 multiplier_bar = scr_Multiplier_Bar_NEW(id);
-
-TYPEWRITER_letters = ["T", "Y", "P", "E", "W", "R", "I", "T", "E", "R"];
-TYPEWRITER_letters_index = 0;
-TYPEWRITER_letters_length = array_length_1d(TYPEWRITER_letters);

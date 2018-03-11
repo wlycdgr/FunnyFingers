@@ -15,17 +15,32 @@ main_menu = scr_Menu_NEW(
 difficulty_menu_labels[0] = "Cool";
 difficulty_menu_labels[1] = "Easy";
 
-if (global.steam.unlocked[steam_ach_The_Dabbler]) { 
+if (
+	ds_map_find_value(
+		global.steam.unlocked, 
+		global.steam.ach_api_names[steam_ach_The_Qualifier]
+	)
+) { 
 	difficulty_menu_labels[2] = "Medium";
 }
 else { difficulty_menu_labels[2] = "??????"; }
 
-if (global.steam.unlocked[steam_ach_The_Qualifier]) {
+if (
+	ds_map_find_value(
+		global.steam.unlocked, 
+		global.steam.ach_api_names[steam_ach_The_Breakout_Performer]
+	)
+) { 
 	difficulty_menu_labels[3] = "Hard";
 }
 else { difficulty_menu_labels[3] = "????"; }
 
-if (global.steam.unlocked[steam_ach_The_Up_And_Comer]) {
+if (
+	ds_map_find_value(
+		global.steam.unlocked, 
+		global.steam.ach_api_names[steam_ach_The_Champion]
+	)
+) { 
 	difficulty_menu_labels[4] = "Difficult";
 }
 else { difficulty_menu_labels[4] = "?????????"; }

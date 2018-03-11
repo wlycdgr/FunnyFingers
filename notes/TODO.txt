@@ -269,7 +269,16 @@ MARCH 9
 		- DONE update if the high score is best
 		- DONE otherwise never mind
 
-- update achievements!
+
+March 10
+- DONE updated achievements on Steam
+- DONE update achievement logic in code
+
+
+- remove TTF-related String script fonts & String object
+- add frames leaderboards for 3k, 10k thresholds for Easy, Medium, Hard, Difficult
+
+- simplify/abstract movement handling logic, it is insane right now
 
 - remove Score Is Right achievement
 	- DONE remove unlocking logic from Steam Liason object
@@ -299,6 +308,9 @@ which causes any other reds or blues you come in contact with during that time t
 - implement tutorial being the only thing you can do until you complete it, at the beginning
 
 - implement sound placeholders
+
+- secure danger danger asset
+- tweakdebug danger danger movement so it matches up better
 
 
 - BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
