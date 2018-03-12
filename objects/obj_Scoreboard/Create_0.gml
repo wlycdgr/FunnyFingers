@@ -11,19 +11,3 @@ current_lowest_frame_count = 0;
 submitted_frames_low = false;
 submitted_frames_mid = false;
 submitted_frames_high = false;
-
-// TODO extend/edit/update this to account for three caps/thresholds per difficulty
-/*
-capped = 
-	game_difficulty_easy == global.game_settings.difficulty ||
-	game_difficulty_medium == global.game_settings.difficulty ||
-	game_difficulty_hard == global.game_settings.difficulty;
-	
-cap = steam_leaderboard_score_cap_easy;
-if (game_difficulty_medium == global.game_settings.difficulty) {
-	cap = steam_leaderboard_score_cap_medium;
-}
-else if (game_difficulty_hard == global.game_settings.difficulty) {
-	cap = steam_leaderboard_score_cap_hard;
-}
-*/

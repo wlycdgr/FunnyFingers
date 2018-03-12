@@ -35,15 +35,6 @@ case gs_playing:
 		global.scoreboard.points += score_grow_to_target_per_frame;
 	}
 
-/*
-	if (
-		global.scoreboard.capped &&
-		global.scoreboard.points >= global.scoreboard.cap
-	) {
-		{ event_user(0); } // but, a happy game over!
-	}
-*/
-
 	for (var i = array_length_1d(playfields) - 1; i > -1; i--){
 		if (playfields[i].has_unfunny_finger) 
 			{ event_user(0); } // on game over
