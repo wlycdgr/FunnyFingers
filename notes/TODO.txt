@@ -290,9 +290,10 @@ March 12
 - DONE remove Score Is Right achievement
 	- DONE remove unlocking logic from Steam Liason object
 - DONE remove unused Steam scripts
+- DONE remove old leaderboard code
+- DONE remove womp womp readout from Game Over ribbon
 
-- remove old leaderboard code
-- remove womp womp readout from Game Over ribbon
+
 - update high score on Escape-quit
 - add speeding-up logic so that it's impossible to play forever no matter how good you are
 - modify score display to have two bars that extend most of the way across the screen:
