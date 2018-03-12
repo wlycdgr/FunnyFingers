@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "1314c3f0-1a07-4b20-96c0-fa6347994f3f",
-            "Value": {
-                "id": "1783a678-ef85-4c8e-a6f9-5464ab42a4c9",
-                "resourcePath": "scripts\\scr_Steam_UnlockIfAppropriate\\scr_Steam_UnlockIfAppropriate.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "1329b4b1-d0c9-4b21-b1de-be145c29379f",
             "Value": {
                 "id": "b8c0854f-9353-47e5-965c-5c49a3f8a7b3",
@@ -647,14 +639,6 @@
             }
         },
         {
-            "Key": "c1ab8cee-c00b-434f-aaf7-c08319b9f5bb",
-            "Value": {
-                "id": "5562f0fe-2588-4cc2-934a-85cdcecfd8b2",
-                "resourcePath": "scripts\\scr_Steam_UpdateFramesStatAndLeaderboard\\scr_Steam_UpdateFramesStatAndLeaderboard.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "c3e6edd0-133d-478f-87ef-4896d386452e",
             "Value": {
                 "id": "f1a671d9-566c-4ef6-bcf8-6b3826bf1fd8",
@@ -917,8 +901,6 @@
         "09760fc0-4fac-4fd2-ba6d-671093bacb27",
         "c51897f5-6bc6-4561-acad-2aff6a162c8a",
         "fee404b0-2c5c-459c-857d-f755ff7bc29a",
-        "c1ab8cee-c00b-434f-aaf7-c08319b9f5bb",
-        "1314c3f0-1a07-4b20-96c0-fa6347994f3f",
         "5495f05a-fff4-420d-9215-8cf8f8455f32",
         "db724a58-88c4-422b-9f17-aa18b2d7399e",
         "21e164c3-ce4b-4db0-99a2-afa7eb396227",

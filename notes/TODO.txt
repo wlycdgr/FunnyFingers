@@ -279,27 +279,27 @@ March 11
 - DONE add frames leaderboards for 1k, 3k, 10k thresholds for Easy, Medium, Hard, Difficult on Steam.
 - DONE add high score leaderboards on Easy, Medium, Hard on Steam
 
-- update leaderboard logic in code
-	- in scoreboard, check to see if we are on Cool or not. If not, then track frames
-	- watch for player reaching one of the 3 score caps
-	- as soon as they do, send a score update request
-	- when they die, send a high score update request
+March 12
+- DONE update leaderboard logic in code
+	- DOEN in scoreboard, check to see if we are on Cool or not. If not, then track frames
+	- DONE watch for player reaching one of the 3 score caps
+	- DONE as soon as they do, send a score update request
+	- DONE when they die, send a high score update request
+	- DONE when they restart from pause, update high score
+	- DONE when they return to title from pause, update high score
+- DONE remove Score Is Right achievement
+	- DONE remove unlocking logic from Steam Liason object
+- DONE remove unused Steam scripts
 
+
+- update high score on Escape-quit
 - add speeding-up logic so that it's impossible to play forever no matter how good you are
-
-
-
 - modify score display to have two bars that extend most of the way across the screen:
 	- one that shows points progress to current achievement
 	- other that shows points progress to highest cap
-
 - simplify/abstract movement handling logic, it is insane right now
-
-- remove Score Is Right achievement
-	- DONE remove unlocking logic from Steam Liason object
-
-- modify No Pressure so that it only unlocks in Difficult difficulty (not Hard)
-- modify Best Friend achievement to only apply to Difficult high score leaderboard
+- implement Best Friend
+- re-implement No Pressure
 - get & add asset: "Paused" sliding ribbon header
 - implement & test Steam achievement unlocking: Level 99
 	- create "lifetime Cool points" stat
@@ -307,8 +307,6 @@ March 11
 	- update stat whenever we finish a game of Cool
 	- text pop with CirclMaster quote when we hit it
 	- test with something like a couple thousand 
-- implement and test Best Friend unlocking
-
 
 
 - make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
