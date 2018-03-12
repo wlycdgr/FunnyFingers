@@ -1,4 +1,12 @@
 /// @description Initiate move
+shrink_rate_multiplier_growth_rate = max(
+	shrink_rate_multiplier_growth_rate_min,
+	(
+		shrink_rate_multiplier_growth_rate -
+		shrink_rate_multiplier_growth_rate_move_reduction
+	)
+);
+
 is_moving = true;
 
 target_x = 

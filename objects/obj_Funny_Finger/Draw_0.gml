@@ -8,3 +8,6 @@ if (has_armor) {
 	draw_rectangle(x, y, x + 4, y + 512, false);
 	draw_rectangle(x + 29, y, x + 32, y + 512, false);
 }
+
+draw_text(x, y - 16, string(shrink_rate_multiplier));
+draw_text(x, y - 32, string(shrink_rate_multiplier_growth_rate * 100000));

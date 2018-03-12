@@ -5,6 +5,22 @@ is_moving = false;
 is_shrinking = true;
 is_not_funny_anymore = false;
 
+shrink_rate_multiplier = 0.95;
+shrink_rate_multiplier_growth_rate = 0.0001 / game_fps;
+shrink_rate_multiplier_growth_rate_min = shrink_rate_multiplier_growth_rate;
+shrink_rate_multiplier_growth_rate_max = shrink_rate_multiplier_growth_rate * 2.0;
+shrink_rate_multiplier_growth_rate_uptick = 	
+	(
+		shrink_rate_multiplier_growth_rate_max - 
+		shrink_rate_multiplier_growth_rate_min
+	) 
+	/
+	( game_fps * 2.0);
+shrink_rate_multiplier_growth_rate_move_reduction = 
+	shrink_rate_multiplier_growth_rate_max - 
+	shrink_rate_multiplier_growth_rate_min;
+		
+
 life = global.core_funny_finger_starting_life_x_100 / 100;
 target_life = life;
 

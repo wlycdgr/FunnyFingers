@@ -1,0 +1,27 @@
+IMPLEMENT SHRINK RATE MULTIPLIER
+
+- DONE first pass:
+	shrink rate multiplier grows over time
+- DONE second pass:
+	shrink rate multiplier grows over time
+	moving the funny finger reduces the rate at which it grows
+		implementation:
+		shrink rate multiplier growth rate has a max and a min
+		shrink rate multiplier growth rate ticks towards max every frame
+		moving bumps shrink rate multiplier growth rate down to min
+- THAT'S IT KEEP IT SIMPLE STUPID
+
+shrink_rate_multiplier = 0.95;
+shrink_rate_multiplier_growth_rate = 0.0001 / game_fps;
+shrink_rate_multiplier_growth_rate_min = shrink_rate_multiplier_growth_rate;
+shrink_rate_multiplier_growth_rate_max = shrink_rate_multiplier_growth_rate * 2.0;
+shrink_rate_multiplier_growth_rate_uptick = 	
+	(
+		shrink_rate_multiplier_growth_rate_max - 
+		shrink_rate_multiplier_growth_rate_min
+	) 
+	/
+	( game_fps * 2.0);
+shrink_rate_multiplier_growth_rate_move_reduction = 
+	shrink_rate_multiplier_growth_rate_max - 
+	shrink_rate_multiplier_growth_rate_min;

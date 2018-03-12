@@ -623,6 +623,14 @@
             }
         },
         {
+            "Key": "ba223c8f-8f0d-41f6-a919-116c2a53a012",
+            "Value": {
+                "id": "868698f7-1217-4070-87d2-47af97914e86",
+                "resourcePath": "notes\\ShrinkRateMultiplier.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "bbe37cb4-12bb-4ff5-9e13-a6308dde3f93",
             "Value": {
                 "id": "fce3a91d-34a2-4819-8c89-4301f48a818a",

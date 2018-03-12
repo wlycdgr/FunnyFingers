@@ -293,22 +293,29 @@ March 12
 - DONE remove old leaderboard code
 - DONE remove womp womp readout from Game Over ribbon
 - DONE update high score on Escape-quit
+- DONE implement and balance shrink rate multiplier logic that makes the game not infinite
 
-
-- add speeding-up logic so that it's impossible to play forever no matter how good you are
-- modify score display to have two bars that extend most of the way across the screen:
-	- one that shows points progress to current achievement
-	- other that shows points progress to highest cap
-- simplify/abstract movement handling logic, it is insane right now
 - implement Best Friend
 - re-implement No Pressure
-- get & add asset: "Paused" sliding ribbon header
 - implement & test Steam achievement unlocking: Level 99
 	- create "lifetime Cool points" stat
 	- load stat when starting game
 	- update stat whenever we finish a game of Cool
 	- text pop with CirclMaster quote when we hit it
 	- test with something like a couple thousand 
+	
+- implement splitsfont
+
+- modify achievements to be 3k, 10k (unlocks next level), 42k (mastery!)
+	
+- modify score display to have two bars that extend most of the way across the screen:
+	- one that shows points progress to current achievement
+	- other that shows points progress to highest cap
+
+
+
+- get & add asset: "Paused" sliding ribbon header
+
 
 
 - make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
@@ -334,8 +341,10 @@ which causes any other reds or blues you come in contact with during that time t
 - add checks so that game does not break if any sprite asset is not available or misnamed
 - ensure no crash-because-global.steam.unlocked-not-initialized if user not logged in to Steam or connection lost at launch
 
+NICE TO HAVE / CAN WAIT:
 - dynamically assign multiplier incrementing handler script at launch time based on unlock status of No Pressure
 achievement, so we don't need to check whether we should unlock it all the time ifwhen it's already popped
+- simplify/abstract movement handling logic, it is insane right now
 
 KS:
 - implement Kickstarter backers can unlock everything right away by typing their last name in three times at the title screen
