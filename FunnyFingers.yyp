@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "21e164c3-ce4b-4db0-99a2-afa7eb396227",
+            "Value": {
+                "id": "1fd0eeec-7912-427f-a935-4a4ea819dfcf",
+                "resourcePath": "scripts\\scr_Steam_UpdateHighScoreLeaderboard\\scr_Steam_UpdateHighScoreLeaderboard.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "22e4d577-b237-4333-83a3-20be936c6b35",
             "Value": {
                 "id": "fcbc462e-307e-4f36-a009-8b997851ee3f",
@@ -284,6 +292,14 @@
                 "id": "584f9a1b-5025-42fd-81d4-7e9bf5572c46",
                 "resourcePath": "datafiles_yy\\Gameplay\\column_48x512.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "5495f05a-fff4-420d-9215-8cf8f8455f32",
+            "Value": {
+                "id": "05739998-0978-4560-bcd9-c97586cada6b",
+                "resourcePath": "scripts\\scr_Steam_UnlockAchievement\\scr_Steam_UnlockAchievement.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -751,6 +767,14 @@
             }
         },
         {
+            "Key": "db724a58-88c4-422b-9f17-aa18b2d7399e",
+            "Value": {
+                "id": "8b760637-f975-43ec-ba82-728f31167a79",
+                "resourcePath": "scripts\\scr_Steam_UpdateFramesLeaderboard\\scr_Steam_UpdateFramesLeaderboard.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dc5035d2-b553-4e80-bae5-94a9de523d18",
             "Value": {
                 "id": "d93de26d-a769-42b4-807c-c5e939cab994",
@@ -895,6 +919,9 @@
         "fee404b0-2c5c-459c-857d-f755ff7bc29a",
         "c1ab8cee-c00b-434f-aaf7-c08319b9f5bb",
         "1314c3f0-1a07-4b20-96c0-fa6347994f3f",
+        "5495f05a-fff4-420d-9215-8cf8f8455f32",
+        "db724a58-88c4-422b-9f17-aa18b2d7399e",
+        "21e164c3-ce4b-4db0-99a2-afa7eb396227",
         "6cd67805-f2ae-40b0-a142-766f4e5fb59d",
         "a42faca6-7d96-4868-b0cb-464449307b68"
     ],

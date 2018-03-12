@@ -31,10 +31,10 @@
 
 
 // Core Mechanics 
-#macro mb_max_multiplier 100
+#macro mb_max_multiplier 10000000
 #macro mb_min_multiplier 1
 #macro mb_max_seconds_to_drain 3.0
-#macro mb_min_seconds_to_drain 1.0
+#macro mb_min_seconds_to_drain 3.0
 #macro mb_time_to_drain_reduction_in_seconds_for_successful_move 0.02
 
 #macro core_enemy_speed_per_sec_min_default 125
@@ -98,9 +98,9 @@ global.core_funny_finger_grow_time_in_sec =
 #macro steam_ach_Level_99 14
 #macro steam_ach_QWEIOP 15
 
-#macro steam_ach_unlock_score_low 3000 // three thou
-#macro steam_ach_unlock_score_med 10000 // ten thou
-#macro steam_ach_unlock_score_high 35000 // 35k
+#macro steam_ach_unlock_score_low 100 // 1k
+#macro steam_ach_unlock_score_med 250 //  3k
+#macro steam_ach_unlock_score_high 500 // 10k
 
 #macro steam_ach_No_Pressure_multiplier_value_requirement mb_max_multiplier
 #macro steam_ach_No_Pressure_minimum_difficulty_requirement game_difficulty_medium
@@ -111,9 +111,22 @@ global.core_funny_finger_grow_time_in_sec =
 #macro steam_leaderboard_hard "Hard Times"
 #macro steam_leaderboard_difficult "High Scores"
 
-#macro steam_leaderboard_score_cap_easy 200 // TEST VALUE!!!!
-#macro steam_leaderboard_score_cap_medium 200 // TEST VALUE!!!!
-#macro steam_leaderboard_score_cap_hard 200 // TEST VALUE!!!!
+#macro steam_leaderboard_easy_frames_low "Easy Times 1K"
+#macro steam_leaderboard_easy_frames_mid "Easy Times 3K"
+#macro steam_leaderboard_easy_frames_high "Easy Times 10K"
+#macro steam_leaderboard_medium_frames_low "Medium Times 1K"
+#macro steam_leaderboard_medium_frames_mid "Medium Times 3K"
+#macro steam_leaderboard_medium_frames_high "Medium Times 10K"
+#macro steam_leaderboard_hard_frames_low "Hard Times 1K"
+#macro steam_leaderboard_hard_frames_mid "Hard Times 3K"
+#macro steam_leaderboard_hard_frames_high "Hard Times 10K"
+#macro steam_leaderboard_difficult_frames_low "Difficult Times 1K"
+#macro steam_leaderboard_difficult_frames_mid "Difficult Times 3K"
+#macro steam_leaderboard_difficult_frames_high "Difficult Times 10K"
+#macro steam_leaderboard_easy_high_scores "Easy High Scores"
+#macro steam_leaderboard_medium_high_scores "Medium High Scores"
+#macro steam_leaderboard_hard_high_scores "Hard High Scores"
+#macro steam_leaderboard_difficult_high_scores "Difficult High Scores"
 // /Steam
 
 

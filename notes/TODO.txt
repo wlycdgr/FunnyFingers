@@ -275,9 +275,23 @@ March 10
 - DONE update achievement logic in code
 - DONE remove TTF-related String script fonts & String object
 
-- add frames leaderboards for 3k, 10k thresholds for Easy, Medium, Hard, Difficult on Steam.
+March 11
+- DONE add frames leaderboards for 1k, 3k, 10k thresholds for Easy, Medium, Hard, Difficult on Steam.
+- DONE add high score leaderboards on Easy, Medium, Hard on Steam
 
-- update leaderboard logic in code.
+- update leaderboard logic in code
+	- in scoreboard, check to see if we are on Cool or not. If not, then track frames
+	- watch for player reaching one of the 3 score caps
+	- as soon as they do, send a score update request
+	- when they die, send a high score update request
+
+- add speeding-up logic so that it's impossible to play forever no matter how good you are
+
+
+
+- modify score display to have two bars that extend most of the way across the screen:
+	- one that shows points progress to current achievement
+	- other that shows points progress to highest cap
 
 - simplify/abstract movement handling logic, it is insane right now
 

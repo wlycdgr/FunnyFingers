@@ -12,10 +12,10 @@ ach_unlock_states_retrieved = false;
 
 // stat stuff
 stat_lifetime_cool_points = not_set;
-stat_easy_frames = not_set;
-stat_medium_frames = not_set;
-stat_hard_frames = not_set;
-stat_difficult_high_score = not_set;
+stat_easy_frames_low = not_set;
+stat_easy_frames_mid = not_set;
+stat_easy_frames_high = not_set;
+stat_easy_high_score = not_set;
 
 // high score stuff
 high_scores_get_id = not_set;
