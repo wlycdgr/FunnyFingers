@@ -292,9 +292,9 @@ March 12
 - DONE remove unused Steam scripts
 - DONE remove old leaderboard code
 - DONE remove womp womp readout from Game Over ribbon
+- DONE update high score on Escape-quit
 
 
-- update high score on Escape-quit
 - add speeding-up logic so that it's impossible to play forever no matter how good you are
 - modify score display to have two bars that extend most of the way across the screen:
 	- one that shows points progress to current achievement
