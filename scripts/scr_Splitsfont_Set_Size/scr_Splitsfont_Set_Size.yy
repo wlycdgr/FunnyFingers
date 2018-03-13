@@ -1,8 +1,8 @@
 {
-    "id": "670ae535-6088-4227-97cd-d1d9b153601f",
+    "id": "bbfbe26a-22ab-4905-b660-696a70f57963",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_Splitsfont_DrawGlyph",
+    "name": "scr_Splitsfont_Set_Size",
     "IsCompatibility": false,
     "IsDnD": false
 }

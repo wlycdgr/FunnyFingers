@@ -1,7 +1,7 @@
 /// @description Init
 is_active = true;
 
-glyph_indices = -1;
+glyphs = -1;
 
 length = 0;
 
@@ -17,3 +17,5 @@ rotation_alignment = WLY_DefaultRotationAlignment;
 rotation_dir = WLY_DefaultRotationDirection;
 rotation_speed_degrees_per_sec = WLY_DefaultRotationSpeedInDegsPerSec;
 render_style = WLY_DefaultRenderStyle;
+
+text_already_set = false;

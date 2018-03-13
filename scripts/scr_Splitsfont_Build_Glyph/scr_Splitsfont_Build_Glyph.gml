@@ -10,12 +10,12 @@ with (new_glyph) {
 
 	var vertex_data_length = array_length_1d(argument0);
 	for (var i = 0; i < vertex_data_length; i++) {
-		scr_Splitsfont_InitGlyphTemplateVertex(argument0[i]);
+		scr_Splitsfont_Build_GlyphVertex(argument0[i]);
 	}
 	
 	var line_data_length = array_length_1d(argument1);
 	for (var i = 0; i < line_data_length; i++) {
-		scr_Splitsfont_InitGlyphTemplateLine(argument1[i]);
+		scr_Splitsfont_Build_GlyphLine(argument1[i]);
 	}
 	
 	width = 0.0;

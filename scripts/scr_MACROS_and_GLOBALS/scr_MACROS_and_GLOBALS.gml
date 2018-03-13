@@ -30,8 +30,8 @@
 // /Game Settings
 
 // SPLITSFONT
-#macro SPLITSFONT_RotationAlignment_ChorusLine 0
-#macro SPLITSFONT_RotationDirection_CW 0
+#macro SPLITSFONT_RotationAlignment_ChorusLine 1
+#macro SPLITSFONT_RotationDirection_CW -1
 #macro SPLITSFONT_RenderStyle_Vertical 0
 #macro WLY_DefaultAngleInDegs 30.0
 #macro WLY_DefaultSizeAsPropOfScreenHeight 0.1

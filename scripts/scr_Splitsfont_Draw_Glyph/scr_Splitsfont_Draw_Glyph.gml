@@ -5,13 +5,13 @@ var size = argument0.px_glyph_size;
 var color = argument0.color;
 var index = argument1;
 
-var glyph = global.splitsfont.glyphs[ord("A")];//global.splitsfont.glyphs[argument0.glyph_indices[argument1]];
+var glyph = argument0.glyphs[argument1];
 
 var line = -1;
 
-draw_set_color(c_black);
-for (var i = 0; i < glyph.line_count; i++) {
-	line = glyph.lines[i];
+draw_set_color(color);
+for (var j = 0; j < glyph.line_count; j++) {
+	line = glyph.lines[j];
 	
 	draw_line_width(
 		argument2 + line.start_x * size,
