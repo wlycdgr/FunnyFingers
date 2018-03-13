@@ -7,3 +7,5 @@ if (is_debug){
 	draw_text(5, 65, "CTRL down?: " + (is_ctrl_down ? "yup" : "nope"));
 	draw_text(5, 80, "Room: " + room_get_name(room));
 }
+
+scr_Splitsfont_Draw_String(splitsfont_test, 300, 300);

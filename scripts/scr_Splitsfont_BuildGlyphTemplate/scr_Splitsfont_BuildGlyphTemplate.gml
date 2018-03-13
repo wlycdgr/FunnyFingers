@@ -8,13 +8,13 @@ var new_glyph = instance_create_layer(
 with (new_glyph) {
 	is_active = true;
 
-	var vertex_data_height = array_height_2d(argument0);
-	for (var i = 0; i < vertex_data_height; i++) {
+	var vertex_data_length = array_length_1d(argument0);
+	for (var i = 0; i < vertex_data_length; i++) {
 		scr_Splitsfont_InitGlyphTemplateVertex(argument0[i]);
 	}
 	
-	var line_data_height = array_height_2d(argument1);
-	for (var i = 0; i < line_data_height; i++) {
+	var line_data_length = array_length_1d(argument1);
+	for (var i = 0; i < line_data_length; i++) {
 		scr_Splitsfont_InitGlyphTemplateLine(argument1[i]);
 	}
 	
@@ -25,7 +25,6 @@ with (new_glyph) {
 			vertices[i].pos_x
 		);
 	}
-	width = glyph_width;
 	
 	kern_multiplier = 1.0;
 }
