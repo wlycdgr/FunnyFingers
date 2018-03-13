@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1ab74023-0673-4745-a9d8-2c922f7063ab",
+            "Value": {
+                "id": "fad63423-5a25-4a34-94a3-339c4cededb4",
+                "resourcePath": "scripts\\scr_Splitsfont_InitGlyphTemplateLine\\scr_Splitsfont_InitGlyphTemplateLine.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1ae01c13-4316-4a2e-b1e8-8a225cd3730d",
             "Value": {
                 "id": "141ce58d-b841-4e6b-9caa-8183a82e1c59",
@@ -159,6 +167,14 @@
             }
         },
         {
+            "Key": "239db2dc-b96b-4927-860b-c145fac59b78",
+            "Value": {
+                "id": "1aa56938-3cb7-4798-a517-446b8c4cb78e",
+                "resourcePath": "objects\\obj_Splitsfont_Line\\obj_Splitsfont_Line.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2e049f42-4676-4a32-a67d-49e06956c020",
             "Value": {
                 "id": "3d3c66a4-021a-4985-8960-06efac1db850",
@@ -188,6 +204,14 @@
                 "id": "c68f3a91-b73f-4203-84a0-8f3df68671c3",
                 "resourcePath": "views\\3338708d-3b5f-4596-ab35-da41589b83c9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "367d65f9-24e5-44f1-a1b3-a104cbb8350a",
+            "Value": {
+                "id": "a70efc7b-a634-4eb5-a75e-f993f54e1da5",
+                "resourcePath": "objects\\obj_Splitsfont_Vertex\\obj_Splitsfont_Vertex.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -268,6 +292,14 @@
                 "id": "fce361b1-ceef-4978-a9fd-ad79268af94a",
                 "resourcePath": "views\\4d72156a-4efe-437b-b65b-4c24840317d5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4e15aefb-203c-4968-823c-4558e387754d",
+            "Value": {
+                "id": "1682ee4f-3e94-4cb3-804c-0ce6cb619023",
+                "resourcePath": "objects\\obj_Splitsfont\\obj_Splitsfont.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -487,6 +519,14 @@
             }
         },
         {
+            "Key": "87eedd21-65f9-45f8-b8a6-36856abd413a",
+            "Value": {
+                "id": "8fd6afa8-ab01-4f73-82e7-9db09bca0235",
+                "resourcePath": "scripts\\scr_Splitsfont_InitGlyphTemplateVertex\\scr_Splitsfont_InitGlyphTemplateVertex.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8990a2d7-24f4-4eb3-9eea-920b11e7961e",
             "Value": {
                 "id": "eecd5359-41b9-4913-8a8a-9031be654add",
@@ -604,6 +644,22 @@
                 "id": "8eb5e698-f4ce-415b-81e8-b22cee28b1fb",
                 "resourcePath": "objects\\obj_Enemy\\obj_Enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b2a16761-2f94-4c38-b682-95c04c9253a2",
+            "Value": {
+                "id": "88c44d7e-2165-4acc-b54a-b289af5469fd",
+                "resourcePath": "views\\b2a16761-2f94-4c38-b682-95c04c9253a2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b51e727b-5c33-4fcd-aaf2-5b4b653315a3",
+            "Value": {
+                "id": "2877cf5d-36ae-43bf-a2ff-5a9605013e56",
+                "resourcePath": "views\\b51e727b-5c33-4fcd-aaf2-5b4b653315a3.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -815,6 +871,14 @@
             }
         },
         {
+            "Key": "e6a8db3d-4294-49ef-8b41-ba3d98d9aa24",
+            "Value": {
+                "id": "a2025736-3ba4-4870-a24a-2a8b5c0d5ae3",
+                "resourcePath": "objects\\obj_Splitsfont_Glyph\\obj_Splitsfont_Glyph.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e6b364ea-c9e0-43b7-8647-237c7305df91",
             "Value": {
                 "id": "5a18564f-5f82-45d6-9d28-3c6cc18965a6",
@@ -836,6 +900,14 @@
                 "id": "1b41c183-2f63-45f3-8dec-a9c497622788",
                 "resourcePath": "objects\\obj_Danger_Danger\\obj_Danger_Danger.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ecd3810f-a80c-41a2-aac7-a2cb35f6b1f3",
+            "Value": {
+                "id": "bc2bdbf0-9e42-4ce7-97c2-ea351c79d2c0",
+                "resourcePath": "scripts\\scr_Splitsfont_BuildGlyphTemplate\\scr_Splitsfont_BuildGlyphTemplate.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -913,7 +985,10 @@
         "db724a58-88c4-422b-9f17-aa18b2d7399e",
         "21e164c3-ce4b-4db0-99a2-afa7eb396227",
         "6cd67805-f2ae-40b0-a142-766f4e5fb59d",
-        "a42faca6-7d96-4868-b0cb-464449307b68"
+        "a42faca6-7d96-4868-b0cb-464449307b68",
+        "87eedd21-65f9-45f8-b8a6-36856abd413a",
+        "1ab74023-0673-4745-a9d8-2c922f7063ab",
+        "ecd3810f-a80c-41a2-aac7-a2cb35f6b1f3"
     ],
     "tutorial": ""
 }

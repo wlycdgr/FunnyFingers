@@ -295,6 +295,9 @@ March 12
 - DONE update high score on Escape-quit
 - DONE implement and balance shrink rate multiplier logic that makes the game not infinite
 
+
+- implement splitsfont
+
 - implement Best Friend
 - re-implement No Pressure
 - implement & test Steam achievement unlocking: Level 99
@@ -304,7 +307,7 @@ March 12
 	- text pop with CirclMaster quote when we hit it
 	- test with something like a couple thousand 
 	
-- implement splitsfont
+
 
 - modify achievements to be 3k, 10k (unlocks next level), 42k (mastery!)
 	

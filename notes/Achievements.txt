@@ -2,28 +2,28 @@
 Score 3k+ on Easy.
 
 1. The Lucky Loser
-Score 10k+ on Easy.
+Score 10k+ on Easy, unlocking Medium.
 
 2. The Qualifier
-Score 35k+ on Easy, unlocking Medium.
+Score 35k+ on Easy.
 
 3. The Wildcard
 Score 3k+ on Medium.
 
 4. The Up And Comer
-Score 10k+ on Medium.
+Score 10k+ on Medium, unlocking Hard.
 
 5. The Breakout Performer
-Score 35k+ on Medium, unlocking Hard.
+Score 35k+ on Medium.
 
 6. The Pro
 Score 3k+ on Hard.
 
 7. The Contender
-Score 10k+ on Hard.
+Score 10k+ on Hard, unlocking Difficult.
 
 8. The Champion
-Score 35k+ on Hard, unlocking Difficult.
+Score 35k+ on Hard.
 
 9. The Hall Of Famer
 Score 3k+ on Difficult.
@@ -38,7 +38,7 @@ Score 35k+ on Difficult.
 Achieve the best score on any Friends leaderboard with 10+ entries.
 
 13. No Pressure
-Max out the multiplier on Medium or higher.
+Reach 35k without breaking your multiplier combo on Medium or higher.
 
 14. Level 99
 Accumulate a lifetime total of 2,452,814 points on Cool.
