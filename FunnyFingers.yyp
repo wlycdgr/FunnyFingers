@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "36b69265-d1e1-48f1-8a98-6d8bca6f1a16",
+            "Value": {
+                "id": "b11e02e9-8b81-46c8-a722-1d90067d08c3",
+                "resourcePath": "objects\\obj_Splitsfont_String\\obj_Splitsfont_String.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "36d53171-1bee-4a5f-9c87-e1cd2ffa1128",
             "Value": {
                 "id": "bdb06fd4-eed6-461a-bb96-db0f46bdf3df",

@@ -7,3 +7,5 @@ global.game_settings = instance_create_layer(0, 0, "Instances", obj_Game_Setting
 global.steam = instance_create_layer(0, 0, "Instances", obj_Steam_Liason);
 global.splitsfont = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont);
 global.fader = instance_create_layer(0, 0, "Fader", obj_Fader);
+
+var splitsfont_test = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
