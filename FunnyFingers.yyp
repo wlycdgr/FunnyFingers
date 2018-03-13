@@ -823,6 +823,14 @@
             }
         },
         {
+            "Key": "d853bee7-ced9-4eaa-9ece-6ecec2db4136",
+            "Value": {
+                "id": "a24a1857-b521-4bb1-9d34-85ae26556178",
+                "resourcePath": "scripts\\scr_Splitsfont_Set_Text\\scr_Splitsfont_Set_Text.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "db724a58-88c4-422b-9f17-aa18b2d7399e",
             "Value": {
                 "id": "8b760637-f975-43ec-ba82-728f31167a79",
@@ -996,7 +1004,8 @@
         "a42faca6-7d96-4868-b0cb-464449307b68",
         "87eedd21-65f9-45f8-b8a6-36856abd413a",
         "1ab74023-0673-4745-a9d8-2c922f7063ab",
-        "ecd3810f-a80c-41a2-aac7-a2cb35f6b1f3"
+        "ecd3810f-a80c-41a2-aac7-a2cb35f6b1f3",
+        "d853bee7-ced9-4eaa-9ece-6ecec2db4136"
     ],
     "tutorial": ""
 }
