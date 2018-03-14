@@ -306,12 +306,9 @@ March 13
 - DONE remove ribbon menu header sprite logic and asset, replace with splitsfont strings
 - DONE implement splitsfont string width get
 - DONE remove score text drawing logic, replace with splitsfont logic
-
-
-- remove multiplier text drawing logic, replace with splitsfont logic
+- DONE remove multiplier text drawing logic, replace with splitsfont logic
 - implement kern modification
-
-
+- implement color modification
 - implement Best Friend
 - re-implement No Pressure
 - implement & test Steam achievement unlocking: Level 99
@@ -320,40 +317,23 @@ March 13
 	- update stat whenever we finish a game of Cool
 	- text pop with CirclMaster quote when we hit it
 	- test with something like a couple thousand 
-	
-
-
-
-	
-
 - modify score display to have two bars that extend most of the way across the screen:
 	- one that shows points progress to current achievement
 	- other that shows points progress to highest cap
-
-
-- get & add asset: "Paused" sliding ribbon header
-
-
-
 - make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
 which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
-	
-- instead, show score info on Game Over screen, using the following logic:
+	- instead, show score info on Game Over screen, using the following logic:
 	- if haven't reached leaderboard & new high score, show "New high score! [score]"
 	- if haven't reached leaderboard & not new high scores, show "[score] / [high score]"
 	- if on leaderboard, show around-user
 	- if on leaderboard and high score, show "New High Score!" text, "+ [number of ranks]"
-
 - implement tutorial being the only thing you can do until you complete it, at the beginning
-
-- implement sound placeholders
-
-- secure danger danger asset
+- MAKE A LIST OF NECESSARY SOUNDS
+- get remaining needed assets:
+	- danger danger
+	- armor
 - tweakdebug danger danger movement so it matches up better
-
-
 - BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
-
 - handle steam failing to upload score
 - add checks so that game does not break if any sprite asset is not available or misnamed
 - ensure no crash-because-global.steam.unlocked-not-initialized if user not logged in to Steam or connection lost at launch

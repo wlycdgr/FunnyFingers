@@ -17,8 +17,16 @@ for (var i = 0; i < score_as_string_len; i++) {
 }
 
 if (should_display_frames) {
-	draw_text(
-		5, 25,
-		"FRAMES: " + string(global.scoreboard.frames)
+	scr_Splitsfont_Draw_String(
+		frames_label_string,
+		5, 50
 	);
+	var frames_as_string = string(floor(global.scoreboard.frames));
+	var frames_as_string_len = string_length(frames_as_string);
+	for (var i = 0; i < frames_as_string_len; i++) {
+		scr_Splitsfont_Draw_String(
+			number_strings[ord(string_char_at(frames_as_string, i + 1))],
+			200 + 50 * i, 50
+		);
+	}
 }
