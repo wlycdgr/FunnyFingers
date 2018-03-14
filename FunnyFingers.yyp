@@ -247,14 +247,6 @@
             }
         },
         {
-            "Key": "3bf8c6f3-0fc4-4ed3-b783-972f816da7d3",
-            "Value": {
-                "id": "2707408f-d92f-4afc-bfed-2e58788c5a97",
-                "resourcePath": "datafiles_yy\\Gameplay\\top_336x104.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "3cacfbe1-5d40-49c0-a474-4bebb2b005d9",
             "Value": {
                 "id": "3407c8f7-6175-48c6-9bbd-030cf81a79c5",
@@ -503,14 +495,6 @@
             }
         },
         {
-            "Key": "7ddc6622-c75f-4179-84c9-1e99c165ad21",
-            "Value": {
-                "id": "070c0acb-ac8c-4962-a5d1-34e9eeff7cb3",
-                "resourcePath": "datafiles_yy\\Gameplay\\left_472x720.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "7f853e00-a34b-4b8a-96b3-a723c0b3d713",
             "Value": {
                 "id": "45552957-3965-411e-b787-dbf2911ccc42",
@@ -703,14 +687,6 @@
             }
         },
         {
-            "Key": "b7aa6e98-7895-4967-b821-f42bfa33b226",
-            "Value": {
-                "id": "60238305-cde8-43a1-b3b7-94c7b4c1c18f",
-                "resourcePath": "datafiles_yy\\Gameplay\\right_472x720.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "ba223c8f-8f0d-41f6-a919-116c2a53a012",
             "Value": {
                 "id": "868698f7-1217-4070-87d2-47af97914e86",
@@ -756,14 +732,6 @@
                 "id": "0b2ab1f1-9c58-4994-adac-594c65ee8577",
                 "resourcePath": "objects\\obj_Fader\\obj_Fader.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "c48bbaba-30be-4d7d-b0a6-e6f71a8e81a7",
-            "Value": {
-                "id": "cdab0623-83b4-4f65-bd5b-bf0a12e3eed5",
-                "resourcePath": "datafiles_yy\\Gameplay\\bottom_336x104.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {

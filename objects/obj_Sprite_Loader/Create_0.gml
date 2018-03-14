@@ -38,11 +38,6 @@ energy_sprite = sprite_add("Gameplay/energy_32x32.png", energy_frames, false, fa
 enemy_sprite = sprite_add("Gameplay/enemy_32x32.png", enemy_frames, false, false, 0, 0);
 danger_danger_sprite = sprite_add("Gameplay/danger_danger_32x512.png", danger_danger_frames, false, false, 0, 0);
 
-bottom_mask_sprite = sprite_add("Gameplay/bottom_336x104.png", bottom_mask_frames, false, false, 0, 0);
-top_mask_sprite = sprite_add("Gameplay/top_336x104.png", top_mask_frames, false, false, 0, 0);
-left_side_sprite = sprite_add("Gameplay/left_472x720.png", left_side_frames, false, false, 0, 0);
-right_side_sprite = sprite_add("Gameplay/right_472x720.png", right_side_frames, false, false, 0, 0);
-
 // ribbon menu header sprites
 ribbon_menu_header_game_over_sprite = sprite_add("RibbonMenuHeaders/spr_game_over.png", 1, false, false, 0, 0);
 
@@ -60,8 +55,4 @@ sprite_set_speed(column_sprite, column_framerate, spritespeed_framespersecond);
 sprite_set_speed(funny_finger_sprite, funny_finger_framerate, spritespeed_framespersecond);
 sprite_set_speed(energy_sprite, energy_framerate, spritespeed_framespersecond);
 sprite_set_speed(enemy_sprite, enemy_framerate, spritespeed_framespersecond);
-sprite_set_speed(bottom_mask_sprite, bottom_framerate, spritespeed_framespersecond);
-sprite_set_speed(top_mask_sprite, top_framerate, spritespeed_framespersecond);
-sprite_set_speed(left_side_sprite, left_framerate, spritespeed_framespersecond);
-sprite_set_speed(right_side_sprite, right_framerate, spritespeed_framespersecond);
 sprite_set_speed(danger_danger_sprite, danger_danger_framerate, spritespeed_framespersecond);

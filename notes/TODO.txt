@@ -298,8 +298,10 @@ March 12
 
 March 13
 - DONE modify achievements to be 3k, 10k (unlocks next level), 35k (mastery)
+- DONE remove logo sprite logic & assets
 
-- remove logo sprite logic & assets
+
+- remove bottom top and side mask sprite assets & logic
 
 
 - implement stroke weight modification
