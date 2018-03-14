@@ -17,14 +17,6 @@ case gs_game_over:
 	break;
 	
 case gs_paused:
-	global.scoreboard.points = max(
-		global.scoreboard.target_points,
-		(
-			global.scoreboard.points - 
-			score_pause_penalty_per_frame
-		)
-	);
-
 	if (srs_selection_made == paused_sliding_ribbon.state) {
 		scr_Menu_Act_On_Selection(paused_sliding_ribbon.menu);
 	}

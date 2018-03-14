@@ -314,9 +314,10 @@ March 13
 	- add "combo_broken" bool tracker to scoreboard
 	- when we reach 35k, if we are on medium or higher, and if combo_broken is false,
 	unlock No Pressure
-	
-- pause game if user has the Steam overlay active
 
+March 14
+
+- pause game if user has the Steam overlay active
 - remove multiplier text drawing logic, replace with splitsfont logic
 - implement & test Steam achievement unlocking: Level 99
 	- create "lifetime Cool points" stat
@@ -329,7 +330,7 @@ March 13
 	- other that shows points progress to highest cap
 - make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
 which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
-	- instead, show score info on Game Over screen, using the following logic:
+- instead, show score info on Game Over screen, using the following logic:
 	- if haven't reached leaderboard & new high score, show "New high score! [score]"
 	- if haven't reached leaderboard & not new high scores, show "[score] / [high score]"
 	- if on leaderboard, show around-user

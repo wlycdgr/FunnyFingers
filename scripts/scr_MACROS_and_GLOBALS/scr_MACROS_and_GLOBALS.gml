@@ -169,7 +169,6 @@ global.core_funny_finger_grow_time_in_sec =
 
 #macro score_valid_move_base_value 1
 #macro score_grow_to_target_per_frame 1
-#macro score_pause_penalty_per_frame 0.1
 #macro scoreboard_color_new_high_score c_green
 #macro scoreboard_color_default c_black
 
