@@ -1,11 +1,7 @@
 /// @description Init
 // You can write your code in this editor
-title_billboard = instance_create_layer(0, 0, "Title", obj_Billboard);
-title_billboard.sprite_index = global.sprites_and_fonts.title_sprite;
-title_billboard.x =
-	window_width / 2 - 
-	(sprite_get_width(title_billboard.sprite_index) / 2);	
-title_billboard.y = title_y;
+funny_fingers = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(funny_fingers, "FUNNY FINGERS");
 
 main_menu = scr_Menu_NEW(
 	window_x_center, 450,
