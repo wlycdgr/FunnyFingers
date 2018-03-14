@@ -16,7 +16,6 @@ if (
 	else if (keyboard_check_pressed(ord("A"))) { scr_Toggle_Achievement(ach_api_names[steam_ach_The_Hall_Of_Famer]); }
 	else if (keyboard_check_pressed(ord("S"))) { scr_Toggle_Achievement(ach_api_names[steam_ach_The_Living_Legend]); }
 	else if (keyboard_check_pressed(ord("D"))) { scr_Toggle_Achievement(ach_api_names[steam_ach_Fignermukcre]); }
-	else if (keyboard_check_pressed(ord("F"))) { scr_Toggle_Achievement(ach_api_names[steam_ach_Best_Friend]); }
 	else if (keyboard_check_pressed(ord("G"))) { scr_Toggle_Achievement(ach_api_names[steam_ach_No_Pressure]); }
 	else if (keyboard_check_pressed(ord("H"))) { scr_Toggle_Achievement(ach_api_names[steam_ach_Level_99]); }
 	else if (keyboard_check_pressed(ord("J"))) { scr_Toggle_Achievement(ach_api_names[steam_ach_QWEIOP]); }

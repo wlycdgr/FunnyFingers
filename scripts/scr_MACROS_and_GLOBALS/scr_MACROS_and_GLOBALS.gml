@@ -98,7 +98,8 @@ global.core_funny_finger_grow_time_in_sec =
 
 
 // Steam
-#macro steam_achievement_count 16
+#macro steam_achievement_count 15
+
 #macro steam_ach_The_Challenger 0
 #macro steam_ach_The_Lucky_Loser 1
 #macro steam_ach_The_Qualifier 2
@@ -111,10 +112,9 @@ global.core_funny_finger_grow_time_in_sec =
 #macro steam_ach_The_Hall_Of_Famer 9
 #macro steam_ach_The_Living_Legend 10
 #macro steam_ach_Fignermukcre 11
-#macro steam_ach_Best_Friend 12
-#macro steam_ach_No_Pressure 13
-#macro steam_ach_Level_99 14
-#macro steam_ach_QWEIOP 15
+#macro steam_ach_No_Pressure 12
+#macro steam_ach_Level_99 13
+#macro steam_ach_QWEIOP 14
 
 #macro steam_ach_unlock_score_low 100 // 1k
 #macro steam_ach_unlock_score_med 250 //  3k

@@ -308,16 +308,13 @@ March 13
 - DONE remove score text drawing logic, replace with splitsfont logic
 - DONE remove multiplier text drawing logic, replace with splitsfont logic
 - DONE implement kern modification
-
-
-- remove sprite_settings.ini and logic, since all sprites just have 1 frame
+- DONE remove sprite_settings.ini and logic, since all sprites just have 1 frame
+- DONE remove Best Friend achievement from initial release
+	
+	
+- re-implement No Pressure
 
 - remove multiplier text drawing logic, replace with splitsfont logic
-
-
-
-- implement Best Friend
-- re-implement No Pressure
 - implement & test Steam achievement unlocking: Level 99
 	- create "lifetime Cool points" stat
 	- load stat when starting game

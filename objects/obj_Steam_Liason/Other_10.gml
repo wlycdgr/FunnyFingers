@@ -1,4 +1,12 @@
 /// @description Get ach state if not gotten yet
+if (step_debug) {
+	stat_lifetime_cool_points = steam_get_stat_int("stat_lifetime_cool_points");
+	stat_easy_frames_low = steam_get_stat_int("stat_easy_frames_low");
+	stat_easy_frames_mid = steam_get_stat_int("stat_easy_frames_mid");
+	stat_easy_frames_high = steam_get_stat_int("stat_easy_frames_high");
+	stat_easy_high_score = steam_get_stat_int("stat_easy_high_score");
+}
+
 if (!is_initialised) {
 	is_initialised = steam_initialised();
 	if (!is_initialised) exit;
@@ -20,13 +28,7 @@ if (!ach_unlock_states_retrieved) {
 	ach_unlock_states_retrieved = true;
 }
 
-if (step_debug) {
-	stat_lifetime_cool_points = steam_get_stat_int("stat_lifetime_cool_points");
-	stat_easy_frames_low = steam_get_stat_int("stat_easy_frames_low");
-	stat_easy_frames_mid = steam_get_stat_int("stat_easy_frames_mid");
-	stat_easy_frames_high = steam_get_stat_int("stat_easy_frames_high");
-	stat_easy_high_score = steam_get_stat_int("stat_easy_high_score");
-}
+
 
 ////if (step_debug) {
 //	is_initialised = steam_initialised();

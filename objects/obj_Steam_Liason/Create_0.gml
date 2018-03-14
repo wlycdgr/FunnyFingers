@@ -43,10 +43,9 @@ ach_api_names = [
 	"ach_9_the_hall_of_famer",
 	"ach_10_the_living_legend",
 	"ach_11_fignermukcre",
-	"ach_12_best_friend",
-	"ach_13_no_pressure",
-	"ach_14_level_99",
-	"ach_15_qweiop"
+	"ach_12_no_pressure",
+	"ach_13_level_99",
+	"ach_14_qweiop"
 ];
 ach_count = array_length_1d(ach_api_names);
 
@@ -63,7 +62,6 @@ ach_names = [
 	"The Hall Of Famer",
 	"The Living Legend",
 	"Fignermukcre",
-	"Best Friend",
 	"No Pressure",
 	"Level 99",
 	"QWEIOP"
@@ -82,7 +80,6 @@ ach_debug_names = [
 	"A. The Hall Of Famer: ",
 	"S. The Living Legend: ",
 	"D. Fignermukcre: ",
-	"F. Best Friend: ",
 	"G. No Pressure: ",
 	"H. Level 99: ",
 	"J. QWEIOP: "
