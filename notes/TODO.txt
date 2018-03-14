@@ -321,8 +321,9 @@ March 14
 - DONE put "continue" as first option in pause menu
 - DONE remove score string from paused ribbon menu
 - DONE change window title to Q3InventoryReport
+- DONE suspend frame countdown on pause (so people can pause and minimize at work)
 
-- suspend frame countdown on pause (so people can pause and minimize at work)
+
 - remove multiplier text drawing logic, replace with splitsfont logic
 - implement & test Steam achievement unlocking: Level 99
 	- create "lifetime Cool points" stat

@@ -5,11 +5,7 @@ if (game_difficulty_cool == global.game_settings.difficulty) exit;
 
 var game_state = global.game.state;
 
-if (gs_paused == game_state) {
-	frames += 1;
-}
-
-else if (gs_playing == game_state) {
+if (gs_playing == game_state) {
 	frames += 1;
 	
 	if (
