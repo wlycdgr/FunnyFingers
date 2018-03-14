@@ -1,4 +1,5 @@
 /// @description Draw the ribbon
+if (srs_inactive = state) exit;
 
 // Draw the ribbon background
 scr_Draw_Filled_Rectangle(x, y, sliding_ribbon_width, sliding_ribbon_height, c_white);

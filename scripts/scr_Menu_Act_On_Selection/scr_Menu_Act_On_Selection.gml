@@ -1,5 +1,10 @@
 /// @param {integer} menu_id The id of the menu
-switch(argument0.labels[argument0.index]) {
+
+var selection_label = argument0.labels[argument0.index];
+
+argument0.index = 0;
+
+switch(selection_label) {
 
 // difficulty menu
 case "COOL":

@@ -4,7 +4,7 @@ scr_Splitsfont_Set_Text(header_string, "PAUSED");
 
 menu = scr_Menu_NEW(
 	x + (sliding_ribbon_width / 2), y + 150,
-	["TRY AGAIN", "CONTINUE", "MAIN MENU"]
+	["CONTINUE", "TRY AGAIN", "MAIN MENU"]
 );
 
 event_inherited();
