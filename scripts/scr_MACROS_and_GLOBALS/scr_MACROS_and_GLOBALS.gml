@@ -45,7 +45,8 @@
 #macro splitsfont_size_menuItem 0.02
 #macro splitsfont_weight_menuItem 0.002
 #macro splitsfont_size_ribbonMenuHeader 0.06
-#macro splitsfont_size_scoreboard 0.04
+#macro splitsfont_size_scoreboard 0.02
+#macro splitsfont_weight_scoreboard 0.004
 // /SPLITSFONT
 
 // Core Mechanics 

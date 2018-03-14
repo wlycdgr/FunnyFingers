@@ -20,6 +20,11 @@ with (new_mb) {
 	is_refilling = false;
 	
 	multiplier = mb_min_multiplier;
+	
+	multiplier_label = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+	scr_Splitsfont_Set_Text(multiplier_label, "MULTIPLIER: X");
+	scr_Splitsfont_Set_Size(multiplier_label, splitsfont_size_scoreboard);
+	scr_Splitsfont_Set_Weight(multiplier_label, splitsfont_weight_scoreboard);
 }
 
 return new_mb;
