@@ -74,22 +74,11 @@ case "MAIN MENU":
 	}
 	break;
 case "PLAY":
-	with (global.game_settings) {
-		funny_finger_count = funny_finger_count_easy;
-		column_count = column_count_easy;
-		steam_leaderboard = steam_leaderboard_easy;
-		difficulty = game_difficulty_easy;
-	}
-	scr_Fade_To(r_Gameplay);
-	break;
-	
-	/*
 	with (global.main_menu_controller) {
 		main_menu.active = false;
 		difficulty_menu.active = true;
 	}
 	break;
-	*/
 case "TRY AGAIN":
 	with (global.game) { event_user(3); }
 	break;

@@ -4,7 +4,7 @@ switch(global.game_settings.difficulty) {
 case game_difficulty_cool:
 	var new_lifetime_points =
 		steam_get_stat_int("stat_lifetime_cool_points") + 
-		global.scoreboard.current_score;
+		global.scoreboard.points;
 		
 	steam_set_stat_int(
 		"stat_lifetime_cool_points",
@@ -12,9 +12,13 @@ case game_difficulty_cool:
 	);
 	
 	steam_upload_score(
-		global.game_settings.steam_leaderboard,
+		steam_leaderboard_cool,
 		new_lifetime_points
 	);
+	
+	if (new_lifetime_points >= steam_ach_Level_99_points_target) {
+		scr_Steam_UnlockAchievement(steam_ach_Level_99);
+	}
 	
 	break;
 	

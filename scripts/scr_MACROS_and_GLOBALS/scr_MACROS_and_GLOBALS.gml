@@ -117,6 +117,8 @@ global.core_funny_finger_grow_time_in_sec =
 #macro steam_ach_Level_99 13
 #macro steam_ach_QWEIOP 14
 
+#macro steam_ach_Level_99_points_target 100 //2452814 // 2,452,814
+
 #macro steam_ach_unlock_score_low 100 // 1k
 #macro steam_ach_unlock_score_med 250 //  3k
 #macro steam_ach_unlock_score_high 500 // 10k

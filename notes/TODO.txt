@@ -323,14 +323,15 @@ March 14
 - DONE change window title to Q3InventoryReport
 - DONE suspend frame countdown on pause (so people can pause and minimize at work)
 - DONE remove multiplier text drawing logic, replace with splitsfont logic
+- DONE reactivate difficulty menu on main title screen
+- DONE implement basic Level 99 unlocking logic
 
-
+- add missing glyphs necessary to support CirclMaster quote: ;.,[]"-
+- implement CirclMaster quote display on Level 99 unlocking
 - implement & test Steam achievement unlocking: Level 99
-	- create "lifetime Cool points" stat
-	- load stat when starting game
-	- update stat whenever we finish a game of Cool
-	- text pop with CirclMaster quote when we hit it
-	- test with something like a couple thousand 
+	- when updating Cool leaderboard, check to see if new lifetime points total has hit target
+	- if it has, pop the achievement
+	- and show the CirclMaster quote
 - modify score display to have two bars that extend most of the way across the screen:
 	- one that shows points progress to current achievement
 	- other that shows points progress to highest cap
