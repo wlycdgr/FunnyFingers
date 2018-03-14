@@ -30,8 +30,6 @@ ini_close();
 
 nyu_incubator_logo_sprite = sprite_add("nyu_incubator_logo.jpg", 1, false, false, 0, 0);
 
-logo_sprite = sprite_add("logo_600x540.png", 1, false, false, 0, 0);
-
 title_sprite = sprite_add("spr_funny_fingers.png", 1, false, false, 0, 0);
 
 column_sprite = sprite_add("Gameplay/column_48x512.png", column_frames, false, false, 0, 0);

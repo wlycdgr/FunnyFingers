@@ -297,7 +297,14 @@ March 12
 - DONE implement splitsfont
 
 March 13
-- modify achievements to be 3k, 10k (unlocks next level), 35k (mastery)
+- DONE modify achievements to be 3k, 10k (unlocks next level), 35k (mastery)
+
+- remove logo sprite logic & assets
+
+
+- implement stroke weight modification
+- implement kern modification
+- implement 
 
 - implement Best Friend
 - re-implement No Pressure
@@ -312,10 +319,10 @@ March 13
 
 
 	
+
 - modify score display to have two bars that extend most of the way across the screen:
 	- one that shows points progress to current achievement
 	- other that shows points progress to highest cap
-
 
 
 - get & add asset: "Paused" sliding ribbon header

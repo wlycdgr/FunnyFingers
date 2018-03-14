@@ -503,14 +503,6 @@
             }
         },
         {
-            "Key": "7cb93308-ee8a-4bf0-ac19-d99611fee7a2",
-            "Value": {
-                "id": "b5e30724-817f-4842-9391-fbc8aa2143ef",
-                "resourcePath": "datafiles_yy\\logo_600x540.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "7ddc6622-c75f-4179-84c9-1e99c165ad21",
             "Value": {
                 "id": "070c0acb-ac8c-4962-a5d1-34e9eeff7cb3",
