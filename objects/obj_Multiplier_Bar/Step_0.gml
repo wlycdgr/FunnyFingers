@@ -1,4 +1,8 @@
 /// @description Drain bar
+if (global.steam_overlay_activated) exit;
+
+if (gs_paused == global.game.state) exit;
+
 if (fully_drained) exit;
 
 if (is_refilling) {

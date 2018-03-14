@@ -316,8 +316,8 @@ March 13
 	unlock No Pressure
 
 March 14
+- DONE suspend game if user has the Steam overlay active. when user deactivates it, activate pause state
 
-- pause game if user has the Steam overlay active
 - remove multiplier text drawing logic, replace with splitsfont logic
 - implement & test Steam achievement unlocking: Level 99
 	- create "lifetime Cool points" stat

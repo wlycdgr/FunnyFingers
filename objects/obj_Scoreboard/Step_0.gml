@@ -1,4 +1,6 @@
 /// @description Incr frames, handle reaching of score thresholds
+if (global.steam_overlay_activated) exit;
+
 if (game_difficulty_cool == global.game_settings.difficulty) exit;
 
 var game_state = global.game.state;

@@ -1,4 +1,14 @@
 /// @description Update based on state
+if (global.steam_overlay_activated) {
+	steam_overlay_activated_last_step = true;
+	exit;
+}
+
+if (steam_overlay_activated_last_step) {
+	{ event_user(1); } // on pause
+}
+
+steam_overlay_activated_last_step = false;
 
 switch (state) {
 case gs_fading_out:

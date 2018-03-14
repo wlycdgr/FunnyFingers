@@ -5,6 +5,9 @@ step_debug = true;
 // screenshot counter
 screenshot_number = 0;
 
+// overlay stuff
+global.steam_overlay_activated = false;
+
 // connection status stuff
 is_initialised = false;
 are_stats_ready = false

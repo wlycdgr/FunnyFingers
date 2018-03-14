@@ -37,3 +37,6 @@ for (var i = 0; i < 10; i++) {
 	scr_Splitsfont_Set_Size(number_string, splitsfont_size_scoreboard);
 	number_strings[ord(number_as_string)] = number_string;
 }
+
+steam_overlay_activated_this_step = false;
+steam_overlay_activated_last_step = false;

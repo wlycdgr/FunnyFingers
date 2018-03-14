@@ -1,4 +1,5 @@
 /// @description Update
+if (global.steam_overlay_activated) exit;
 
 // shrink rate logic 
 if (!is_moving){
