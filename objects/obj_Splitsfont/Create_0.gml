@@ -1,4 +1,4 @@
-/// @description Init
+/// @description Glyph data
 WLY_HighestOrdCode = 96;
 
 glyph_vertex_data = array_create(WLY_HighestOrdCode, -1);

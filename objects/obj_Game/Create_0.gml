@@ -19,3 +19,22 @@ for (var i = 0; i < playfield_count; i++){
 
 should_display_frames = 
 	(game_difficulty_cool != global.game_settings.difficulty);
+	
+score_label_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(score_label_string, "SCORE: ");
+scr_Splitsfont_Set_Size(score_label_string, splitsfont_size_scoreboard);
+
+var number_string = -1;
+var number_as_string = -1;
+for (var i = 0; i < 10; i++) {
+	number_as_string = string(i);
+	number_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+	scr_Splitsfont_Set_Text(number_string, number_as_string);
+	scr_Splitsfont_Set_Size(number_string, splitsfont_size_scoreboard);
+	number_strings[ord(number_as_string)] = number_string;
+}
+
+/*
+frames_label_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+frames_number_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+*/

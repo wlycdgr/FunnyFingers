@@ -305,10 +305,10 @@ March 13
 - DONE implement stroke weight modification
 - DONE remove ribbon menu header sprite logic and asset, replace with splitsfont strings
 - DONE implement splitsfont string width get
+- DONE remove score text drawing logic, replace with splitsfont logic
 
-- remove score text drawing logic, replace with splitsfont logic
+
 - remove multiplier text drawing logic, replace with splitsfont logic
-
 - implement kern modification
 
 
