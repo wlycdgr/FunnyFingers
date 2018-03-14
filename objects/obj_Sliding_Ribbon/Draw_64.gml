@@ -8,7 +8,10 @@ scr_Draw_Horizontal_Line(x, y, sliding_ribbon_width, 5);
 scr_Draw_Horizontal_Line(x, y + sliding_ribbon_height, sliding_ribbon_width, 5);
 
 // Draw header
-draw_sprite(header_sprite, 0, header_sprite_x, header_sprite_y);
+scr_Splitsfont_Draw_String(
+	header_string,
+	header_string_x, header_string_y
+);
 
 // Draw the ribbon menu
 scr_Menu_Draw(menu);

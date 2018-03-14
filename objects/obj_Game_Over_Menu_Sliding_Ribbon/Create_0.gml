@@ -1,7 +1,10 @@
 /// @description Init header and menu
-header_sprite = global.sprites_and_fonts.ribbon_menu_header_game_over_sprite;
+header_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(header_string, "GAME OVER");
+
 menu = scr_Menu_NEW(
 	x + (sliding_ribbon_width / 2), y + 150,
 	["TRY AGAIN", "MAIN MENU"]
 );
+
 event_inherited();

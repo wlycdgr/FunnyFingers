@@ -301,12 +301,16 @@ March 13
 - DONE remove logo sprite logic & assets
 - DONE remove bottom top and side mask sprite assets & logic
 - DONE remove title sprite logic and assets, replace with splitsfont string
+- DONE remove menu item sprite logic and assets, replace with splitsfont strings
+- DONE implement stroke weight modification
+- DONE remove ribbon menu header sprite logic and asset, replace with splitsfont strings
+- DONE implement splitsfont string width get
 
-- remove menu item sprite logic and assets, replace with splitsfont strings
+- remove score text drawing logic, replace with splitsfont logic
+- remove multiplier text drawing logic, replace with splitsfont logic
 
-- implement stroke weight modification
 - implement kern modification
-- implement 
+
 
 - implement Best Friend
 - re-implement No Pressure

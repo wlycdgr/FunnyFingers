@@ -95,6 +95,20 @@
             "value": "srs_inactive",
             "varName": "state",
             "varType": 1
+        },
+        {
+            "id": "daea3b2b-ba60-4e52-b6ac-236ea63bcca0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-1",
+            "varName": "header_string",
+            "varType": 1
         }
     ],
     "solid": false,

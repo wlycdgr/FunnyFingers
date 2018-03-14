@@ -3,7 +3,7 @@
 // rms_inactive, rms_selection_made: do nothing!
 if (state == srs_sliding_in || state == srs_sliding_out) {
 	menu.x = x + (sliding_ribbon_width / 2);
-	header_sprite_x = x + header_sprite_x_offset;
+	header_string_x = x + header_string_x_offset;
 }
 
 switch(state){

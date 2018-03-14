@@ -527,14 +527,6 @@
             }
         },
         {
-            "Key": "8990a2d7-24f4-4eb3-9eea-920b11e7961e",
-            "Value": {
-                "id": "eecd5359-41b9-4913-8a8a-9031be654add",
-                "resourcePath": "datafiles_yy\\RibbonMenuHeaders\\spr_game_over.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "8a436d88-e379-47d6-9da4-a9b78e111c67",
             "Value": {
                 "id": "46a607ea-b729-4642-aec1-f47f87712dad",
@@ -596,14 +588,6 @@
                 "id": "ca010eda-03b2-4e6b-9ef8-6fde1a8f31bc",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "aae79ca2-0a53-4e90-9ace-35e3a2f819da",
-            "Value": {
-                "id": "8c5376d3-d610-4a87-b57d-f521efdcfd37",
-                "resourcePath": "views\\aae79ca2-0a53-4e90-9ace-35e3a2f819da.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -871,6 +855,14 @@
             }
         },
         {
+            "Key": "ed4f23f4-f586-487f-bc63-aebb0f132857",
+            "Value": {
+                "id": "17427d63-a78a-4499-b9e2-46a8fa79c089",
+                "resourcePath": "scripts\\scr_Splitsfont_Get_Width\\scr_Splitsfont_Get_Width.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f177824f-0638-4d45-9144-c01e36e8bafb",
             "Value": {
                 "id": "bebe7ee2-ad57-4e3b-8eb9-f15c93f8193a",
@@ -956,7 +948,8 @@
         "6f05a826-46b9-4557-95de-4d0d8b9db411",
         "645e3904-76aa-40fd-9497-c219bd6fd8f5",
         "01fa9bfb-eb38-490f-8ce3-15b74f30a5ab",
-        "15db7db3-c5a4-40ed-9640-e1d3d8173d92"
+        "15db7db3-c5a4-40ed-9640-e1d3d8173d92",
+        "ed4f23f4-f586-487f-bc63-aebb0f132857"
     ],
     "tutorial": ""
 }

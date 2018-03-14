@@ -22,8 +22,6 @@ energy_sprite = sprite_add("Gameplay/energy_32x32.png", energy_frames, false, fa
 enemy_sprite = sprite_add("Gameplay/enemy_32x32.png", enemy_frames, false, false, 0, 0);
 danger_danger_sprite = sprite_add("Gameplay/danger_danger_32x512.png", danger_danger_frames, false, false, 0, 0);
 
-// ribbon menu header sprites
-ribbon_menu_header_game_over_sprite = sprite_add("RibbonMenuHeaders/spr_game_over.png", 1, false, false, 0, 0);
 
 sprite_set_speed(column_sprite, column_framerate, spritespeed_framespersecond);
 sprite_set_speed(funny_finger_sprite, funny_finger_framerate, spritespeed_framespersecond);
