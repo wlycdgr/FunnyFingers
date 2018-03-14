@@ -310,9 +310,12 @@ March 13
 - DONE implement kern modification
 - DONE remove sprite_settings.ini and logic, since all sprites just have 1 frame
 - DONE remove Best Friend achievement from initial release
+- DONE re-implement No Pressure
+	- add "combo_broken" bool tracker to scoreboard
+	- when we reach 35k, if we are on medium or higher, and if combo_broken is false,
+	unlock No Pressure
 	
-	
-- re-implement No Pressure
+- pause game if user has the Steam overlay active
 
 - remove multiplier text drawing logic, replace with splitsfont logic
 - implement & test Steam achievement unlocking: Level 99

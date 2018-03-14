@@ -12,6 +12,23 @@ else if (gs_playing == game_state) {
 	
 	if (
 		points >= steam_ach_unlock_score_high &&
+		!attempted_no_pressure_unlock &&
+		!combo_broken
+	) {
+		if (
+			game_difficulty_medium == global.game_settings.difficulty ||
+			game_difficulty_hard == global.game_settings.difficulty ||
+			game_difficulty_difficult == global.game_settings.difficulty
+		) {
+			
+			scr_Steam_UnlockAchievement(steam_ach_No_Pressure);
+			
+			attempted_no_pressure_unlock = true;
+		}
+	}
+	
+	if (
+		points >= steam_ach_unlock_score_high &&
 		!submitted_frames_high
 	) {
 		with (global.steam) { event_user(2); }

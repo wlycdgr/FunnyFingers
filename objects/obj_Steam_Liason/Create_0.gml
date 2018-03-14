@@ -1,5 +1,5 @@
 /// @description Init
-draw_debug = false //true;
+draw_debug = true;
 step_debug = true;
 
 // screenshot counter

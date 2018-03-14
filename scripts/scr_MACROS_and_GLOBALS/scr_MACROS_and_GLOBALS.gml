@@ -120,9 +120,6 @@ global.core_funny_finger_grow_time_in_sec =
 #macro steam_ach_unlock_score_med 250 //  3k
 #macro steam_ach_unlock_score_high 500 // 10k
 
-#macro steam_ach_No_Pressure_multiplier_value_requirement mb_max_multiplier
-#macro steam_ach_No_Pressure_minimum_difficulty_requirement game_difficulty_medium
-
 #macro steam_leaderboard_cool "Lifetime Cool Points"
 #macro steam_leaderboard_easy "Easy Times"
 #macro steam_leaderboard_medium "Medium Times"

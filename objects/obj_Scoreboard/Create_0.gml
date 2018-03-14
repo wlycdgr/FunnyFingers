@@ -11,3 +11,6 @@ current_lowest_frame_count = 0;
 submitted_frames_low = false;
 submitted_frames_mid = false;
 submitted_frames_high = false;
+
+combo_broken = false;
+attempted_no_pressure_unlock = false;
