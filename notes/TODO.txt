@@ -326,15 +326,9 @@ March 14
 - DONE reactivate difficulty menu on main title screen
 - DONE implement basic Level 99 unlocking logic
 
-- add missing glyphs necessary to support CirclMaster quote: ;.,[]"-
 - implement CirclMaster quote display on Level 99 unlocking
-- implement & test Steam achievement unlocking: Level 99
-	- when updating Cool leaderboard, check to see if new lifetime points total has hit target
-	- if it has, pop the achievement
-	- and show the CirclMaster quote
-- modify score display to have two bars that extend most of the way across the screen:
-	- one that shows points progress to current achievement
-	- other that shows points progress to highest cap
+	- 
+- add missing glyphs necessary to support CirclMaster quote: ;.,[]"-
 - make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
 which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
 - instead, show score info on Game Over screen, using the following logic:
@@ -362,6 +356,9 @@ NICE TO HAVE / CAN WAIT:
 - dynamically assign multiplier incrementing handler script at launch time based on unlock status of No Pressure
 achievement, so we don't need to check whether we should unlock it all the time ifwhen it's already popped
 - simplify/abstract movement handling logic, it is insane right now
+- modify score display to have two bars that extend most of the way across the screen:
+	- one that shows points progress to current achievement
+	- other that shows points progress to highest cap
 
 KS:
 - implement Kickstarter backers can unlock everything right away by typing their last name in three times at the title screen
