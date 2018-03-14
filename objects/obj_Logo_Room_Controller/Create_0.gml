@@ -1,13 +1,14 @@
 /// @description Init
-logo_billboard = instance_create_layer(0, 0, "Instances", obj_Billboard);
-logo_billboard.sprite_index = obj_Sprite_Loader.logo_sprite;
+trollcore = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(trollcore, "TROLLCORE");
+scr_Splitsfont_Set_RotationSpeed(trollcore, 3600);
 
-logo_billboard.x =
-	window_width / 2 -
-	(sprite_get_width(logo_billboard.sprite_index) / 2);
-	
-logo_billboard.y =
-	window_height / 2 -
-	(sprite_get_height(logo_billboard.sprite_index) / 2);
+enterprises = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(enterprises, "ENTERPRISES");
+scr_Splitsfont_Set_RotationSpeed(enterprises, 7200);
 
-alarm_set(0, game_fps);
+tm = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(tm, "TM");
+scr_Splitsfont_Set_RotationSpeed(tm, 14400);
+
+alarm_set(0, game_fps * 3);

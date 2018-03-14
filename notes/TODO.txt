@@ -294,9 +294,13 @@ March 12
 - DONE remove womp womp readout from Game Over ribbon
 - DONE update high score on Escape-quit
 - DONE implement and balance shrink rate multiplier logic that makes the game not infinite
+- DONE implement splitsfont
+
+March 13
 
 
-- implement splitsfont
+
+- modify achievements to be 3k, 10k (unlocks next level), 42k (mastery!)
 
 - implement Best Friend
 - re-implement No Pressure
@@ -309,7 +313,7 @@ March 12
 	
 
 
-- modify achievements to be 3k, 10k (unlocks next level), 42k (mastery!)
+
 	
 - modify score display to have two bars that extend most of the way across the screen:
 	- one that shows points progress to current achievement
