@@ -297,10 +297,7 @@ March 12
 - DONE implement splitsfont
 
 March 13
-
-
-
-- modify achievements to be 3k, 10k (unlocks next level), 42k (mastery!)
+- modify achievements to be 3k, 10k (unlocks next level), 35k (mastery)
 
 - implement Best Friend
 - re-implement No Pressure
