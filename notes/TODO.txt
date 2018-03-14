@@ -307,7 +307,8 @@ March 13
 - DONE implement splitsfont string width get
 - DONE remove score text drawing logic, replace with splitsfont logic
 - DONE remove multiplier text drawing logic, replace with splitsfont logic
-- implement kern modification
+- DONE implement kern modification
+
 - implement color modification
 - implement Best Friend
 - re-implement No Pressure

@@ -2,6 +2,7 @@
 // You can write your code in this editor
 funny_fingers = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(funny_fingers, "FUNNY FINGERS");
+scr_Splitsfont_Set_Kern(funny_fingers, 0.005);
 
 main_menu = scr_Menu_NEW(
 	window_x_center, 450,
