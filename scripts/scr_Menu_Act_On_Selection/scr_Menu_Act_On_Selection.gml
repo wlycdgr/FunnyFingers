@@ -2,7 +2,7 @@
 switch(argument0.labels[argument0.index]) {
 
 // difficulty menu
-case "Cool":
+case "COOL":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_cool;
 		column_count = column_count_cool;
@@ -11,7 +11,7 @@ case "Cool":
 	}
 	scr_Fade_To(r_Gameplay);
 	break;
-case "Easy":
+case "EASY":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_easy;
 		column_count = column_count_easy;
@@ -20,7 +20,7 @@ case "Easy":
 	}
 	scr_Fade_To(r_Gameplay);
 	break;
-case "Medium":
+case "MEDIUM":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_medium;
 		column_count = column_count_medium;
@@ -29,7 +29,7 @@ case "Medium":
 	}
 	scr_Fade_To(r_Gameplay);
 	break;
-case "Hard":
+case "HARD":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_hard;
 		column_count = column_count_hard;
@@ -43,7 +43,7 @@ case "????":
 case "?????????":
 	argument0.active = true;
 	break;
-case "Difficult":
+case "DIFFICULT":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_difficult;
 		column_count = column_count_difficult;
@@ -54,13 +54,13 @@ case "Difficult":
 	break;
 	
 // other menus
-case "Continue":
+case "CONTINUE":
 	with (global.game) { event_user(2); }
 	break;
-case "Exit":
+case "EXIT":
 	game_end();
 	break;
-case "Main Menu":
+case "MAIN MENU":
 	if (room == r_Gameplay) {
 		with (global.game) { event_user(4); }
 	}
@@ -68,7 +68,7 @@ case "Main Menu":
 		scr_Fade_To(r_MainMenu);
 	}
 	break;
-case "Play":
+case "PLAY":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_easy;
 		column_count = column_count_easy;
@@ -85,7 +85,7 @@ case "Play":
 	}
 	break;
 	*/
-case "Try Again":
+case "TRY AGAIN":
 	with (global.game) { event_user(3); }
 	break;
 }

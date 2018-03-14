@@ -5,11 +5,11 @@ scr_Splitsfont_Set_Text(funny_fingers, "FUNNY FINGERS");
 
 main_menu = scr_Menu_NEW(
 	window_x_center, 450,
-	["Play", "Exit"]
+	["PLAY", "EXIT"]
 );
 
-difficulty_menu_labels[0] = "Cool";
-difficulty_menu_labels[1] = "Easy";
+difficulty_menu_labels[0] = "COOL";
+difficulty_menu_labels[1] = "EASY";
 
 if (
 	ds_map_find_value(
@@ -17,7 +17,7 @@ if (
 		global.steam.ach_api_names[steam_ach_The_Qualifier]
 	)
 ) { 
-	difficulty_menu_labels[2] = "Medium";
+	difficulty_menu_labels[2] = "MEDIUM";
 }
 else { difficulty_menu_labels[2] = "??????"; }
 
@@ -27,7 +27,7 @@ if (
 		global.steam.ach_api_names[steam_ach_The_Breakout_Performer]
 	)
 ) { 
-	difficulty_menu_labels[3] = "Hard";
+	difficulty_menu_labels[3] = "HARD";
 }
 else { difficulty_menu_labels[3] = "????"; }
 
@@ -37,11 +37,11 @@ if (
 		global.steam.ach_api_names[steam_ach_The_Champion]
 	)
 ) { 
-	difficulty_menu_labels[4] = "Difficult";
+	difficulty_menu_labels[4] = "DIFFICULT";
 }
 else { difficulty_menu_labels[4] = "?????????"; }
 
-difficulty_menu_labels[5] = "Main Menu";
+difficulty_menu_labels[5] = "MAIN MENU";
 
 difficulty_menu = scr_Menu_NEW(
 	window_x_center, 450,

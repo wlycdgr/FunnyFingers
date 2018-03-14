@@ -8,39 +8,16 @@ with (new_menu) {
 	item_count = array_length_1d(labels);
 	index = 0;
 
-	var menu_label_sprite = -1;
+	var label_string;
 	for (var i = 0; i < item_count; i++) {
 		label_y_positions[i] = y + menu_vertical_spacing * i;
-	
-		switch(labels[i]){
-		case "Achievements": 
-			label_sprites[i] = global.sprites_and_fonts.menu_item_label_achievements_sprite;
-			break;
-		case "Cashout!":
-			label_sprites[i] = global.sprites_and_fonts.menu_item_label_cashout_sprite;
-		case "Continue":
-			label_sprites[i] = global.sprites_and_fonts.menu_item_label_continue_sprite;
-			break;
 		
-		// TODO this is stub
-		case "Exit":
-			label_sprites[i] = global.sprites_and_fonts.menu_item_label_try_again_sprite;
-			break;
-			
-			
-		case "High Scores": 
-			label_sprites[i] = global.sprites_and_fonts.menu_item_label_high_scores_sprite;
-			break;
-		case "Main Menu":
-			label_sprites[i] = global.sprites_and_fonts.menu_item_label_main_menu_sprite;
-			break;
-		case "Play": 
-			label_sprites[i] = global.sprites_and_fonts.menu_item_label_play_sprite;
-			break;
-		case "Try Again":
-			label_sprites[i] = global.sprites_and_fonts.menu_item_label_try_again_sprite;
-			break;
-		}
+		label_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+		scr_Splitsfont_Set_Text(label_string, labels[i]);
+		scr_Splitsfont_Set_Size(label_string, splitsfont_size_menuItem);
+		scr_Splitsfont_Set_Weight(label_string, splitsfont_weight_menuItem);
+		
+		label_strings[i] = label_string;
 	}
 }
 

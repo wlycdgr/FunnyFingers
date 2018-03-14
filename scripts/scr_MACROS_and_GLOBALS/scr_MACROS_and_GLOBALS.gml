@@ -41,6 +41,9 @@
 #macro WLY_DefaultRotationDirection SPLITSFONT_RotationDirection_CW
 #macro WLY_DefaultRotationSpeedInDegsPerSec 0.0
 #macro WLY_DefaultRenderStyle SPLITSFONT_RenderStyle_Vertical
+
+#macro splitsfont_size_menuItem 0.02
+#macro splitsfont_weight_menuItem 0.002
 // /SPLITSFONT
 
 // Core Mechanics 
@@ -185,7 +188,7 @@ global.core_funny_finger_grow_time_in_sec =
 #macro menu_color_selected c_red
 #macro menu_color_unselected c_black
 #macro menu_halign fa_center
-#macro menu_vertical_spacing 35
+#macro menu_vertical_spacing (splitsfont_size_menuItem * window_height * 1.5)
 
 #macro gs_fading_in 0
 #macro gs_fading_out 1
