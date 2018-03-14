@@ -383,14 +383,6 @@
             }
         },
         {
-            "Key": "5df11595-43a3-40fc-b239-154fea7f93d6",
-            "Value": {
-                "id": "5b0ad95e-8838-4823-be33-5e4ebb00203b",
-                "resourcePath": "datafiles_yy\\sprite_settings.ini.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "620baf7c-0568-448b-8478-9765bff91881",
             "Value": {
                 "id": "d7c3a8b9-b16e-4f09-bbbc-6e9ef57d75bf",

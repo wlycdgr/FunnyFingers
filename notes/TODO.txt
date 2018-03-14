@@ -309,7 +309,13 @@ March 13
 - DONE remove multiplier text drawing logic, replace with splitsfont logic
 - DONE implement kern modification
 
-- implement color modification
+
+- remove sprite_settings.ini and logic, since all sprites just have 1 frame
+
+- remove multiplier text drawing logic, replace with splitsfont logic
+
+
+
 - implement Best Friend
 - re-implement No Pressure
 - implement & test Steam achievement unlocking: Level 99
@@ -334,6 +340,11 @@ which causes any other reds or blues you come in contact with during that time t
 	- danger danger
 	- armor
 - tweakdebug danger danger movement so it matches up better
+- menu animation
+	- item selection / deselection (kern tween)
+	- item SELECT (rotate speed tween)
+- score animation
+	- spin at rate proportional to distance to target score
 - BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
 - handle steam failing to upload score
 - add checks so that game does not break if any sprite asset is not available or misnamed
