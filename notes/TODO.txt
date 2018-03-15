@@ -326,7 +326,24 @@ March 14
 - DONE reactivate difficulty menu on main title screen
 - DONE implement basic Level 99 unlocking logic
 
+March 15
+
+- implement logo screen
+	- 
+		TROLLCORE ENTERPRISES TM
+			AND
+		ONE MOTION GAMES
+			PRESENT
+			
+		A GAME BY
+		WLYCDGR
+		
+		WITH SPRITES AND SOUNDS BY
+		MARLEY HALL
+		
 - implement Credits screen
+	- x spots in a grid on the screen
+	- each name displays for Y seconds, + some amount of time for bonus $, in one of the grid slots
 - CirclMaster quote displays on Credits screen if you have unlocked Level 99 achievement
 
 - add missing glyphs necessary to support CirclMaster quote: ;.,[]"-

@@ -1,29 +1,32 @@
 /// @description Init
-a_game_by = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-scr_Splitsfont_Set_Text(a_game_by, "A GAME BY");
-scr_Splitsfont_Set_RotationSpeed(a_game_by, 120);
-a_game_by_x = window_x_center - (scr_Splitsfont_Get_Width(a_game_by) / 2);
+var slide_strings_arrays = [
+	["TROLLCORE ENTERPRISES TM", "AND", "ONE MOTION GAMES", "PRESENT"],
+	["A GAME BY", "WLYCDGR", "WITH SPRITES AND SOUNDS BY", "MARLEY HALL"]
+];
 
-/*
-ilya_zarembsky = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-scr_Splitsfont_Set_Text(ilya_zarembsky, "ILYA ZAREMBSKY");
-scr_Splitsfont_Set_RotationSpeed(ilya_zarembsky, 60);
-ilya_zarembsky_x = window_x_center - (scr_Splitsfont_Get_Width(ilya_zarembsky) / 2);
-*/
+var slide_strings_arrays_len = array_length_1d(slide_strings_arrays);
+var slide_strings = -1;
+var slide_strings_len = -1;
+var new_string = -1;
 
-wly_cdgr = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-scr_Splitsfont_Set_Text(wly_cdgr, "WLY CDGR");
-scr_Splitsfont_Set_RotationSpeed(wly_cdgr, 60);
-wly_cdgr_x = window_x_center - (scr_Splitsfont_Get_Width(wly_cdgr) / 2);
+for (var i = 0; i < slide_strings_arrays_len; i++) {
+	slide_strings = slide_strings_arrays[i];
+	
+	slide_strings_len = array_length_1d(slide_strings);
+	
+	for (var j = 0; j < slide_strings_len; j++) {
+		new_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+		
+		scr_Splitsfont_Set_Text(new_string, slide_strings[j]);
+		
+		slides_x[i, j] = window_x_center; //- (scr_Splitsfont_Get_Width(new_string) / 2);
+		
+		slides_y[i, j] = 200 + j * 100;
+		
+		slides[i, j] = new_string;
+	}
+}
 
-sprites_and_sounds_by = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-scr_Splitsfont_Set_Text(sprites_and_sounds_by, "SPRITES AND SOUNDS BY");
-scr_Splitsfont_Set_RotationSpeed(sprites_and_sounds_by, 45);
-sprites_and_sounds_by_x = window_x_center - (scr_Splitsfont_Get_Width(sprites_and_sounds_by) / 2);
+slide_index = 0;
 
-marley_hall = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-scr_Splitsfont_Set_Text(marley_hall, "MARLEY HALL");
-scr_Splitsfont_Set_RotationSpeed(marley_hall, 90);
-marley_hall_x = window_x_center - (scr_Splitsfont_Get_Width(marley_hall) / 2);
-
-alarm_set(0, game_fps * 10);
+alarm_set(0, game_fps * 2);
