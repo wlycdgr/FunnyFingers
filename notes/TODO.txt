@@ -326,8 +326,9 @@ March 14
 - DONE reactivate difficulty menu on main title screen
 - DONE implement basic Level 99 unlocking logic
 
-- implement CirclMaster quote display on Level 99 unlocking
-	- 
+- implement Credits screen
+- CirclMaster quote displays on Credits screen if you have unlocked Level 99 achievement
+
 - add missing glyphs necessary to support CirclMaster quote: ;.,[]"-
 - make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
 which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you

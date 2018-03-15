@@ -62,6 +62,9 @@ case "DIFFICULT":
 case "CONTINUE":
 	with (global.game) { event_user(2); }
 	break;
+case "CREDITS":
+	scr_Fade_To(r_Credits);
+	break;
 case "EXIT":
 	game_end();
 	break;

@@ -6,7 +6,7 @@ scr_Splitsfont_Set_Kern(funny_fingers, 0.005);
 
 main_menu = scr_Menu_NEW(
 	window_x_center, 450,
-	["PLAY", "EXIT"]
+	["PLAY", "CREDITS", "EXIT"]
 );
 
 difficulty_menu_labels[0] = "COOL";

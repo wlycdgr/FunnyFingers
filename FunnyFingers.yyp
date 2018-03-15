@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "12e0875e-2fc9-4f4b-9a87-a63fe55ae3df",
+            "Value": {
+                "id": "62bdba30-ab2d-4bdc-a5e9-ba4232824284",
+                "resourcePath": "rooms\\r_Credits\\r_Credits.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1329b4b1-d0c9-4b21-b1de-be145c29379f",
             "Value": {
                 "id": "b8c0854f-9353-47e5-965c-5c49a3f8a7b3",
@@ -820,6 +828,14 @@
                 "id": "a24a1857-b521-4bb1-9d34-85ae26556178",
                 "resourcePath": "scripts\\scr_Splitsfont_Set_Text\\scr_Splitsfont_Set_Text.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dae4b901-97b9-461a-907c-db4f3f02a975",
+            "Value": {
+                "id": "d6f6e0bd-04e9-4e2c-937f-c3430c53c74f",
+                "resourcePath": "objects\\obj_Credits_Room_Controller\\obj_Credits_Room_Controller.yy",
+                "resourceType": "GMObject"
             }
         },
         {
