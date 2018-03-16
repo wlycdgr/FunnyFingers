@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "697385a1-fb08-4c34-aed3-39c9b4140278",
+            "Value": {
+                "id": "329994b5-1f5b-4918-80a2-ffc7d9467adf",
+                "resourcePath": "sprites\\spr_logo_raylib\\spr_logo_raylib.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6cd67805-f2ae-40b0-a142-766f4e5fb59d",
             "Value": {
                 "id": "d6424b36-ee28-4a11-91cc-45d0e39538ce",
@@ -679,6 +687,14 @@
             }
         },
         {
+            "Key": "b3b816bd-fc25-4062-8ca6-442ef6750958",
+            "Value": {
+                "id": "9c72c8d3-6106-4a60-ba22-60a4508278c8",
+                "resourcePath": "objects\\obj_GameMaker_And_Raylib_Logos_Room_Controller\\obj_GameMaker_And_Raylib_Logos_Room_Controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b51e727b-5c33-4fcd-aaf2-5b4b653315a3",
             "Value": {
                 "id": "2877cf5d-36ae-43bf-a2ff-5a9605013e56",
@@ -692,6 +708,14 @@
                 "id": "b6891bed-5a3a-47a8-a098-d34f5df373e8",
                 "resourcePath": "scripts\\scr_Fade_To\\scr_Fade_To.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b7514f93-27ec-42f4-8423-89729dd6921d",
+            "Value": {
+                "id": "ae435dcc-4a63-4415-b14a-5fa9bba719c8",
+                "resourcePath": "sprites\\spr_logo_gms2\\spr_logo_gms2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -988,6 +1012,14 @@
                 "id": "a704834a-ad58-4219-b275-c3b0edc6e9cd",
                 "resourcePath": "datafiles_yy\\Gameplay\\danger_danger_32x512.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "fbe2a034-9f20-48b0-8dc5-65d9da4784be",
+            "Value": {
+                "id": "ceb72804-36da-4595-a51c-64f24ca30f63",
+                "resourcePath": "rooms\\r_GameMakerAndRaylibLogos\\r_GameMakerAndRaylibLogos.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
