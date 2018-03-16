@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "0a7f8220-d0d1-48e4-905c-7d5ca22065be",
-            "Value": {
-                "id": "1232984e-2911-4561-9164-066bfcd57d02",
-                "resourcePath": "datafiles_yy\\Gameplay\\energy_32x32.png.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "0ac5f62d-3b3b-446f-93ce-b591a9476fee",
             "Value": {
                 "id": "58e2228c-b7fb-4b85-89b3-b4f585ca60e7",
@@ -343,19 +335,19 @@
             }
         },
         {
-            "Key": "46d8e5ed-17d1-4f0c-a259-e8ce23847acb",
-            "Value": {
-                "id": "6cad3cdc-5ec9-4661-88e9-9a7b7625b0f8",
-                "resourcePath": "objects\\obj_Sprite_Loader\\obj_Sprite_Loader.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "4af61e27-d101-41cd-b8ff-356470a46883",
             "Value": {
                 "id": "aef8ef5c-782e-42d0-a3b3-c0a28f3ec3a4",
                 "resourcePath": "objects\\obj_Billboard\\obj_Billboard.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4b0535c8-0ae5-4772-a3c3-41b0fceae14f",
+            "Value": {
+                "id": "66d8614e-bd32-43fd-8417-426647397481",
+                "resourcePath": "sprites\\spr_funny_finger\\spr_funny_finger.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -380,14 +372,6 @@
                 "id": "25cc5e3e-d05a-4dec-a07d-59c360e60ad0",
                 "resourcePath": "views\\4f3e9a70-2e0f-4e5f-8f7a-fcbc921c2a80.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "548649ea-daaa-4275-a743-28661da6033c",
-            "Value": {
-                "id": "584f9a1b-5025-42fd-81d4-7e9bf5572c46",
-                "resourcePath": "datafiles_yy\\Gameplay\\column_48x512.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -420,14 +404,6 @@
                 "id": "33336006-c11c-47a7-af10-a3863c299936",
                 "resourcePath": "objects\\obj_Game_Settings\\obj_Game_Settings.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "59827bc7-19d4-4d96-a37a-864d1657eb59",
-            "Value": {
-                "id": "27749f1a-a5a8-4167-ad00-2ec346454e3c",
-                "resourcePath": "datafiles_yy\\Gameplay\\funny_finger_32x512.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -468,6 +444,14 @@
                 "id": "9add165e-3aa9-4b5d-a0c4-ed51e2174a59",
                 "resourcePath": "objects\\obj_Steam_Liason\\obj_Steam_Liason.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "65eee2e0-5ea5-4bc0-8ce9-9d70773aba38",
+            "Value": {
+                "id": "1560aa36-46bd-4538-81d7-8d51653d9f4a",
+                "resourcePath": "sprites\\spr_logo_nyu\\spr_logo_nyu.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -583,6 +567,14 @@
             }
         },
         {
+            "Key": "892d7b1a-2327-482f-8194-ffd01aef7df0",
+            "Value": {
+                "id": "3b892aa3-9e49-4f34-92c1-b19e92f1ec9c",
+                "resourcePath": "sprites\\spr_energy\\spr_energy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "89969d65-a770-4f70-9e34-d50e3f513483",
             "Value": {
                 "id": "e58b4543-c2a3-4c5b-9e48-1c21895fd4aa",
@@ -591,11 +583,19 @@
             }
         },
         {
-            "Key": "8a436d88-e379-47d6-9da4-a9b78e111c67",
+            "Key": "8cd05070-4158-4dd8-90cd-edf0883e2ac5",
             "Value": {
-                "id": "46a607ea-b729-4642-aec1-f47f87712dad",
-                "resourcePath": "datafiles_yy\\nyu_incubator_logo.jpg.yy",
-                "resourceType": "GMIncludedFile"
+                "id": "f53556c0-b768-484a-ad82-cb6ca865da7a",
+                "resourcePath": "sprites\\spr_column\\spr_column.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8d358b95-7765-443c-a3e4-e6430b275517",
+            "Value": {
+                "id": "f465f29d-2254-4804-b102-78fbb41c426c",
+                "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -604,14 +604,6 @@
                 "id": "b453560f-6331-4cc0-9589-6ef46050ea62",
                 "resourcePath": "views\\9520ef3f-3d7b-43a4-a49f-44767a20dc32.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "97d99937-c43e-48f5-b4c5-69d2714406c0",
-            "Value": {
-                "id": "3f3b2f5e-91e5-41cf-959c-7f5039e98a75",
-                "resourcePath": "datafiles_yy\\Gameplay\\enemy_32x32.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -644,6 +636,14 @@
                 "id": "d03f2d1b-f9d5-4f31-bc2d-ff65d64f62d1",
                 "resourcePath": "objects\\obj_Navigator\\obj_Navigator.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a8881f60-d11b-45a5-9350-b8417beb40fc",
+            "Value": {
+                "id": "f1da0d50-d253-4ab9-92e5-025acdbb78d7",
+                "resourcePath": "views\\a8881f60-d11b-45a5-9350-b8417beb40fc.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -831,6 +831,14 @@
             }
         },
         {
+            "Key": "d69a6652-b3bc-4635-880f-8854e4680783",
+            "Value": {
+                "id": "ed7fff79-4e0b-4c7e-adcd-8a03eb619073",
+                "resourcePath": "sprites\\spr_danger_danger\\spr_danger_danger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d76a2786-a766-4b0e-b869-3943ba06b9cb",
             "Value": {
                 "id": "3d4ac440-b3d4-4079-84cd-a6ba6bed7ee8",
@@ -996,22 +1004,6 @@
                 "id": "7a88676e-02f3-4435-93d3-48738bc8e1f0",
                 "resourcePath": "objects\\obj_Scoreboard_Difficult\\obj_Scoreboard_Difficult.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "f8dca17f-0855-44b2-952d-224a7a2b915d",
-            "Value": {
-                "id": "9cbe1a12-35c3-45e1-b29d-26bfbbbb00e5",
-                "resourcePath": "views\\f8dca17f-0855-44b2-952d-224a7a2b915d.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "fbb12142-06e2-4f59-af36-7ffa07ae231b",
-            "Value": {
-                "id": "a704834a-ad58-4219-b275-c3b0edc6e9cd",
-                "resourcePath": "datafiles_yy\\Gameplay\\danger_danger_32x512.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {

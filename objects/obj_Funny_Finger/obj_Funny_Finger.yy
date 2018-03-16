@@ -103,20 +103,6 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "3f267300-e09b-401e-89b3-7384094a3e2c",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "obj_Sprite_Loader.funny_finger_sprite;",
-            "varName": "sprite_index",
-            "varType": 4
-        },
-        {
             "id": "cbb8b021-0acd-4f1c-85f5-03204697e08b",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -160,6 +146,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "4b0535c8-0ae5-4772-a3c3-41b0fceae14f",
     "visible": true
 }

@@ -1,6 +1,6 @@
 /// @description Init
 nyu_incubator_logo_billboard = instance_create_layer(0, 0, "Instances", obj_Billboard);
-nyu_incubator_logo_billboard.sprite_index = obj_Sprite_Loader.nyu_incubator_logo_sprite;
+nyu_incubator_logo_billboard.sprite_index = spr_logo_nyu;
 
 nyu_incubator_logo_billboard.x =
 	window_width / 2 -

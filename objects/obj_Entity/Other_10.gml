@@ -14,7 +14,7 @@ last_random_column_index = random_column_index;
 
 x = generator.playfield.columns[random_column_index].x;
 x +=
-	(sprite_get_width(obj_Sprite_Loader.column_sprite) - 
+	(sprite_get_width(spr_column) - 
 	sprite_get_width(sprite_index)) / 2;
 		
 // tie it to that column
