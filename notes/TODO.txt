@@ -337,10 +337,10 @@ March 15
 			
 		A GAME BY
 		WLYCDGR
-		
 		WITH SPRITES AND SOUNDS BY
 		MARLEY HALL
-		
+	
+- add raylib & gamemaker logo room
 - implement Credits screen
 	- x spots in a grid on the screen
 	- each name displays for Y seconds, + some amount of time for bonus $, in one of the grid slots

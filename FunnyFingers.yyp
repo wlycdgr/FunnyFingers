@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "01fa9bfb-eb38-490f-8ce3-15b74f30a5ab",
-            "Value": {
-                "id": "2056c2a2-10b4-43e9-96be-b8b46031f9fd",
-                "resourcePath": "scripts\\scr_Splitsfont_Rotate_Glyph\\scr_Splitsfont_Rotate_Glyph.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "0252d75a-808a-4e57-bf4f-a43ea1d553ba",
             "Value": {
                 "id": "a3c6eb0a-5a9d-411f-90dd-7be10ff8b3cf",
@@ -583,6 +575,14 @@
             }
         },
         {
+            "Key": "89969d65-a770-4f70-9e34-d50e3f513483",
+            "Value": {
+                "id": "e58b4543-c2a3-4c5b-9e48-1c21895fd4aa",
+                "resourcePath": "scripts\\scr_Splitsfont_Set_Angle\\scr_Splitsfont_Set_Angle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8a436d88-e379-47d6-9da4-a9b78e111c67",
             "Value": {
                 "id": "46a607ea-b729-4642-aec1-f47f87712dad",
@@ -1034,10 +1034,10 @@
         "bbfbe26a-22ab-4905-b660-696a70f57963",
         "6f05a826-46b9-4557-95de-4d0d8b9db411",
         "645e3904-76aa-40fd-9497-c219bd6fd8f5",
-        "01fa9bfb-eb38-490f-8ce3-15b74f30a5ab",
         "15db7db3-c5a4-40ed-9640-e1d3d8173d92",
         "ed4f23f4-f586-487f-bc63-aebb0f132857",
         "2d8a3230-be62-4ea2-889f-9726c1c9a92b",
+        "89969d65-a770-4f70-9e34-d50e3f513483",
         "2fd472ea-83a5-44e1-ac6a-db3f55e8ba5e",
         "babadea1-cadd-46af-9761-b2a9227feea0",
         "db2dc6f7-fcd4-4b54-86a9-6204ed0dedfe",

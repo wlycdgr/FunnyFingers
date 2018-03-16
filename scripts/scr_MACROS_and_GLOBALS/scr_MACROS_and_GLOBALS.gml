@@ -207,5 +207,9 @@ global.core_funny_finger_grow_time_in_sec =
 #macro fs_fading_out 2
 #macro fs_done 3
 
+#macro slide_state_sliding_in 0
+#macro slide_state_slowing_down 1
+#macro slide_state_sliding_out 2
+
 
 
