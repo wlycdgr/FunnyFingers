@@ -3,6 +3,37 @@ for (var i = 0; i < 4; i++) {
 	scr_Splitsfont_Rotate_String(slides[slide_index, i]);
 }
 
+/*
+CREATE EVENT:
+tween = instance_create_layer(0, 0, "Instances", obj_Tween);
+tween.min_speed = 0.01;
+tween.max_speed = 0.03;
+tween.speed_change = 0.001;
+tween.close_enough = window_width * 0.01;
+
+x_path_right_to_left = scr_Tween_AddPath([window_width, window_x_center, -three_window_widths]);
+x_path_left_to_right = scr_Tween_AddPath([-window_width, window_x_center, three_window_widths]);
+.......
+
+STEP EVENT:
+(Tween step event updates the values for all its paths)
+
+if tween.all_paths_completed
+	scr_Tween_Clear(tween)
+	
+
+DRAW EVENT:
+scr_Splitsfont_Draw_String(
+	sf_string,
+	x_path_right_to_left.value,
+	string_y_positions[0, 0]
+);
+.....
+string_x_paths[0, 0].value 
+
+for (var i = 0; i < 4; i++) {
+	string_pos_x = scr_Tween_Update(tween_id, string_pos_x, 
+*/	
 switch(slide_state) {
 case slide_state_sliding_in:
 	slide_proportion_per_frame_current = max(

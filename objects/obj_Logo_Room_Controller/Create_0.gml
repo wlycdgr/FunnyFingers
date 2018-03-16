@@ -124,10 +124,16 @@ slide_out_targets_x[1, 3] = -three_window_widths;
 
 close_enough = window_width * 0.01;
 
-slide_proportion_per_frame_current = 0.06;
-slide_proportion_per_frame_min = 0.04;
-slide_proportion_per_frame_max = 0.06;
-slide_proportion_increase_per_frame = 0.001;
+//slide_proportion_per_frame_current = 0.06;
+//slide_proportion_per_frame_min = 0.04;
+//slide_proportion_per_frame_max = 0.06;
+//slide_proportion_increase_per_frame = 0.001;
+//slide_state = slide_state_sliding_in;
+
+slide_proportion_per_frame_current = 0.05;
+slide_proportion_per_frame_min = 0.03;
+slide_proportion_per_frame_max = 0.05;
+slide_proportion_increase_per_frame = 0.0008;
 slide_state = slide_state_sliding_in;
 
 slide_holding_state_counter = 0;
