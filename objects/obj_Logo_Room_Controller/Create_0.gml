@@ -102,42 +102,108 @@ for (var i = 0; i < slide_strings_arrays_len; i++) {
 
 var three_window_widths = window_width * 3;
 
-slides_x[0, 0] = window_width;
-slides_x[0, 1] = window_width;
-slides_x[0, 2] = -window_width;
-slides_x[0, 3] = -window_width;
+slide_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
 
-slide_out_targets_x[0, 0] = -three_window_widths;
-slide_out_targets_x[0, 1] = -three_window_widths;
-slide_out_targets_x[0, 2] = three_window_widths;
-slide_out_targets_x[0, 3] = three_window_widths;
+x_paths[0, 0] = scr_SlideTween_Add_Path(
+	slide_tween,
+	[
+		window_width, 
+		window_x_center - (scr_Splitsfont_Get_Width(slides[0, 0]) / 2), 
+		-three_window_widths
+	]
+);
+x_paths[0, 1] = scr_SlideTween_Add_Path(
+	slide_tween,
+	[
+		window_width, 
+		window_x_center - (scr_Splitsfont_Get_Width(slides[0, 1]) / 2), 
+		-three_window_widths
+	]
+);
+x_paths[0, 2] = scr_SlideTween_Add_Path(
+	slide_tween,
+	[
+		-window_width, 
+		window_x_center - (scr_Splitsfont_Get_Width(slides[0, 2]) / 2), 
+		three_window_widths
+	]
+);
+x_paths[0, 3] = scr_SlideTween_Add_Path(
+	slide_tween,
+	[
+		-window_width, 
+		window_x_center - (scr_Splitsfont_Get_Width(slides[0, 3]) / 2), 
+		three_window_widths
+	]
+);
 
-slides_x[1, 0] = -window_width;
-slides_x[1, 1] = -window_width;
-slides_x[1, 2] = window_width;
-slides_x[1, 3] = window_width;
 
-slide_out_targets_x[1, 0] = three_window_widths;
-slide_out_targets_x[1, 1] = three_window_widths;
-slide_out_targets_x[1, 2] = -three_window_widths;
-slide_out_targets_x[1, 3] = -three_window_widths;
+x_paths[1, 0] = scr_SlideTween_Add_Path(
+	slide_tween,
+	[
+		-window_width, 
+		window_x_center - (scr_Splitsfont_Get_Width(slides[1, 0]) / 2), 
+		three_window_widths
+	]
+);
 
-close_enough = window_width * 0.01;
+x_paths[1, 1] = scr_SlideTween_Add_Path(
+	slide_tween,
+	[
+		-window_width, 
+		window_x_center - (scr_Splitsfont_Get_Width(slides[1, 1]) / 2), 
+		three_window_widths
+	]
+);
 
-//slide_proportion_per_frame_current = 0.06;
-//slide_proportion_per_frame_min = 0.04;
-//slide_proportion_per_frame_max = 0.06;
-//slide_proportion_increase_per_frame = 0.001;
+x_paths[1, 2] = scr_SlideTween_Add_Path(
+	slide_tween,
+	[
+		window_width, 
+		window_x_center - (scr_Splitsfont_Get_Width(slides[1, 2]) / 2), 
+		-three_window_widths
+	]
+);
+
+x_paths[1, 3] = scr_SlideTween_Add_Path(
+	slide_tween,
+	[
+		window_width, 
+		window_x_center - (scr_Splitsfont_Get_Width(slides[1, 3]) / 2), 
+		-three_window_widths
+	]
+);
+
+//slides_x[0, 0] = window_width;
+//slides_x[0, 1] = window_width;
+//slides_x[0, 2] = -window_width;
+//slides_x[0, 3] = -window_width;
+
+//slide_out_targets_x[0, 0] = -three_window_widths;
+//slide_out_targets_x[0, 1] = -three_window_widths;
+//slide_out_targets_x[0, 2] = three_window_widths;
+//slide_out_targets_x[0, 3] = three_window_widths;
+
+//slides_x[1, 0] = -window_width;
+//slides_x[1, 1] = -window_width;
+//slides_x[1, 2] = window_width;
+//slides_x[1, 3] = window_width;
+
+//slide_out_targets_x[1, 0] = three_window_widths;
+//slide_out_targets_x[1, 1] = three_window_widths;
+//slide_out_targets_x[1, 2] = -three_window_widths;
+//slide_out_targets_x[1, 3] = -three_window_widths;
+
+//close_enough = window_width * 0.01;
+
+//slide_proportion_per_frame_current = 0.05;
+//slide_proportion_per_frame_min = 0.03;
+//slide_proportion_per_frame_max = 0.05;
+//slide_proportion_increase_per_frame = 0.0008;
 //slide_state = slide_state_sliding_in;
 
-slide_proportion_per_frame_current = 0.05;
-slide_proportion_per_frame_min = 0.03;
-slide_proportion_per_frame_max = 0.05;
-slide_proportion_increase_per_frame = 0.0008;
-slide_state = slide_state_sliding_in;
-
-slide_holding_state_counter = 0;
-slide_holding_state_frame_count = 10;
+//slide_holding_state_counter = 0;
+//slide_holding_state_frame_count = 10;
 
 trollcore_angle = 30;
 scr_Splitsfont_Set_Angle(slides[0, 0], trollcore_angle);

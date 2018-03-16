@@ -327,20 +327,13 @@ March 14
 - DONE implement basic Level 99 unlocking logic
 
 March 15
+- DONE implement logo screen
+- DONE add raylib & gamemaker logo room
+- DONE import all sprites & get rid of sprite loader object
 
-- implement logo screen
-	- 
-		TROLLCORE ENTERPRISES TM
-			AND
-		ONE MOTION GAMES
-			PRESENT
-			
-		A GAME BY
-		WLYCDGR
-		WITH SPRITES AND SOUNDS BY
-		MARLEY HALL
-	
-- add raylib & gamemaker logo room
+March 16
+- implement Tween object to handle slide in/out animations
+
 - implement Credits screen
 	- x spots in a grid on the screen
 	- each name displays for Y seconds, + some amount of time for bonus $, in one of the grid slots
