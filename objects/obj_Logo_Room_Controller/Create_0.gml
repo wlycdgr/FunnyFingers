@@ -1,22 +1,11 @@
 /// @description Init
 slide_index = 0;
 
-scripts = [
-	scr_Splitsfont_Set_Size,
-	scr_Splitsfont_Set_Weight,
-	scr_Splitsfont_Set_Kern,
-	scr_Splitsfont_Set_RotationSpeed
-];
-
-tweak_menu_index = 0;
-
-tweak_increments = [0.01, 0.01, 0.01, 1.0, 0.01];
-
-tweak_values[0, 0] = 0.07;
-tweak_values[0, 1] = 0.03;
-tweak_values[0, 2] = 0.0;
-tweak_values[0, 3] = 0.0;
-tweak_values[0, 4] = 0.14;
+tweak_values[0, 0] = 0.07; // size
+tweak_values[0, 1] = 0.03; // weight
+tweak_values[0, 2] = 0.0; // kern
+tweak_values[0, 3] = 0.0; // rotation speed
+tweak_values[0, 4] = 0.14; // y
 tweak_values[1, 0] = 0.03;
 tweak_values[1, 1] = 0.0;
 tweak_values[1, 2] = 0.13;
@@ -54,17 +43,6 @@ tweak_values_1[3, 2] = 0.04;
 tweak_values_1[3, 3] = 0.0;
 tweak_values_1[3, 4] = 0.66;
 
-
-tweak_menu_labels = [
-	"Size: ",
-	"Weight: ",
-	"Kern: ",
-	"RotationSpeed: ",
-	"Y pos: "
-]
-
-draw_tweak_info = true;
-
 var slide_strings_arrays = [
 	["TROLLCORE ENTERPRISES TM", "AND", "ONE MOTION GAMES", "PRESENT"],
 	["A GAME BY", "WLYCDGR", "WITH SPRITES AND SOUNDS BY", "MARLEY HALL"]
@@ -93,9 +71,7 @@ for (var i = 0; i < slide_strings_arrays_len; i++) {
 		scr_Splitsfont_Set_Kern(new_string, tweak_values_array[j, 2]);
 		scr_Splitsfont_Set_RotationSpeed(new_string, tweak_values_array[j, 3]);
 		slides_y[i, j] = tweak_values_array[j, 4];	
-		
-		slide_in_targets_x[i, j] = window_x_center - (scr_Splitsfont_Get_Width(new_string) / 2);
-		
+
 		slides[i, j] = new_string;
 	}
 }
@@ -173,37 +149,6 @@ x_paths[1, 3] = scr_SlideTween_Add_Path(
 		-three_window_widths
 	]
 );
-
-//slides_x[0, 0] = window_width;
-//slides_x[0, 1] = window_width;
-//slides_x[0, 2] = -window_width;
-//slides_x[0, 3] = -window_width;
-
-//slide_out_targets_x[0, 0] = -three_window_widths;
-//slide_out_targets_x[0, 1] = -three_window_widths;
-//slide_out_targets_x[0, 2] = three_window_widths;
-//slide_out_targets_x[0, 3] = three_window_widths;
-
-//slides_x[1, 0] = -window_width;
-//slides_x[1, 1] = -window_width;
-//slides_x[1, 2] = window_width;
-//slides_x[1, 3] = window_width;
-
-//slide_out_targets_x[1, 0] = three_window_widths;
-//slide_out_targets_x[1, 1] = three_window_widths;
-//slide_out_targets_x[1, 2] = -three_window_widths;
-//slide_out_targets_x[1, 3] = -three_window_widths;
-
-//close_enough = window_width * 0.01;
-
-//slide_proportion_per_frame_current = 0.05;
-//slide_proportion_per_frame_min = 0.03;
-//slide_proportion_per_frame_max = 0.05;
-//slide_proportion_increase_per_frame = 0.0008;
-//slide_state = slide_state_sliding_in;
-
-//slide_holding_state_counter = 0;
-//slide_holding_state_frame_count = 10;
 
 trollcore_angle = 30;
 scr_Splitsfont_Set_Angle(slides[0, 0], trollcore_angle);

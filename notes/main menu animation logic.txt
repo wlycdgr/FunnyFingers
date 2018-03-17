@@ -1,0 +1,7 @@
+on room start:
+	- title slides in from right
+	- main menu (play / credits / exit) slides in from left
+	- menu active right away, does not wait for animation to finish
+	
+on exit:
+	quit game immediately

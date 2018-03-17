@@ -1,5 +1,5 @@
 /// @description Init
-// You can write your code in this editor
+
 funny_fingers = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(funny_fingers, "FUNNY FINGERS");
 scr_Splitsfont_Set_Kern(funny_fingers, 0.005);
@@ -49,3 +49,6 @@ difficulty_menu = scr_Menu_NEW(
 	difficulty_menu_labels
 );
 difficulty_menu.active = false;
+
+
+splitsfont_tweaker = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_Tweaker);

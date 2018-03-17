@@ -8,7 +8,8 @@
         "e6a8db3d-4294-49ef-8b41-ba3d98d9aa24",
         "367d65f9-24e5-44f1-a1b3-a104cbb8350a",
         "239db2dc-b96b-4927-860b-c145fac59b78",
-        "36b69265-d1e1-48f1-8a98-6d8bca6f1a16"
+        "36b69265-d1e1-48f1-8a98-6d8bca6f1a16",
+        "1055dcd2-4dc7-4614-8cbd-40cc8d1a822f"
     ],
     "filterType": "GMObject",
     "folderName": "Splitsfont",
