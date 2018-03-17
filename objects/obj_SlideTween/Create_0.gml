@@ -12,3 +12,4 @@ path_count = 0;
 paths = -1;
 
 complete = false;
+paused = false;

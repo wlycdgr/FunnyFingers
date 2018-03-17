@@ -1,6 +1,6 @@
 /// @description Update speeds and move values along all paths
 
-if (complete) exit;
+if (complete || paused) exit;
 
 var updated_slide_proportion =
 	slide_proportion_per_frame_current - 
@@ -34,6 +34,8 @@ if (all_waypoints_reached) {
 	}
 	
 	else if (slide_state_sliding_in == slide_state) {
+		paused = true;
+		
 		slide_state = slide_state_sliding_out;
 		
 		for (var i = 0; i < path_count; i++) {

@@ -11,6 +11,9 @@ scr_Splitsfont_Set_Tweaks(fingers, [0.122, 0.008, 0.059, 0, 17]);
 fingers_y = 0.36 * window_height;
 fingers_x = window_x_center - scr_Splitsfont_Get_Width(fingers) / 2;
 
+title_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
+title_x_paths[0] = scr_SlideTween_Add_Default_Path(title_tween, funny, slide_left);
+title_x_paths[1] = scr_SlideTween_Add_Default_Path(title_tween, fingers, slide_right);
 
 
 main_menu = scr_Menu_NEW(

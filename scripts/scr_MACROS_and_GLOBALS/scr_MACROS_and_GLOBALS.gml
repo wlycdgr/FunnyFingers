@@ -210,6 +210,9 @@ global.core_funny_finger_grow_time_in_sec =
 #macro slide_state_sliding_in 0
 #macro slide_state_slowing_down 1
 #macro slide_state_sliding_out 2
+#macro slide_left - 1
+#macro slide_right 1
+#macro slide_three_window_widths window_width * 3 
 
 
 
