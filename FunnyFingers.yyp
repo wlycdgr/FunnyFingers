@@ -911,6 +911,14 @@
             }
         },
         {
+            "Key": "cd4b2291-610a-44e8-884c-10ef5083ff89",
+            "Value": {
+                "id": "dab65e6f-465c-46f0-8ea6-91f3882d6f50",
+                "resourcePath": "scripts\\scr_Main_Menu_Room_Controller_HandleMenus\\scr_Main_Menu_Room_Controller_HandleMenus.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cd704319-be20-4e64-a5b4-9efe252f280f",
             "Value": {
                 "id": "fd555f9a-779a-4f83-9512-3d8ee2fa19ba",
@@ -1201,7 +1209,8 @@
         "babadea1-cadd-46af-9761-b2a9227feea0",
         "db2dc6f7-fcd4-4b54-86a9-6204ed0dedfe",
         "41272978-2cf5-43a0-a4ff-72f4024ffcfc",
-        "21021fe0-c5dc-496e-a62a-e442d866e153"
+        "21021fe0-c5dc-496e-a62a-e442d866e153",
+        "cd4b2291-610a-44e8-884c-10ef5083ff89"
     ],
     "tutorial": ""
 }

@@ -1,20 +1,16 @@
 /// @description Scroll, select, act on selections
 switch (global.room_state_tracker.state) {
 case rs_setting_up_room:
-	if (!main_menu.active && !difficulty_menu.active) exit;
-	
-	var current_menu = main_menu;
-	if (difficulty_menu.active) current_menu = difficulty_menu;
-
-	scr_Menu_Scroll(current_menu) {
-		if (scr_Menu_Selection_Made(current_menu)) {
-			scr_Menu_Act_On_Selection(current_menu);
-		}
+	if (title_tween.paused) {
+		global.room_state_tracker.state = rs_normal_room_operations;
 	}
+	
+	scr_Main_Menu_Room_Controller_HandleMenus(id);
 
 	break;
 	
 case rs_normal_room_operations:
+	scr_Main_Menu_Room_Controller_HandleMenus(id);
 
 	break;
 
