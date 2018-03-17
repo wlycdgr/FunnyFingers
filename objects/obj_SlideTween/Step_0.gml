@@ -34,13 +34,8 @@ if (all_waypoints_reached) {
 	}
 	
 	else if (slide_state_sliding_in == slide_state) {
+		scr_SlideTween_Force_Slide_Out(id);
+
 		paused = true;
-		
-		slide_state = slide_state_sliding_out;
-		
-		for (var i = 0; i < path_count; i++) {
-			path = paths[i];
-			scr_SlidePath_Set_NextWaypoint(path);
-		}
 	}
 }

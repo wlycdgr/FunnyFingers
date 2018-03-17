@@ -215,4 +215,10 @@ global.core_funny_finger_grow_time_in_sec =
 #macro slide_three_window_widths window_width * 3 
 
 
+// ROOM STATE TRACKER
+#macro rs_setting_up_room 0
+#macro rs_normal_room_operations 1
+#macro rs_room_change_requested 2
+#macro rs_breaking_down_room 3
+
 

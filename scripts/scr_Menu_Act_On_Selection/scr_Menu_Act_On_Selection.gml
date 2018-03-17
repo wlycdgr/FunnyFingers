@@ -63,7 +63,9 @@ case "CONTINUE":
 	with (global.game) { event_user(2); }
 	break;
 case "CREDITS":
-	scr_Fade_To(r_Credits);
+	global.room_state_tracker.state = rs_room_change_requested;
+	global.room_state_tracker.target_room = r_Credits;
+	// scr_Fade_To(r_Credits);
 	break;
 case "EXIT":
 	game_end();

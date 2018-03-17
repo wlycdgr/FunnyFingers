@@ -927,6 +927,14 @@
             }
         },
         {
+            "Key": "d2ccb9f1-e1b2-4f21-a940-d939435e456b",
+            "Value": {
+                "id": "98e97eab-6ae2-4edb-90a6-b65b38179317",
+                "resourcePath": "objects\\obj_Room_State_Tracker\\obj_Room_State_Tracker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d40fa8c9-c2bb-4ee7-812e-c02d00e1de37",
             "Value": {
                 "id": "e042f96d-a18f-4cc2-b098-79ff6e59192f",
@@ -1087,6 +1095,14 @@
             }
         },
         {
+            "Key": "f19580fa-0cc0-4d7f-9a7b-244a84e7ce5e",
+            "Value": {
+                "id": "cd87af34-99bd-4b8d-b34a-12452100a3f9",
+                "resourcePath": "scripts\\scr_SlideTween_Force_Slide_Out\\scr_SlideTween_Force_Slide_Out.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "0c34059b-e1a1-4b36-aa3a-573121ab6d05",
@@ -1180,6 +1196,7 @@
         "a61bbbc4-400a-446c-97aa-27da078cc165",
         "f812f3ab-7317-422a-a9b4-cd61ef9f2ad6",
         "5013329f-d97f-4507-8121-a9d3d661f65d",
+        "f19580fa-0cc0-4d7f-9a7b-244a84e7ce5e",
         "2fd472ea-83a5-44e1-ac6a-db3f55e8ba5e",
         "babadea1-cadd-46af-9761-b2a9227feea0",
         "db2dc6f7-fcd4-4b54-86a9-6204ed0dedfe",

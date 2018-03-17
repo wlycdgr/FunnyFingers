@@ -3,13 +3,11 @@ funny = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(funny, "FUNNY");
 scr_Splitsfont_Set_Tweaks(funny, [0.181, 0.062, 0.078, 0, 0]);
 funny_y = 0.11 * window_height;
-funny_x = window_x_center - scr_Splitsfont_Get_Width(funny) / 2;
 
 fingers = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(fingers, "FINGERS");
 scr_Splitsfont_Set_Tweaks(fingers, [0.122, 0.008, 0.059, 0, 17]);
 fingers_y = 0.36 * window_height;
-fingers_x = window_x_center - scr_Splitsfont_Get_Width(fingers) / 2;
 
 title_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
 title_x_paths[0] = scr_SlideTween_Add_Default_Path(title_tween, funny, slide_left);
