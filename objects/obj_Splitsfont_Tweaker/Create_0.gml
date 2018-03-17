@@ -10,6 +10,8 @@ scripts = [
 
 sf_strings_count = 0;
 sf_strings = -1;
+sf_string_x_positions = -1;
+sf_string_y_positions = 1;
 
 menu_index = 0;
 

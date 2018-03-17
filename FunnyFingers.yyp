@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "21021fe0-c5dc-496e-a62a-e442d866e153",
+            "Value": {
+                "id": "8bbe6d8c-4c28-4fc3-aaf0-33c0e665c56e",
+                "resourcePath": "scripts\\scr_Splitsfont_Tweaker_Add_String\\scr_Splitsfont_Tweaker_Add_String.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "21e164c3-ce4b-4db0-99a2-afa7eb396227",
             "Value": {
                 "id": "1fd0eeec-7912-427f-a935-4a4ea819dfcf",
@@ -327,6 +335,14 @@
             }
         },
         {
+            "Key": "3eee0067-d7db-49e5-bc50-c32ede4fd466",
+            "Value": {
+                "id": "5f13f935-649a-41fc-be12-3ebb38cc9463",
+                "resourcePath": "views\\3eee0067-d7db-49e5-bc50-c32ede4fd466.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3fd85874-5a2e-4539-aab1-3375e74f2764",
             "Value": {
                 "id": "8806b466-d5a7-4344-a02d-5df9adb82b4c",
@@ -452,6 +468,14 @@
                 "id": "d7c3a8b9-b16e-4f09-bbbc-6e9ef57d75bf",
                 "resourcePath": "rooms\\r_Gameplay\\r_Gameplay.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "632e95ca-21f3-4365-a862-7f8ad74e50f2",
+            "Value": {
+                "id": "5c4d870c-7f58-4812-94fc-17e3b826251a",
+                "resourcePath": "views\\632e95ca-21f3-4365-a862-7f8ad74e50f2.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1134,14 +1158,15 @@
         "ed4f23f4-f586-487f-bc63-aebb0f132857",
         "2d8a3230-be62-4ea2-889f-9726c1c9a92b",
         "89969d65-a770-4f70-9e34-d50e3f513483",
+        "1e370f26-340c-4948-9bb8-621e417f5b5d",
+        "3b84f41c-d6c5-4da3-b17d-f11c0b10df8c",
+        "a61bbbc4-400a-446c-97aa-27da078cc165",
+        "f812f3ab-7317-422a-a9b4-cd61ef9f2ad6",
         "2fd472ea-83a5-44e1-ac6a-db3f55e8ba5e",
         "babadea1-cadd-46af-9761-b2a9227feea0",
         "db2dc6f7-fcd4-4b54-86a9-6204ed0dedfe",
         "41272978-2cf5-43a0-a4ff-72f4024ffcfc",
-        "1e370f26-340c-4948-9bb8-621e417f5b5d",
-        "3b84f41c-d6c5-4da3-b17d-f11c0b10df8c",
-        "a61bbbc4-400a-446c-97aa-27da078cc165",
-        "f812f3ab-7317-422a-a9b4-cd61ef9f2ad6"
+        "21021fe0-c5dc-496e-a62a-e442d866e153"
     ],
     "tutorial": ""
 }

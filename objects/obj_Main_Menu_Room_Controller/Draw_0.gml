@@ -4,4 +4,4 @@ if (difficulty_menu.active) current_menu = difficulty_menu;
 
 scr_Menu_Draw(current_menu);
 
-scr_Splitsfont_Draw_String(funny_fingers, 300, 100);
+//scr_Splitsfont_Draw_String(funny_fingers, 300, 100);

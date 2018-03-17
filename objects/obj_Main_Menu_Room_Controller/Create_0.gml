@@ -2,7 +2,7 @@
 
 funny_fingers = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(funny_fingers, "FUNNY FINGERS");
-scr_Splitsfont_Set_Kern(funny_fingers, 0.005);
+//scr_Splitsfont_Set_Kern(funny_fingers, 0.005);
 
 main_menu = scr_Menu_NEW(
 	window_x_center, 450,
@@ -52,3 +52,4 @@ difficulty_menu.active = false;
 
 
 splitsfont_tweaker = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_Tweaker);
+scr_Splitsfont_Tweaker_Add_String(splitsfont_tweaker, funny_fingers);
