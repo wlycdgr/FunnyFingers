@@ -13,9 +13,19 @@ with (new_menu) {
 		label_y_positions[i] = y + menu_vertical_spacing * i;
 		
 		label_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+		
 		scr_Splitsfont_Set_Text(label_string, labels[i]);
-		scr_Splitsfont_Set_Size(label_string, splitsfont_size_menuItem);
-		scr_Splitsfont_Set_Weight(label_string, splitsfont_weight_menuItem);
+		
+		scr_Splitsfont_Set_Tweaks(
+			label_string,
+			[
+				menu_item_splitsfont_size,
+				menu_item_splitsfont_weight,
+				menu_item_splitsfont_kern,
+				menu_item_splitsfont_rotationSpeed,
+				menu_item_splitsfont_angle
+			]
+		);
 		
 		label_strings[i] = label_string;
 	}

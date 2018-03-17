@@ -193,7 +193,12 @@ global.core_funny_finger_grow_time_in_sec =
 #macro menu_color_selected c_red
 #macro menu_color_unselected c_black
 #macro menu_halign fa_center
-#macro menu_vertical_spacing (splitsfont_size_menuItem * window_height * 1.5)
+#macro menu_vertical_spacing 0.05 * window_height
+#macro menu_item_splitsfont_size 0.025
+#macro menu_item_splitsfont_weight 0.001
+#macro menu_item_splitsfont_kern 0.02
+#macro menu_item_splitsfont_rotationSpeed 0.0
+#macro menu_item_splitsfont_angle 0.0
 
 #macro gs_fading_in 0
 #macro gs_fading_out 1

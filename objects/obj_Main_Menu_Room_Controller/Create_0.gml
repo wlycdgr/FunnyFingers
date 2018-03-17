@@ -14,8 +14,19 @@ title_x_paths[0] = scr_SlideTween_Add_Default_Path(title_tween, funny, slide_lef
 title_x_paths[1] = scr_SlideTween_Add_Default_Path(title_tween, fingers, slide_right);
 
 
+/*
+menu_strings_tweaker = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_Tweaker);
+var menu_texts = ["PLAY", "CREDITS", "EXIT"];
+var menu_strings = -1;
+for (var i = 0; i < 3; i++) {
+	menu_strings[i] = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+	scr_Splitsfont_Set_Text(menu_strings[i], menu_texts[i]);
+	scr_Splitsfont_Tweaker_Add_String(menu_strings_tweaker, menu_strings[i]);
+}
+*/
+
 main_menu = scr_Menu_NEW(
-	window_x_center, 550,
+	window_x_center, 0.75 * window_height,
 	["PLAY", "CREDITS", "EXIT"]
 );
 
