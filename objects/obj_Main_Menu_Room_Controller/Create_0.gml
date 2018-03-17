@@ -1,11 +1,20 @@
 /// @description Init
+funny = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(funny, "FUNNY");
+scr_Splitsfont_Set_Tweaks(funny, [0.181, 0.062, 0.078, 0, 0]);
+funny_y = 0.11 * window_height;
+funny_x = window_x_center - scr_Splitsfont_Get_Width(funny) / 2;
 
-funny_fingers = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-scr_Splitsfont_Set_Text(funny_fingers, "FUNNY FINGERS");
-//scr_Splitsfont_Set_Kern(funny_fingers, 0.005);
+fingers = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(fingers, "FINGERS");
+scr_Splitsfont_Set_Tweaks(fingers, [0.122, 0.008, 0.059, 0, 17]);
+fingers_y = 0.36 * window_height;
+fingers_x = window_x_center - scr_Splitsfont_Get_Width(fingers) / 2;
+
+
 
 main_menu = scr_Menu_NEW(
-	window_x_center, 450,
+	window_x_center, 550,
 	["PLAY", "CREDITS", "EXIT"]
 );
 
@@ -45,11 +54,7 @@ else { difficulty_menu_labels[4] = "?????????"; }
 difficulty_menu_labels[5] = "MAIN MENU";
 
 difficulty_menu = scr_Menu_NEW(
-	window_x_center, 450,
+	window_x_center, 550,
 	difficulty_menu_labels
 );
 difficulty_menu.active = false;
-
-
-splitsfont_tweaker = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_Tweaker);
-scr_Splitsfont_Tweaker_Add_String(splitsfont_tweaker, funny_fingers);

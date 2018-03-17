@@ -1,4 +1,6 @@
 /// @description Draw tweak menu
+if (!draw_tweak_info) exit;
+
 var section_top_y = 0;
 
 for (var i = 0; i < sf_strings_count; i++) {
@@ -21,7 +23,7 @@ for (var i = 0; i < sf_strings_count; i++) {
 		
 		draw_text(
 			5, section_top_y + 15 + 15 * (j - j_start),
-			menu_labels[j - j_start] + string(values[j])
+			menu_labels[j - j_start] + string(100 * values[j])
 		);
 	}
 }

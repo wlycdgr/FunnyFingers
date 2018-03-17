@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "8c6caf78-effb-441d-aab2-084eb0a2a70a",
+            "Value": {
+                "id": "edc87a42-05c7-4667-adf3-1fb76f894f0e",
+                "resourcePath": "scripts\\scr_Splitsfont_Set_Tweaks\\scr_Splitsfont_Set_Tweaks.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8cd05070-4158-4dd8-90cd-edf0883e2ac5",
             "Value": {
                 "id": "f53556c0-b768-484a-ad82-cb6ca865da7a",
@@ -1158,6 +1166,7 @@
         "ed4f23f4-f586-487f-bc63-aebb0f132857",
         "2d8a3230-be62-4ea2-889f-9726c1c9a92b",
         "89969d65-a770-4f70-9e34-d50e3f513483",
+        "8c6caf78-effb-441d-aab2-084eb0a2a70a",
         "1e370f26-340c-4948-9bb8-621e417f5b5d",
         "3b84f41c-d6c5-4da3-b17d-f11c0b10df8c",
         "a61bbbc4-400a-446c-97aa-27da078cc165",

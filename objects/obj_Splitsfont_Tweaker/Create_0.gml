@@ -15,7 +15,7 @@ sf_string_y_positions = 1;
 
 menu_index = 0;
 
-increments = [0.01, 0.01, 0.01, 1.0, 1.0, 0.01];
+increments = [0.001, 0.001, 0.001, 1.0, 1.0, 0.001];
 
 defaults[0] = 0.07; // size
 defaults[1] = 0.03; // weight

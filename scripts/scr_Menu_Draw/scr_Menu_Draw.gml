@@ -4,9 +4,6 @@
 var menu = argument0;
 
 for (var i = 0; i < menu.item_count; i++) {
-	//if (i == menu.index) { draw_set_color(menu_color_selected); }
-	//else { draw_set_color(menu_color_unselected); }
-
 	scr_Splitsfont_Draw_String(
 		menu.label_strings[i],
 		menu.x, menu.label_y_positions[i]

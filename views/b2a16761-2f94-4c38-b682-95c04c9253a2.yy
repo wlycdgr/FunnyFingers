@@ -16,7 +16,8 @@
         "15db7db3-c5a4-40ed-9640-e1d3d8173d92",
         "ed4f23f4-f586-487f-bc63-aebb0f132857",
         "2d8a3230-be62-4ea2-889f-9726c1c9a92b",
-        "89969d65-a770-4f70-9e34-d50e3f513483"
+        "89969d65-a770-4f70-9e34-d50e3f513483",
+        "8c6caf78-effb-441d-aab2-084eb0a2a70a"
     ],
     "filterType": "GMScript",
     "folderName": "Splitsfont",

@@ -332,7 +332,11 @@ March 15
 - DONE import all sprites & get rid of sprite loader object
 
 March 16
-- implement Tween object to handle slide in/out animations
+- DONE implement Tween object to handle slide in/out animations
+- DONE implement obj_Splitsfont_Tweaker
+
+March 17
+- tweak title
 
 - implement Credits screen
 	- x spots in a grid on the screen
