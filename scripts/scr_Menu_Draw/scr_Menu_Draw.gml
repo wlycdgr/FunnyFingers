@@ -5,7 +5,7 @@ with (argument0) {
 	for (var i = 0; i < item_count; i++) {
 		scr_Splitsfont_Draw_String(
 			label_strings[i],
-			label_x_positions[i], label_y_positions[i]
+			label_x_paths[i].value, label_y_positions[i]
 		);
 	}
 }

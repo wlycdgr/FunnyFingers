@@ -25,6 +25,9 @@ with (new_menu) {
 	label_states[0] = menu_item_state_selected;
 	label_font_weights[0] = menu_item_font_weight_max;
 	
+	slide_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
+	var slide_direction = choose(slide_left, slide_right);
+	
 	for (var i = 0; i < item_count; i++) {
 		scr_Splitsfont_Set_Tweaks(
 			label_strings[i],
@@ -37,9 +40,15 @@ with (new_menu) {
 			]
 		);
 		
-		label_x_positions[i] =
-			window_x_center -
-			(scr_Splitsfont_Get_Width(label_strings[i]) / 2);
+		label_x_paths[i] = scr_SlideTween_Add_Default_Path(
+			slide_tween, label_strings[i], slide_direction);
+			
+		if (slide_right == slide_direction) {
+			slide_direction = slide_left;
+		}
+		else {
+			slide_direction = slide_right;
+		}
 	}
 }
 
