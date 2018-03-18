@@ -63,10 +63,10 @@ if (
 }
 else { difficulty_menu_labels[4] = "?????????"; }
 
-difficulty_menu_labels[5] = "MAIN MENU";
+difficulty_menu_labels[5] = "BACK";
 
 difficulty_menu = scr_Menu_NEW(
-	window_x_center, 550,
+	window_x_center, 0.65 * window_height,
 	difficulty_menu_labels
 );
 difficulty_menu.active = false;

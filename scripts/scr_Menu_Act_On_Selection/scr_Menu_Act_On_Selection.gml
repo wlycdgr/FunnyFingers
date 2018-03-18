@@ -14,8 +14,12 @@ case "COOL":
 		steam_leaderboard = steam_leaderboard_cool;
 		difficulty = game_difficulty_cool;
 	}
-	scr_Fade_To(r_Gameplay);
+	
+	global.room_state_tracker.state = rs_room_change_requested;
+	global.room_state_tracker.target_room = r_Gameplay;
+	
 	break;
+	
 case "EASY":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_easy;
@@ -23,8 +27,12 @@ case "EASY":
 		steam_leaderboard = steam_leaderboard_easy;
 		difficulty = game_difficulty_easy;
 	}
-	scr_Fade_To(r_Gameplay);
+	
+	global.room_state_tracker.state = rs_room_change_requested;
+	global.room_state_tracker.target_room = r_Gameplay;
+	
 	break;
+	
 case "MEDIUM":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_medium;
@@ -32,8 +40,12 @@ case "MEDIUM":
 		steam_leaderboard = steam_leaderboard_medium;
 		difficulty = game_difficulty_medium;
 	}
-	scr_Fade_To(r_Gameplay);
+	
+	global.room_state_tracker.state = rs_room_change_requested;
+	global.room_state_tracker.target_room = r_Gameplay;
+	
 	break;
+	
 case "HARD":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_hard;
@@ -41,13 +53,19 @@ case "HARD":
 		steam_leaderboard = steam_leaderboard_hard;
 		difficulty = game_difficulty_hard;
 	}
-	scr_Fade_To(r_Gameplay);
+	
+	global.room_state_tracker.state = rs_room_change_requested;
+	global.room_state_tracker.target_room = r_Gameplay;
+	
 	break;
+	
 case "??????":
 case "????":
 case "?????????":
 	argument0.active = true;
+	
 	break;
+	
 case "DIFFICULT":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_difficult;
@@ -55,7 +73,18 @@ case "DIFFICULT":
 		steam_leaderboard = steam_leaderboard_difficult;
 		difficulty = game_difficulty_difficult;
 	}
-	scr_Fade_To(r_Gameplay);
+	
+	global.room_state_tracker.state = rs_room_change_requested;
+	global.room_state_tracker.target_room = r_Gameplay;
+	
+	break;
+
+case "BACK":
+	with (global.main_menu_controller) {
+		main_menu.active = true;
+		difficulty_menu.active = false;
+	}
+	
 	break;
 	
 // other menus
@@ -65,8 +94,9 @@ case "CONTINUE":
 case "CREDITS":
 	global.room_state_tracker.state = rs_room_change_requested;
 	global.room_state_tracker.target_room = r_Credits;
-	// scr_Fade_To(r_Credits);
+	
 	break;
+	
 case "EXIT":
 	game_end();
 	break;

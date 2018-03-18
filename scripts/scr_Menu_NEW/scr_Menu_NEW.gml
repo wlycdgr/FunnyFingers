@@ -26,6 +26,8 @@ with (new_menu) {
 	label_font_weights[0] = menu_item_font_weight_max;
 	
 	slide_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
+	slide_tween.close_enough *= 0.2;
+	
 	var slide_direction = choose(slide_left, slide_right);
 	
 	for (var i = 0; i < item_count; i++) {

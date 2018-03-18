@@ -16,13 +16,19 @@ case rs_normal_room_operations:
 
 case rs_room_change_requested:
 	scr_SlideTween_Force_Slide_Out(title_tween);
+	scr_SlideTween_Force_Slide_Out(main_menu.slide_tween);
+	scr_SlideTween_Force_Slide_Out(difficulty_menu.slide_tween);
 
 	global.room_state_tracker.state = rs_breaking_down_room;
 	
 	break;
 	
 case rs_breaking_down_room:
-	if (title_tween.complete) {
+	if (
+		title_tween.complete &&
+		main_menu.slide_tween.complete &&
+		difficulty_menu.slide_tween.complete
+	) {
 		room_goto(global.room_state_tracker.target_room);
 	}
 
