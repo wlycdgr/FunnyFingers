@@ -78,81 +78,77 @@
 
 
 // SECOND SCREEN STUFF
-var second_screen_texts = [
-	"SPECIAL THANKS:",
-	
-	"SERGE ZAREMBSKY",
-	"NATALIE VAYKUS ZAREMBSKY",
-	"ERIC ZIMMERMAN",
-	"DAN TOROP",
-	"CHARLES PRATT",
-	"FRANK LANTZ",
-	"BENNETT FODDY",
-	"MARK ZUCKERBERG",
-	"RAY RAYLIB SAN"
-];
+screen_texts[1, 0] = "SPECIAL THANKS:";
+screen_texts[1, 1] = "SERGE ZAREMBSKY";
+screen_texts[1, 2] = "NATALIE VAYKUS ZAREMBSKY";
+screen_texts[1, 3] = "ERIC ZIMMERMAN";
+screen_texts[1, 4] = "DAN TOROP";
+screen_texts[1, 5] = "CHARLES PRATT";
+screen_texts[1, 6] = "FRANK LANTZ";
+screen_texts[1, 7] = "BENNETT FODDY";
+screen_texts[1, 8] = "MARK ZUCKERBERG";
+screen_texts[1, 9] = "RAY RAYLIB SAN";
 
-var second_screen_tweaks = [
-	[0.03, 0.001, 0.01, 0, 0], // SPECIAL THANKS:
-	
-	[0.04, 0.007, 0.01, 0, 30], // SERGE ZAREMBSKY
-	[0.04, 0.007, 0.01, 0, -30], // NATALIE VAYKUS ZAREMBSKY
-	[0.04, 0.007, 0.01, 0, 30], // ERIC ZIMMERMAN
-	[0.04, 0.007, 0.01, 0, -30], // DAN TOROP
-	[0.04, 0.007, 0.01, 0, 30], // CHARLES PRATT
-	[0.04, 0.007, 0.01, 0, -30], // FRANK LANTZ
-	[0.04, 0.007, 0.01, 0, 30], // BENNETT FODDY
-	[0.04, 0.007, 0.01, 0, 0], // MARK ZUCKERBERG
-	[0.04, 0.007, 0.01, 0, 30] // RAY RAYLIB SAN
-];
+screen_tweaks[1, 0] = [0.03, 0.001, 0.01, 0, 0]; // SPECIAL THANKS:
+screen_tweaks[1, 1] = [0.04, 0.007, 0.01, 0, 30]; // SERGE ZAREMBSKY
+screen_tweaks[1, 2] = [0.04, 0.007, 0.01, 0, -30]; // NATALIE VAYKUS ZAREMBSKY
+screen_tweaks[1, 3] = [0.04, 0.007, 0.01, 0, 30]; // ERIC ZIMMERMAN
+screen_tweaks[1, 4] = [0.04, 0.007, 0.01, 0, -30]; // DAN TOROP
+screen_tweaks[1, 5] = [0.04, 0.007, 0.01, 0, 30]; // CHARLES PRATT
+screen_tweaks[1, 6] = [0.04, 0.007, 0.01, 0, -30]; // FRANK LANTZ
+screen_tweaks[1, 7] = [0.04, 0.007, 0.01, 0, 30]; // BENNETT FODDY
+screen_tweaks[1, 8] = [0.04, 0.007, 0.01, 0, 0]; // MARK ZUCKERBERG
+screen_tweaks[1, 9] = [0.04, 0.007, 0.01, 0, 30]; // RAY RAYLIB SAN	
 
-second_screen_string_y_positions = [
-	0.1 * window_height, // SPECIAL THANKS:
-	
-	0.2 * window_height, // SERGE ZAREMBSKY
-	0.28 * window_height, // NATALIE VAYKUS ZAREMBSKY
-	0.36 * window_height, // ERIC ZIMMERMAN
-	0.44 * window_height, // DAN TOROP
-	0.52 * window_height, // CHARLES PRATT
-	0.60 * window_height, // FRANK LANTZ
-	0.68 * window_height, // BENNETT FODDY
-	0.76 * window_height, // MARK ZUCKERBERG
-	0.84 * window_height // RAY RAYLIB SAN
-];
+screen_string_y_positions[1, 0] = 0.1 * window_height; // SPECIAL THANKS:
+screen_string_y_positions[1, 1] = 0.2 * window_height; // SERGE ZAREMBSKY
+screen_string_y_positions[1, 2] = 0.28 * window_height; // NATALIE VAYKUS ZAREMBSKY
+screen_string_y_positions[1, 3] = 0.36 * window_height; // ERIC ZIMMERMAN
+screen_string_y_positions[1, 4] = 0.44 * window_height; // DAN TOROP
+screen_string_y_positions[1, 5] = 0.52 * window_height; // CHARLES PRATT
+screen_string_y_positions[1, 6] = 0.60 * window_height; // FRANK LANTZ
+screen_string_y_positions[1, 7] = 0.68 * window_height; // BENNETT FODDY
+screen_string_y_positions[1, 8] = 0.76 * window_height; // MARK ZUCKERBERG
+screen_string_y_positions[1, 9] = 0.84 * window_height; // RAY RAYLIB SAN
 
-var second_screen_slide_directions = [
-	slide_right, // SPECIAL THANKS
-	
-	slide_left, // SERGE ZAREMBSKY
-	slide_left, // NATALIE VAYKUS ZAREMBSKY
-	slide_right, // ERIC ZIMMERMAN
-	slide_left, // DAN TOROP
-	slide_right, // CHARLES PRATT
-	slide_left, // FRANK LANTZ
-	slide_right, // BENNETT FODDY
-	slide_left, // MARK ZUCKERBERG
-	slide_right, // RAY RAYLIB SAN
-];
-	
-second_screen_strings_len = array_length_1d(second_screen_texts);
+screen_slide_directions[1, 0] = slide_right; // SPECIAL THANKS
+screen_slide_directions[1, 1] = slide_left; // SERGE ZAREMBSKY
+screen_slide_directions[1, 2] = slide_left; // NATALIE VAYKUS ZAREMBSKY
+screen_slide_directions[1, 3] = slide_right; // ERIC ZIMMERMAN
+screen_slide_directions[1, 4] = slide_left; // DAN TOROP
+screen_slide_directions[1, 5] = slide_right; // CHARLES PRATT
+screen_slide_directions[1, 6] = slide_left; // FRANK LANTZ
+screen_slide_directions[1, 7] = slide_right; // BENNETT FODDY
+screen_slide_directions[1, 8] = slide_left; // MARK ZUCKERBERG
+screen_slide_directions[1, 9] = slide_right; // RAY RAYLIB SAN
 
-second_screen_strings_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
+screen_strings_lengths[1] = array_length_2d(screen_texts, 1);
 
-var second_screen_string = 0;
-for (var i = 0; i < second_screen_strings_len; i++) {
-	second_screen_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-	
-	scr_Splitsfont_Set_Text(second_screen_string, second_screen_texts[i]);
-	scr_Splitsfont_Set_Tweaks(second_screen_string, second_screen_tweaks[i]);
-	
-	second_screen_string_x_paths[i] = scr_SlideTween_Add_Default_Path(
-		second_screen_strings_tween,
-		second_screen_string,
-		second_screen_slide_directions[i]
-	);
-	
-	second_screen_strings[i] = second_screen_string;
+screen_string_tweens[1] = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
+
+var screen_string = 0;
+var screen_count = 2;
+for (var i = 1; i < screen_count; i++) {
+	if (1 != i) continue;
+		
+	for (var j = 0; j < screen_strings_lengths[i]; j++) {
+		screen_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+		
+		scr_Splitsfont_Set_Text(screen_string, screen_texts[i, j]);
+		scr_Splitsfont_Set_Tweaks(screen_string, screen_tweaks[i, j]);
+		
+		screen_string_x_paths[i, j] = scr_SlideTween_Add_Default_Path(
+			screen_string_tweens[i],
+			screen_string,
+			screen_slide_directions[i, j]
+		);
+		
+		screen_strings[i, j] = screen_string;
+	}
 }
+
+
+//second_screen_strings_tween.active = false;
 
 //sf_tweaker = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_Tweaker);
 //var second_screen_string = 0;

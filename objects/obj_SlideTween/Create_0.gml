@@ -13,3 +13,5 @@ paths = -1;
 
 complete = false;
 paused = false;
+
+active = true;
