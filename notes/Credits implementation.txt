@@ -1,8 +1,14 @@
-/// @description Init
-funny_fingers = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-scr_Splitsfont_Set_Text(funny_fingers, "FUNNY FINGERS");
+A column of 10 slots
 
-funny_fingers_y = 100;
+At the beginning, we fill the slots with names
+Each name grows from nothing, stays at max size for a base amount of time + any KS bonus,
+then shrinks down to nothing
+When it's shrunk down to nothing, that slot is marked as free
+Every time that happens, we call an event that grabs the next name and puts it in that slot
+
+string_index = 0
+
+
 
 backer_names_and_size_bonuses = [
 	["SHOSHANA KESSOCK", 3],
@@ -216,54 +222,3 @@ backer_names_and_size_bonuses = [
 	["ZENA HENKIN", 100],
 	["VECTORPARK", 100]
 ];
-
-backer_count = array_length_1d(backer_names_and_size_bonuses);
-var backer_string = -1;
-var backer_infos = -1;
-
-for (var i = 0; i < backer_count; i++) {
-	backer_infos = backer_names_and_size_bonuses[i];
-	
-	backer_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-	
-	scr_Splitsfont_Set_Text(backer_string, backer_infos[0]);
-	scr_Splitsfont_Set_Weight(backer_string, 0.002);
-	scr_Splitsfont_Set_Size(backer_string, 0.02);
-	
-	backer_string_x_positions[i] = 
-		window_x_center - 
-		(scr_Splitsfont_Get_Width(backer_string) / 2);
-	
-	backer_string_y_offsets[i] = i * (0.075 * window_height);
-	
-	backer_strings[i] = backer_string;
-	
-	backer_bonuses[i] = backer_infos[1] * 10;
-}
-
-
-var backer_tweens_y_top = 0.2 * window_height;
-var backer_tweens_slot_height = 0.05 * window_height;
-var backer_tween = 0;
-var backer_tween_direction = choose(slide_left, slide_right);
-for (var i = 0; i < 15; i++) {
-	backer_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
-	backer_tween.close_enough *= 0.05;
-	
-	backer_tween_strings[i] = backer_strings[i];
-	backer_tween_x_paths[i] = 
-		scr_SlideTween_Add_Default_Path(backer_tween, backer_strings[i], backer_tween_direction);
-	backer_tweens[i] = backer_tween;
-	backer_tween_y_positions[i] = backer_tweens_y_top + backer_tweens_slot_height * i;
-	backer_tween_pauses[i] = backer_bonuses[i];
-	
-	if (slide_left == backer_tween_direction) {
-		backer_tween_direction = slide_right;
-	}
-	else {
-		backer_tween_direction = slide_left;
-	}
-}
-
-backer_tween_strings_count = array_length_1d(backer_tween_strings);
-backer_string_index = 15;

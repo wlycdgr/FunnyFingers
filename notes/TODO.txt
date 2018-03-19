@@ -336,7 +336,16 @@ March 16
 - DONE implement obj_Splitsfont_Tweaker
 
 March 17
-- tweak title
+- DONE tweak title string
+- DONE implement title string animation
+- DONE implement menu item animation
+- DONE tweak menu item splitsfont settings
+- DONE implement menu scrolling animation
+
+
+- Credits screen
+	- 
+
 
 - implement Credits screen
 	- x spots in a grid on the screen
@@ -357,9 +366,6 @@ which causes any other reds or blues you come in contact with during that time t
 	- danger danger
 	- armor
 - tweakdebug danger danger movement so it matches up better
-- menu animation
-	- item selection / deselection (kern tween)
-	- item SELECT (rotate speed tween)
 - score animation
 	- spin at rate proportional to distance to target score
 - BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
@@ -377,4 +383,3 @@ achievement, so we don't need to check whether we should unlock it all the time 
 
 KS:
 - implement Kickstarter backers can unlock everything right away by typing their last name in three times at the title screen
-- implement Credits
