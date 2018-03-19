@@ -37,5 +37,7 @@
 //}
 
 
-// Only the title is animated on the first screen
-scr_Splitsfont_Rotate_String(first_screen_strings[0]);
+//// Only the title is animated on the first screen
+//scr_Splitsfont_Rotate_String(first_screen_strings[0]);
+
+// Nothing is animated on the second screen

@@ -1,102 +1,168 @@
 /// @description Init
-current_screen = 0;
+//current_screen = 0;
 
-var first_screen_texts = [
-	"FUNNY FINGERS",
+//// FIRST SCREEN STUFF
+//var first_screen_texts = [
+//	"FUNNY FINGERS",
 	
-	"A SIMPLE GAME",
-	"FOR 2 TO 10 FINGERS",
+//	"A SIMPLE GAME",
+//	"FOR 2 TO 10 FINGERS",
 	
-	"DESIGN AND CODE BY",
-	"ILYA ZAREMBSKY",
+//	"DESIGN AND CODE BY",
+//	"ILYA ZAREMBSKY",
 	
-	"SPRITES AND SOUNDS BY",
-	"MARLEY HALL"
-];
+//	"SPRITES AND SOUNDS BY",
+//	"MARLEY HALL"
+//];
 
-var first_screen_tweaks = [
-	[0.12, 0.021, 0.025, 90, 0], // FUNNY FINGERS
+//var first_screen_tweaks = [
+//	[0.12, 0.021, 0.025, 90, 0], // FUNNY FINGERS
 	
-	[0.03, 0.003, 0.02, 0, 0], // A SIMPLE GAME
-	[0.03, 0.003, 0.02, 0, 0], // FOR 2 TO 10 FINGERS
+//	[0.03, 0.003, 0.02, 0, 0], // A SIMPLE GAME
+//	[0.03, 0.003, 0.02, 0, 0], // FOR 2 TO 10 FINGERS
 	
-	[0.03, 0.001, 0.01, 0, 0], // DESIGN AND CODE BY
-	[0.04, 0.007, 0.01, 0, 0], // ILYA ZAREMBSKY
+//	[0.03, 0.001, 0.01, 0, 0], // DESIGN AND CODE BY
+//	[0.04, 0.007, 0.01, 0, 0], // ILYA ZAREMBSKY
 	
-	[0.03, 0.001, 0.01, 0, 0], // SPRITES AND SOUNDS BY
-	[0.04, 0.007, 0.01, 0, 0] // MARLEY HALL
-];
+//	[0.03, 0.001, 0.01, 0, 0], // SPRITES AND SOUNDS BY
+//	[0.04, 0.007, 0.01, 0, 0] // MARLEY HALL
+//];
 	
-first_screen_string_y_positions = [
-	0.1 * window_height, // FUNNY FINGERS
+//first_screen_string_y_positions = [
+//	0.1 * window_height, // FUNNY FINGERS
 	
-	0.32 * window_height, // A SIMPLE GAME
-	0.385 * window_height, // FOR 2 TO 10 FINGERS
+//	0.32 * window_height, // A SIMPLE GAME
+//	0.385 * window_height, // FOR 2 TO 10 FINGERS
 	
-	0.566 * window_height, // DESIGN AND CODE BY
-	0.63 * window_height, // ILYA ZAREMBSKY
+//	0.566 * window_height, // DESIGN AND CODE BY
+//	0.63 * window_height, // ILYA ZAREMBSKY
 	
-	0.775 * window_height, // SPRITES AND SOUNDS BY
-	0.84 * window_height // MARLEY HALL
-];
+//	0.775 * window_height, // SPRITES AND SOUNDS BY
+//	0.84 * window_height // MARLEY HALL
+//];
 
-var first_screen_slide_directions = [
-	slide_right, // FUNNY FINGERS
+//var first_screen_slide_directions = [
+//	slide_right, // FUNNY FINGERS
 	
-	slide_left, // A SIMPLE GAME
-	slide_left, // FOR 2 TO 10 FINGERS
+//	slide_left, // A SIMPLE GAME
+//	slide_left, // FOR 2 TO 10 FINGERS
 	
-	slide_right, // DESIGN AND CODE BY
-	slide_left, // ILYA ZAREMBSKY
+//	slide_right, // DESIGN AND CODE BY
+//	slide_left, // ILYA ZAREMBSKY
 	
-	slide_right, // SPRITES AND SOUNDS BY
-	slide_left // MARLEY HALL
-];
+//	slide_right, // SPRITES AND SOUNDS BY
+//	slide_left // MARLEY HALL
+//];
 
-first_screen_strings_len = array_length_1d(first_screen_texts);
+//first_screen_strings_len = array_length_1d(first_screen_texts);
 
-first_screen_strings_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
-
-var first_screen_string = 0;
-for (var i = 0; i < first_screen_strings_len; i++) {
-	first_screen_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-	
-	scr_Splitsfont_Set_Text(first_screen_string, first_screen_texts[i]);
-	scr_Splitsfont_Set_Tweaks(first_screen_string, first_screen_tweaks[i]);
-	
-	first_screen_string_x_paths[i] = scr_SlideTween_Add_Default_Path(
-		first_screen_strings_tween,
-		first_screen_string,
-		first_screen_slide_directions[i]
-	);
-	
-	first_screen_strings[i] = first_screen_string;
-}
-
-//var first_screen_texts_len = array_length_1d(first_screen_texts);
+//first_screen_strings_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
 
 //var first_screen_string = 0;
-
-//sf_tweaker = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_Tweaker);
-
-//for (var i = 0; i < first_screen_texts_len; i++) {
+//for (var i = 0; i < first_screen_strings_len; i++) {
 //	first_screen_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+	
 //	scr_Splitsfont_Set_Text(first_screen_string, first_screen_texts[i]);
-//	scr_Splitsfont_Tweaker_Add_String(sf_tweaker, first_screen_string);
+//	scr_Splitsfont_Set_Tweaks(first_screen_string, first_screen_tweaks[i]);
+	
+//	first_screen_string_x_paths[i] = scr_SlideTween_Add_Default_Path(
+//		first_screen_strings_tween,
+//		first_screen_string,
+//		first_screen_slide_directions[i]
+//	);
+	
+//	first_screen_strings[i] = first_screen_string;
 //}
 
-//FIRST SCREEN
-//Funny Fingers
-//A The Splits Game
+// END FIRST SCREEN STUFF
 
-//A simple game
-//For 2 to 10 fingers
 
-//Design and code by
-//Ilya Zarembsky
+// SECOND SCREEN STUFF
+var second_screen_texts = [
+	"SPECIAL THANKS:",
+	
+	"SERGE ZAREMBSKY",
+	"NATALIE VAYKUS ZAREMBSKY",
+	"ERIC ZIMMERMAN",
+	"DAN TOROP",
+	"CHARLES PRATT",
+	"FRANK LANTZ",
+	"BENNETT FODDY",
+	"MARK ZUCKERBERG",
+	"RAY RAYLIB SAN"
+];
 
-//Sprites and sounds by
-//Marley Hall
+var second_screen_tweaks = [
+	[0.03, 0.001, 0.01, 0, 0], // SPECIAL THANKS:
+	
+	[0.04, 0.007, 0.01, 0, 30], // SERGE ZAREMBSKY
+	[0.04, 0.007, 0.01, 0, -30], // NATALIE VAYKUS ZAREMBSKY
+	[0.04, 0.007, 0.01, 0, 30], // ERIC ZIMMERMAN
+	[0.04, 0.007, 0.01, 0, -30], // DAN TOROP
+	[0.04, 0.007, 0.01, 0, 30], // CHARLES PRATT
+	[0.04, 0.007, 0.01, 0, -30], // FRANK LANTZ
+	[0.04, 0.007, 0.01, 0, 30], // BENNETT FODDY
+	[0.04, 0.007, 0.01, 0, 0], // MARK ZUCKERBERG
+	[0.04, 0.007, 0.01, 0, 30] // RAY RAYLIB SAN
+];
+
+second_screen_string_y_positions = [
+	0.1 * window_height, // SPECIAL THANKS:
+	
+	0.2 * window_height, // SERGE ZAREMBSKY
+	0.28 * window_height, // NATALIE VAYKUS ZAREMBSKY
+	0.36 * window_height, // ERIC ZIMMERMAN
+	0.44 * window_height, // DAN TOROP
+	0.52 * window_height, // CHARLES PRATT
+	0.60 * window_height, // FRANK LANTZ
+	0.68 * window_height, // BENNETT FODDY
+	0.76 * window_height, // MARK ZUCKERBERG
+	0.84 * window_height // RAY RAYLIB SAN
+];
+
+var second_screen_slide_directions = [
+	slide_right, // SPECIAL THANKS
+	
+	slide_left, // SERGE ZAREMBSKY
+	slide_left, // NATALIE VAYKUS ZAREMBSKY
+	slide_right, // ERIC ZIMMERMAN
+	slide_left, // DAN TOROP
+	slide_right, // CHARLES PRATT
+	slide_left, // FRANK LANTZ
+	slide_right, // BENNETT FODDY
+	slide_left, // MARK ZUCKERBERG
+	slide_right, // RAY RAYLIB SAN
+];
+	
+second_screen_strings_len = array_length_1d(second_screen_texts);
+
+second_screen_strings_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
+
+var second_screen_string = 0;
+for (var i = 0; i < second_screen_strings_len; i++) {
+	second_screen_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+	
+	scr_Splitsfont_Set_Text(second_screen_string, second_screen_texts[i]);
+	scr_Splitsfont_Set_Tweaks(second_screen_string, second_screen_tweaks[i]);
+	
+	second_screen_string_x_paths[i] = scr_SlideTween_Add_Default_Path(
+		second_screen_strings_tween,
+		second_screen_string,
+		second_screen_slide_directions[i]
+	);
+	
+	second_screen_strings[i] = second_screen_string;
+}
+
+//sf_tweaker = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_Tweaker);
+//var second_screen_string = 0;
+//for (var i = 0; i < second_screen_texts_len; i++) {
+//	second_screen_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+//	scr_Splitsfont_Set_Text(second_screen_string, second_screen_texts[i]);
+//	scr_Splitsfont_Tweaker_Add_String(sf_tweaker, second_screen_string);
+//}
+
+
 
 
 
