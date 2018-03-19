@@ -1,12 +1,49 @@
-A column of 10 slots
+FIRST SCREEN
+Funny Fingers
+A The Splits Game
 
-At the beginning, we fill the slots with names
-Each name grows from nothing, stays at max size for a base amount of time + any KS bonus,
-then shrinks down to nothing
-When it's shrunk down to nothing, that slot is marked as free
-Every time that happens, we call an event that grabs the next name and puts it in that slot
+A simple game
+For 2 to 10 fingers
 
-string_index = 0
+Design and code by
+Ilya Zarembsky
+
+Sprites and sounds by
+Marley Hall
+
+
+SECOND SCREEN
+Special Thanks
+
+Serge Zarembsky
+Natalie Vaykus Zarembsky
+Eric Zimmerman
+Dan Torop
+Charles Pratt
+Frank Lantz
+Bennett Foddy
+Ray RAYLIB San
+Mark Zuckerberg
+
+
+THIRD SCREEN
+Extra Special Thanks
+To All Of The Generous and Patient
+Kickstarter Backers
+
+[ list of backers slides through]
+
+
+FINAL SCREEN
+Funny Fingers
+A The Splits Game
+1ST OF 6
+
+
+
+- tweak the backer font and the funny fingers font
+
+
 
 
 

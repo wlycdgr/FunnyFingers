@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "45cc41eb-e6ad-4495-b1fc-cec240782e8e",
+            "Value": {
+                "id": "13be412d-b648-44a1-a5f5-af4b59f47bc5",
+                "resourcePath": "fonts\\arial_8pt\\arial_8pt.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "4af61e27-d101-41cd-b8ff-356470a46883",
             "Value": {
                 "id": "aef8ef5c-782e-42d0-a3b3-c0a28f3ec3a4",

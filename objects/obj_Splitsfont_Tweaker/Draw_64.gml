@@ -1,11 +1,13 @@
 /// @description Draw tweak menu
 if (!draw_tweak_info) exit;
 
+draw_set_font(arial_8pt);
+
 var section_top_y = 0;
 
 for (var i = 0; i < sf_strings_count; i++) {
 	draw_set_color(c_black);
-	section_top_y = 30 + i * 120;
+	section_top_y = 10 + i * 90;
 	draw_text(
 		5, section_top_y,
 		"String " + string(i) + ": "
@@ -22,7 +24,7 @@ for (var i = 0; i < sf_strings_count; i++) {
 		}
 		
 		draw_text(
-			5, section_top_y + 15 + 15 * (j - j_start),
+			5, section_top_y + 12 + 12 * (j - j_start),
 			menu_labels[j - j_start] + string(100 * values[j])
 		);
 	}
