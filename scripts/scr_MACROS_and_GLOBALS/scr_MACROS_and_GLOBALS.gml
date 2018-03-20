@@ -203,6 +203,8 @@ global.core_funny_finger_grow_time_in_sec =
 #macro menu_item_font_weight_min 0.001
 #macro menu_item_font_weight_max 0.004
 #macro menu_item_font_weight_change_proportion_per_frame 0.2
+#macro menu_is_tweened true
+#macro menu_is_not_tweened false
 
 #macro gs_fading_in 0
 #macro gs_fading_out 1

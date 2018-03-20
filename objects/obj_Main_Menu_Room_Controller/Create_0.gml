@@ -16,7 +16,8 @@ title_x_paths[1] = scr_SlideTween_Add_Default_Path(title_tween, fingers, slide_r
 
 main_menu = scr_Menu_NEW(
 	window_x_center, 0.75 * window_height,
-	["PLAY", "CREDITS", "EXIT"]
+	["PLAY", "CREDITS", "EXIT"],
+	menu_is_tweened
 );
 
 difficulty_menu_labels[0] = "COOL";
@@ -56,6 +57,7 @@ difficulty_menu_labels[5] = "BACK";
 
 difficulty_menu = scr_Menu_NEW(
 	window_x_center, 0.65 * window_height,
-	difficulty_menu_labels
+	difficulty_menu_labels,
+	menu_is_tweened
 );
 difficulty_menu.active = false;
