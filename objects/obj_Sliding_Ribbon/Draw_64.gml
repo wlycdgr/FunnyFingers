@@ -16,3 +16,5 @@ scr_Splitsfont_Draw_String(
 
 // Draw the ribbon menu
 scr_Menu_Draw(menu);
+
+draw_text(5, 700, "Menu relative y: " + string(menu.y - y));

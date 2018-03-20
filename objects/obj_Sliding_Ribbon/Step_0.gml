@@ -1,6 +1,14 @@
 /// @description Slide in/out
 if (global.steam_overlay_activated) exit;
 
+
+if (keyboard_check_pressed(ord("K"))) {
+	menu.y += 1;
+}
+else if (keyboard_check_pressed(ord("I"))) {
+	menu.y -= 1;
+}
+
 // rms_inactive, rms_selection_made: do nothing!
 if (state == srs_sliding_in || state == srs_sliding_out) {
 	menu.x = x + (sliding_ribbon_width / 2);

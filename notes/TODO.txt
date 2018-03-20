@@ -342,15 +342,17 @@ March 17
 - DONE tweak menu item splitsfont settings
 - DONE implement menu scrolling animation
 
+March 18-20
+- DONE implement Credits screen
 
-- Credits screen
-	- 
+March 21
+tweak splitsfont and positions for menu ribbon header and menu
+tweak score display
+tweak multiplier display
+tweak frames display
 
-
-- implement Credits screen
-	- x spots in a grid on the screen
-	- each name displays for Y seconds, + some amount of time for bonus $, in one of the grid slots
-- CirclMaster quote displays on Credits screen if you have unlocked Level 99 achievement
+- show CirclMaster quote if at the end of a Cool run player has unlocked the Level 99 achievement
+	- keep track of whether we have shown it and only show it one time
 
 - add missing glyphs necessary to support CirclMaster quote: ;.,[]"-
 - make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
@@ -366,8 +368,7 @@ which causes any other reds or blues you come in contact with during that time t
 	- danger danger
 	- armor
 - tweakdebug danger danger movement so it matches up better
-- score animation
-	- spin at rate proportional to distance to target score
+
 - BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
 - handle steam failing to upload score
 - add checks so that game does not break if any sprite asset is not available or misnamed
