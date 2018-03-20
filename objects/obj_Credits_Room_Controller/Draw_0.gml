@@ -20,12 +20,12 @@
 //	);
 //}
 
-
-
-for (var i = 0; i < screen_strings_lengths[1]; i++) {
+var number_of_strings_on_this_screen = 
+	screen_strings_lengths[screen_index];
+for (var i = 0; i < number_of_strings_on_this_screen; i++) {
 	scr_Splitsfont_Draw_String(
-		screen_strings[1, i],
-		screen_string_x_paths[1, i].value,
-		screen_string_y_positions[1, i]
+		screen_strings[screen_index, i],
+		screen_string_x_paths[screen_index, i].value,
+		screen_string_y_positions[screen_index, i]
 	);
 }

@@ -41,3 +41,24 @@
 //scr_Splitsfont_Rotate_String(first_screen_strings[0]);
 
 // Nothing is animated on the second screen
+
+var number_of_strings_on_this_screen = screen_strings_lengths[screen_index];
+for (var i = 0; i < number_of_strings_on_this_screen; i++) {
+	scr_Splitsfont_Rotate_String(screen_strings[screen_index, i]);
+}
+
+switch(screen_index) {
+case 0:
+	if (screen_string_tweens[0].paused) {
+		screen_string_tweens[0].paused = false;
+	}
+	else if (screen_string_tweens[0].complete) {
+		screen_index = 1;
+		screen_string_tweens[0].active = false;
+		screen_string_tweens[1].active = true;
+	}
+	break;
+	
+case 1:
+	break;
+}
