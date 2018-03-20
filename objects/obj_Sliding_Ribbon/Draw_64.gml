@@ -17,4 +17,9 @@ scr_Splitsfont_Draw_String(
 // Draw the ribbon menu
 scr_Menu_Draw(menu);
 
-draw_text(5, 700, "Menu relative y: " + string(menu.y - y));
+
+//draw_text(5, 600, "size: " + string(header_font_size * 100));
+//draw_text(5, 620, "weight: " + string(header_font_weight * 100));
+//draw_text(5, 640, "kern: " + string(header_font_kern * 100));
+//draw_text(5, 660, "angle: " + string(header_font_kern * 100));
+//draw_text(5, 680, "relative y: " + string(header_string_y - y));

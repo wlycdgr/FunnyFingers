@@ -1,13 +1,45 @@
 /// @description Slide in/out
 if (global.steam_overlay_activated) exit;
 
+//if (keyboard_check_pressed(ord("P"))){
+//	header_font_size += 0.01;
+//}
+//else if (keyboard_check_pressed(ord("O"))){
+//	header_font_weight += 0.001;
+//}
+//else if (keyboard_check_pressed(ord("I"))){
+//	header_font_kern += 0.01;
+//}
+//else if (keyboard_check_pressed(ord("U"))){
+//	header_font_angle += 1;
+//}
 
-if (keyboard_check_pressed(ord("K"))) {
-	menu.y += 1;
-}
-else if (keyboard_check_pressed(ord("I"))) {
-	menu.y -= 1;
-}
+//else if (keyboard_check_pressed(ord("Q"))){
+//	header_font_size -= 0.01;
+//}
+//else if (keyboard_check_pressed(ord("W"))){
+//	header_font_weight -= 0.001;
+//}
+//else if (keyboard_check_pressed(ord("E"))){
+//	header_font_kern -= 0.01;
+//}
+//else if (keyboard_check_pressed(ord("R"))){
+//	header_font_angle -= 1;
+//}
+
+//scr_Splitsfont_Set_Tweaks(header_string, [header_font_size, header_font_weight, header_font_kern, header_font_angle, 0]);
+
+//header_string_x_offset = 
+//	(sliding_ribbon_width / 2) -
+//	(scr_Splitsfont_Get_Width(header_string) / 2);
+//header_string_x = x + header_string_x_offset;
+
+//if (keyboard_check_pressed(ord("C"))) {
+//	header_string_y += 1;
+//}
+//else if (keyboard_check_pressed(ord("D"))) {
+//	header_string_y -= 1;
+//}
 
 // rms_inactive, rms_selection_made: do nothing!
 if (state == srs_sliding_in || state == srs_sliding_out) {
