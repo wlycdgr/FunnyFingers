@@ -5,7 +5,9 @@ draw_set_font(arial_8pt);
 
 var section_top_y = 0;
 
-for (var i = 0; i < 7; i++) {
+var seven_or_total = min(7, sf_strings_count);
+
+for (var i = 0; i < seven_or_total; i++) {
 	draw_set_color(c_black);
 	section_top_y = 10 + i * 90;
 	draw_text(

@@ -84,7 +84,10 @@ else if (2 == screen_index) {
 			screen_string_tweens[screen_index].paused = false;
 		}
 		else if (screen_string_tweens[screen_index].complete) {
-			screen_index = 3;
+			screen_string_tweens[screen_index].active = false;
+			screen_index += 1;
+			screen_string_tweens[screen_index].active = true;
+			screen_index = 3
 		}
 	}
 }

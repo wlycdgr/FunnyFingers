@@ -89,36 +89,33 @@ screen_texts[2, 2] = "KICKSTARTER BACKERS:";
 screen_tweaks[2, 0] = [0.03, 0.001, 0.01, 0, 0]; // EXTRA SPECIAL THANKS
 screen_tweaks[2, 1] = [0.03, 0.001, 0.01, 0, 0]; // TO ALL THE GENEROUS AND PATIENT
 screen_tweaks[2, 2] = [0.03, 0.001, 0.01, 0, 0]; // KICKSTARTER BACKERS: 
-//screen_tweaks[2, 3] = [0.04, 0.007, 1.00, 0, 0]; // [BACKER NAME]
-//screen_tweaks[2, 4] = [0.04, 0.007, 1.00, 0, 0]; // [BACKER NAME] 
-//screen_tweaks[2, 5] = [0.04, 0.007, 1.00, 0, 0]; // [BACKER NAME] 
-//screen_tweaks[2, 6] = [0.04, 0.007, 1.00, 0, 0]; // [BACKER NAME] 
-//screen_tweaks[2, 7] = [0.04, 0.007, 1.00, 0, 0]; // [BACKER NAME] 
-//screen_tweaks[2, 8] = [0.04, 0.007, 1.00, 0, 0]; // [BACKER NAME] 
-//screen_tweaks[2, 9] = [0.04, 0.007, 1.00, 0, 0]; // [BACKER NAME]
 
 screen_string_y_positions[2, 0] = 0.1 * window_height; // EXTRA SPECIAL THANKS
 screen_string_y_positions[2, 1] = 0.18 * window_height; // TO ALL THE GENEROUS AND PATIENT
 screen_string_y_positions[2, 2] = 0.26 * window_height; // KICKSTARTER BACKERS:
-//screen_string_y_positions[2, 3] = 0.36 * window_height; // [BACKER NAME]
-//screen_string_y_positions[2, 4] = 0.44 * window_height; // [BACKER NAME]
-//screen_string_y_positions[2, 5] = 0.52 * window_height; // [BACKER NAME]
-//screen_string_y_positions[2, 6] = 0.60 * window_height; // [BACKER NAME]
-//screen_string_y_positions[2, 7] = 0.68 * window_height; // [BACKER NAME]
-//screen_string_y_positions[2, 8] = 0.76 * window_height; // [BACKER NAME]
-//screen_string_y_positions[2, 9] = 0.84 * window_height; // [BACKER NAME]
 
 screen_slide_directions[2, 0] = slide_left; // EXTRA SPECIAL THANKS
 screen_slide_directions[2, 1] = slide_right; // TO ALL THE GENEROUS AND PATIENT
 screen_slide_directions[2, 2] = slide_left; // KICKSTARTER BACKERS:
-//screen_slide_directions[2, 3] = slide_right;
-//screen_slide_directions[2, 4] = slide_left;
-//screen_slide_directions[2, 5] = slide_right;
-//screen_slide_directions[2, 6] = slide_left;
-//screen_slide_directions[2, 7] = slide_right;
-//screen_slide_directions[2, 8] = slide_left;
-//screen_slide_directions[2, 9] = slide_right;
 // /THIRD SCREEN STUFF
+
+// FOURTH SCREEN STUFF
+screen_texts[3, 0] = "A";
+screen_texts[3, 1] = "THE SPLITS";
+screen_texts[3, 2] = "GAME";
+
+screen_tweaks[3, 0] = [0.025, 0.001, 0.02, 0, 0]; // A
+screen_tweaks[3, 1] = [0.05, 0.003, 0.05, 0, 0]; // THE SPLITS
+screen_tweaks[3, 2] = [0.025, 0.001, 0.02, 0, 0]; // GAME
+
+screen_string_y_positions[3, 0] = 0.35 * window_height; // A
+screen_string_y_positions[3, 1] = 0.437 * window_height; // THE SPLITS
+screen_string_y_positions[3, 2] = 0.55 * window_height; // GAME
+
+screen_slide_directions[3, 0] = slide_right; // A
+screen_slide_directions[3, 1] = slide_left; // THE SPLITS
+screen_slide_directions[3, 2] = slide_right; // GAME
+// /FOURTH SCREEN STUFF
 
 var screen_string = 0;
 
@@ -167,7 +164,7 @@ for (var i = 0; i < backer_list_length; i++) {
 	
 	backer_strings[i] = backer_string;
 	
-	backer_bonuses[i] = backer_infos[1];
+	backer_bonuses[i] = 1; //backer_infos[1];
 }
 
 backer_tween_strings_count = 7;
