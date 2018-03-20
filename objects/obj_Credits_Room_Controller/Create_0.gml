@@ -1,5 +1,7 @@
 /// @description Init
-//current_screen = 0;
+q_main_menu = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(q_main_menu, "Q: MAIN MENU");
+scr_Splitsfont_Set_Tweaks(q_main_menu, [0.015, 0.0015, 0.01, 0, 0]);
 
 // FIRST SCREEN STUFF
 screen_texts[0, 0] = "FUNNY FINGERS";

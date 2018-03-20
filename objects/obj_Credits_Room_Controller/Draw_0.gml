@@ -1,5 +1,11 @@
 /// @description Draw the credits
 
+// Draw control hints
+scr_Splitsfont_Draw_String(
+	q_main_menu,
+	5, 700
+);
+
 var number_of_strings_on_this_screen = 
 	screen_strings_lengths[screen_index];
 for (var i = 0; i < number_of_strings_on_this_screen; i++) {

@@ -1,5 +1,9 @@
 /// @description Update string tweens, rotate strings, change screens
 
+if (keyboard_check_pressed(ord("Q"))) {
+	room_goto(r_MainMenu);
+}
+
 // only "FUNNY FINGERS" rotates
 if (0 == screen_index) {
 	scr_Splitsfont_Rotate_String(screen_strings[screen_index, 0]);
