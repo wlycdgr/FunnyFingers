@@ -166,7 +166,7 @@ for (var i = 0; i < backer_list_length; i++) {
 	
 	backer_strings[i] = backer_string;
 	
-	backer_bonuses[i] = 1; //backer_infos[1];
+	backer_bonuses[i] = backer_infos[1];
 }
 
 backer_tween_strings_count = 7;
