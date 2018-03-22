@@ -8,7 +8,8 @@
         "1ae01c13-4316-4a2e-b1e8-8a225cd3730d",
         "d76a2786-a766-4b0e-b869-3943ba06b9cb",
         "ba223c8f-8f0d-41f6-a919-116c2a53a012",
-        "91671c00-e21f-4416-8c7e-aec7c018e780"
+        "91671c00-e21f-4416-8c7e-aec7c018e780",
+        "da713496-010c-445d-b1f6-183e7907bc7f"
     ],
     "filterType": "GMNotes",
     "folderName": "notes",

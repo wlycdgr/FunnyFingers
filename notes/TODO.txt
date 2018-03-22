@@ -346,10 +346,29 @@ March 18-20
 - DONE implement Credits screen
 
 March 21
-tweak splitsfont and positions for menu ribbon header and menu
+DONE tweak splitsfont and positions for menu ribbon header and menu
+
+March 22
+DONE move FPS display to bottom right
+DONE move score and frames drawing to root Scoreboard object
+DONE make it so that inactive energy objects aren't visible in the top left corner
+
 tweak score display
-tweak multiplier display
+	- tweak "score: [number]" font
+	- add a bar below it that shows progress to high score
+		- if there is no high score yet (as in the first playthrough), display nothing there
+		- if the current score represents a new high score, display "NEW HIGH SCORE"
+		- if the current score is <= current high score, display a progress bar 
+		
 tweak frames display
+	- tweak "frames: [number]" font
+	- bar that shows frames remaining until no more high score 
+
+tweak multiplier display
+	- show when it's unbroken
+	
+tweak frames display
+
 
 - show CirclMaster quote if at the end of a Cool run player has unlocked the Level 99 achievement
 	- keep track of whether we have shown it and only show it one time

@@ -991,6 +991,14 @@
             }
         },
         {
+            "Key": "da713496-010c-445d-b1f6-183e7907bc7f",
+            "Value": {
+                "id": "3cb363e4-fabc-4dd0-96c7-0b285893a031",
+                "resourcePath": "notes\\boilerplate_splitsfont_tweaker_codd.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "dae4b901-97b9-461a-907c-db4f3f02a975",
             "Value": {
                 "id": "d6f6e0bd-04e9-4e2c-937f-c3430c53c74f",

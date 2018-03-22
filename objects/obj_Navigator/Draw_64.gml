@@ -12,4 +12,4 @@ if (room == r_Init) {
 	scr_Splitsfont_Draw_String(splitsfont_test, string_pos_x, string_pos_y);
 }
 
-draw_text(5, 5, string(fps));
+draw_text(1260, 700, string(fps));

@@ -1,13 +1,15 @@
-/// @description Draw score
-draw_set_color(scoreboard_color_default);
-draw_set_halign(fa_left);
+/// @description Draw the score info
+exit;
 
+draw_set_color(scoreboard_color_default);
+
+// score
 scr_Splitsfont_Draw_String(
 	score_label_string,
-	5, 5,
+	15, 15,
 );
 
-var score_as_string = string(floor(global.scoreboard.points));
+var score_as_string = string(floor(points));
 var score_as_string_len = string_length(score_as_string);
 for (var i = 0; i < score_as_string_len; i++) {
 	scr_Splitsfont_Draw_String(
@@ -16,10 +18,12 @@ for (var i = 0; i < score_as_string_len; i++) {
 	);
 }
 
+
+// frames
 if (should_display_frames) {
 	scr_Splitsfont_Draw_String(
 		frames_label_string,
-		5, 50
+		15, 60
 	);
 	var frames_as_string = string(floor(global.scoreboard.frames));
 	var frames_as_string_len = string_length(frames_as_string);
