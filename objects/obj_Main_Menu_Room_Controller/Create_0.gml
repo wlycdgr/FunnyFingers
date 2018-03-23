@@ -1,17 +1,25 @@
 /// @description Init
+twitching_up = false;
+twitching_down = false;
+funny_size = 0.181;
+
 funny = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(funny, "FUNNY");
-scr_Splitsfont_Set_Tweaks(funny, [0.181, 0.062, 0.078, 0, 0]);
+scr_Splitsfont_Set_Tweaks(funny, [funny_size, 0.062, 0.078, 0, 0]);
+funny_x  = window_x_center - scr_Splitsfont_Get_Width(funny) / 2;
 funny_y = 0.11 * window_height;
 
 fingers = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(fingers, "FINGERS");
 scr_Splitsfont_Set_Tweaks(fingers, [0.122, 0.008, 0.059, 0, 17]);
+fingers_x  = window_x_center - scr_Splitsfont_Get_Width(fingers) / 2;
 fingers_y = 0.36 * window_height;
 
 title_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
+title_tween.close_enough *= 0.01;
 title_x_paths[0] = scr_SlideTween_Add_Default_Path(title_tween, funny, slide_left);
 title_x_paths[1] = scr_SlideTween_Add_Default_Path(title_tween, fingers, slide_right);
+
 
 
 main_menu = scr_Menu_NEW(
@@ -61,3 +69,8 @@ difficulty_menu = scr_Menu_NEW(
 	menu_is_tweened
 );
 difficulty_menu.active = false;
+
+
+target_size = funny_size;
+current_size = funny_size;
+twitch_per_frame = 0;

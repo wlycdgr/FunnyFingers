@@ -1,8 +1,29 @@
 /// @description Scroll, select, act on selections
+if (twitching_up) {
+	current_size += twitch_per_frame;
+	if (current_size >= target_size) {
+		twitching_up = false;
+		twitching_down = true;
+	}
+}
+else if (twitching_down) { 
+	current_size -= twitch_per_frame * 2;
+	if (current_size <= funny_size) { 
+		twitching_up = false;
+		twitching_down = false;
+		current_size = funny_size;
+	}
+}
+
+scr_Splitsfont_Set_Size(funny, current_size);
+
+funny_x = window_x_center - scr_Splitsfont_Get_Width(funny) / 2;
+
 switch (global.room_state_tracker.state) {
 case rs_setting_up_room:
 	if (title_tween.paused) {
 		global.room_state_tracker.state = rs_normal_room_operations;
+		alarm[0] = 300;
 	}
 	
 	scr_Main_Menu_Room_Controller_HandleMenus(id);

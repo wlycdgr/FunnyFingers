@@ -352,6 +352,10 @@ March 22
 DONE move FPS display to bottom right
 DONE move score and frames drawing to root Scoreboard object
 DONE make it so that inactive energy objects aren't visible in the top left corner
+DONE find a brilliantly minimalist visual solution for the main gameplay screen
+
+add minimal score display:
+	- bar to high score
 
 tweak score display
 	- tweak "score: [number]" font
@@ -369,6 +373,7 @@ tweak multiplier display
 	
 tweak frames display
 
+DEBUG LEADERBOARD NAMES / SCORE AMOUNTS!! e.g. Medium Times 1K no longer exists
 
 - show CirclMaster quote if at the end of a Cool run player has unlocked the Level 99 achievement
 	- keep track of whether we have shown it and only show it one time
