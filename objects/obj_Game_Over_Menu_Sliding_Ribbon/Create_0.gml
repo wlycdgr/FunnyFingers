@@ -3,14 +3,37 @@ header_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String)
 scr_Splitsfont_Set_Text(header_string, "GAME OVER");
 scr_Splitsfont_Set_Tweaks(header_string, [0.06, 0.038, 0.06, 0, 0]);
 
-too_bad_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-scr_Splitsfont_Set_Text(too_bad_string, "TO GIVE UP MAY BE SHAMEFUL BUT TO PERSIST MAY BE FOOLISH");
-scr_Splitsfont_Set_Tweaks(too_bad_string, [0.025, 0.003, 0.004, 0, 30]);
+too_bad_texts = [
+	"THERE IS GREAT WISDOM IN KNOWING THE RIGHT MOMENT TO SURRENDER",
+	"TO SUCCEED IS DELIGHTFUL BUT TO PERSIST IS NOBLE",
+	"WITH DETERMINATION YOU MAY BE ABLE TO ACHIEVE A NEW HIGH SCORE",
+	"YOU MAY DEVELOP GREATER SELF RESPECT IF YOU DO NOT GIVE UP",
+	"TO GIVE UP MAY BE SHAMEFUL BUT TO PERSIST MAY BE FOOLISH",
+	"TRUST THE PROCESS",
+	"IT IS OFTEN VERY USEFUL TO BELIEVE THAT SUCCESS IS A MATTER OF PERSONAL EFFORT AND RESOLVE",
+	"PRACTICE LETTING GO: IN THIS WAY YOU CAN PREPARE FOR DEATH",
+	"FRUSTRATION IS WEAKNESS LEAVING THE MIND",
+	"PRACTICE EVERY DAY AND YOU WILL PROBABLY IMPROVE"
+];
+
+too_bad_strings_count = array_length_1d(too_bad_texts);
+
+too_bad_string = 0;
+for (var i = 0; i < too_bad_strings_count; i++) {
+	too_bad_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+	
+	scr_Splitsfont_Set_Text(too_bad_string, too_bad_texts[i]);
+	scr_Splitsfont_Set_Tweaks(too_bad_string, [0.025, 0.003, 0.004, 0, 30]);
+	
+	too_bad_strings[i] = too_bad_string;
+	
+	too_bad_string_x_offsets[i] =
+		(sliding_ribbon_width / 2) -
+		(scr_Splitsfont_Get_Width(too_bad_string) / 2);
+}
 too_bad_string_y = 0.5 * window_height;
-too_bad_string_x_offset =
-	(sliding_ribbon_width / 2) - 
-	(scr_Splitsfont_Get_Width(too_bad_string) / 2);
-too_bad_string_x = x + too_bad_string_x_offset;
+too_bad_string_x_offset=  0;
+too_bad_string_x = 0;
 
 check_steam_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(
