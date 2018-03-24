@@ -11,3 +11,18 @@ if (gs_playing == global.game.state) {
 		]
 	);
 }
+
+if (!high_score_tweened && points >= current_high_score) {
+	high_score_tweened = true;
+	
+	var number_as_string = 0;
+	var number_string = 0;
+	for (var i = 0; i < 10; i++) {
+		number_as_string = string(i);
+		number_string = number_strings[ord(number_as_string)];
+	
+		scr_Splitsfont_Set_Weight(number_string, 0.003);
+		
+		scr_Splitsfont_Set_RotationSpeed(number_string, 1440);
+	}
+}

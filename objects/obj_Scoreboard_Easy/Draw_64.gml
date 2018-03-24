@@ -2,14 +2,14 @@
 
 event_inherited();
 
-draw_set_color(c_black);
-draw_line(5, 5, 405, 5);
-draw_line(5, 5, 5, 11);
-draw_line(405, 5, 405, 11);
-draw_line(5, 11, 405, 11);
+//draw_set_color(c_black);
+//draw_line(5, 5, 405, 5);
+//draw_line(5, 5, 5, 11);
+//draw_line(405, 5, 405, 11);
+//draw_line(5, 11, 405, 11);
 
-draw_set_color(c_aqua);
-draw_line_width(6, 8, 5 + (points / current_high_score) * 400, 8, 5);
+//draw_set_color(c_aqua);
+//draw_line_width(6, 8, 5 + (points / current_high_score) * 400, 8, 5);
 
 /*
 draw_set_color(c_black);
