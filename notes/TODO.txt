@@ -366,15 +366,13 @@ DONE remove frames mechanic - can always put it back in later!!
 	- DONE remove frames leaderboards from Steam
 DONE delete macros for leaderboard names that no longer exist
 
+March 24
 - finalize high score display:
 	- DONE display score number in top left
 	- DONE every time new points are scored, bump the rotate speed up to a cap
 	- DONE nerf the rotate speed every frame, down towards 0
-	- as score approaches high score, make it bigger and bolder. when it goes over and becomes new high score, POP it larger and thicker and SPIN it
-		- size starts at X
-		- as score approaches high score (as we get to 80%+), we increase size proportionately to X + Y
-		- when score crosses the threshold, we POP the size to X + Y + Z and POP the boldness
-		- then, score shrinks back to original size, or a big bigger, but keep it a little bolder than before
+	- DONE as score approaches high score, make it bigger
+	- DONE on score becoming high score, POP it bolder
 	
 	- on Paused ribbon, display score in the middle
 	- if high score, display "NEW HIGH SCORE" below it
@@ -388,17 +386,12 @@ DONE delete macros for leaderboard names that no longer exist
 - display the bar below the playfield, the width of the playfield
 - on the left below the bar, displays "X[combo value]"
 - on the right below the bar, display "X[column fill proportions sum]"
+- show when multiplier display is unbroken
+
+- decide how to handle lack of steam connection
 
 tweak multiplier mechanics & display
 	- 1 point * combo * (sum of the column fill proportions)
-	
-keep track for player of max survival time and max combo for each level, display that in difficulty selection
-	
-
-
-
-tweak multiplier display
-	- show when it's unbroken
 
 - show CirclMaster quote if at the end of a Cool run player has unlocked the Level 99 achievement
 	- keep track of whether we have shown it and only show it one time

@@ -1,4 +1,12 @@
-/// @description Draw tweak menu
+/// @description Draw strings and tweak menu
+for (var i = 0; i < sf_strings_count; i++) {
+	scr_Splitsfont_Draw_String(
+		sf_strings[i],
+		sf_string_x_positions[i],
+		sf_string_y_positions[i]
+	);
+}
+
 if (!draw_tweak_info) exit;
 
 draw_set_font(arial_8pt);
