@@ -52,20 +52,6 @@
             "varType": 1
         },
         {
-            "id": "4620165f-59d7-4143-9662-c04909fd3af1",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "steam_leaderboard",
-            "varType": 0
-        },
-        {
             "id": "2f155f3f-d5d5-49b8-8a15-9b520d1cddf7",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

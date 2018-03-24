@@ -255,14 +255,6 @@
             }
         },
         {
-            "Key": "2fd472ea-83a5-44e1-ac6a-db3f55e8ba5e",
-            "Value": {
-                "id": "e33f453d-b78e-4c06-9f01-5bac6a479c34",
-                "resourcePath": "scripts\\scr_Scoreboard_UnlockAndUpdate\\scr_Scoreboard_UnlockAndUpdate.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "31f1e911-4028-4935-8cf3-11aac57f7547",
             "Value": {
                 "id": "087594e6-5aaf-4bb4-8035-f1ff71fc28ff",
@@ -347,14 +339,6 @@
             "Value": {
                 "id": "99f7eedb-910e-4123-869e-77e312a4b73b",
                 "resourcePath": "scripts\\scr_Menu_Selection_Made\\scr_Menu_Selection_Made.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "41272978-2cf5-43a0-a4ff-72f4024ffcfc",
-            "Value": {
-                "id": "211cb587-75de-4c12-a49e-55f5ccc01b12",
-                "resourcePath": "scripts\\scr_Scoreboard_On_GameOver\\scr_Scoreboard_On_GameOver.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1015,14 +999,6 @@
             }
         },
         {
-            "Key": "db724a58-88c4-422b-9f17-aa18b2d7399e",
-            "Value": {
-                "id": "8b760637-f975-43ec-ba82-728f31167a79",
-                "resourcePath": "scripts\\scr_Steam_UpdateFramesLeaderboard\\scr_Steam_UpdateFramesLeaderboard.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "dc5035d2-b553-4e80-bae5-94a9de523d18",
             "Value": {
                 "id": "d93de26d-a769-42b4-807c-c5e939cab994",
@@ -1197,7 +1173,6 @@
         "09760fc0-4fac-4fd2-ba6d-671093bacb27",
         "c51897f5-6bc6-4561-acad-2aff6a162c8a",
         "5495f05a-fff4-420d-9215-8cf8f8455f32",
-        "db724a58-88c4-422b-9f17-aa18b2d7399e",
         "21e164c3-ce4b-4db0-99a2-afa7eb396227",
         "6cd67805-f2ae-40b0-a142-766f4e5fb59d",
         "a42faca6-7d96-4868-b0cb-464449307b68",
@@ -1221,10 +1196,8 @@
         "f812f3ab-7317-422a-a9b4-cd61ef9f2ad6",
         "5013329f-d97f-4507-8121-a9d3d661f65d",
         "f19580fa-0cc0-4d7f-9a7b-244a84e7ce5e",
-        "2fd472ea-83a5-44e1-ac6a-db3f55e8ba5e",
         "babadea1-cadd-46af-9761-b2a9227feea0",
         "db2dc6f7-fcd4-4b54-86a9-6204ed0dedfe",
-        "41272978-2cf5-43a0-a4ff-72f4024ffcfc",
         "21021fe0-c5dc-496e-a62a-e442d866e153",
         "cd4b2291-610a-44e8-884c-10ef5083ff89",
         "aba5c1fe-9257-45a5-940d-c0017f082c6a"

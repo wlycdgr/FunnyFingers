@@ -1,10 +1,10 @@
 /// @description Get ach state if not gotten yet
 if (step_debug) {
 	stat_lifetime_cool_points = steam_get_stat_int("stat_lifetime_cool_points");
-	stat_easy_frames_low = steam_get_stat_int("stat_easy_frames_low");
-	stat_easy_frames_mid = steam_get_stat_int("stat_easy_frames_mid");
-	stat_easy_frames_high = steam_get_stat_int("stat_easy_frames_high");
 	stat_easy_high_score = steam_get_stat_int("stat_easy_high_score");
+	stat_medium_high_score = steam_get_stat_int("stat_medium_high_score");
+	stat_hard_high_score = steam_get_stat_int("stat_hard_high_score");
+	stat_difficult_high_score = steam_get_stat_int("stat_difficult_high_score");		
 }
 
 if (!is_initialised) {

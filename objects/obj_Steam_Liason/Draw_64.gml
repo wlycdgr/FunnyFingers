@@ -11,10 +11,10 @@ draw_text(5, 230, "are_stats_ready: " + scr_bool2str(are_stats_ready));
 
 draw_text(5, 260, "STATS (Ctrl + T + R to reset");
 draw_text(5, 275, "stat_lifetime_cool_points: " + string(stat_lifetime_cool_points));
-draw_text(5, 290, "stat_easy_frames_low: " + string(stat_easy_frames_low));
-draw_text(5, 305, "stat_easy_frames_mid: " + string(stat_easy_frames_mid));
-draw_text(5, 320, "stat_easy_frames_high: " + string(stat_easy_frames_high));
-draw_text(5, 335, "stat_easy_high_score: " + string(stat_easy_high_score));
+draw_text(5, 290, "stat_easy_high_score: " + string(stat_easy_high_score));
+draw_text(5, 305, "stat_medium_high_score: " + string(stat_medium_high_score));
+draw_text(5, 320, "stat_hard_high_score: " + string(stat_hard_high_score));
+draw_text(5, 335, "stat_difficult_high_score: " + string(stat_difficult_high_score));
 
 draw_text(5, 365, "STEAM ACHIEVEMENTS (Ctrl + X + # to toggle)");
 

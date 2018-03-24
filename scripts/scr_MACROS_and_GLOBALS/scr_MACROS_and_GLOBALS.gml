@@ -118,9 +118,9 @@ global.core_funny_finger_grow_time_in_sec =
 #macro steam_ach_Level_99 13
 #macro steam_ach_QWEIOP 14
 
-#macro steam_ach_unlock_score_low 100 // 1k
-#macro steam_ach_unlock_score_mid 250 //  3k
-#macro steam_ach_unlock_score_high 500 // 10k
+#macro steam_ach_unlock_score_low 100 // 3k
+#macro steam_ach_unlock_score_mid 250 //  10k
+#macro steam_ach_unlock_score_high 500 // 35k
 
 
 #macro steam_ach_No_Pressure_points_target steam_ach_unlock_score_high
@@ -128,23 +128,6 @@ global.core_funny_finger_grow_time_in_sec =
 
 
 #macro steam_leaderboard_cool "Lifetime Cool Points"
-#macro steam_leaderboard_easy "Easy Times"
-#macro steam_leaderboard_medium "Medium Times"
-#macro steam_leaderboard_hard "Hard Times"
-#macro steam_leaderboard_difficult "High Scores"
-
-#macro steam_leaderboard_easy_frames_low "Easy Times 1K"
-#macro steam_leaderboard_easy_frames_mid "Easy Times 3K"
-#macro steam_leaderboard_easy_frames_high "Easy Times 10K"
-#macro steam_leaderboard_medium_frames_low "Medium Times 1K"
-#macro steam_leaderboard_medium_frames_mid "Medium Times 3K"
-#macro steam_leaderboard_medium_frames_high "Medium Times 10K"
-#macro steam_leaderboard_hard_frames_low "Hard Times 1K"
-#macro steam_leaderboard_hard_frames_mid "Hard Times 3K"
-#macro steam_leaderboard_hard_frames_high "Hard Times 10K"
-#macro steam_leaderboard_difficult_frames_low "Difficult Times 1K"
-#macro steam_leaderboard_difficult_frames_mid "Difficult Times 3K"
-#macro steam_leaderboard_difficult_frames_high "Difficult Times 10K"
 #macro steam_leaderboard_easy_high_scores "Easy High Scores"
 #macro steam_leaderboard_medium_high_scores "Medium High Scores"
 #macro steam_leaderboard_hard_high_scores "Hard High Scores"

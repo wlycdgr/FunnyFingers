@@ -2,14 +2,13 @@
 event_inherited();
 
 if (gs_playing == global.game.state) {
-	frames += 1;
 	
 	scr_Scoreboard_Handle_Score_Hitting_Targets(
-		id,
+		id, 
 		[
-			[steam_ach_The_Pro, "stat_hard_frames_low", steam_leaderboard_hard_frames_low],
-			[steam_ach_The_Contender, "stat_hard_frames_mid", steam_leaderboard_hard_frames_mid],
-			[steam_ach_The_Champion, "stat_hard_frames_high", steam_leaderboard_hard_frames_high]
+			steam_ach_The_Pro,
+			steam_ach_The_Contender,
+			steam_ach_The_Champion
 		]
 	);
 	

@@ -356,27 +356,34 @@ DONE find a brilliantly minimalist visual solution for the main gameplay screen
 DONE add a randomized attract animation to title text
 
 March 23
+DONE implemented column energy mechanice
+DONE add basic bar to high score display
+DONE remove frames mechanic - can always put it back in later!!
+	- DONE remove frames tracking
+	- DONE remove frames display
+	- DONE remove frames Steam code
+	- DONE remove frames stats from Steam
+	- DONE remove frames leaderboards from Steam
+DONE delete macros for leaderboard names that no longer exist
 
-add minimal score display:
-	- bar to high score
+- finalize high score display:
+	- display "Score: [number]"
+	- when there is no high score, display nothing else
+	- when there is a high score, display progress bar to previous high score
+	- when the current score is a new high score, display "NEW HIGH SCORE" in place of the progress bar
 
-tweak score display
-	- tweak "score: [number]" font
-	- add a bar below it that shows progress to high score
-		- if there is no high score yet (as in the first playthrough), display nothing there
-		- if the current score represents a new high score, display "NEW HIGH SCORE"
-		- if the current score is <= current high score, display a progress bar 
-		
-tweak frames display
-	- tweak "frames: [number]" font
-	- bar that shows frames remaining until no more high score 
+- simplify the multiplier bar logic, it just always takes 3 seconds to drain
+
+tweak multiplier mechanics & display
+	- 1 point * combo * (sum of the column fill proportions)
+	
+keep track for player of max survival time and max combo for each level, display that in difficulty selection
+	
+
+
 
 tweak multiplier display
 	- show when it's unbroken
-	
-tweak frames display
-
-DEBUG LEADERBOARD NAMES / SCORE AMOUNTS!! e.g. Medium Times 1K no longer exists
 
 - show CirclMaster quote if at the end of a Cool run player has unlocked the Level 99 achievement
 	- keep track of whether we have shown it and only show it one time
