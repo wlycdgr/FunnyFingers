@@ -8,3 +8,6 @@ unlocked_mid = ds_map_find_value(global.steam.unlocked, steam_ach_The_Lucky_Lose
 unlocked_low = ds_map_find_value(global.steam.unlocked, steam_ach_The_Challenger);
 
 high_score_tweened = false;
+
+begin_grow_size_score = 0;
+grow_size_range = current_high_score - begin_grow_size_score;

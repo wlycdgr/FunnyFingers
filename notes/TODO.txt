@@ -367,12 +367,27 @@ DONE remove frames mechanic - can always put it back in later!!
 DONE delete macros for leaderboard names that no longer exist
 
 - finalize high score display:
-	- display "Score: [number]"
-	- when there is no high score, display nothing else
-	- when there is a high score, display progress bar to previous high score
-	- when the current score is a new high score, display "NEW HIGH SCORE" in place of the progress bar
-
+	- DONE display score number in top left
+	- DONE every time new points are scored, bump the rotate speed up to a cap
+	- DONE nerf the rotate speed every frame, down towards 0
+	- as score approaches high score, make it bigger and bolder. when it goes over and becomes new high score, POP it larger and thicker and SPIN it
+		- size starts at X
+		- as score approaches high score (as we get to 80%+), we increase size proportionately to X + Y
+		- when score crosses the threshold, we POP the size to X + Y + Z and POP the boldness
+		- then, score shrinks back to original size, or a big bigger, but keep it a little bolder than before
+	
+	- on Paused ribbon, display score in the middle
+	- if high score, display "NEW HIGH SCORE" below it
+	
+	- on Game Over ribbon, display score in the middle
+	- if high score, display "NEW HIGH SCORE" below it
+	- display "Check the leaderboards in the Steam client to see how you stack up"
+	
+	
 - simplify the multiplier bar logic, it just always takes 3 seconds to drain
+- display the bar below the playfield, the width of the playfield
+- on the left below the bar, displays "X[combo value]"
+- on the right below the bar, display "X[column fill proportions sum]"
 
 tweak multiplier mechanics & display
 	- 1 point * combo * (sum of the column fill proportions)
