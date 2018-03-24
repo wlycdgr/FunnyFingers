@@ -353,6 +353,9 @@ DONE move FPS display to bottom right
 DONE move score and frames drawing to root Scoreboard object
 DONE make it so that inactive energy objects aren't visible in the top left corner
 DONE find a brilliantly minimalist visual solution for the main gameplay screen
+DONE add a randomized attract animation to title text
+
+March 23
 
 add minimal score display:
 	- bar to high score

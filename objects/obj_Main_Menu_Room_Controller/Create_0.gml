@@ -3,6 +3,10 @@ twitching_up = false;
 twitching_down = false;
 funny_size = 0.181;
 
+target_size = funny_size;
+current_size = funny_size;
+twitch_per_frame = 0;
+
 funny = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(funny, "FUNNY");
 scr_Splitsfont_Set_Tweaks(funny, [funny_size, 0.062, 0.078, 0, 0]);
@@ -69,8 +73,3 @@ difficulty_menu = scr_Menu_NEW(
 	menu_is_tweened
 );
 difficulty_menu.active = false;
-
-
-target_size = funny_size;
-current_size = funny_size;
-twitch_per_frame = 0;

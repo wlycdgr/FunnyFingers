@@ -23,7 +23,7 @@ switch (global.room_state_tracker.state) {
 case rs_setting_up_room:
 	if (title_tween.paused) {
 		global.room_state_tracker.state = rs_normal_room_operations;
-		alarm[0] = 300;
+		alarm[0] = 180;//irandom_range(300, 600);
 	}
 	
 	scr_Main_Menu_Room_Controller_HandleMenus(id);
