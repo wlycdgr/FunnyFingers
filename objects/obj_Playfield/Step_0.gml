@@ -157,7 +157,8 @@ if (0 != ff_move_direction){
 		with (multiplier_bar) { event_user(0); } 
 		
 		global.scoreboard.target_points += 
-			multiplier_bar.multiplier * 
+			multiplier_bar.move_multiplier * 
+			multiplier_bar.column_fill_multiplier * 
 			score_valid_move_base_value;
 	}
 	else {

@@ -51,15 +51,9 @@
 // /SPLITSFONT
 
 // Core Mechanics 
-#macro mb_max_multiplier 20
+#macro mb_max_multiplier 35
 #macro mb_min_multiplier 1
-#macro mb_seconds_to_drain 1.5 // 3.0
-
-//#macro mb_max_multiplier 10000000
-//#macro mb_min_multiplier 1
-//#macro mb_max_seconds_to_drain 3.0
-//#macro mb_min_seconds_to_drain 3.0
-//#macro mb_time_to_drain_reduction_in_seconds_for_successful_move 0.02
+#macro mb_seconds_to_drain 2.0 // 3.0
 
 #macro core_enemy_speed_per_sec_min_default 125
 global.core_enemy_speed_per_sec_min = 

@@ -19,7 +19,8 @@ with (new_mb) {
 	fully_drained = true;
 	is_refilling = false;
 	
-	multiplier = mb_min_multiplier;
+	move_multiplier = mb_min_multiplier;
+	column_fill_multiplier = floor(1.0 * global.game_settings.column_count);
 	
 	multiplier_label = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 	scr_Splitsfont_Set_Text(multiplier_label, "X");

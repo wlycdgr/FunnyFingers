@@ -385,7 +385,8 @@ March 24
 
 - DONE simplify the multiplier bar logic, it just always takes X seconds to drain
 - DONE display the bar below the playfield, the width of the playfield
-- on the left below the bar, displays "X[combo value]"
+- DONE on the left below the bar, displays "X[combo value]"
+
 - on the right below the bar, display "X[column fill proportions sum]"
 - show when multiplier display is unbroken
 
