@@ -387,59 +387,31 @@ March 24
 - DONE display the bar below the playfield, the width of the playfield
 - DONE on the left below the bar, displays "X[combo value]"
 
+March 25
+
+- add missing glyphs necessary to support CirclMaster quote: ;.,[]"-
+- show CirclMaster quote if at the end of a Cool run player has unlocked the Level 99 achievement
+	- keep track of whether we have shown it and only show it one time
 - on the right below the bar, display "X[column fill proportions sum]"
+- implement tutorial being the only thing you can do until you complete it, at the beginning
 - show when multiplier display is unbroken
-
 - 3 pieces of armor - left, top, right
-
 - add game start animation
 	- bottom bar slides in from the left
 	- columns fill up from the bottom
 	- funny fingers fill up from the bottom
-
-
-
-- implement tutorial being the only thing you can do until you complete it, at the beginning
-
 - decide how to handle lack of steam connection
-
-
-
 - iterate on title screen twitching
-
-tweak multiplier mechanics & display
-	- 1 point * combo * (sum of the column fill proportions)
-
-- show CirclMaster quote if at the end of a Cool run player has unlocked the Level 99 achievement
-	- keep track of whether we have shown it and only show it one time
-
-- add missing glyphs necessary to support CirclMaster quote: ;.,[]"-
 - make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
 which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
-- instead, show score info on Game Over screen, using the following logic:
-	- if haven't reached leaderboard & new high score, show "New high score! [score]"
-	- if haven't reached leaderboard & not new high scores, show "[score] / [high score]"
-	- if on leaderboard, show around-user
-	- if on leaderboard and high score, show "New High Score!" text, "+ [number of ranks]"
-
 - MAKE A LIST OF NECESSARY SOUNDS
 - get remaining needed assets:
 	- danger danger
 	- armor
+	- multiplier bar
+	- column fill bar
 - tweakdebug danger danger movement so it matches up better
-
 - BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
 - handle steam failing to upload score
 - add checks so that game does not break if any sprite asset is not available or misnamed
 - ensure no crash-because-global.steam.unlocked-not-initialized if user not logged in to Steam or connection lost at launch
-
-NICE TO HAVE / CAN WAIT:
-- dynamically assign multiplier incrementing handler script at launch time based on unlock status of No Pressure
-achievement, so we don't need to check whether we should unlock it all the time ifwhen it's already popped
-- simplify/abstract movement handling logic, it is insane right now
-- modify score display to have two bars that extend most of the way across the screen:
-	- one that shows points progress to current achievement
-	- other that shows points progress to highest cap
-
-KS:
-- implement Kickstarter backers can unlock everything right away by typing their last name in three times at the title screen
