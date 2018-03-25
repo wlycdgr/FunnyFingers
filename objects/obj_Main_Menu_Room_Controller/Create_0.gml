@@ -10,7 +10,7 @@ twitch_per_frame = 0;
 funny = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(funny, "FUNNY");
 scr_Splitsfont_Set_Tweaks(funny, [funny_size, 0.062, 0.078, 0, 0]);
-funny_x  = window_x_center - scr_Splitsfont_Get_Width(funny) / 2;
+funny_x  = 15 + window_x_center - scr_Splitsfont_Get_Width(funny) / 2;
 funny_y = 0.11 * window_height;
 
 fingers = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
@@ -21,7 +21,16 @@ fingers_y = 0.36 * window_height;
 
 title_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
 title_tween.close_enough *= 0.01;
-title_x_paths[0] = scr_SlideTween_Add_Default_Path(title_tween, funny, slide_left);
+
+title_x_paths[0] = scr_SlideTween_Add_Path(
+	title_tween,
+	[
+		window_width,
+		funny_x,
+		-slide_three_window_widths
+	]
+);
+//title_x_paths[0] = scr_SlideTween_Add_Default_Path(title_tween, funny, slide_left);
 title_x_paths[1] = scr_SlideTween_Add_Default_Path(title_tween, fingers, slide_right);
 
 

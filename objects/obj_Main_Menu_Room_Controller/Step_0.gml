@@ -17,7 +17,7 @@ else if (twitching_down) {
 
 scr_Splitsfont_Set_Size(funny, current_size);
 
-funny_x = window_x_center - scr_Splitsfont_Get_Width(funny) / 2;
+funny_x  = 15 + window_x_center - scr_Splitsfont_Get_Width(funny) / 2;
 
 switch (global.room_state_tracker.state) {
 case rs_setting_up_room:

@@ -377,20 +377,25 @@ March 24
 	- DONE if not high score, display a randomized "too bad" message
 	- DONE if on cool, display a randomized "great job" message
 	- DONE display "Check the leaderboards in the Steam client to see how you stack up"
+- DONE pause columns if steam overlay active!
+- DONE pause columns if game paused
+- DONE pause columns is game over!
 
+- speed up transition from title screen to gameplay
 
-- pause columns if steam overlay active!
-- pause columns if game paused / over!
-
-
-	
 - simplify the multiplier bar logic, it just always takes 3 seconds to drain
 - display the bar below the playfield, the width of the playfield
 - on the left below the bar, displays "X[combo value]"
 - on the right below the bar, display "X[column fill proportions sum]"
 - show when multiplier display is unbroken
 
+- implement tutorial being the only thing you can do until you complete it, at the beginning
+
 - decide how to handle lack of steam connection
+
+- fix the FUNNY FINGERS kerning
+
+- iterate on title screen twitching
 
 tweak multiplier mechanics & display
 	- 1 point * combo * (sum of the column fill proportions)
@@ -406,7 +411,7 @@ which causes any other reds or blues you come in contact with during that time t
 	- if haven't reached leaderboard & not new high scores, show "[score] / [high score]"
 	- if on leaderboard, show around-user
 	- if on leaderboard and high score, show "New High Score!" text, "+ [number of ranks]"
-- implement tutorial being the only thing you can do until you complete it, at the beginning
+
 - MAKE A LIST OF NECESSARY SOUNDS
 - get remaining needed assets:
 	- danger danger
