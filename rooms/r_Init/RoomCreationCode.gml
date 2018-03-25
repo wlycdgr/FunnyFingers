@@ -1,3 +1,5 @@
+randomise();
+
 script_execute(scr_MACROS_and_GLOBALS);
 
 global.splitsfont = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont);

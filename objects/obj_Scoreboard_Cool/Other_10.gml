@@ -14,6 +14,11 @@ steam_upload_score(
 	new_lifetime_points
 );
 	
-if (new_lifetime_points >= steam_ach_Level_99_points_target) {
+if (
+	(new_lifetime_points >= steam_ach_Level_99_points_target) && 
+	!already_unlocked_level_99
+) {
 	scr_Steam_UnlockAchievement(steam_ach_Level_99);
+	
+	level_99_unlocked_this_time = true;
 }

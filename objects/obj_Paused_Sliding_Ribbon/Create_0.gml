@@ -9,7 +9,7 @@ var menu_y_pos =
 
 menu = scr_Menu_NEW(
 	x + (sliding_ribbon_width / 2), menu_y_pos,
-	["CONTINUE", "TRY AGAIN", "MAIN MENU"],
+	["CONTINUE", "PLAY AGAIN", "MAIN MENU"],
 	menu_is_not_tweened
 );
 

@@ -91,11 +91,6 @@ check_steam_string_x_offset =
 	(scr_Splitsfont_Get_Width(check_steam_string) / 2);
 check_steam_string_x = x + check_steam_string_x_offset;
 
-//sf_tweaker = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_Tweaker);
-//scr_Splitsfont_Tweaker_Add_String(sf_tweaker, header_string);
-//scr_Splitsfont_Tweaker_Add_String(sf_tweaker, new_high_score_string);
-//scr_Splitsfont_Tweaker_Add_String(sf_tweaker, check_steam_string);
-
 var menu_y_pos = 
 	y + sliding_ribbon_height -
 	(2.5 * menu_vertical_spacing);

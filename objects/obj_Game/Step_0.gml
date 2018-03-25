@@ -14,7 +14,8 @@ switch (state) {
 case gs_fading_out:
 	if (
 		srs_inactive == game_over_sliding_ribbon.state &&
-		srs_inactive == paused_sliding_ribbon.state
+		srs_inactive == paused_sliding_ribbon.state &&
+		srs_inactive == level_99_unlock_message_sliding_ribbon.state
 	) {
 		scr_Fade_To(r_MainMenu);
 	}
@@ -23,6 +24,12 @@ case gs_fading_out:
 case gs_game_over:
 	if (srs_selection_made == game_over_sliding_ribbon.state) {
 		scr_Menu_Act_On_Selection(game_over_sliding_ribbon.menu);
+	}
+	break;
+	
+case gs_level_99_unlock_message:
+	if (srs_selection_made == level_99_unlock_message_sliding_ribbon.state) {
+		scr_Menu_Act_On_Selection(level_99_unlock_message_sliding_ribbon.menu);
 	}
 	break;
 	
@@ -50,7 +57,8 @@ case gs_playing:
 case gs_restarting:
 	if (
 		srs_inactive == game_over_sliding_ribbon.state &&
-		srs_inactive == paused_sliding_ribbon.state
+		srs_inactive == paused_sliding_ribbon.state &&
+		srs_inactive == level_99_unlock_message_sliding_ribbon.state
 	) {
 		room_restart();
 	}

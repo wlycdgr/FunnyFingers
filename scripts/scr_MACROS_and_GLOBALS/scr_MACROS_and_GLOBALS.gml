@@ -190,9 +190,10 @@ global.core_funny_finger_grow_time_in_sec =
 #macro gs_fading_in 0
 #macro gs_fading_out 1
 #macro gs_game_over 2
-#macro gs_paused 3
-#macro gs_playing 4
-#macro gs_restarting 5
+#macro gs_level_99_unlock_message 3
+#macro gs_paused 4
+#macro gs_playing 5
+#macro gs_restarting 6
 
 #macro fs_inactive 0
 #macro fs_fading_in 1
