@@ -12,6 +12,7 @@ path_count = 0;
 paths = -1;
 
 complete = false;
+off_screen = true;
 paused = false;
 
 active = true;

@@ -380,8 +380,8 @@ March 24
 - DONE pause columns if steam overlay active!
 - DONE pause columns if game paused
 - DONE pause columns is game over!
-
-- speed up transition from title screen to gameplay
+- DONE fix the FUNNY FINGERS kerning
+- DONE speed up transition from title screen to gameplay
 
 - simplify the multiplier bar logic, it just always takes 3 seconds to drain
 - display the bar below the playfield, the width of the playfield
@@ -389,11 +389,16 @@ March 24
 - on the right below the bar, display "X[column fill proportions sum]"
 - show when multiplier display is unbroken
 
+- add game start animation
+	- bottom bar slides in from the left
+	- columns fill up from the bottom
+	- funny fingers fill up from the bottom
+
 - implement tutorial being the only thing you can do until you complete it, at the beginning
 
 - decide how to handle lack of steam connection
 
-- fix the FUNNY FINGERS kerning
+
 
 - iterate on title screen twitching
 

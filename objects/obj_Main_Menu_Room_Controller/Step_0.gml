@@ -1,13 +1,22 @@
 /// @description Scroll, select, act on selections
 if (twitching_up) {
 	current_size += twitch_per_frame;
+	
+	scr_Splitsfont_Set_Size(funny, current_size);
+	funny_x  = funny_center - scr_Splitsfont_Get_Width(funny) / 2;
+	
 	if (current_size >= target_size) {
 		twitching_up = false;
 		twitching_down = true;
 	}
 }
+
 else if (twitching_down) { 
 	current_size -= twitch_per_frame * 2;
+	
+	scr_Splitsfont_Set_Size(funny, current_size);
+	funny_x  = funny_center - scr_Splitsfont_Get_Width(funny) / 2;
+	
 	if (current_size <= funny_size) { 
 		twitching_up = false;
 		twitching_down = false;
@@ -15,9 +24,6 @@ else if (twitching_down) {
 	}
 }
 
-scr_Splitsfont_Set_Size(funny, current_size);
-
-funny_x  = 15 + window_x_center - scr_Splitsfont_Get_Width(funny) / 2;
 
 switch (global.room_state_tracker.state) {
 case rs_setting_up_room:
@@ -46,12 +52,20 @@ case rs_room_change_requested:
 	
 case rs_breaking_down_room:
 	if (
-		title_tween.complete &&
-		main_menu.slide_tween.complete &&
-		difficulty_menu.slide_tween.complete
+		title_tween.off_screen &&
+		main_menu.slide_tween.off_screen &&
+		difficulty_menu.slide_tween.off_screen
 	) {
 		room_goto(global.room_state_tracker.target_room);
 	}
+	
+	//if (
+	//	title_tween.complete &&
+	//	main_menu.slide_tween.complete &&
+	//	difficulty_menu.slide_tween.complete
+	//) {
+	//	room_goto(global.room_state_tracker.target_room);
+	//}
 
 	break;
 }
