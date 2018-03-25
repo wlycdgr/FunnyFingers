@@ -377,9 +377,12 @@ March 24
 	- DONE if not high score, display a randomized "too bad" message
 	- DONE if on cool, display a randomized "great job" message
 	- DONE display "Check the leaderboards in the Steam client to see how you stack up"
-	
+
+
 - pause columns if steam overlay active!
 - pause columns if game paused / over!
+
+
 	
 - simplify the multiplier bar logic, it just always takes 3 seconds to drain
 - display the bar below the playfield, the width of the playfield
