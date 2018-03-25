@@ -791,6 +791,14 @@
             }
         },
         {
+            "Key": "b45fdfe2-6862-4ba1-be3a-bff263610936",
+            "Value": {
+                "id": "e330627b-8dc7-4efc-adfc-c8350a8c9c6f",
+                "resourcePath": "scripts\\scr_Scoreboard_AnimateScoreDisplay\\scr_Scoreboard_AnimateScoreDisplay.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b51e727b-5c33-4fcd-aaf2-5b4b653315a3",
             "Value": {
                 "id": "2877cf5d-36ae-43bf-a2ff-5a9605013e56",
@@ -1198,6 +1206,7 @@
         "f19580fa-0cc0-4d7f-9a7b-244a84e7ce5e",
         "babadea1-cadd-46af-9761-b2a9227feea0",
         "db2dc6f7-fcd4-4b54-86a9-6204ed0dedfe",
+        "b45fdfe2-6862-4ba1-be3a-bff263610936",
         "21021fe0-c5dc-496e-a62a-e442d866e153",
         "cd4b2291-610a-44e8-884c-10ef5083ff89",
         "aba5c1fe-9257-45a5-940d-c0017f082c6a"

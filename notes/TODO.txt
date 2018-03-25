@@ -367,15 +367,15 @@ DONE remove frames mechanic - can always put it back in later!!
 DONE delete macros for leaderboard names that no longer exist
 
 March 24
-- finalize high score display:
+- DONE finalize high score display:
 	- DONE display score number in top left
 	- DONE every time new points are scored, bump the rotate speed up to a cap
 	- DONE nerf the rotate speed every frame, down towards 0
 	- DONE as score approaches high score, make it bigger
 	- DONE on score becoming high score, POP it bolder
-	
-	- on Game Over ribbon, display score in the middle
-	- if high score, display "NEW HIGH SCORE" below it
+	- DONE if high score, display "NEW HIGH SCORE" below it
+	- DONE if not high score, display a randomized "too bad" message
+	- DONE if on cool, display a randomized "great job" message
 	- DONE display "Check the leaderboards in the Steam client to see how you stack up"
 	
 - pause columns if steam overlay active!

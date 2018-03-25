@@ -1,4 +1,6 @@
 /// @description Incr frames, handle reaching of score thresholds
+if (global.steam_overlay_activated) exit;
+
 event_inherited();
 
 if (gs_playing == global.game.state) {
@@ -13,3 +15,5 @@ if (gs_playing == global.game.state) {
 	
 	scr_Scoreboard_No_Pressure_Check(id);
 }
+
+scr_Scoreboard_AnimateScoreDisplay(id);

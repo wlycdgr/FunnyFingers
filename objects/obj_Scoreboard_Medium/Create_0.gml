@@ -1,7 +1,7 @@
 /// @description Init
 event_inherited();
 
-frames = 0;
+current_high_score = 1.0 * steam_get_stat_int("stat_medium_high_score");
 
 combo_broken = false;
 attempted_no_pressure_unlock = false;
