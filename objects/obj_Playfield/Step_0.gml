@@ -25,22 +25,14 @@ for (var i = global.game_settings.funny_finger_count - 1; i > -1; i--){
 		if (
 			global.input_tracker.is_leftmost_pressed ||
 			global.input_tracker.is_rightmost_pressed ||
-			(global.game_settings.difficulty > game_difficulty_cool && 
-				(global.input_tracker.is_second_leftmost_pressed ||
-				 global.input_tracker.is_second_rightmost_pressed)
-			) ||
-			(global.game_settings.difficulty > game_difficulty_easy &&
-				(global.input_tracker.is_third_leftmost_pressed ||
-				 global.input_tracker.is_third_rightmost_pressed)
-			) ||
-			(global.game_settings.difficulty > game_difficulty_medium &&
-				(global.input_tracker.is_fourth_leftmost_pressed ||
-				 global.input_tracker.is_fourth_rightmost_pressed)
-			) ||
-			(global.game_settings.difficulty > game_difficulty_hard &&
-				(global.input_tracker.is_fifth_leftmost_pressed ||
-				 global.input_tracker.is_fifth_rightmost_pressed)
-			)
+			global.input_tracker.is_second_leftmost_pressed || 
+			global.input_tracker.is_second_rightmost_pressed ||
+			global.input_tracker.is_third_leftmost_pressed ||
+			global.input_tracker.is_third_rightmost_pressed || 
+			global.input_tracker.is_fourth_leftmost_pressed || 
+			global.input_tracker.is_fourth_rightmost_pressed ||
+			global.input_tracker.is_fifth_leftmost_pressed ||
+			global.input_tracker.is_fifth_rightmost_pressed
 		) {
 			with (multiplier_bar) { event_user(12); } // reset multiplier
 		}
