@@ -374,13 +374,12 @@ March 24
 	- DONE as score approaches high score, make it bigger
 	- DONE on score becoming high score, POP it bolder
 	
-	- on Paused ribbon, display score in the middle
-	- if high score, display "NEW HIGH SCORE" below it
-	
 	- on Game Over ribbon, display score in the middle
 	- if high score, display "NEW HIGH SCORE" below it
-	- display "Check the leaderboards in the Steam client to see how you stack up"
+	- DONE display "Check the leaderboards in the Steam client to see how you stack up"
 	
+- pause columns if steam overlay active!
+- pause columns if game paused / over!
 	
 - simplify the multiplier bar logic, it just always takes 3 seconds to drain
 - display the bar below the playfield, the width of the playfield

@@ -35,6 +35,50 @@ too_bad_string_y = 0.5 * window_height;
 too_bad_string_x_offset=  0;
 too_bad_string_x = 0;
 
+great_job_texts = [
+	"TERRIFIC JOB",
+	"KEEP IT UP",
+	"YOU ARE DOING GREAT",
+	"YOU ARE A FANTASTIC HUMAN BEING",
+	"SIMPLY AMAZING",
+	"YOUR PERFORMANCE WAS INCREDIBLE",
+	"EXCEPTIONAL MASTERY COMES NATURALLY TO YOU",
+	"STUNNING EFFORT",
+	"THREE WORDS: W O W"
+];
+
+great_job_strings_count = array_length_1d(great_job_texts);
+
+great_job_string = 0;
+for (var i = 0; i < great_job_strings_count; i++) {
+	great_job_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+	
+	scr_Splitsfont_Set_Text(great_job_string, great_job_texts[i]);
+	scr_Splitsfont_Set_Tweaks(great_job_string, [0.025, 0.003, 0.004, 0, 30]);
+	
+	great_job_strings[i] = great_job_string;
+	
+	great_job_string_x_offsets[i] =
+		(sliding_ribbon_width / 2) -
+		(scr_Splitsfont_Get_Width(great_job_string) / 2);
+}
+great_job_string_y = 0.5 * window_height;
+great_job_string_x_offset=  0;
+great_job_string_x = 0;
+
+
+new_high_score_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(
+	new_high_score_string,
+	"NEW HIGH SCORE"
+);
+scr_Splitsfont_Set_Tweaks(new_high_score_string,  [0.06, 0.038, 0.06, 0, 0]);
+new_high_score_string_y = 0.48 * window_height;
+new_high_score_string_x_offset =
+	(sliding_ribbon_width / 2) -
+	(scr_Splitsfont_Get_Width(new_high_score_string) / 2);
+new_high_score_string_x = x + new_high_score_string_x_offset;
+
 check_steam_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(
 	check_steam_string,
@@ -58,10 +102,12 @@ var menu_y_pos =
 	
 menu = scr_Menu_NEW(
 	x + (sliding_ribbon_width / 2), menu_y_pos,
-	["TRY AGAIN", "MAIN MENU"],
+	["PLAY AGAIN", "MAIN MENU"],
 	menu_is_not_tweened
 );
 
 event_inherited();
 
 header_string_y = 0.32 * window_height;
+
+ribbon_state = gors_too_bad;

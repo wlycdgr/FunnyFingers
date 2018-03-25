@@ -215,4 +215,9 @@ global.core_funny_finger_grow_time_in_sec =
 #macro rs_room_change_requested 2
 #macro rs_breaking_down_room 3
 
+// GAME OVER RIBBON STATES
+#macro gors_cool 0
+#macro gors_new_high_score 1
+#macro gors_too_bad 2
+
 

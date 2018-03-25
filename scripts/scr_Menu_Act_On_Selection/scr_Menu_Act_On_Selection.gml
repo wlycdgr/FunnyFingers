@@ -114,7 +114,7 @@ case "PLAY":
 		difficulty_menu.active = true;
 	}
 	break;
-case "TRY AGAIN":
+case "PLAY AGAIN":
 	with (global.game) { event_user(3); }
 	break;
 }
