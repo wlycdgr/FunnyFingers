@@ -20,11 +20,22 @@ with (new_mb) {
 	is_refilling = false;
 	
 	move_multiplier = mb_min_multiplier;
+	move_multiplier_number_x_positions = [
+		30,
+		45
+	];
+	move_multiplier_y = 75;
+	
 	column_fill_multiplier = floor(1.0 * global.game_settings.column_count);
+	column_fill_multiplier_X_x = 75;
+	column_fill_multiplier_number_x = [
+		90,
+		105
+	]
 	
 	multiplier_label = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 	scr_Splitsfont_Set_Text(multiplier_label, "X");
-	scr_Splitsfont_Set_Tweaks(multiplier_label, [0.02, 0.002, 0.05, 0, 0]);;
+	scr_Splitsfont_Set_Tweaks(multiplier_label, [0.02, 0.003, 0.05, 0, 0]);;
 	
 	var number_string = -1;
 	var number_as_string = -1;
@@ -32,9 +43,11 @@ with (new_mb) {
 		number_as_string = string(i);
 		number_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 		scr_Splitsfont_Set_Text(number_string, number_as_string);
-		scr_Splitsfont_Set_Tweaks(number_string, [0.02, 0.002, 0.05, 0, 0]);
+		scr_Splitsfont_Set_Tweaks(number_string, [0.02, 0.003, 0.05, 0, 0]);
 		number_strings[ord(number_as_string)] = number_string;
 	}
+	
+	perfect_combo = true;
 }
 
 return new_mb;

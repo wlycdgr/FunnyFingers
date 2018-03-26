@@ -392,19 +392,19 @@ March 25
 	- DONE keep track of whether we have shown it and only show it one time
 - DONE add CirclMaster quote and Splitsfont tweak it
 - DONE made it so that you can't accidentally miss the message
-
-- add missing glyphs necessary to fully support CirclMaster quote: 
+- DONE add missing glyphs necessary to fully support CirclMaster quote: 
 	DONE ;
 	DONE .
 	DONE ,
 	DONE "
 	DONE -
-	[
-	]
-- on the right below the bar, display "X[column fill proportions sum]"
+	DONE [
+	DONE ]
+- DONE finalize multiplier display	
+- DONE show when multiplier display is unbroken
+
 - implement tutorial being the only thing you can do until you complete it, at the beginning
-- show when multiplier display is unbroken
-- 3 pieces of armor - left, top, right
+- 3 pieces of armor - left, top, right (MAYBE?)
 - add game start animation
 	- bottom bar slides in from the left
 	- columns fill up from the bottom
