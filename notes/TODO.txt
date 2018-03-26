@@ -389,9 +389,9 @@ March 24
 
 March 25
 
-- show CirclMaster quote if at the end of a Cool run player has unlocked the Level 99 achievement
-	- if player unlocked Level99 during a 
-	- keep track of whether we have shown it and only show it one time
+- DONE show CirclMaster quote if at the end of a Cool run player has unlocked the Level 99 achievement
+	- DONE keep track of whether we have shown it and only show it one time
+- DONE add CirclMaster quote and Splitsfont tweak it
 - add missing glyphs necessary to fully support CirclMaster quote: ;.,[]"-
 - on the right below the bar, display "X[column fill proportions sum]"
 - implement tutorial being the only thing you can do until you complete it, at the beginning

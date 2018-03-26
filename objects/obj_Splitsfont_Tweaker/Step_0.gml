@@ -2,7 +2,7 @@
 if (0 == sf_strings_count) exit;
 
 for (var i = 0; i < sf_strings_count; i++) { 
-	scr_Splitsfont_Rotate_String(sf_strings[i]);
+	//scr_Splitsfont_Rotate_String(sf_strings[i]);
 }
 
 var values_count = 6 * sf_strings_count;

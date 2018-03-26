@@ -1,16 +1,60 @@
 /// @description Init
 header_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(header_string, "LEVEL 99 UNLOCKED");
-scr_Splitsfont_Set_Tweaks(header_string, [0.1, 0.005, 0.2, 0, 0]);
+scr_Splitsfont_Set_Tweaks(header_string, [0.014, 0.003, 0.02, 0, 0]);
 
-quote_1 = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-scr_Splitsfont_Set_Text(header_string, "THE WISDOM OF CIRCLMASTR");
-scr_Splitsfont_Set_Tweaks(header_string, [0.1, 0.005, 0.2, 0, 0]);
-quote_1_y = 0.5 * window_height;
-quote_1_x_offset =
-	(sliding_ribbon_width / 2) - 
-	(scr_Splitsfont_Get_Width(quote_1) / 2);
-quote_1_x = x + quote_1_x_offset;
+quote_texts = [
+	"LIFE DOES NOT HAVE INHERENT MEANING; TO SAY THAT OUR LIVES ARE POINTLESS AND OUR ACHIEVEMENTS MEANINGLESS IS TO STATE THE OBVIOUS.",
+	"NO MATTER HOW GRAND OUR ACHIEVEMENTS OR HOW BROAD THEIR SCOPE, TIME TURNS ALL TO DUST AND DEATH DESTROYS ALL MEMORY.",
+	"BUT THAT DOES NOT MEAN WE CANNOT ASCRIBE OUR OWN MEANING TO WHAT WE DO. IT IS BECAUSE NOTHING HAS MEANING",
+	"UNTO ITSELF THAT WE ARE FREE TO CREATE MEANING, TO MAKE METAPHOR, AND IN DOING SO REFLECT ON OURSELVES AND OUR WORLD.",
+
+	"LEVELING TO 99 IN THE FIRST REACTOR IS POINTLESS AND MEANINGLESS. SO WHY DO I DO IT?",
+	"I DO IT TO EXPRESS MY HATRED, AND MORE IMPORTANTLY MY DISDAIN, FOR DICK TREE.",
+	"I DO IT TO EXPRESS THE CAMARADERIE I FEEL FOR THOSE OF US WHO HAVE FOLLOWED THIS TOPIC FOR YEARS ONLY TO BE DISAPPOINTED BY [DICK TREE].",
+	"I DO IT TO PROVE TO MYSELF THAT I CAN PERSEVERE. THE ACT IS MEANINGLESS; I GIVE IT MEANING.",
+
+	"- CIRCLMASTER"
+];
+
+quote_y_positions = [
+	0.325 * window_height,
+	0.35 * window_height,
+	0.375 * window_height,
+	0.4 * window_height,
+	
+	0.45 * window_height,
+	0.475 * window_height,
+	0.5 * window_height,
+	0.525 * window_height,
+	
+	0.575 * window_height
+];
+
+quote_lines_count = array_length_1d(quote_texts);
+
+var quote_string = 0;
+for (var i = 0; i < quote_lines_count; i++) {
+	quote_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+	
+	scr_Splitsfont_Set_Text(quote_string, quote_texts[i]);
+	scr_Splitsfont_Set_Tweaks(quote_string, [0.014, 0.001, 0.004, 0, 0]);
+	
+	quote_strings[i] = quote_string;
+	
+	quote_x_offsets[i] =
+		(sliding_ribbon_width / 2) -
+		(scr_Splitsfont_Get_Width(quote_string) / 2);
+		
+	quote_x_positions[i] = x + quote_x_offsets[i];
+}
+
+//sf_tweaker = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_Tweaker);
+
+//scr_Splitsfont_Tweaker_Add_String(sf_tweaker, header_string);
+//for (var i = 0; i < quote_lines_count; i++) {
+//	scr_Splitsfont_Tweaker_Add_String(sf_tweaker, quote_strings[i]);
+//}
 
 var menu_y_pos = 
 	y + sliding_ribbon_height -
@@ -23,3 +67,5 @@ menu = scr_Menu_NEW(
 );
 
 event_inherited();
+
+header_string_y = 0.275 * window_height;

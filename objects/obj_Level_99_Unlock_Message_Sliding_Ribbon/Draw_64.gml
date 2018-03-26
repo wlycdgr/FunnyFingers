@@ -3,7 +3,9 @@ if (srs_inactive == state) exit;
 
 event_inherited();
 
-scr_Splitsfont_Draw_String(
-	quote_1,
-	quote_1_x, quote_1_y
-);
+for (var i = 0; i < quote_lines_count; i++) {
+	scr_Splitsfont_Draw_String(
+		quote_strings[i],
+		quote_x_positions[i], quote_y_positions[i]
+	);
+}
