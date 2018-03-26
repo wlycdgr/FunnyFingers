@@ -49,13 +49,6 @@ for (var i = 0; i < quote_lines_count; i++) {
 	quote_x_positions[i] = x + quote_x_offsets[i];
 }
 
-//sf_tweaker = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_Tweaker);
-
-//scr_Splitsfont_Tweaker_Add_String(sf_tweaker, header_string);
-//for (var i = 0; i < quote_lines_count; i++) {
-//	scr_Splitsfont_Tweaker_Add_String(sf_tweaker, quote_strings[i]);
-//}
-
 var menu_y_pos = 
 	y + sliding_ribbon_height -
 	(2.5 * menu_vertical_spacing);
