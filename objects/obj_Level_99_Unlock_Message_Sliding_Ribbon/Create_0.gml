@@ -62,7 +62,7 @@ var menu_y_pos =
 
 menu = scr_Menu_NEW(
 	x + (sliding_ribbon_width / 2), menu_y_pos,
-	["PLAY AGAIN", "MAIN MENU"],
+	["PRESS ESCAPE", "TO EXIT GAME"],
 	menu_is_not_tweened
 );
 
