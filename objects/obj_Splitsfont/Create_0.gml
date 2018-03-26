@@ -50,6 +50,18 @@ glyph_line_data[44] = [ // ,
 	[2, 1],
 	[1, 0]
 ];
+
+glyph_vertex_data[34] = [ // " 	
+	[0.3, 0.05, -0.1],
+	[0.3, 0.3, -0.1],
+	[0.3, 0.05, 0.1],
+	[0.3, 0.3, 0.1]
+];
+
+glyph_line_data[34] = [ // "
+	[1, 0],
+	[3, 2]
+];
 // /DOES NOT LOOK RIGHT AT LARGER SIZES!!
 
 
