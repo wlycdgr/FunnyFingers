@@ -2,6 +2,25 @@
 WLY_HighestOrdCode = 96;
 
 glyph_vertex_data = array_create(WLY_HighestOrdCode, -1);
+glyph_line_data = array_create(WLY_HighestOrdCode, -1);
+
+//	DOES NOT LOOK RIGHT AT LARGER SIZES!!
+glyph_line_data[46] = [ // .
+	[1, 2],
+	[2, 3],
+	[3, 0],
+	[0, 1]
+];
+
+glyph_vertex_data[46] = [ // .
+	[0.02, 0.93, -0.01],
+	[0.02, 0.95, -0.01],
+	[0.02, 0.95, 0.01],
+	[0.02, 0.93, 0.01]
+];
+// /DOES NOT LOOK RIGHT AT LARGER SIZES!!
+
+
 glyph_vertex_data[ord("A")] = [
 	[0.3, 0.0, 0.0],
 	[0.35, 0.6, -0.19],
@@ -338,7 +357,8 @@ glyph_vertex_data[vk_space] = [
 ];
 
 
-glyph_line_data = array_create(WLY_HighestOrdCode, -1);
+
+
 glyph_line_data[ord("A")] = [
 	[3, 0],
 	[0, 4],
