@@ -404,6 +404,16 @@ March 25
 - DONE show when multiplier display is unbroken
 
 - implement tutorial being the only thing you can do until you complete it, at the beginning
+	- DONE when the game first loads, and until the player beats the tutorial, "PLAY" in the main menu is replaced by "TUTORIAL"
+	- DONE pressing "TUTORIAL" goes to Tutorial room
+	- in Tutorial room, strings scroll by in different directions
+		-	QWEIOP
+		-   QWWIOEP
+		-   QWEIWPI
+	- they scroll by from right to left
+	- you have to type the whole string correctly in sequence before it scrolls off the left edge
+
+
 - 3 pieces of armor - left, top, right (MAYBE?)
 - add game start animation
 	- bottom bar slides in from the left

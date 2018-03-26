@@ -34,12 +34,27 @@ title_x_paths[0] = scr_SlideTween_Add_Path(
 title_x_paths[1] = scr_SlideTween_Add_Default_Path(title_tween, fingers, slide_right);
 
 
+main_menu_labels[0] = "PLAY";
+main_menu_labels[1] = "CREDITS";
+main_menu_labels[2] = "EXIT";
+
+if (
+	!ds_map_find_value(
+		global.steam.unlocked,
+		global.steam.ach_api_names[steam_ach_QWEIOP]
+	)
+) {
+	main_menu_labels[0] = "TUTORIAL";
+}
 
 main_menu = scr_Menu_NEW(
 	window_x_center, 0.75 * window_height,
-	["PLAY", "CREDITS", "EXIT"],
+	main_menu_labels,
 	menu_is_tweened
 );
+
+
+
 
 difficulty_menu_labels[0] = "COOL";
 difficulty_menu_labels[1] = "EASY";

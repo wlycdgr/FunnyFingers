@@ -91,6 +91,7 @@ case "BACK":
 case "CONTINUE":
 	with (global.game) { event_user(2); }
 	break;
+	
 case "CREDITS":
 	global.room_state_tracker.state = rs_room_change_requested;
 	global.room_state_tracker.target_room = r_Credits;
@@ -100,6 +101,7 @@ case "CREDITS":
 case "EXIT":
 	game_end();
 	break;
+	
 case "MAIN MENU":
 	if (room == r_Gameplay) {
 		with (global.game) { event_user(4); }
@@ -108,13 +110,21 @@ case "MAIN MENU":
 		scr_Fade_To(r_MainMenu);
 	}
 	break;
+	
 case "PLAY":
 	with (global.main_menu_controller) {
 		main_menu.active = false;
 		difficulty_menu.active = true;
 	}
 	break;
+	
 case "PLAY AGAIN":
 	with (global.game) { event_user(3); }
+	break;
+	
+case "TUTORIAL":
+	global.room_state_tracker.state = rs_room_change_requested;
+	global.room_state_tracker.target_room = r_Tutorial;
+	
 	break;
 }
