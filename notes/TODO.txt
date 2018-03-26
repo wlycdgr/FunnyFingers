@@ -394,9 +394,9 @@ March 25
 - DONE made it so that you can't accidentally miss the message
 
 - add missing glyphs necessary to fully support CirclMaster quote: 
-	;
-	.
-	,
+	DONE ;
+	DONE .
+	DONE ,
 	[
 	]
 	"
