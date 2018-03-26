@@ -397,10 +397,10 @@ March 25
 	DONE ;
 	DONE .
 	DONE ,
+	DONE "
+	DONE -
 	[
 	]
-	"
-	-
 - on the right below the bar, display "X[column fill proportions sum]"
 - implement tutorial being the only thing you can do until you complete it, at the beginning
 - show when multiplier display is unbroken
