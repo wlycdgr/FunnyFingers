@@ -2,6 +2,8 @@ randomise();
 
 script_execute(scr_MACROS_and_GLOBALS);
 
+global.sound_manager = instance_create_layer(0, 0, "Instances", obj_SoundManager);
+
 global.store_version = store_version_steam;
 
 if (store_version_itch == global.store_version) {
