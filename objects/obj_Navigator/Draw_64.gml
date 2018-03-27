@@ -5,7 +5,9 @@ if (is_debug){
 	
 	draw_text(5, 50, "DEBUG MODE ON");
 	draw_text(5, 65, "CTRL down?: " + (is_ctrl_down ? "yup" : "nope"));
-	draw_text(5, 80, "Room: " + room_get_name(room));
+	draw_text(5, 80, "CTRL N for next room CTRL B for previous");
+	draw_text(5, 95, "CTRL D to toggle DEBUG MODE");
+	draw_text(5, 110, "Room: " + room_get_name(room));
 }
 
 if (room == r_Init) {
