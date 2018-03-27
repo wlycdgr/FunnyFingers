@@ -10,6 +10,3 @@ else if (state == gs_level_99_unlock_message) {
 with (ribbon) { event_user(2); } // on begin sliding out
 
 state = gs_fading_out;
-
-
-

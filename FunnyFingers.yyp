@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "3ad715bf-4be1-43d3-b94b-03c78ec11882",
+            "Value": {
+                "id": "f74a64ff-54fe-4722-b1b6-b541108f7169",
+                "resourcePath": "scripts\\scr_Get_Stat_Int\\scr_Get_Stat_Int.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3b84f41c-d6c5-4da3-b17d-f11c0b10df8c",
             "Value": {
                 "id": "1a7059f0-3410-4de6-a55c-687a43e8c472",
@@ -391,6 +399,14 @@
             }
         },
         {
+            "Key": "497766f1-20a3-463a-b6ea-6cb84381b078",
+            "Value": {
+                "id": "11d2213f-d40a-487f-87d1-e2541eb74262",
+                "resourcePath": "views\\497766f1-20a3-463a-b6ea-6cb84381b078.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4af61e27-d101-41cd-b8ff-356470a46883",
             "Value": {
                 "id": "aef8ef5c-782e-42d0-a3b3-c0a28f3ec3a4",
@@ -412,6 +428,14 @@
                 "id": "fce361b1-ceef-4978-a9fd-ad79268af94a",
                 "resourcePath": "views\\4d72156a-4efe-437b-b65b-4c24840317d5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4dd37bc8-9b1b-4dc0-b3d7-d0df46accc53",
+            "Value": {
+                "id": "f686ad36-4963-4234-802a-ac6096f1a66f",
+                "resourcePath": "scripts\\scr_Set_Stat_Int\\scr_Set_Stat_Int.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -639,6 +663,14 @@
             }
         },
         {
+            "Key": "8797b4e2-876d-41db-8436-98311b587db2",
+            "Value": {
+                "id": "43c1e9a9-0320-4e7d-90bc-111a6388dc44",
+                "resourcePath": "scripts\\scr_Itch_SaveHighScores\\scr_Itch_SaveHighScores.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "87eedd21-65f9-45f8-b8a6-36856abd413a",
             "Value": {
                 "id": "8fd6afa8-ab01-4f73-82e7-9db09bca0235",
@@ -711,11 +743,27 @@
             }
         },
         {
+            "Key": "9d14a5e8-6acb-4a2e-ab0b-37e7d122fb8d",
+            "Value": {
+                "id": "c0845cd6-1edd-4797-9f01-b64caaa00fd4",
+                "resourcePath": "views\\9d14a5e8-6acb-4a2e-ab0b-37e7d122fb8d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a16aced3-abaf-4620-94f7-1fe1df8f03df",
             "Value": {
                 "id": "fb3160df-c7d3-4f48-bf11-49454395ac1f",
                 "resourcePath": "objects\\obj_Main_Menu_Room_Controller\\obj_Main_Menu_Room_Controller.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a282b9f7-bf81-4ec7-a0d3-138402b568b6",
+            "Value": {
+                "id": "96cd6574-a498-4b59-8835-25405d6bf09c",
+                "resourcePath": "scripts\\scr_ASI_UnlockAchievement\\scr_ASI_UnlockAchievement.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -879,6 +927,14 @@
             }
         },
         {
+            "Key": "bfca5911-ad08-4a1e-ab31-a9a9480dcaff",
+            "Value": {
+                "id": "0b7e36c8-303a-40e5-a936-cd72530bb241",
+                "resourcePath": "scripts\\scr_Itch_UnlockAchievement\\scr_Itch_UnlockAchievement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c186446c-f3ac-4a1d-810e-834a1a247471",
             "Value": {
                 "id": "0fa7b827-c275-4b7d-92a5-100a21f27efc",
@@ -1007,6 +1063,14 @@
             }
         },
         {
+            "Key": "d8e626d6-de05-40ae-b0e2-ed85ae399aaf",
+            "Value": {
+                "id": "692c31c0-312d-46eb-a746-efb7996b58a9",
+                "resourcePath": "scripts\\scr_ASI_UpdateLifetimeCoolPointsLeaderboard\\scr_ASI_UpdateLifetimeCoolPointsLeaderboard.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "da713496-010c-445d-b1f6-183e7907bc7f",
             "Value": {
                 "id": "3cb363e4-fabc-4dd0-96c7-0b285893a031",
@@ -1095,6 +1159,14 @@
             }
         },
         {
+            "Key": "e7488810-5f73-4f51-8ea5-95e9a267e61b",
+            "Value": {
+                "id": "f6c3f7be-6432-4081-8f29-65684040f764",
+                "resourcePath": "objects\\obj_Itch_Liason\\obj_Itch_Liason.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e9a3bacc-dda0-4e2a-b7f3-b2ccf4e5cf5c",
             "Value": {
                 "id": "1b41c183-2f63-45f3-8dec-a9c497622788",
@@ -1151,6 +1223,14 @@
             }
         },
         {
+            "Key": "f5c7f16d-9b7f-422e-b86f-902b4d752352",
+            "Value": {
+                "id": "4ea55d59-6fa2-449e-bcc7-a28eaedd3ff6",
+                "resourcePath": "views\\f5c7f16d-9b7f-422e-b86f-902b4d752352.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f5c83b03-3241-48fb-9990-957372b55447",
             "Value": {
                 "id": "7a88676e-02f3-4435-93d3-48738bc8e1f0",
@@ -1203,9 +1283,6 @@
         "678f5e16-9839-48e9-837c-a3b611f73331",
         "a43486dc-bd3f-4e97-9e9d-c2818d636d5e",
         "09760fc0-4fac-4fd2-ba6d-671093bacb27",
-        "c51897f5-6bc6-4561-acad-2aff6a162c8a",
-        "5495f05a-fff4-420d-9215-8cf8f8455f32",
-        "21e164c3-ce4b-4db0-99a2-afa7eb396227",
         "6cd67805-f2ae-40b0-a142-766f4e5fb59d",
         "a42faca6-7d96-4868-b0cb-464449307b68",
         "87eedd21-65f9-45f8-b8a6-36856abd413a",
@@ -1233,7 +1310,16 @@
         "b45fdfe2-6862-4ba1-be3a-bff263610936",
         "21021fe0-c5dc-496e-a62a-e442d866e153",
         "cd4b2291-610a-44e8-884c-10ef5083ff89",
-        "aba5c1fe-9257-45a5-940d-c0017f082c6a"
+        "aba5c1fe-9257-45a5-940d-c0017f082c6a",
+        "3ad715bf-4be1-43d3-b94b-03c78ec11882",
+        "4dd37bc8-9b1b-4dc0-b3d7-d0df46accc53",
+        "d8e626d6-de05-40ae-b0e2-ed85ae399aaf",
+        "a282b9f7-bf81-4ec7-a0d3-138402b568b6",
+        "c51897f5-6bc6-4561-acad-2aff6a162c8a",
+        "5495f05a-fff4-420d-9215-8cf8f8455f32",
+        "21e164c3-ce4b-4db0-99a2-afa7eb396227",
+        "8797b4e2-876d-41db-8436-98311b587db2",
+        "bfca5911-ad08-4a1e-ab31-a9a9480dcaff"
     ],
     "tutorial": ""
 }

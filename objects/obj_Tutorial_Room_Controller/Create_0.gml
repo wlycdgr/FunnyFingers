@@ -77,10 +77,3 @@ good_luck_string_y = 0.42 * window_height;
 screen_2_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
 good_luck_string_x_path = scr_SlideTween_Add_Default_Path(screen_2_tween, good_luck_string, slide_left);
 screen_2_tween.active = false;
-
-
-
-//excellent_work_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-//scr_Splitsfont_Set_Text(excellent_work_string, "EXCELLENT WORK");
-//sf_tweaker = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_Tweaker);
-//scr_Splitsfont_Tweaker_Add_String(sf_tweaker, excellent_work_string);

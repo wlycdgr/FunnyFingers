@@ -1,5 +1,4 @@
 /// @description Draw the bar!
-//exit;
 
 draw_set_color(c_black);
 draw_rectangle(x, y, x + width, y + 8, true);

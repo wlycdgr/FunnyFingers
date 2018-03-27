@@ -1,4 +1,7 @@
 // Game context
+#macro store_version_steam 0
+#macro store_version_itch 0
+
 #macro game_fps game_get_speed(gamespeed_fps)
 
 #macro window_height window_get_height()

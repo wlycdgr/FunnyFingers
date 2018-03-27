@@ -19,6 +19,7 @@ else {
 					// SEQUENCE COMPLETE!
 					if (qweiop_index >= qweiop_length) {
 						scr_Steam_UnlockAchievement(steam_ach_QWEIOP);
+						//scr_Itch_UnlockAchievement(itch_ach_QWEIOP
 						screen_0_tween.paused = false;
 					}
 				}

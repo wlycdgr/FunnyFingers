@@ -402,24 +402,22 @@ March 25
 	DONE ]
 - DONE finalize multiplier display	
 - DONE show when multiplier display is unbroken
+- DONE implement tutorial
 
-- implement tutorial being the only thing you can do until you complete it, at the beginning
-	- DONE when the game first loads, and until the player beats the tutorial, "PLAY" in the main menu is replaced by "TUTORIAL"
-	- DONE pressing "TUTORIAL" goes to Tutorial room
-	- in Tutorial room, strings scroll by in different directions
-		-	QWEIOP
-		-   QWWIOEP
-		-   QWEIWPI
-	- they scroll by from right to left
-	- you have to type the whole string correctly in sequence before it scrolls off the left edge
+- remove / comment out all Steam code in preparation for Itch version launch:
+	- no achievements
+	- no online leaderboards
+	- local leaderboard
+	- we check to see whether a particular difficulty is unlocked by consulting a local save file
+	
+- tweakdebug danger danger movement so it matches up better
 
-
-- 3 pieces of armor - left, top, right (MAYBE?)
+- 3 pieces of armor - left, top, right
+- losing a piece of armor destroys your multiplier
 - add game start animation
 	- bottom bar slides in from the left
 	- columns fill up from the bottom
 	- funny fingers fill up from the bottom
-- decide how to handle lack of steam connection
 - iterate on title screen twitching
 - make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
 which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
@@ -429,8 +427,12 @@ which causes any other reds or blues you come in contact with during that time t
 	- armor
 	- multiplier bar
 	- column fill bar
-- tweakdebug danger danger movement so it matches up better
+
 - BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
-- handle steam failing to upload score
 - add checks so that game does not break if any sprite asset is not available or misnamed
+
+
+CAN WAIT UNTIL AFTER ITCH LAUNCH:
+- decide how to handle lack of steam connection
+- handle steam failing to upload score
 - ensure no crash-because-global.steam.unlocked-not-initialized if user not logged in to Steam or connection lost at launch

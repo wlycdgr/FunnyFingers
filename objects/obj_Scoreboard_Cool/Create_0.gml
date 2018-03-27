@@ -11,9 +11,17 @@ for (var i = 0; i < 10; i++) {
 	scr_Splitsfont_Set_Tweaks(number_string, [0.025, 0.002, 0.05, 0, 0]);
 }
 
-already_unlocked_level_99 = ds_map_find_value(
-	global.steam.unlocked,
-	"ach_13_level_99"
-);
+if (store_version_steam == global.store_version) {
+	already_unlocked_level_99 = ds_map_find_value(
+		global.steam.unlocked,
+		"ach_13_level_99"
+	);
+}
+else if (store_version_itch == global.store_version) {
+	already_unlocked_level_99 = ds_map_find_value(
+		global.itch.unlocked,
+		"ach_13_level_99"
+	);
+}
 
 level_99_unlocked_this_time = false;

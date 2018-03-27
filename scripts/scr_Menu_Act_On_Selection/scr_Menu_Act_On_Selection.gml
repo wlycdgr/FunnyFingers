@@ -11,7 +11,6 @@ case "COOL":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_cool;
 		column_count = column_count_cool;
-		//steam_leaderboard = steam_leaderboard_cool;
 		difficulty = game_difficulty_cool;
 	}
 	
@@ -24,7 +23,6 @@ case "EASY":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_easy;
 		column_count = column_count_easy;
-		//steam_leaderboard = steam_leaderboard_easy;
 		difficulty = game_difficulty_easy;
 	}
 	
@@ -37,7 +35,6 @@ case "MEDIUM":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_medium;
 		column_count = column_count_medium;
-		//steam_leaderboard = steam_leaderboard_medium;
 		difficulty = game_difficulty_medium;
 	}
 	
@@ -50,7 +47,6 @@ case "HARD":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_hard;
 		column_count = column_count_hard;
-		//steam_leaderboard = steam_leaderboard_hard;
 		difficulty = game_difficulty_hard;
 	}
 	
@@ -70,7 +66,6 @@ case "DIFFICULT":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_difficult;
 		column_count = column_count_difficult;
-		//steam_leaderboard = steam_leaderboard_difficult;
 		difficulty = game_difficulty_difficult;
 	}
 	

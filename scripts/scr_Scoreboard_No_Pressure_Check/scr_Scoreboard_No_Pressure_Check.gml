@@ -1,5 +1,7 @@
 /// @function scr_Scoreboard_No_Pressure_Check(scoreboard_id)
 
+if (store_version_steam != global.store_version) return;
+
 with (argument0) {
 	if (
 		points >= steam_ach_No_Pressure_points_target &&

@@ -1,4 +1,4 @@
-/// @description Draw high score and check steam strings along with the standard stuff
+/// @description Draw the quote
 if (srs_inactive == state) exit;
 
 event_inherited();

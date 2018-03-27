@@ -79,6 +79,7 @@ new_high_score_string_x_offset =
 	(scr_Splitsfont_Get_Width(new_high_score_string) / 2);
 new_high_score_string_x = x + new_high_score_string_x_offset;
 
+
 check_steam_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(
 	check_steam_string,
