@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "7370bada-7319-4de4-a8f5-9ecf592f4580",
+            "Value": {
+                "id": "9ff98ac0-5443-4b13-9751-b8b6bcc7d67b",
+                "resourcePath": "scripts\\scr_ASI_IsAchievementUnlocked\\scr_ASI_IsAchievementUnlocked.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7a7975d4-f638-4ab3-a232-13d180e3d87a",
             "Value": {
                 "id": "e754b572-00b6-42ac-8f50-9506074c2426",
@@ -1315,6 +1323,7 @@
         "4dd37bc8-9b1b-4dc0-b3d7-d0df46accc53",
         "d8e626d6-de05-40ae-b0e2-ed85ae399aaf",
         "a282b9f7-bf81-4ec7-a0d3-138402b568b6",
+        "7370bada-7319-4de4-a8f5-9ecf592f4580",
         "c51897f5-6bc6-4561-acad-2aff6a162c8a",
         "5495f05a-fff4-420d-9215-8cf8f8455f32",
         "21e164c3-ce4b-4db0-99a2-afa7eb396227",

@@ -100,40 +100,39 @@ global.core_funny_finger_grow_time_in_sec =
 // /Core Mechanics
 
 
-// Steam
-#macro steam_achievement_count 15
+// Achievement and leaderboard info
+// Steam, Itch, ....
+#macro ach_count 15
 
-#macro steam_ach_The_Challenger 0
-#macro steam_ach_The_Lucky_Loser 1
-#macro steam_ach_The_Qualifier 2
-#macro steam_ach_The_Wildcard 3
-#macro steam_ach_The_Up_And_Comer 4
-#macro steam_ach_The_Breakout_Performer 5
-#macro steam_ach_The_Pro 6
-#macro steam_ach_The_Contender 7
-#macro steam_ach_The_Champion 8
-#macro steam_ach_The_Hall_Of_Famer 9
-#macro steam_ach_The_Living_Legend 10
-#macro steam_ach_Fignermukcre 11
-#macro steam_ach_No_Pressure 12
-#macro steam_ach_Level_99 13
-#macro steam_ach_QWEIOP 14
+#macro ach_The_Challenger 0
+#macro ach_The_Lucky_Loser 1
+#macro ach_The_Qualifier 2
+#macro ach_The_Wildcard 3
+#macro ach_The_Up_And_Comer 4
+#macro ach_The_Breakout_Performer 5
+#macro ach_The_Pro 6
+#macro ach_The_Contender 7
+#macro ach_The_Champion 8
+#macro ach_The_Hall_Of_Famer 9
+#macro ach_The_Living_Legend 10
+#macro ach_Fignermukcre 11
+#macro ach_No_Pressure 12
+#macro ach_Level_99 13
+#macro ach_QWEIOP 14
 
-#macro steam_ach_unlock_score_low 100 // 3k
-#macro steam_ach_unlock_score_mid 250 //  10k
-#macro steam_ach_unlock_score_high 500 // 35k
+#macro ach_unlock_score_low 100 // 3k
+#macro ach_unlock_score_mid 250 //  10k
+#macro ach_unlock_score_high 500 // 35k
 
-
-#macro steam_ach_No_Pressure_points_target steam_ach_unlock_score_high
-#macro steam_ach_Level_99_points_target 100 //2452814 // 2,452,814
-
+#macro ach_No_Pressure_points_target ach_unlock_score_high
+#macro ach_Level_99_points_target 100 //2452814 // 2,452,814
 
 #macro steam_leaderboard_cool "Lifetime Cool Points"
 #macro steam_leaderboard_easy_high_scores "Easy High Scores"
 #macro steam_leaderboard_medium_high_scores "Medium High Scores"
 #macro steam_leaderboard_hard_high_scores "Hard High Scores"
 #macro steam_leaderboard_difficult_high_scores "Difficult High Scores"
-// /Steam
+// /Achievement and leaderboard info
 
 
 #macro not_set -12345

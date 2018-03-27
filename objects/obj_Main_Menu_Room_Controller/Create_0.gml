@@ -34,17 +34,14 @@ title_x_paths[0] = scr_SlideTween_Add_Path(
 title_x_paths[1] = scr_SlideTween_Add_Default_Path(title_tween, fingers, slide_right);
 
 
-main_menu_labels[0] = "PLAY";
+
+// MAIN MENU
+main_menu_labels[0] = "TUTORIAL";
 main_menu_labels[1] = "CREDITS";
 main_menu_labels[2] = "EXIT";
 
-if (
-	!ds_map_find_value(
-		global.steam.unlocked,
-		global.steam.ach_api_names[steam_ach_QWEIOP]
-	)
-) {
-	main_menu_labels[0] = "TUTORIAL";
+if (scr_ASI_IsAchievementUnlocked(ach_QWEIOP)) {
+	main_menu_labels[0] = "PLAY";
 }
 
 main_menu = scr_Menu_NEW(
@@ -53,40 +50,17 @@ main_menu = scr_Menu_NEW(
 	menu_is_tweened
 );
 
-
-
-
+// DIFFICULTY SELECTION MENU
 difficulty_menu_labels[0] = "COOL";
 difficulty_menu_labels[1] = "EASY";
 
-if (
-	ds_map_find_value(
-		global.steam.unlocked, 
-		global.steam.ach_api_names[steam_ach_The_Qualifier]
-	)
-) { 
-	difficulty_menu_labels[2] = "MEDIUM";
-}
+if (scr_ASI_IsAchievementUnlocked(ach_The_Qualifier)) { difficulty_menu_labels[2] = "MEDIUM"; }
 else { difficulty_menu_labels[2] = "??????"; }
 
-if (
-	ds_map_find_value(
-		global.steam.unlocked, 
-		global.steam.ach_api_names[steam_ach_The_Breakout_Performer]
-	)
-) { 
-	difficulty_menu_labels[3] = "HARD";
-}
+if (scr_ASI_IsAchievementUnlocked(ach_The_Breakout_Performer)) { difficulty_menu_labels[3] = "HARD"; }
 else { difficulty_menu_labels[3] = "????"; }
 
-if (
-	ds_map_find_value(
-		global.steam.unlocked, 
-		global.steam.ach_api_names[steam_ach_The_Champion]
-	)
-) { 
-	difficulty_menu_labels[4] = "DIFFICULT";
-}
+if (scr_ASI_IsAchievementUnlocked(ach_The_Champion)) { difficulty_menu_labels[4] = "DIFFICULT"; }
 else { difficulty_menu_labels[4] = "?????????"; }
 
 difficulty_menu_labels[5] = "BACK";
