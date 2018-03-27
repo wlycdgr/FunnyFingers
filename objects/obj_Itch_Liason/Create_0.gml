@@ -42,7 +42,6 @@ ach_api_names = [
 	"ach_13_level_99",
 	"ach_14_qweiop"
 ];
-ach_count = array_length_1d(ach_api_names);
 
 ach_names = [
 	"The Challenger",

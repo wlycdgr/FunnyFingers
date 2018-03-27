@@ -6,4 +6,4 @@ twitch_per_frame = (target_size - funny_size) * random_range(0.04, 0.12);
 twitching_up = true;
 twitching_down = false;
 
-alarm[0] = 180; //irandom_range(300, 1800);
+alarm[0] = irandom_range(180, 600);

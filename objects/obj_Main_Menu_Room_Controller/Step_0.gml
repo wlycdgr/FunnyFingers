@@ -58,14 +58,6 @@ case rs_breaking_down_room:
 	) {
 		room_goto(global.room_state_tracker.target_room);
 	}
-	
-	//if (
-	//	title_tween.complete &&
-	//	main_menu.slide_tween.complete &&
-	//	difficulty_menu.slide_tween.complete
-	//) {
-	//	room_goto(global.room_state_tracker.target_room);
-	//}
 
 	break;
 }

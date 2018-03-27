@@ -19,7 +19,7 @@ draw_text(5, 335, "stat_difficult_high_score: " + string(stat_difficult_high_sco
 draw_text(5, 365, "STEAM ACHIEVEMENTS (Ctrl + X + # to toggle)");
 
 if (ach_unlock_states_retrieved) {
-	for (var i = 0; i < steam_achievement_count; i++) {
+	for (var i = 0; i < ach_count; i++) {
 		draw_text(
 			5, 380 + i * 15,
 			ach_debug_names[i] +
