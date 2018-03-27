@@ -5,6 +5,8 @@ if (keyboard_check_pressed(vk_space)) {
 }
 
 else {
+	screen_counter += 1;
+	
 	switch (screen_index) { 
 	case 0: //	QWEIOP screen
 		if (screen_0_tween.paused) {
@@ -23,7 +25,7 @@ else {
 	
 				else {
 					for (var i = 0; i < qweiop_length; i++) {
-						scr_Splitsfont_Set_Weight(first_sequence[i], qweiop_unselected_weight);
+						scr_Splitsfont_Set_Weight(qweiop_strings[i], qweiop_unselected_weight);
 					}
 				
 					qweiop_index = 0;
@@ -31,9 +33,13 @@ else {
 			}
 		}
 		
-		else if (screen_0_tween.complete) {
+		else if (
+			(screen_counter > lead_time && screen_0_tween.off_screen) ||
+			screen_0_tween.complete
+		) {
 			screen_0_tween.active = false;
 			screen_1_tween.active = true;
+			screen_counter = 0;
 			screen_index = 1;
 		}
 		
@@ -52,9 +58,13 @@ else {
 			screen_1_tween.paused = false;
 		}
 		
-		else if (screen_1_tween.complete) {
+		else if (
+			(screen_counter > lead_time && screen_1_tween.off_screen) ||
+			screen_1_tween.complete
+		) {
 			screen_1_tween.active = false;
 			screen_2_tween.active = true;
+			screen_counter = 0;
 			screen_index = 2;
 		}
 		
@@ -65,7 +75,10 @@ else {
 			screen_2_tween.paused = false;
 		}
 		
-		else if (screen_2_tween.complete) {
+		else if (
+			(screen_counter > lead_time && screen_2_tween.off_screen) ||
+			screen_2_tween.complete
+		) {
 			screen_2_tween.active = false;
 			room_goto(r_MainMenu);
 		}
