@@ -9,6 +9,20 @@
 #macro window_x_center window_width / 2
 // /Game context
 
+// Sound
+#macro sfx_crash_into_enemy_and_lose_armor 0
+#macro sfx_achieve_high_score 1
+#macro sfx_crash_into_enemy_and_DIE 2
+#macro sfx_eat_energy 3
+#macro sfx_lose_multiplier 4
+#macro sfx_slide_in 5
+#macro sfx_slide_out 6
+#macro sfx_scroll_menu 7
+#macro sfx_select_menu 8
+#macro sfx_run_out_of_energy_and_DIE 9
+#macro sfx_move_and_increase_multiplier 10
+#macro sfx_move_and_reach_maximum_multiplier 11
+// /Sound
 
 // Game Settings
 #macro column_count_cool 5

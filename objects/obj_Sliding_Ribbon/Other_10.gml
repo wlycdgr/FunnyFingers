@@ -1,4 +1,5 @@
 /// @description On begin sliding in
+scr_Sound_Play(sfx_slide_in);
 
 scr_SlideTween_Reset(slide_tween);
 slide_tween.active = true;

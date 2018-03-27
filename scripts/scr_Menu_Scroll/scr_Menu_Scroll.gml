@@ -1,11 +1,15 @@
 /// param {integer} menu The id of the menu we are scrolling
 with (argument0) {
 	if (scroll_down) {
+		scr_Sound_Play(sfx_scroll_menu);
+		
 		label_states[index] = menu_item_state_unselected;		
 		index = (index + 1) % item_count;
 		label_states[index] = menu_item_state_selected;
 	}
 	else if (scroll_up) {
+		scr_Sound_Play(sfx_scroll_menu);
+		
 		label_states[index] = menu_item_state_unselected;
 		index = (index - 1 + item_count) % item_count;
 		label_states[index] = menu_item_state_selected;

@@ -1,4 +1,5 @@
 /// @description On begin sliding out
+scr_Sound_Play(sfx_slide_out);
 
 scr_SlideTween_Force_Slide_Out(slide_tween);
 state = srs_sliding_out;

@@ -1,4 +1,6 @@
 /// @description Reset move multiplier
+scr_Sound_Play(sfx_lose_multiplier);
+
 move_multiplier = mb_min_multiplier;
 fully_drained = true;
 fill_x = 0;

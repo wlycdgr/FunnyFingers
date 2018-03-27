@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "2ad0eeb1-51d9-46d8-a91a-cec995ea9139",
+            "Value": {
+                "id": "83879d34-804d-479e-a1fc-aa7dda9b60e8",
+                "resourcePath": "scripts\\scr_Sound_Play\\scr_Sound_Play.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2d8a3230-be62-4ea2-889f-9726c1c9a92b",
             "Value": {
                 "id": "90ee7899-26a6-4d30-92f4-04af3caff9b0",
@@ -999,14 +1007,6 @@
             }
         },
         {
-            "Key": "b9756932-b096-4f76-9a63-961d833876e0",
-            "Value": {
-                "id": "c55ebdfd-046a-4635-a534-b3b9ff03b13e",
-                "resourcePath": "datafiles_yy\\quit_game_using_escape.ogg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "ba223c8f-8f0d-41f6-a919-116c2a53a012",
             "Value": {
                 "id": "868698f7-1217-4070-87d2-47af97914e86",
@@ -1440,7 +1440,8 @@
         "5495f05a-fff4-420d-9215-8cf8f8455f32",
         "21e164c3-ce4b-4db0-99a2-afa7eb396227",
         "8797b4e2-876d-41db-8436-98311b587db2",
-        "bfca5911-ad08-4a1e-ab31-a9a9480dcaff"
+        "bfca5911-ad08-4a1e-ab31-a9a9480dcaff",
+        "2ad0eeb1-51d9-46d8-a91a-cec995ea9139"
     ],
     "tutorial": ""
 }

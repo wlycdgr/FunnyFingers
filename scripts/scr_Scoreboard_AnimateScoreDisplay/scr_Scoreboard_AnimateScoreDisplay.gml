@@ -4,6 +4,8 @@ with(argument0) {
 	if (points >= current_high_score) {
 		if (!high_score_tweened) { 
 			high_score_tweened = true;
+			
+			scr_Sound_Play(sfx_achieve_high_score);
 		
 			var number_as_string = 0;
 			var number_string = 0;
