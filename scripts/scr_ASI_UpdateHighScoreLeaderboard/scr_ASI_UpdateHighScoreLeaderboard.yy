@@ -1,8 +1,8 @@
 {
-    "id": "4dd37bc8-9b1b-4dc0-b3d7-d0df46accc53",
+    "id": "ab48a3d7-f556-4a18-86a4-ccf0d02956c5",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_Set_Stat_Int",
+    "name": "scr_ASI_UpdateHighScoreLeaderboard",
     "IsCompatibility": false,
     "IsDnD": false
 }

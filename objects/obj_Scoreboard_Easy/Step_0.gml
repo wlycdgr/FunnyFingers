@@ -7,9 +7,9 @@ if (gs_playing == global.game.state) {
 	scr_Scoreboard_Handle_Score_Hitting_Targets(
 		id, 
 		[
-			steam_ach_The_Challenger,
-			steam_ach_The_Lucky_Loser,
-			steam_ach_The_Qualifier
+			ach_The_Challenger,
+			ach_The_Lucky_Loser,
+			ach_The_Qualifier
 		]
 	);
 }

@@ -8,13 +8,13 @@ if (gs_playing == global.game.state) {
 	scr_Scoreboard_Handle_Score_Hitting_Targets(
 		id, 
 		[
-			steam_ach_The_Pro,
-			steam_ach_The_Contender,
-			steam_ach_The_Champion
+			ach_The_Pro,
+			ach_The_Contender,
+			ach_The_Champion
 		]
 	);
 	
-	scr_Scoreboard_No_Pressure_Check(id);
+	scr_ASI_PossiblyUnlockNoPressure(id);
 }
 
 scr_Scoreboard_AnimateScoreDisplay(id);

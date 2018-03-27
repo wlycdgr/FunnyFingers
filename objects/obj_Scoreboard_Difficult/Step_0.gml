@@ -7,13 +7,13 @@ if (gs_playing == global.game.state) {
 	scr_Scoreboard_Handle_Score_Hitting_Targets(
 		id, 
 		[
-			steam_ach_The_Hall_Of_Famer,
-			steam_ach_The_Living_Legend,
-			steam_ach_Fignermukcre
+			ach_The_Hall_Of_Famer,
+			ach_The_Living_Legend,
+			ach_Fignermukcre
 		]
 	);
 
-	scr_Scoreboard_No_Pressure_Check(id);
+	scr_ASI_PossiblyUnlockNoPressure(id);
 }
 
 scr_Scoreboard_AnimateScoreDisplay(id);

@@ -19,13 +19,13 @@ if (store_version_steam == global.store_version) {
 }
 
 else if (store_version_itch == global.store_version) {
-	var old_value = ds_map_find_value(global.itch.high_scores, "Lifetime Cool");
+	var old_value = ds_map_find_value(global.itch.high_scores, "stat_lifetime_cool_points");
 	
 	var new_lifetime_cool_points_value = old_value + argument0;
 	
 	ds_map_replace(
 		global.itch.high_scores, 
-		"Lifetime Cool", 
+		"stat_lifetime_cool_points", 
 		new_lifetime_cool_points_value
 	);
 	

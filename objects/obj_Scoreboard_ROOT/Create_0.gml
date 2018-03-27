@@ -9,8 +9,6 @@ for (var i = 0; i < 10; i++) {
 	number_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 	scr_Splitsfont_Set_Text(number_string, number_as_string);
 	scr_Splitsfont_Set_Tweaks(number_string, [0.01, 0.001, 0.05, 0, 0]);
-	//scr_Splitsfont_Set_Size(number_string, splitsfont_size_scoreboard);
-	//scr_Splitsfont_Set_Weight(number_string, splitsfont_weight_scoreboard);
 	number_strings[ord(number_as_string)] = number_string;
 }
 

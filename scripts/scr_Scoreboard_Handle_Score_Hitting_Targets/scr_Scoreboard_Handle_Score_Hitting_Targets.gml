@@ -5,9 +5,9 @@
 	scr_Scoreboard_Handle_Score_Hitting_Targets(
 		id, 
 		[
-			steam_ach_The_Challenger,
-			steam_ach_The_Lucky_Loser,
-			steam_ach_The_Qualifier
+			ach_The_Challenger,
+			ach_The_Lucky_Loser,
+			ach_The_Qualifier
 		]
 	);
 */
@@ -16,26 +16,26 @@ if (store_version_steam != global.store_version) return;
 
 with (argument0) {
 	if (
-		points >= steam_ach_unlock_score_high &&
+		points >= ach_unlock_score_high &&
 		!unlocked_high
 	) {
-		scr_Steam_UnlockAchievement(argument1[2]);
+		scr_ASI_UnlockAchievement(argument1[2]);
 		unlocked_high = true;
 	}
 	
 	else if (
-		points >= steam_ach_unlock_score_mid &&
+		points >= ach_unlock_score_mid &&
 		!unlocked_mid
 	) {
-		scr_Steam_UnlockAchievement(argument1[1]);
+		scr_ASI_UnlockAchievement(argument1[1]);
 		unlocked_mid = true;
 	}
 	
 	else if (
-		points >= steam_ach_unlock_score_low &&
+		points >= ach_unlock_score_low &&
 		!unlocked_low
 	) {
-		scr_Steam_UnlockAchievement(argument1[0]);
+		scr_ASI_UnlockAchievement(argument1[0]);
 		unlocked_low = true;
 	}
 }
