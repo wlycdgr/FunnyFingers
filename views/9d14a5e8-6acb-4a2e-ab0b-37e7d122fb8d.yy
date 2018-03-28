@@ -9,7 +9,8 @@
         "a282b9f7-bf81-4ec7-a0d3-138402b568b6",
         "7370bada-7319-4de4-a8f5-9ecf592f4580",
         "ab48a3d7-f556-4a18-86a4-ccf0d02956c5",
-        "db2dc6f7-fcd4-4b54-86a9-6204ed0dedfe"
+        "db2dc6f7-fcd4-4b54-86a9-6204ed0dedfe",
+        "f8161ad7-ecd7-4bc4-9cde-e542d48ed5f9"
     ],
     "filterType": "GMScript",
     "folderName": "AbstractStoreInterface",

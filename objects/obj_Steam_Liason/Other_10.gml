@@ -1,10 +1,13 @@
-/// @description Get ach state if not gotten yet
-if (step_debug) {
-	stat_lifetime_cool_points = steam_get_stat_int("stat_lifetime_cool_points");
-	stat_easy_high_score = steam_get_stat_int("stat_easy_high_score");
-	stat_medium_high_score = steam_get_stat_int("stat_medium_high_score");
-	stat_hard_high_score = steam_get_stat_int("stat_hard_high_score");
-	stat_difficult_high_score = steam_get_stat_int("stat_difficult_high_score");		
+/// @description
+event_inherited();
+
+if (step_debug) {	
+	is_overlay_enabled = steam_is_overlay_enabled();
+	persona_name = steam_get_persona_name();
+	user_steam_id = steam_get_user_steam_id();
+	is_user_logged_on = steam_is_user_logged_on();
+	app_id = steam_get_app_id();
+	user_account_id = steam_get_user_account_id();
 }
 
 if (!is_initialised) {
@@ -27,18 +30,3 @@ if (!ach_unlock_states_retrieved) {
 	}
 	ach_unlock_states_retrieved = true;
 }
-
-
-
-////if (step_debug) {
-//	is_initialised = steam_initialised();
-//	are_stats_ready = steam_stats_ready();
-//	is_overlay_enabled = steam_is_overlay_enabled();
-//	persona_name = steam_get_persona_name();
-//	user_steam_id = steam_get_user_steam_id();
-//	is_user_logged_on = steam_is_user_logged_on();
-//	app_id = steam_get_app_id();
-//	user_account_id = steam_get_user_account_id();
-//	current_language = steam_current_game_language();
-//	available_languages = steam_available_languages();
-////}

@@ -1,5 +1,4 @@
-/// @description ue0 & ue15
-event_user(0);
-event_user(15);
+/// @description 
+event_inherited();
 
 global.steam_overlay_activated = steam_is_overlay_activated();

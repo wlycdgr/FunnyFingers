@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "013d685b-41d8-4fc2-a235-af592ab0c521",
+            "Value": {
+                "id": "fc33f8b8-2732-43e6-b90e-db364eb29116",
+                "resourcePath": "scripts\\scr_Itch_SaveAchievements\\scr_Itch_SaveAchievements.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0252d75a-808a-4e57-bf4f-a43ea1d553ba",
             "Value": {
                 "id": "a3c6eb0a-5a9d-411f-90dd-7be10ff8b3cf",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "1b8d26b2-8ce5-4cdc-a27e-c2f69c5c3b0f",
+            "Value": {
+                "id": "1fc6f802-b747-467c-aa40-c0ef217599cd",
+                "resourcePath": "notes\\Itch implementation.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "1c394201-cc72-4632-9b86-790c3a40e4c3",
             "Value": {
                 "id": "3c3626e9-14a9-45ae-a481-9f456a41129f",
@@ -235,6 +251,14 @@
             "Value": {
                 "id": "0af80cbb-c4fb-485d-80bf-f7d668c06077",
                 "resourcePath": "objects\\obj_Input_Tracker\\obj_Input_Tracker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1ec52c82-9bc5-4075-8470-affbed1e8a59",
+            "Value": {
+                "id": "bc6afd8a-a0d6-4575-a02b-21ae1a6f66bb",
+                "resourcePath": "objects\\obj_ASI_StoreLiason\\obj_ASI_StoreLiason.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -379,6 +403,14 @@
             "Value": {
                 "id": "f74a64ff-54fe-4722-b1b6-b541108f7169",
                 "resourcePath": "scripts\\scr_ASI_GetStatInt\\scr_ASI_GetStatInt.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3b3b2679-623c-40f9-bacc-dd0348224796",
+            "Value": {
+                "id": "6ce39769-ea5f-4440-889e-5a3c3f85185b",
+                "resourcePath": "scripts\\scr_Itch_ToggleAchievement\\scr_Itch_ToggleAchievement.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1074,7 +1106,7 @@
             "Key": "c51897f5-6bc6-4561-acad-2aff6a162c8a",
             "Value": {
                 "id": "bf99c026-3bce-4fa5-81fa-d41233efe760",
-                "resourcePath": "scripts\\scr_Toggle_Achievement\\scr_Toggle_Achievement.yy",
+                "resourcePath": "scripts\\scr_Steam_ToggleAchievement\\scr_Steam_ToggleAchievement.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1311,6 +1343,14 @@
             }
         },
         {
+            "Key": "efc4dc0c-e022-4852-90c1-3ba9d61d9f09",
+            "Value": {
+                "id": "09925815-f4cc-4fba-888c-0db6458fcb6b",
+                "resourcePath": "datafiles_yy\\achievements.ini.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "f177824f-0638-4d45-9144-c01e36e8bafb",
             "Value": {
                 "id": "bebe7ee2-ad57-4e3b-8eb9-f15c93f8193a",
@@ -1363,6 +1403,14 @@
             "Value": {
                 "id": "a9240952-66b6-4172-8ce7-daf063adcc1e",
                 "resourcePath": "scripts\\scr_SlidePath_Reset\\scr_SlidePath_Reset.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f8161ad7-ecd7-4bc4-9cde-e542d48ed5f9",
+            "Value": {
+                "id": "cfeef3e6-23b6-44d8-925a-ac4cecebc904",
+                "resourcePath": "scripts\\scr_ASI_ToggleAchievement\\scr_ASI_ToggleAchievement.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1436,11 +1484,14 @@
         "7370bada-7319-4de4-a8f5-9ecf592f4580",
         "ab48a3d7-f556-4a18-86a4-ccf0d02956c5",
         "db2dc6f7-fcd4-4b54-86a9-6204ed0dedfe",
+        "f8161ad7-ecd7-4bc4-9cde-e542d48ed5f9",
         "c51897f5-6bc6-4561-acad-2aff6a162c8a",
         "5495f05a-fff4-420d-9215-8cf8f8455f32",
         "21e164c3-ce4b-4db0-99a2-afa7eb396227",
         "8797b4e2-876d-41db-8436-98311b587db2",
         "bfca5911-ad08-4a1e-ab31-a9a9480dcaff",
+        "3b3b2679-623c-40f9-bacc-dd0348224796",
+        "013d685b-41d8-4fc2-a235-af592ab0c521",
         "2ad0eeb1-51d9-46d8-a91a-cec995ea9139"
     ],
     "tutorial": ""

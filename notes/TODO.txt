@@ -404,11 +404,12 @@ March 25
 - DONE show when multiplier display is unbroken
 - DONE implement tutorial
 
-- remove / comment out all Steam code in preparation for Itch version launch:
-	- no achievements
-	- no online leaderboards
-	- local leaderboard
-	- we check to see whether a particular difficulty is unlocked by consulting a local save file
+
+- implement Itch support
+	- local leaderboard saving
+	- local achievement saving
+	- 
+
 	
 - tweakdebug danger danger movement so it matches up better
 

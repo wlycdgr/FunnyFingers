@@ -1,0 +1,15 @@
+Itch liason object
+
+- achievement unlock states are stored in a file
+- itch liason object loads the unlock states from the file at game launch
+- it stores the unlock states in the unlocked ds_map
+- when a player unlocks an achievement
+	- unlocked ds_map is updated
+	- unlocked ds_map values are saved to the achievements file
+
+- scores are stored in a file
+- itch liason object loads the scores from the file at game launch
+- it stores the scores in the stats ds_map
+- when a player sets a new high score
+	- stats ds_map is updated
+	- stats ds_map values are saved to scores file
