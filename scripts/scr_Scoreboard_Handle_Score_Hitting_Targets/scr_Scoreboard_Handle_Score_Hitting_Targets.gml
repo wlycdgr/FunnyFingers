@@ -11,9 +11,6 @@
 		]
 	);
 */
-
-if (store_version_steam != global.store_version) return;
-
 with (argument0) {
 	if (
 		points >= ach_unlock_score_high &&

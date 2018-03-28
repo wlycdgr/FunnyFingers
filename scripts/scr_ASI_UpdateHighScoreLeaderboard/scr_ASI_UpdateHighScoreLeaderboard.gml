@@ -30,13 +30,13 @@ if (store_version_steam == global.store_version) {
 
 else if (store_version_itch == global.store_version) {
 	var current_high_score = ds_map_find_value(
-		global.itch.high_scores,
+		global.itch.stats,
 		argument0
 	);
 	
 	if (global.scoreboard.points > current_high_score) {
 		ds_map_replace(
-			global.itch.high_scores,
+			global.itch.stats,
 			argument0,
 			current_high_score
 		);
