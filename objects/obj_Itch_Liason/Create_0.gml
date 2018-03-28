@@ -1,51 +1,7 @@
 /// @description Init
-draw_debug = true;
-step_debug = true;
+event_inherited();
 
-// screenshot counter
-screenshot_number = 0;
-
-// overlay stuff
-global.steam_overlay_activated = false;
-
-// connection status stuff
-is_initialised = false;
-are_stats_ready = false
-ach_unlock_states_retrieved = false;
-
-// stat stuff
-stat_lifetime_cool_points = not_set;
-stat_easy_high_score = not_set;
-stat_medium_high_score = not_set;
-stat_hard_high_score = not_set;
-stat_difficult_high_score = not_set;
-
-// unlock status
-unlocked = ds_map_create();
-
-// achievements stuff
-ach_api_names = [
-	"ach_0_the_challenger",
-	"ach_1_the_lucky_loser",
-	"ach_2_the_qualifier",
-	"ach_3_the_wildcard",
-	
-	"ach_4_the_up_and_comer",
-	"ach_5_the_breakout_performer",
-	"ach_6_the_pro",
-	"ach_7_the_contender",
-	
-	"ach_8_the_champion",
-	"ach_9_the_hall_of_famer",
-	"ach_10_the_living_legend",
-	"ach_11_fignermukcre",
-	
-	"ach_12_no_pressure",
-	"ach_13_level_99",
-	"ach_14_qweiop"
-];
-
-unlock_keys = [
+ach_unlock_keys = [
 	4959045945456490,
 	4596245905690456,
 	4590645945645478,
@@ -67,58 +23,176 @@ unlock_keys = [
 ];
 
 var ach_ini_file = ini_open("achievements.ini");
-var unlock_real_value = 0
+var unlock_real_value = 0;
+var unlock_bool_value = false;
 for (var i = 0; i < ach_count; i++) {
 	unlock_real_value = ini_read_real("achievements", ach_api_names[i], 0);
 	
-	if (unlock_real_value == unlock_keys[i]) {
-		ds_map_add(
-			unlocked,
-			ach_api_names[i],
-			true
-		);
-	}
-	else {
-		ds_map_add(
-			unlocked,
-			ach_api_names[i],
-			false
-		);
-	}
+	if (unlock_real_value == ach_unlock_keys[i]) { unlock_bool_value = true; }
+	else { unlock_bool_value = false; }
+	
+	ds_map_add(unlocked, ach_api_names[i], unlock_bool_value);
 }
+ini_close();
 
-ach_names = [
-	"The Challenger",
-	"The Lucky Loser",
-	"The Qualifier",
-	"The Wildcard",
-	"The Up And Comer",
-	"The Breakout Performer",
-	"The Pro",
-	"The Contender",
-	"The Champion",
-	"The Hall Of Famer",
-	"The Living Legend",
-	"Fignermukcre",
-	"No Pressure",
-	"Level 99",
-	"QWEIOP"
+ach_unlock_states_retrieved = true;
+
+
+stats = ds_map_create();
+stat_names = [
+	"stat_lifetime_cool_points",
+	"stat_easy_high_score",
+	"stat_medium_high_score",
+	"stat_hard_high_score",
+	"stat_difficult_high_score",
+];
+stat_hash_names = [
+	"stat_lifetime_cool_points_hash",
+	"stat_easy_high_score_hash",
+	"stat_medium_high_score_hash",
+	"stat_hard_high_score_hash",
+	"stat_difficult_high_score_hash"
 ];
 
-ach_debug_names = [
-	"0. The Challenger: ",
-	"1. The Lucky Loser: ",
-	"3. The Qualifier: ",
-	"4. The Wildcard: ",
-	"5. The Up And Comer: ",
-	"6. The Breakout Performer: ",
-	"7. The Pro: ",
-	"8. The Contender: ",
-	"9. The Champion: ",
-	"A. The Hall Of Famer: ",
-	"S. The Living Legend: ",
-	"D. Fignermukcre: ",
-	"G. No Pressure: ",
-	"H. Level 99: ",
-	"J. QWEIOP: "
+cipher_keys = [
+	28582828,
+	61131385,
+	13582356,
+	10346963,
+	
+	18468383,
+	23468123,
+	35754791,
+	18233468,
+	
+	13846866,
+	18436846,
+	12308668,
+	57957338,
+	
+	43957811,
+	23485464,
+	45685782,
+	65824823
 ];
+cipher_twists = [3,4,8,5, 1,3,1,2, 3,8,4,3, 5,8,2,9];
+cipher_clocks = [
+	4646,
+	6772,
+	4863,
+	2404,
+	
+	2486,
+	4102,
+	1238,
+	8435,
+	
+	5183,
+	4545,
+	3584,
+	2468,
+	
+	3843,
+	4679,
+	2368,
+	3650
+];
+
+initial_values = [
+	-34831586,
+	-14505734,
+	-12385866,
+	-32640368,
+	-10347689
+];
+
+//(first digit of (score + (score * cipher_key[i])) % cipher_clocks[i])) % cipher_twist[i]
+
+//- read in the string
+//- separate out the score part from the cipher part
+//- use the score part to generate the expected cipher
+//- compare to received cipher
+//- recognize score as legitimate iff the received cipher matches the expected cipher
+
+stat_count = array_length_1d(stat_names);
+
+hash_length = array_length_1d(cipher_keys);
+
+ach_ini_file = ini_open("stats.ini");
+var stat_real_value = 0;
+var stat_string_value = 0;
+var stat_received_hash_string = 0;
+var score_value = 0;
+var score_plus_score_times_cipher_key = 0;
+var score_plus_score_times_cipher_key_mod_cipher_clock = 0;
+var first_digit_of_score_plus_score_times_cipher_key_mod_cipher_clock = 0;
+var expected_hash_value = 0;
+
+for (var i = 0; i < stat_count; i++) {
+	stat_real_value = ini_read_real("stats", stat_names[i], 0);
+	
+	// first, check if this is an initial value
+	if (stat_real_value == initial_values[i]) {
+		score_value = 0;
+	}
+	
+	// if not, check if received hash matches expected hash
+	else {
+		score_value = 12345;
+		stat_received_hash_string = ini_read_string("hashes", stat_hash_names[i], "BOOP");
+		
+		if (
+			"BOOP" == stat_received_hash_string ||
+			hash_length != string_length(stat_received_hash_string)
+		) {
+			score_value = -1;
+			// cheating / messup
+			// reset scores
+		}
+		
+		else {
+			for (var j = 0; j < hash_length; j++) {
+				score_plus_score_times_cipher_key =
+					stat_real_value +
+					(stat_real_value * cipher_keys[j]);
+				
+				score_plus_score_times_cipher_key_mod_cipher_clock =
+					score_plus_score_times_cipher_key %
+					cipher_clocks[j];
+				
+				first_digit_of_score_plus_score_times_cipher_key_mod_cipher_clock =
+					real(
+						string_char_at(
+							string(score_plus_score_times_cipher_key_mod_cipher_clock),
+							1
+						)
+					);
+				
+				expected_hash_value = 
+					first_digit_of_score_plus_score_times_cipher_key_mod_cipher_clock %
+					cipher_twists[j];
+				
+				if (expected_hash_value != real(string_char_at(stat_received_hash_string, j+1))) {
+					score_value = -1;
+					// cheating / messup
+					// reset scores
+					break;
+				}
+			}
+		}
+	}
+	
+	if (
+		0 != score_value &&
+		-1 != score_value
+	) {
+		score_value = stat_real_value;
+	}
+	
+	ds_map_add(
+		stats,
+		stat_names[i],
+		score_value
+	);
+}
+ini_close();

@@ -903,6 +903,14 @@
             }
         },
         {
+            "Key": "a4e3d6fc-7778-4e57-8894-8e09f7af9cca",
+            "Value": {
+                "id": "8161a0cb-48a4-47e2-ab91-0cdd4ee39f63",
+                "resourcePath": "views\\a4e3d6fc-7778-4e57-8894-8e09f7af9cca.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a61bbbc4-400a-446c-97aa-27da078cc165",
             "Value": {
                 "id": "1143c589-1ce8-4cb8-b28c-114bebbb6232",
@@ -1428,6 +1436,14 @@
                 "id": "b9623559-750e-4dba-ba0a-413d6e62ac0e",
                 "resourcePath": "views\\fdfcc536-b452-4cb2-802a-363c74259a11.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fe090125-302b-45c1-b037-b34d9703ae60",
+            "Value": {
+                "id": "03611a01-f982-4a62-8f2b-bddf6ac0ada3",
+                "resourcePath": "datafiles_yy\\stats.ini.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {

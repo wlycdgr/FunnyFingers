@@ -15,7 +15,7 @@ stat_difficult_high_score = not_set;
 // unlock status
 unlocked = ds_map_create();
 
-ach_unlock_status_retrieved = false;
+ach_unlock_states_retrieved = false;
 
 // achievements stuff
 ach_api_names = [
