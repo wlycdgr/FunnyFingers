@@ -37,20 +37,20 @@ ach_api_names = [
 ];
 
 ach_names = [
-	"The Challenger",
-	"The Lucky Loser",
-	"The Qualifier",
-	"The Wildcard",
-	"The Up And Comer",
-	"The Breakout Performer",
-	"The Pro",
-	"The Contender",
-	"The Champion",
-	"The Hall Of Famer",
-	"The Living Legend",
-	"Fignermukcre",
-	"No Pressure",
-	"Level 99",
+	"THE CHALLENGER",
+	"THE LUCKY LOSER",
+	"THE QUALIFIER",
+	"THE WILDCARD",
+	"THE UP AND COMER",
+	"THE BREAKOUT PERFORMER",
+	"THE PRO",
+	"THE CONTENDER",
+	"THE CHAMPION",
+	"THE HALL OF FAMER",
+	"THE LIVING LEGEND",
+	"FIGNERMUKCRE",
+	"NO PRESSURE",
+	"LEVEL 99",
 	"QWEIOP"
 ];
 

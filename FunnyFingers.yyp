@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1150c568-d090-499e-bd01-ef977901880c",
+            "Value": {
+                "id": "2de55d46-cec7-4ac8-9e00-97066a1bd77d",
+                "resourcePath": "scripts\\scr_AchievementUnlockPopup_NEW\\scr_AchievementUnlockPopup_NEW.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "11fbd389-6a9c-4f4c-aa8a-5a573c28edc1",
             "Value": {
                 "id": "37ff6006-207d-4299-bc26-afb1f318f28b",
@@ -444,6 +452,14 @@
                 "id": "8806b466-d5a7-4344-a02d-5df9adb82b4c",
                 "resourcePath": "views\\3fd85874-5a2e-4539-aab1-3375e74f2764.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "409e35c5-c0f1-4e9e-8a34-937d3f97d1c1",
+            "Value": {
+                "id": "dce81168-6c0c-4c5a-aa8c-70744c3ef28f",
+                "resourcePath": "objects\\obj_AchievementUnlockPopup\\obj_AchievementUnlockPopup.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1508,7 +1524,8 @@
         "bfca5911-ad08-4a1e-ab31-a9a9480dcaff",
         "3b3b2679-623c-40f9-bacc-dd0348224796",
         "013d685b-41d8-4fc2-a235-af592ab0c521",
-        "2ad0eeb1-51d9-46d8-a91a-cec995ea9139"
+        "2ad0eeb1-51d9-46d8-a91a-cec995ea9139",
+        "1150c568-d090-499e-bd01-ef977901880c"
     ],
     "tutorial": ""
 }
