@@ -47,26 +47,112 @@ has_stat_been_updated_since_last_save = ds_map_create();
 stat_names = [
 	"stat_lifetime_cool_points",
 	"stat_lifetime_cool_points_runner_up",
+	
 	"stat_easy_high_score",
-	"stat_easy_runner_up_score",
+	"stat_easy_2nd_highest_score",
+	"stat_easy_3rd_highest_score",
+	"stat_easy_4th_highest_score",
+	
 	"stat_medium_high_score",
-	"stat_medium_runner_up_score",
+	"stat_medium_2nd_highest_score",
+	"stat_medium_3rd_highest_score",
+	"stat_medium_4th_highest_score",
+	"stat_medium_5th_highest_score",
+	"stat_medium_6th_highest_score",
+	
 	"stat_hard_high_score",
-	"stat_hard_runner_up_score",
+	"stat_hard_2nd_highest_score",
+	"stat_hard_3nd_highest_score",
+	"stat_hard_4th_highest_score",
+	"stat_hard_5th_highest_score",
+	"stat_hard_6th_highest_score",
+	"stat_hard_7th_highest_score",
+	"stat_hard_8th_highest_score",
+	
 	"stat_difficult_high_score",
-	"stat_difficult_runner_up_score"
+	"stat_difficult_2nd_highest_score",
+	"stat_difficult_3nd_highest_score",
+	"stat_difficult_4th_highest_score",
+	"stat_difficult_5th_highest_score",
+	"stat_difficult_6th_highest_score",
+	"stat_difficult_7th_highest_score",
+	"stat_difficult_8th_highest_score",
+	"stat_difficult_9th_highest_score",
+	"stat_difficult_10th_highest_score",
 ];
+
+initial_values = [
+	-34831586,
+	-65853823,
+	
+	-34846835,
+	-53675670,
+	-64845746,
+	-67980541,
+	
+	-14505734,
+	-12385866,
+	-32640368,
+	-10347689,
+	-54459234,
+	-12434699,
+	
+	-87955034,
+	-34385486,
+	-53965794,
+	-12359479,
+	-19396955,
+	-67980542,
+	-31293593,
+	-23233333,
+	
+	-34882323,
+	-78900000,
+	-42182835,
+	-12347890,
+	-45699494,
+	-41293596,
+	-54798901,
+	-45697796,
+	-13253439,
+	-89423501
+];
+
 stat_hash_names = [
-	"stat_lifetime_cool_points_hash",
-	"stat_lifetime_cool_points_runner_up_hash",
-	"stat_easy_high_score_hash",
-	"stat_easy_runner_up_score_hash",
-	"stat_medium_high_score_hash",
-	"stat_medium_runner_up_score_hash",
-	"stat_hard_high_score_hash",
-	"stat_hard_runner_up_score_hash",
-	"stat_difficult_high_score_hash",
-	"stat_difficult_runner_up_score_hash"
+"stat_lifetime_cool_points_hash",
+"stat_lifetime_cool_points_runner_up_hash",
+	
+"stat_easy_high_score_hash",
+"stat_easy_2nd_highest_score_hash",
+"stat_easy_3rd_highest_score_hash",
+"stat_easy_4th_highest_score_hash",
+	
+"stat_medium_high_score_hash",
+"stat_medium_2nd_highest_score_hash",
+"stat_medium_3rd_highest_score_hash",
+"stat_medium_4th_highest_score_hash",
+"stat_medium_5th_highest_score_hash",
+"stat_medium_6th_highest_score_hash",
+	
+"stat_hard_high_score_hash",
+"stat_hard_2nd_highest_score_hash",
+"stat_hard_3nd_highest_score_hash",
+"stat_hard_4th_highest_score_hash",
+"stat_hard_5th_highest_score_hash",
+"stat_hard_6th_highest_score_hash",
+"stat_hard_7th_highest_score_hash",
+"stat_hard_8th_highest_score_hash",
+	
+"stat_difficult_high_score_hash",
+"stat_difficult_2nd_highest_score_hash",
+"stat_difficult_3nd_highest_score_hash",
+"stat_difficult_4th_highest_score_hash",
+"stat_difficult_5th_highest_score_hash",
+"stat_difficult_6th_highest_score_hash",
+"stat_difficult_7th_highest_score_hash",
+"stat_difficult_8th_highest_score_hash",
+"stat_difficult_9th_highest_score_hash",
+"stat_difficult_10th_highest_score_hash",
 ];
 
 cipher_keys = [
@@ -113,18 +199,7 @@ cipher_clocks = [
 	3650
 ];
 
-initial_values = [
-	-34831586,
-	-65853823,
-	-34846835,
-	-53675670,
-	-64845746,
-	-67980541,
-	-14505734,
-	-12385866,
-	-32640368,
-	-10347689
-];
+
 
 //(first digit of (score + (score * cipher_key[i])) % cipher_clocks[i])) % cipher_twist[i]
 
@@ -162,7 +237,6 @@ for (var i = 0; i < stat_count; i++) {
 	
 	// if not, check if received hash matches expected hash
 	else {
-		score_value = 12345;
 		stat_received_hash_string = ini_read_string("hashes", stat_hash_names[i], "BOOP");
 		
 		if (
