@@ -29,18 +29,13 @@ if (store_version_steam == global.store_version) {
 }
 
 else if (store_version_itch == global.store_version) {
-	var current_high_score = ds_map_find_value(
-		global.itch.stats,
-		argument0
-	);
+	with (global.itch) { 
+		var current_high_score = ds_map_find_value(stats, argument0);
 	
-	if (global.scoreboard.points > current_high_score) {
-		ds_map_replace(
-			global.itch.stats,
-			argument0,
-			current_high_score
-		);
+		if (global.scoreboard.points > current_high_score) {
+			ds_map_replace(stats, argument0, global.scoreboard.points);
+			ds_map_replace(has_stat_been_updated_since_last_save, argument0, true);
+			scr_Itch_SaveHighScores();
+		}
 	}
-	
-	scr_Itch_SaveHighScores();
 }

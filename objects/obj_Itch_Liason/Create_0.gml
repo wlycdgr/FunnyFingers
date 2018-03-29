@@ -22,9 +22,11 @@ ach_unlock_keys = [
 	2485445484568798
 ];
 
-var ach_ini_file = ini_open("achievements.ini");
 var unlock_real_value = 0;
 var unlock_bool_value = false;
+
+ini_open("achievements.ini");
+
 for (var i = 0; i < ach_count; i++) {
 	unlock_real_value = ini_read_real("achievements", ach_api_names[i], 0);
 	
@@ -33,12 +35,15 @@ for (var i = 0; i < ach_count; i++) {
 	
 	ds_map_add(unlocked, ach_api_names[i], unlock_bool_value);
 }
+
 ini_close();
 
 ach_unlock_states_retrieved = true;
 
 
 stats = ds_map_create();
+has_stat_been_updated_since_last_save = ds_map_create();
+
 stat_names = [
 	"stat_lifetime_cool_points",
 	"stat_easy_high_score",
@@ -118,7 +123,7 @@ stat_count = array_length_1d(stat_names);
 
 hash_length = array_length_1d(cipher_keys);
 
-ach_ini_file = ini_open("stats.ini");
+
 var stat_real_value = 0;
 var stat_string_value = 0;
 var stat_received_hash_string = 0;
@@ -128,7 +133,11 @@ var score_plus_score_times_cipher_key_mod_cipher_clock = 0;
 var first_digit_of_score_plus_score_times_cipher_key_mod_cipher_clock = 0;
 var expected_hash_value = 0;
 
+ini_open("stats.ini");
+
 for (var i = 0; i < stat_count; i++) {
+	ds_map_add(has_stat_been_updated_since_last_save, stat_names[i], false);
+	
 	stat_real_value = ini_read_real("stats", stat_names[i], 0);
 	
 	// first, check if this is an initial value
@@ -195,4 +204,5 @@ for (var i = 0; i < stat_count; i++) {
 		score_value
 	);
 }
+
 ini_close();
