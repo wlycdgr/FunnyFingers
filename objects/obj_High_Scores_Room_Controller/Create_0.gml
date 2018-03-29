@@ -1,16 +1,17 @@
 /// @description Init
-
-space_main_menu = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-scr_Splitsfont_Set_Text(space_main_menu, "SPACEBAR: MAIN MENU");
-scr_Splitsfont_Set_Tweaks(space_main_menu, [0.015, 0.0015, 0.01, 0, 0]);
-
 hs_header = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-scr_Splitsfont_Set_Text(hs_header, "COOL HIGH SCORES");
-hs_header_x = 
-	window_x_center -
-	(scr_Splitsfont_Get_Width(hs_header) / 2);
+scr_Splitsfont_Set_Text(hs_header, "HIGH SCORES");
+scr_Splitsfont_Set_Tweaks(hs_header, [0.08, 0.004, 0.04, 0, 0]);
 hs_header_y = 0.1 * window_height;
 
+hs_header_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
+hs_header_tween.close_enough *= 0.01;
+
+hs_header_x_path = 
+	scr_SlideTween_Add_Default_Path(hs_header_tween, hs_header, slide_left);
+
+
+/*
 hs_value_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 var hs_value = ds_map_find_value(global.itch.stats, "stat_lifetime_cool_points");
 scr_Splitsfont_Set_Text(hs_value_string, "HIGH SCORE: " + string(hs_value));
@@ -26,14 +27,12 @@ runner_up_value_string_x =
 	window_x_center -
 	(scr_Splitsfont_Get_Width(runner_up_value_string) / 2);
 runner_up_value_string_y = 0.5 * window_height;
+*/
 
 // MENU
-hs_menu_labels[0] = "RESET COOL SCORES";
-hs_menu_labels[1] = "RESET EASY SCORES";
-hs_menu_labels[2] = "RESET MEDIUM SCORES";
-hs_menu_labels[3] = "RESET HARD SCORES";
-hs_menu_labels[4] = "RESET DIFFICULT SCORES";
-hs_menu_labels[5] = "MAIN MENU";
+hs_menu_labels[0] = "RESET SELECTED DIFFICULTY";
+hs_menu_labels[1] = "RESET ALL";
+hs_menu_labels[2] = "MAIN MENU";
 
 hs_menu = scr_Menu_NEW(
 	window_x_center, 0.75 * window_height,

@@ -411,18 +411,21 @@ March 25-28
 - DONE make sprite list for Marley
 - DONE tweakplement Itch achievement popup icon appearance and behavior
 
-- implement local top 2 leaderboard for Itch with name entry
-	- main menu has Leaderboards option
-	- Leaderboards option goes to Leaderboards screen
-	- Leaderboards screen shows Top 2 for highest unlocked difficulty
-	- Leaderboards screen has menu with options for each unlocked difficulty and for Back to Main Menu
-	- Leaderboard of the highlighted option is shown
-	- Selecting a difficulty option resets that leaderboard "RESET EASY HIGH SCORES"
+- implement local leaderboard support with name entry
+	- DONE main menu has Local High Scores option
+	- DONE local high scores option to to r_HighScores
+	- high scores room has header that reads "COOL / EASY / MEDIUM / HARD / DIFFICULT"
+	- high scores room has ribbon menu that lists the five difficulties in a row
+	- below, the high scores room shows the names and scores for the selected difficulty
+	- below, there is a menu, it has 3 options
+		- reset selected difficulty
+		- reset all
+		- main menu
 	
 	- Game Over Ribbon is modified:
 		- GAME OVER still at top
-		- NEW TOP TEN SCORE / NEW HIGH SCORE if player has score in top 10 / best score
-		- then, leaderboard displayed
+		- NEW TOP TEN SCORE / NEW HIGH SCORE if player has score in top 2 / 4 / 6 / 8 / 10
+		- then, leaderboard for the current difficulty displayed
 		- if user has done well enough to be on leaderboard, there is a prompt for them to enter their name
 		- otherwise, there is a prompt below to "EXPRESS YOUR FEELINGS: "
 		- menu still displays, scrolling up and down and selection still work same
