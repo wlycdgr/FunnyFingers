@@ -97,6 +97,12 @@ case "EXIT":
 	game_end();
 	break;
 	
+case "HIGH SCORES":
+	global.room_state_tracker.state = rs_room_change_requested;
+	global.room_state_tracker.target_room = r_HighScores;
+	
+	break;
+	
 case "MAIN MENU":
 	if (room == r_Gameplay) {
 		with (global.game) { event_user(4); }
