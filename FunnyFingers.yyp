@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "5b32e584-bec0-4485-869d-5fa0b6340d6e",
+            "Value": {
+                "id": "da5f2fe9-5ba6-4ed5-8a2e-36b0cf7194c1",
+                "resourcePath": "datafiles_yy\\stats.ini.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "5bd3e45e-f41b-4788-b6d8-6fe5cc3ea5b7",
             "Value": {
                 "id": "a24bde45-6cc8-4a5f-9b29-06c818357a17",
@@ -716,6 +724,14 @@
                 "id": "38c7ac40-1f6e-4b2b-b0d3-48f36bf4f2d1",
                 "resourcePath": "scripts\\scr_Splitsfont_Set_RotationSpeed\\scr_Splitsfont_Set_RotationSpeed.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7094995a-ac67-4933-99e9-6d3f7472d059",
+            "Value": {
+                "id": "c3d3d168-516d-402f-ba68-cb5891fdb2ac",
+                "resourcePath": "sprites\\spr_danger_danger_lightest\\spr_danger_danger_lightest.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1055,6 +1071,14 @@
             }
         },
         {
+            "Key": "b636ae85-7f85-405c-9cbd-f896524bcab9",
+            "Value": {
+                "id": "c48fe4df-6a9c-4ee9-b84c-83e77c9a013b",
+                "resourcePath": "sprites\\spr_danger_danger\\spr_danger_danger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b6fdf947-cf8d-47b6-a7a0-b47040561eff",
             "Value": {
                 "id": "b6891bed-5a3a-47a8-a098-d34f5df373e8",
@@ -1140,14 +1164,6 @@
                 "id": "bf99c026-3bce-4fa5-81fa-d41233efe760",
                 "resourcePath": "scripts\\scr_Steam_ToggleAchievement\\scr_Steam_ToggleAchievement.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "c5f5f3fc-74e2-4dbe-9588-5ba4b8793055",
-            "Value": {
-                "id": "89c6a533-e165-4fb4-b7c0-cf6b02523015",
-                "resourcePath": "sprites\\spr_danger_danger\\spr_danger_danger.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1476,14 +1492,6 @@
                 "id": "b9623559-750e-4dba-ba0a-413d6e62ac0e",
                 "resourcePath": "views\\fdfcc536-b452-4cb2-802a-363c74259a11.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "fe090125-302b-45c1-b037-b34d9703ae60",
-            "Value": {
-                "id": "03611a01-f982-4a62-8f2b-bddf6ac0ada3",
-                "resourcePath": "datafiles_yy\\stats.ini.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {

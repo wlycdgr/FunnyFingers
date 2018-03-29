@@ -411,10 +411,10 @@ March 25-28
 - DONE make sprite list for Marley
 - DONE tweakplement Itch achievement popup icon appearance and behavior
 
-- implement local top 10 leaderboard for Itch with name entry
+- implement local top 2 leaderboard for Itch with name entry
 	- main menu has Leaderboards option
 	- Leaderboards option goes to Leaderboards screen
-	- Leaderboards screen shows Top 10 for highest unlocked difficulty
+	- Leaderboards screen shows Top 2 for highest unlocked difficulty
 	- Leaderboards screen has menu with options for each unlocked difficulty and for Back to Main Menu
 	- Leaderboard of the highlighted option is shown
 	- Selecting a difficulty option resets that leaderboard "RESET EASY HIGH SCORES"
@@ -426,6 +426,7 @@ March 25-28
 		- if user has done well enough to be on leaderboard, there is a prompt for them to enter their name
 		- otherwise, there is a prompt below to "EXPRESS YOUR FEELINGS: "
 		- menu still displays, scrolling up and down and selection still work same
+		
 - implement achievement screen for Itch
 - make trailer (dependent on sounds)
 - tweakdebug danger danger movement so it matches up better

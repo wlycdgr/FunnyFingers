@@ -46,17 +46,27 @@ has_stat_been_updated_since_last_save = ds_map_create();
 
 stat_names = [
 	"stat_lifetime_cool_points",
+	"stat_lifetime_cool_points_runner_up",
 	"stat_easy_high_score",
+	"stat_easy_runner_up_score",
 	"stat_medium_high_score",
+	"stat_medium_runner_up_score",
 	"stat_hard_high_score",
+	"stat_hard_runner_up_score",
 	"stat_difficult_high_score",
+	"stat_difficult_runner_up_score"
 ];
 stat_hash_names = [
 	"stat_lifetime_cool_points_hash",
+	"stat_lifetime_cool_points_runner_up_hash",
 	"stat_easy_high_score_hash",
+	"stat_easy_runner_up_score_hash",
 	"stat_medium_high_score_hash",
+	"stat_medium_runner_up_score_hash",
 	"stat_hard_high_score_hash",
-	"stat_difficult_high_score_hash"
+	"stat_hard_runner_up_score_hash",
+	"stat_difficult_high_score_hash",
+	"stat_difficult_runner_up_score_hash"
 ];
 
 cipher_keys = [
@@ -105,6 +115,11 @@ cipher_clocks = [
 
 initial_values = [
 	-34831586,
+	-65853823,
+	-34846835,
+	-53675670,
+	-64845746,
+	-67980541,
 	-14505734,
 	-12385866,
 	-32640368,
