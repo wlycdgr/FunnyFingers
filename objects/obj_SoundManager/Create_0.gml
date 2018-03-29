@@ -1,4 +1,7 @@
 /// @description Load the sounds
+off = false;
+sound_on_off_string = "ON";
+
 crash_into_enemy_and_lose_armor = audio_create_stream("crash_into_enemy_and_lose_armor.ogg");
 achieve_high_score = audio_create_stream("achieve_high_score.ogg");
 crash_into_enemy_and_DIE = audio_create_stream("crash_into_enemy_and_DIE.ogg");
