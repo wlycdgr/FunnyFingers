@@ -409,16 +409,24 @@ March 25-28
 	- DONE local achievement saving
 - DONE write and put up Itch store page copy
 - DONE make sprite list for Marley
+- DONE tweakplement Itch achievement popup icon appearance and behavior
 
-
-- tweakplement Itch achievement popup icon appearance and behavior
-	- text tweens by from right to left on the bottom
-		"achievement [ACHIEVEMENT ICON] [ACHIEVEMENT NAME] unlocked"
-		"
 - implement local top 10 leaderboard for Itch with name entry
+	- main menu has Leaderboards option
+	- Leaderboards option goes to Leaderboards screen
+	- Leaderboards screen shows Top 10 for highest unlocked difficulty
+	- Leaderboards screen has menu with options for each unlocked difficulty and for Back to Main Menu
+	- Leaderboard of the highlighted option is shown
+	- Selecting a difficulty option resets that leaderboard "RESET EASY HIGH SCORES"
+	
+	- Game Over Ribbon is modified:
+		- GAME OVER still at top
+		- NEW TOP TEN SCORE / NEW HIGH SCORE if player has score in top 10 / best score
+		- then, leaderboard displayed
+		- if user has done well enough to be on leaderboard, there is a prompt for them to enter their name
+		- otherwise, there is a prompt below to "EXPRESS YOUR FEELINGS: "
+		- menu still displays, scrolling up and down and selection still work same
 - implement achievement screen for Itch
-
-
 - make trailer (dependent on sounds)
 - tweakdebug danger danger movement so it matches up better
 - add game start animation
@@ -434,6 +442,7 @@ which causes any other reds or blues you come in contact with during that time t
 
 
 CAN WAIT UNTIL AFTER ITCH LAUNCH:
+
 - decide how to handle lack of steam connection
 - handle steam failing to upload score
 - ensure no crash-because-global.steam.unlocked-not-initialized if user not logged in to Steam or connection lost at launch

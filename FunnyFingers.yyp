@@ -1143,6 +1143,14 @@
             }
         },
         {
+            "Key": "c5f5f3fc-74e2-4dbe-9588-5ba4b8793055",
+            "Value": {
+                "id": "89c6a533-e165-4fb4-b7c0-cf6b02523015",
+                "resourcePath": "sprites\\spr_danger_danger\\spr_danger_danger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c74f8744-f896-4f00-9dbe-6a09b09609b2",
             "Value": {
                 "id": "f911a229-470e-4024-96a5-f141628224fc",
@@ -1218,7 +1226,7 @@
             "Key": "d69a6652-b3bc-4635-880f-8854e4680783",
             "Value": {
                 "id": "ed7fff79-4e0b-4c7e-adcd-8a03eb619073",
-                "resourcePath": "sprites\\spr_danger_danger\\spr_danger_danger.yy",
+                "resourcePath": "sprites\\spr_danger_danger_placeholder\\spr_danger_danger_placeholder.yy",
                 "resourceType": "GMSprite"
             }
         },
