@@ -615,6 +615,14 @@
             }
         },
         {
+            "Key": "6253b373-009e-441b-9bcd-3fb1d39ba5e1",
+            "Value": {
+                "id": "db7dfd59-8282-4dbf-9078-159cbc4fb9c7",
+                "resourcePath": "sprites\\spr_ffa_tip\\spr_ffa_tip.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "632e95ca-21f3-4365-a862-7f8ad74e50f2",
             "Value": {
                 "id": "5c4d870c-7f58-4812-94fc-17e3b826251a",
@@ -1132,6 +1140,14 @@
                 "id": "bf99c026-3bce-4fa5-81fa-d41233efe760",
                 "resourcePath": "scripts\\scr_Steam_ToggleAchievement\\scr_Steam_ToggleAchievement.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c74f8744-f896-4f00-9dbe-6a09b09609b2",
+            "Value": {
+                "id": "f911a229-470e-4024-96a5-f141628224fc",
+                "resourcePath": "sprites\\spr_funny_finger_armor\\spr_funny_finger_armor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

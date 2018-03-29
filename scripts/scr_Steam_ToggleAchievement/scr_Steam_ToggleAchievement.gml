@@ -1,11 +1,13 @@
-/// @param {String} steam_achievement_api_name The Steam api name of the achievement to toggle
+/// @function scr_Steam_ToggleAchievement(ach_index_macro);
 with (global.steam) {
-	if (steam_get_achievement(argument0)) {
-		steam_clear_achievement(argument0);
+	var this_ach_api_name = ach_api_names[argument0];
+	
+	if (steam_get_achievement(this_ach_api_name)) {
+		steam_clear_achievement(this_ach_api_name);
 	}
 	else {
-		steam_set_achievement(argument0);
+		steam_set_achievement(this_ach_api_name);
 	}
 
-	ds_map_replace(unlocked, argument0, steam_get_achievement(argument0));
+	ds_map_replace(unlocked, this_ach_api_name, steam_get_achievement(this_ach_api_name));
 }

@@ -387,7 +387,7 @@ March 24
 - DONE display the bar below the playfield, the width of the playfield
 - DONE on the left below the bar, displays "X[combo value]"
 
-March 25
+March 25-28
 - DONE show CirclMaster quote if at the end of a Cool run player has unlocked the Level 99 achievement
 	- DONE keep track of whether we have shown it and only show it one time
 - DONE add CirclMaster quote and Splitsfont tweak it
@@ -403,18 +403,24 @@ March 25
 - DONE finalize multiplier display	
 - DONE show when multiplier display is unbroken
 - DONE implement tutorial
+- DONE make a list of necessary sounds
+- DONE implement basic Itch support
+	- DONE local leaderboard saving
+	- DONE local achievement saving
+- DONE write and put up Itch store page copy
+- DONE make sprite list for Marley
 
 
-- implement Itch support
-	- local leaderboard saving
-	- local achievement saving
-	- 
+- tweakplement Itch achievement popup icon appearance and behavior
+	- text tweens by from right to left on the bottom
+		"achievement [ACHIEVEMENT ICON] [ACHIEVEMENT NAME] unlocked"
+		"
+- implement local top 10 leaderboard for Itch with name entry
+- implement achievement screen for Itch
 
-	
+
+- make trailer (dependent on sounds)
 - tweakdebug danger danger movement so it matches up better
-
-- 3 pieces of armor - left, top, right
-- losing a piece of armor destroys your multiplier
 - add game start animation
 	- bottom bar slides in from the left
 	- columns fill up from the bottom
@@ -422,12 +428,6 @@ March 25
 - iterate on title screen twitching
 - make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
 which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
-- MAKE A LIST OF NECESSARY SOUNDS
-- get remaining needed assets:
-	- danger danger
-	- armor
-	- multiplier bar
-	- column fill bar
 
 - BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
 - add checks so that game does not break if any sprite asset is not available or misnamed
