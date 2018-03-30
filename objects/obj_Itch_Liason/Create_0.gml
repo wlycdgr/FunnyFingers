@@ -155,6 +155,117 @@ stat_hash_names = [
 "stat_difficult_10th_highest_score_hash",
 ];
 
+stat_persons = [
+	"stat_lifetime_cool_points_person",
+	"stat_lifetime_cool_points_runner_up_person",
+	
+	"stat_easy_high_score_person",
+	"stat_easy_2nd_highest_score_person",
+	"stat_easy_3rd_highest_score_person",
+	"stat_easy_4th_highest_score_person",
+	
+	"stat_medium_high_score_person",
+	"stat_medium_2nd_highest_score_person",
+	"stat_medium_3rd_highest_score_person",
+	"stat_medium_4th_highest_score_person",
+	"stat_medium_5th_highest_score_person",
+	"stat_medium_6th_highest_score_person",
+	
+	"stat_hard_high_score_person",
+	"stat_hard_2nd_highest_score_person",
+	"stat_hard_3nd_highest_score_person",
+	"stat_hard_4th_highest_score_person",
+	"stat_hard_5th_highest_score_person",
+	"stat_hard_6th_highest_score_person",
+	"stat_hard_7th_highest_score_person",
+	"stat_hard_8th_highest_score_person",
+	
+	"stat_difficult_high_score_person",
+	"stat_difficult_2nd_highest_score_person",
+	"stat_difficult_3nd_highest_score_person",
+	"stat_difficult_4th_highest_score_person",
+	"stat_difficult_5th_highest_score_person",
+	"stat_difficult_6th_highest_score_person",
+	"stat_difficult_7th_highest_score_person",
+	"stat_difficult_8th_highest_score_person",
+	"stat_difficult_9th_highest_score_person",
+	"stat_difficult_10th_highest_score_person",
+];
+
+initial_person_values = [
+	"QQQQWWWOOPPOOWWWQQQQ",
+	"TTTTRRRIIPPIIRRRTTTT",
+	
+	"TTTTYYYPPEEPPYYYTTTT",
+	"PPPPOOORREERROOOPPPP",
+	"RRRRIIIPPEEPPIIIRRRR",
+	"RRRROOOTTIITTOOORRRR",
+	
+	"QQQQUUUIIPPIIUUUQQQQ",
+	"PPPPUUURREERRUUUPPPP",
+	"WWWWIIIRREERRIIIWWWW",
+	"PPPPYYYRREERRYYYPPPP",
+	"PPPPEEEEETTEEEEEPPPP",
+	"RRRROOOPPEEPPOOORRRR",
+	
+	"WWWWRRRIITTIIRRRWWWW",
+	"RRRROOOTTEETTOOORRRR",
+	"PPPPOOOUUTTUUOOOPPPP",
+	"TTTTIIIRREERRIIITTTT",
+	"WWWWOOORREERROOOWWWW",
+	"WWWWEEERREERREEEWWWW",
+	"PPPPEEEEERREEEEEPPPP",
+	"RRRROOOOOTTOOOOORRRR",
+	
+	"QQQQUUUIITTIIUUUQQQQ",
+	"PPPPEEERRTTRREEEPPPP",
+	"PPPPOOOOORROOOOOPPPP",
+	"TTTTOOORREERROOOTTTT",
+	"PPPPOOORRTTRROOOPPPP",
+	"YYYYUUURRTTRRUUUYYYY",
+	"PPPPUUUTTTTTTUUUPPPP",
+	"TTTTRRRUUEEUURRRTTTT",
+	"RRRRIIIOOTTOOIIIRRRR",
+	"RRRROOOUUTTUUOOORRRR"
+];
+
+stat_hash_persons = [
+	"stat_lifetime_cool_points_person_hash",
+	"stat_lifetime_cool_points_runner_up_person_hash",
+	
+	"stat_easy_high_score_person_hash",
+	"stat_easy_2nd_highest_score_person_hash",
+	"stat_easy_3rd_highest_score_person_hash",
+	"stat_easy_4th_highest_score_person_hash",
+	
+	"stat_medium_high_score_person_hash",
+	"stat_medium_2nd_highest_score_person_hash",
+	"stat_medium_3rd_highest_score_person_hash",
+	"stat_medium_4th_highest_score_person_hash",
+	"stat_medium_5th_highest_score_person_hash",
+	"stat_medium_6th_highest_score_person_hash",
+	
+	"stat_hard_high_score_person_hash",
+	"stat_hard_2nd_highest_score_person_hash",
+	"stat_hard_3nd_highest_score_person_hash",
+	"stat_hard_4th_highest_score_person_hash",
+	"stat_hard_5th_highest_score_person_hash",
+	"stat_hard_6th_highest_score_person_hash",
+	"stat_hard_7th_highest_score_person_hash",
+	"stat_hard_8th_highest_score_person_hash",
+	
+	"stat_difficult_high_score_person_hash",
+	"stat_difficult_2nd_highest_score_person_hash",
+	"stat_difficult_3nd_highest_score_person_hash",
+	"stat_difficult_4th_highest_score_person_hash",
+	"stat_difficult_5th_highest_score_person_hash",
+	"stat_difficult_6th_highest_score_person_hash",
+	"stat_difficult_7th_highest_score_person_hash",
+	"stat_difficult_8th_highest_score_person_hash",
+	"stat_difficult_9th_highest_score_person_hash",
+	"stat_difficult_10th_highest_score_person_hash",
+];
+
 cipher_keys = [
 	28582828,
 	61131385,
