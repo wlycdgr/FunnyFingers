@@ -9,8 +9,23 @@ hs_header_tween.close_enough *= 0.01;
 
 hs_header_x_path = 
 	scr_SlideTween_Add_Default_Path(hs_header_tween, hs_header, slide_left);
+	
+//header_ribbon_cool = instance_create_layer(0, 0, "SPLITSFONT", obj_Splitsfont_String);
+//scr_Splitsfont_Set_Text(
 
 score_x = window_x_center + 24;
+
+scores_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
+scores_tween.close_enough *= 0.01;
+scores_x_path = scr_SlideTween_Add_Path(
+	scores_tween,
+	[
+		window_width,
+		score_x,
+		slide_three_window_widths
+	]
+);
+
 var score_tweak_values = [0.035, 0.005, 0.01, 0, 0];
 score_y_positions = [
 	0.14 * window_height,
@@ -40,6 +55,8 @@ name_y_positions = [
 	0.69 * window_height
 ];
 
+
+// COOL LEADERBOARD
 var cool_score_stat_names = [
 	"stat_lifetime_cool_points",
 	"stat_lifetime_cool_points_runner_up"
@@ -50,7 +67,11 @@ var cool_name_stat_names = [
 ];
 cool_leaderboard_length = array_length_1d(cool_score_stat_names);
 
+cool_names_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
+cool_names_tween.close_enough *= 0.01;
+
 var leaderboard_string;
+var leaderboard_string_width;
 for (var i = 0; i < cool_leaderboard_length; i++) {
 	leaderboard_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 	scr_Splitsfont_Set_Text(
@@ -68,10 +89,65 @@ for (var i = 0; i < cool_leaderboard_length; i++) {
 	scr_Splitsfont_Set_Tweaks(leaderboard_string, names_tweak_values);
 	cool_names[i] = leaderboard_string;
 	
+	leaderboard_string_width = scr_Splitsfont_Get_Width(leaderboard_string);
+	
 	cool_name_x_positions[i] = 
+		names_right_border -
+		leaderboard_string_width
+	
+	cool_name_x_paths[i] = scr_SlideTween_Add_Path(
+		cool_names_tween,
+		[
+			-window_width,
+			cool_name_x_positions[i],
+			-slide_three_window_widths
+		]
+	);
+}
+
+
+// MEDIUM LEADERBOARD
+var medium_score_stat_names = [
+	"stat_medium_high_score",
+	"stat_medium_2nd_highest_score",
+	"stat_medium_3rd_highest_score",
+	"stat_medium_4th_highest_score",
+	"stat_medium_5th_highest_score",
+	"stat_medium_6th_highest_score",
+];
+
+var medium_name_stat_names = [
+	"stat_medium_high_score_person",
+	"stat_medium_2nd_highest_score_person",
+	"stat_medium_3rd_highest_score_person",
+	"stat_medium_4th_highest_score_person",
+	"stat_medium_5th_highest_score_person",
+	"stat_medium_6th_highest_score_person",
+];
+medium_leaderboard_length = array_length_1d(medium_name_stat_names);
+
+for (var i = 0; i < medium_leaderboard_length; i++) {
+	leaderboard_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+	scr_Splitsfont_Set_Text(
+		leaderboard_string,
+		ds_map_find_value(global.itch.stats, medium_score_stat_names[i])
+	);
+	scr_Splitsfont_Set_Tweaks(leaderboard_string, score_tweak_values);
+	medium_scores[i] = leaderboard_string;
+	
+	leaderboard_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+	scr_Splitsfont_Set_Text(
+		leaderboard_string,
+		ds_map_find_value(global.itch.stats, medium_name_stat_names[i])
+	);
+	scr_Splitsfont_Set_Tweaks(leaderboard_string, names_tweak_values);
+	medium_names[i] = leaderboard_string;
+	
+	medium_name_x_positions[i] = 
 		names_right_border -
 		scr_Splitsfont_Get_Width(leaderboard_string);
 }
+
 
 
 //sf_tweaker = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_Tweaker);
