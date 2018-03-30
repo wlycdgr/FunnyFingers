@@ -11,6 +11,10 @@ case "COOL":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_cool;
 		column_count = column_count_cool;
+		enemy_maximum_period_in_sec = enemy_maximum_period_in_sec_cool;
+		enemy_minimum_period_in_sec = enemy_minimum_period_in_sec_cool;
+		energy_maximum_period_in_sec = energy_maximum_period_in_sec_difficult;
+		energy_minimum_period_in_sec = energy_minimum_period_in_sec_difficult;
 		energy_value = energy_value_cool;
 		shrink_per_sec = shrink_per_sec_cool;
 		
@@ -26,6 +30,10 @@ case "EASY":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_easy;
 		column_count = column_count_easy;
+		enemy_maximum_period_in_sec = enemy_maximum_period_in_sec_easy;
+		enemy_minimum_period_in_sec = enemy_minimum_period_in_sec_easy;
+		energy_maximum_period_in_sec = energy_maximum_period_in_sec_difficult;
+		energy_minimum_period_in_sec = energy_minimum_period_in_sec_difficult;
 		energy_value = energy_value_easy;
 		shrink_per_sec = shrink_per_sec_easy;
 		
@@ -41,6 +49,10 @@ case "MEDIUM":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_medium;
 		column_count = column_count_medium;
+		enemy_maximum_period_in_sec = enemy_maximum_period_in_sec_medium;
+		enemy_minimum_period_in_sec = enemy_minimum_period_in_sec_medium;
+		energy_maximum_period_in_sec = energy_maximum_period_in_sec_difficult;
+		energy_minimum_period_in_sec = energy_minimum_period_in_sec_difficult;
 		energy_value = energy_value_medium;
 		shrink_per_sec = shrink_per_sec_medium;
 		
@@ -56,6 +68,10 @@ case "HARD":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_hard;
 		column_count = column_count_hard;
+		enemy_maximum_period_in_sec = enemy_maximum_period_in_sec_hard;
+		enemy_minimum_period_in_sec = enemy_minimum_period_in_sec_hard;
+		energy_maximum_period_in_sec = energy_maximum_period_in_sec_difficult;
+		energy_minimum_period_in_sec = energy_minimum_period_in_sec_difficult;
 		energy_value = energy_value_hard;
 		shrink_per_sec = shrink_per_sec_hard;
 		
@@ -78,6 +94,10 @@ case "DIFFICULT":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_difficult;
 		column_count = column_count_difficult;
+		enemy_maximum_period_in_sec = enemy_maximum_period_in_sec_difficult;
+		enemy_minimum_period_in_sec = enemy_minimum_period_in_sec_difficult;
+		energy_maximum_period_in_sec = energy_maximum_period_in_sec_difficult;
+		energy_minimum_period_in_sec = energy_minimum_period_in_sec_difficult;
 		energy_value = energy_value_difficult;
 		shrink_per_sec = shrink_per_sec_difficult;
 		

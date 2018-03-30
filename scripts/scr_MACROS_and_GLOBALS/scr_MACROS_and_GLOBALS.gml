@@ -61,6 +61,30 @@
 #macro funny_finger_count_difficult 5
 #macro half_of_width_difference_with_column 8
 
+#macro enemy_maximum_period_in_sec_cool 1.50
+#macro enemy_maximum_period_in_sec_easy 1.00 //1.50
+#macro enemy_maximum_period_in_sec_medium 1.50
+#macro enemy_maximum_period_in_sec_hard 1.50
+#macro enemy_maximum_period_in_sec_difficult 1.50
+
+#macro enemy_minimum_period_in_sec_cool 1.25
+#macro enemy_minimum_period_in_sec_easy 0.85 //1.25
+#macro enemy_minimum_period_in_sec_medium 1.25
+#macro enemy_minimum_period_in_sec_hard 1.25
+#macro enemy_minimum_period_in_sec_difficult 1.25
+
+#macro energy_maximum_period_in_sec_cool 1.250
+#macro energy_maximum_period_in_sec_easy 0.85 //1.250
+#macro energy_maximum_period_in_sec_medium 1.250
+#macro energy_maximum_period_in_sec_hard 1.250
+#macro energy_maximum_period_in_sec_difficult 1.250
+
+#macro energy_minimum_period_in_sec_cool 0.75
+#macro energy_minimum_period_in_sec_easy 0.55 //0.75
+#macro energy_minimum_period_in_sec_medium 0.75
+#macro energy_minimum_period_in_sec_hard 0.75
+#macro energy_minimum_period_in_sec_difficult 0.75
+
 #macro energy_value_cool 0.10
 #macro energy_value_easy 0.15
 #macro energy_value_medium 0.15
@@ -86,16 +110,16 @@
 #macro mb_min_multiplier 1
 #macro mb_seconds_to_drain 2.0 // 3.0
 
-#macro core_enemy_speed_per_sec_min_default 125
+#macro core_enemy_speed_per_sec_min_default 150 //125
 global.core_enemy_speed_per_sec_min = 
 	core_enemy_speed_per_sec_min_default;
-#macro core_enemy_speed_per_sec_max_default 175
+#macro core_enemy_speed_per_sec_max_default 200 // 175
 global.core_enemy_speed_per_sec_max = 
 	core_enemy_speed_per_sec_max_default;
-#macro core_energy_speed_per_sec_min_default 225
+#macro core_energy_speed_per_sec_min_default 250 //225
 global.core_energy_speed_per_sec_min = 
 	core_energy_speed_per_sec_min_default;
-#macro core_energy_speed_per_sec_max_default 275
+#macro core_energy_speed_per_sec_max_default 300 // 275
 global.core_energy_speed_per_sec_max = 
 	core_energy_speed_per_sec_max_default;
 #macro core_enemy_minimum_period_in_sec_default 1.25

@@ -8,5 +8,4 @@ if (is_shrinking){
 	target_life = 
 		life + 
 		global.game_settings.energy_value;
-		//(global.core_energy_value_x_100 / 100);
 }
