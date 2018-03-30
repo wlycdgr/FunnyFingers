@@ -5,10 +5,10 @@ is_moving = false;
 is_shrinking = true;
 is_not_funny_anymore = false;
 
-shrink_rate_multiplier = 0.95;
-shrink_rate_multiplier_growth_rate = 0.0001 / game_fps;
+shrink_rate_multiplier = 1.0;
+shrink_rate_multiplier_growth_rate = 0.0008 / game_fps;
 shrink_rate_multiplier_growth_rate_min = shrink_rate_multiplier_growth_rate;
-shrink_rate_multiplier_growth_rate_max = shrink_rate_multiplier_growth_rate * 2.0;
+shrink_rate_multiplier_growth_rate_max = shrink_rate_multiplier_growth_rate * 5.0;
 shrink_rate_multiplier_growth_rate_uptick = 	
 	(
 		shrink_rate_multiplier_growth_rate_max - 

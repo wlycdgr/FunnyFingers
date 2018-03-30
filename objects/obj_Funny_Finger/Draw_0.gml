@@ -10,5 +10,5 @@ draw_sprite(sprite_index, 0, x, y);
 //	draw_rectangle(x + 29, y, x + 32, y + 512, false);
 //}
 
-//draw_text(x, y - 16, string(shrink_rate_multiplier));
-//draw_text(x, y - 32, string(shrink_rate_multiplier_growth_rate * 100000));
+draw_text(x, y - 16, string(shrink_rate_multiplier));
+draw_text(x, y - 32, string(shrink_rate_multiplier_growth_rate * 60.0 * 10000));

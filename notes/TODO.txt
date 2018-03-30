@@ -432,6 +432,8 @@ March 30
 	* balance total decay per sec VS energy spawn per sec
 	* balance column count VS enemy and energy average count
 
+- implement a points for close shave mechanic
+
 - verify all achievement implementations
 	- No Pressure
 	- QWEIOP

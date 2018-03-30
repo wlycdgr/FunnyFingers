@@ -61,38 +61,38 @@
 #macro funny_finger_count_difficult 5
 #macro half_of_width_difference_with_column 8
 
-#macro enemy_maximum_period_in_sec_cool 1.50
-#macro enemy_maximum_period_in_sec_easy 1.00 //1.50
+#macro enemy_maximum_period_in_sec_cool 1.50 // DONE
+#macro enemy_maximum_period_in_sec_easy 1.00  // DONE
 #macro enemy_maximum_period_in_sec_medium 1.50
 #macro enemy_maximum_period_in_sec_hard 1.50
 #macro enemy_maximum_period_in_sec_difficult 1.50
 
-#macro enemy_minimum_period_in_sec_cool 1.25
-#macro enemy_minimum_period_in_sec_easy 0.85 //1.25
+#macro enemy_minimum_period_in_sec_cool 1.25 // DONE
+#macro enemy_minimum_period_in_sec_easy 0.85 // DONE
 #macro enemy_minimum_period_in_sec_medium 1.25
 #macro enemy_minimum_period_in_sec_hard 1.25
 #macro enemy_minimum_period_in_sec_difficult 1.25
 
-#macro energy_maximum_period_in_sec_cool 1.250
-#macro energy_maximum_period_in_sec_easy 0.85 //1.250
+#macro energy_maximum_period_in_sec_cool 1.250 // DONE
+#macro energy_maximum_period_in_sec_easy 0.85  // DONE
 #macro energy_maximum_period_in_sec_medium 1.250
 #macro energy_maximum_period_in_sec_hard 1.250
 #macro energy_maximum_period_in_sec_difficult 1.250
 
-#macro energy_minimum_period_in_sec_cool 0.75
-#macro energy_minimum_period_in_sec_easy 0.55 //0.75
+#macro energy_minimum_period_in_sec_cool 0.75 // DONE
+#macro energy_minimum_period_in_sec_easy 0.55 // DONE
 #macro energy_minimum_period_in_sec_medium 0.75
 #macro energy_minimum_period_in_sec_hard 0.75
 #macro energy_minimum_period_in_sec_difficult 0.75
 
-#macro energy_value_cool 0.10
-#macro energy_value_easy 0.15
+#macro energy_value_cool 0.10 // DONE
+#macro energy_value_easy 0.15 //0.125 // DONE
 #macro energy_value_medium 0.15
 #macro energy_value_hard 0.15
 #macro energy_value_difficult 0.15
 
-#macro shrink_per_sec_cool 0.04
-#macro shrink_per_sec_easy 0.03
+#macro shrink_per_sec_cool 0.04 // DONE
+#macro shrink_per_sec_easy 0.03 //0.037 // DONE
 #macro shrink_per_sec_medium 0.03
 #macro shrink_per_sec_hard 0.03
 #macro shrink_per_sec_difficult 0.03
