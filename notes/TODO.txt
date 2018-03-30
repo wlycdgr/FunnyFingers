@@ -411,6 +411,38 @@ March 25-28
 - DONE make sprite list for Marley
 - DONE tweakplement Itch achievement popup icon appearance and behavior
 
+March 30
+- DONE remove high score option from main menu
+- DONE set version to Steam
+
+- tweakdebug danger danger movement so it matches up better
+
+- verify all achievement implementations
+	- No Pressure
+	- QWEIOP
+	- Level 99
+	- the score achievements
+	
+- set achievements to real values (and tweak those values)
+
+- make trailer (dependent on sounds)
+
+- add game start animation
+	- bottom bar slides in from the left
+	- columns fill up from the bottom
+	- funny fingers fill up from the bottom
+- iterate on title screen twitching
+- make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
+which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
+
+- BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
+- add checks so that game does not break if any sprite asset is not available or misnamed
+
+- decide how to handle lack of steam connection
+- handle steam failing to upload score
+- ensure no crash-because-global.steam.unlocked-not-initialized if user not logged in to Steam or connection lost at launch
+
+CAN WAIT UNTIL AFTER STEAM SUBMISSION:
 - implement local leaderboard support with name entry
 	- DONE main menu has Local High Scores option
 	- DONE local high scores option to to r_HighScores
@@ -431,22 +463,4 @@ March 25-28
 		- menu still displays, scrolling up and down and selection still work same
 		
 - implement achievement screen for Itch
-- make trailer (dependent on sounds)
-- tweakdebug danger danger movement so it matches up better
-- add game start animation
-	- bottom bar slides in from the left
-	- columns fill up from the bottom
-	- funny fingers fill up from the bottom
-- iterate on title screen twitching
-- make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
-which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
 
-- BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
-- add checks so that game does not break if any sprite asset is not available or misnamed
-
-
-CAN WAIT UNTIL AFTER ITCH LAUNCH:
-
-- decide how to handle lack of steam connection
-- handle steam failing to upload score
-- ensure no crash-because-global.steam.unlocked-not-initialized if user not logged in to Steam or connection lost at launch

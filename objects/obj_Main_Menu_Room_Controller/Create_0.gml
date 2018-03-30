@@ -38,16 +38,15 @@ title_x_paths[1] = scr_SlideTween_Add_Default_Path(title_tween, fingers, slide_r
 
 // MAIN MENU
 main_menu_labels[0] = "TUTORIAL";
-main_menu_labels[1] = "HIGH SCORES";
-main_menu_labels[2] = "CREDITS";
-main_menu_labels[3] = "EXIT";
+main_menu_labels[1] = "CREDITS";
+main_menu_labels[2] = "EXIT";
 
 if (scr_ASI_IsAchievementUnlocked(ach_QWEIOP)) {
 	main_menu_labels[0] = "PLAY";
 }
 
 main_menu = scr_Menu_NEW(
-	window_x_center, 0.75 * window_height,
+	window_x_center, 0.8 * window_height,
 	main_menu_labels,
 	menu_is_tweened
 );
