@@ -36,7 +36,8 @@ source_x = 0;
 move_amount_in_pixels_per_frame = 0;
 
 shrink_per_frame = 
-	(global.core_funny_finger_shrink_per_sec_x_1000 / 1000) / 
+	///(global.core_funny_finger_shrink_per_sec_x_1000 / 1000) / 
+	global.game_settings.shrink_per_sec / 
 	game_fps;
 grow_per_frame = 
 	(global.core_energy_value_x_100 / 100) / // distance to grow

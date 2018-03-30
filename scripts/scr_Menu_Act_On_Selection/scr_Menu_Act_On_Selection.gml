@@ -11,6 +11,9 @@ case "COOL":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_cool;
 		column_count = column_count_cool;
+		energy_value = energy_value_cool;
+		shrink_per_sec = shrink_per_sec_cool;
+		
 		difficulty = game_difficulty_cool;
 	}
 	
@@ -23,6 +26,9 @@ case "EASY":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_easy;
 		column_count = column_count_easy;
+		energy_value = energy_value_easy;
+		shrink_per_sec = shrink_per_sec_easy;
+		
 		difficulty = game_difficulty_easy;
 	}
 	
@@ -35,6 +41,9 @@ case "MEDIUM":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_medium;
 		column_count = column_count_medium;
+		energy_value = energy_value_medium;
+		shrink_per_sec = shrink_per_sec_medium;
+		
 		difficulty = game_difficulty_medium;
 	}
 	
@@ -47,6 +56,9 @@ case "HARD":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_hard;
 		column_count = column_count_hard;
+		energy_value = energy_value_hard;
+		shrink_per_sec = shrink_per_sec_hard;
+		
 		difficulty = game_difficulty_hard;
 	}
 	
@@ -66,6 +78,9 @@ case "DIFFICULT":
 	with (global.game_settings) {
 		funny_finger_count = funny_finger_count_difficult;
 		column_count = column_count_difficult;
+		energy_value = energy_value_difficult;
+		shrink_per_sec = shrink_per_sec_difficult;
+		
 		difficulty = game_difficulty_difficult;
 	}
 	

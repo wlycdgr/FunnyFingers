@@ -414,8 +414,23 @@ March 25-28
 March 30
 - DONE remove high score option from main menu
 - DONE set version to Steam
+- DONE tweakdebug danger danger movement so it matches up better
 
-- tweakdebug danger danger movement so it matches up better
+
+- BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
+	COOL
+	EASY
+	MEDIUM
+	HARD
+	DIFFICULT
+	
+	- column count
+	- enemy spawn frequency
+	- energy spawn frequency
+	- base decay speed
+	
+	* balance total decay per sec VS energy spawn per sec
+	* balance column count VS enemy and energy average count
 
 - verify all achievement implementations
 	- No Pressure
@@ -435,7 +450,7 @@ March 30
 - make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
 which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
 
-- BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
+
 - add checks so that game does not break if any sprite asset is not available or misnamed
 
 - decide how to handle lack of steam connection

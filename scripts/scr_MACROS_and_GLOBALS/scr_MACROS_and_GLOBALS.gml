@@ -2,49 +2,12 @@
 #macro store_version_steam 0
 #macro store_version_itch 1
 
-#macro game_fps game_get_speed(gamespeed_fps)
+#macro game_fps 60 //game_get_speed(gamespeed_fps)
 
 #macro window_height window_get_height()
 #macro window_width window_get_width()
 #macro window_x_center window_width / 2
 // /Game context
-
-// Sound
-#macro sfx_crash_into_enemy_and_lose_armor 0
-#macro sfx_achieve_high_score 1
-#macro sfx_crash_into_enemy_and_DIE 2
-#macro sfx_eat_energy 3
-#macro sfx_lose_multiplier 4
-#macro sfx_slide_in 5
-#macro sfx_slide_out 6
-#macro sfx_scroll_menu 7
-#macro sfx_select_menu 8
-#macro sfx_run_out_of_energy_and_DIE 9
-#macro sfx_move_and_increase_multiplier 10
-#macro sfx_move_and_reach_maximum_multiplier 11
-// /Sound
-
-// Game Settings
-#macro column_count_cool 5
-#macro column_count_easy 6
-#macro column_count_medium 7
-#macro column_count_hard 8
-#macro column_count_difficult 9
-#macro column_width 48
-
-#macro funny_finger_count_cool 1
-#macro funny_finger_count_easy 2
-#macro funny_finger_count_medium 3
-#macro funny_finger_count_hard 4
-#macro funny_finger_count_difficult 5
-#macro half_of_width_difference_with_column 8
-
-#macro game_difficulty_cool 0
-#macro game_difficulty_easy 1
-#macro game_difficulty_medium 2
-#macro game_difficulty_hard 3
-#macro game_difficulty_difficult 4
-// /Game Settings
 
 // SPLITSFONT
 #macro SPLITSFONT_RotationAlignment_ChorusLine 1
@@ -66,6 +29,57 @@
 #macro splitsfont_size_scoreboard 0.02
 #macro splitsfont_weight_scoreboard 0.004
 // /SPLITSFONT
+
+
+// Sound
+#macro sfx_crash_into_enemy_and_lose_armor 0
+#macro sfx_achieve_high_score 1
+#macro sfx_crash_into_enemy_and_DIE 2
+#macro sfx_eat_energy 3
+#macro sfx_lose_multiplier 4
+#macro sfx_slide_in 5
+#macro sfx_slide_out 6
+#macro sfx_scroll_menu 7
+#macro sfx_select_menu 8
+#macro sfx_run_out_of_energy_and_DIE 9
+#macro sfx_move_and_increase_multiplier 10
+#macro sfx_move_and_reach_maximum_multiplier 11
+// /Sound
+
+// Game Settings
+#macro column_count_cool 4
+#macro column_count_easy 6
+#macro column_count_medium 8
+#macro column_count_hard 10
+#macro column_count_difficult 12
+#macro column_width 48
+
+#macro funny_finger_count_cool 1
+#macro funny_finger_count_easy 2
+#macro funny_finger_count_medium 3
+#macro funny_finger_count_hard 4
+#macro funny_finger_count_difficult 5
+#macro half_of_width_difference_with_column 8
+
+#macro energy_value_cool 0.10
+#macro energy_value_easy 0.15
+#macro energy_value_medium 0.15
+#macro energy_value_hard 0.15
+#macro energy_value_difficult 0.15
+
+#macro shrink_per_sec_cool 0.04
+#macro shrink_per_sec_easy 0.03
+#macro shrink_per_sec_medium 0.03
+#macro shrink_per_sec_hard 0.03
+#macro shrink_per_sec_difficult 0.03
+
+#macro game_difficulty_cool 0
+#macro game_difficulty_easy 1
+#macro game_difficulty_medium 2
+#macro game_difficulty_hard 3
+#macro game_difficulty_difficult 4
+// /Game Settings
+
 
 // Core Mechanics 
 #macro mb_max_multiplier 35
@@ -99,13 +113,13 @@ global.core_energy_maximum_period_in_sec =
 #macro core_funny_finger_move_time_in_sec_default 0.1
 global.core_funny_finger_move_time_in_sec = 
 	core_funny_finger_move_time_in_sec_default;
-#macro core_funny_finger_shrink_per_sec_x_1000_default 30
+#macro core_funny_finger_shrink_per_sec_x_1000_default 40 //30
 global.core_funny_finger_shrink_per_sec_x_1000 = 
 	core_funny_finger_shrink_per_sec_x_1000_default;
 #macro core_funny_finger_starting_life_x_100_default 30
 global.core_funny_finger_starting_life_x_100 = 
 	core_funny_finger_starting_life_x_100_default;
-#macro core_energy_value_x_100_default 15
+#macro core_energy_value_x_100_default 10 // 15
 global.core_energy_value_x_100 = 
 	core_energy_value_x_100_default;
 #macro core_funny_finger_grow_time_in_sec_default 0.35
