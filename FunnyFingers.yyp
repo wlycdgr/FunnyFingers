@@ -591,14 +591,6 @@
             }
         },
         {
-            "Key": "5b32e584-bec0-4485-869d-5fa0b6340d6e",
-            "Value": {
-                "id": "da5f2fe9-5ba6-4ed5-8a2e-36b0cf7194c1",
-                "resourcePath": "datafiles_yy\\stats.ini.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "5bd3e45e-f41b-4788-b6d8-6fe5cc3ea5b7",
             "Value": {
                 "id": "a24bde45-6cc8-4a5f-9b29-06c818357a17",
@@ -876,6 +868,14 @@
                 "id": "f465f29d-2254-4804-b102-78fbb41c426c",
                 "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8f14389f-4c46-4523-a408-9e36ae14115b",
+            "Value": {
+                "id": "7f989f04-88b7-4760-962f-0dab05a852c0",
+                "resourcePath": "datafiles_yy\\stats.ini.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {

@@ -155,7 +155,7 @@ stat_hash_names = [
 "stat_difficult_10th_highest_score_hash",
 ];
 
-stat_persons = [
+player_name_stat_names = [
 	"stat_lifetime_cool_points_person",
 	"stat_lifetime_cool_points_runner_up_person",
 	
@@ -192,7 +192,7 @@ stat_persons = [
 	"stat_difficult_10th_highest_score_person",
 ];
 
-initial_person_values = [
+default_player_name_strings = [
 	"QQQQWWWOOPPOOWWWQQQQ",
 	"TTTTRRRIIPPIIRRRTTTT",
 	
@@ -229,7 +229,7 @@ initial_person_values = [
 	"RRRROOOUUTTUUOOORRRR"
 ];
 
-stat_hash_persons = [
+player_name_hash_stat_names = [
 	"stat_lifetime_cool_points_person_hash",
 	"stat_lifetime_cool_points_runner_up_person_hash",
 	
@@ -324,9 +324,7 @@ stat_count = array_length_1d(stat_names);
 
 hash_length = array_length_1d(cipher_keys);
 
-
 var stat_real_value = 0;
-var stat_string_value = 0;
 var stat_received_hash_string = 0;
 var score_value = 0;
 var score_plus_score_times_cipher_key = 0;
@@ -336,14 +334,20 @@ var expected_hash_value = 0;
 
 ini_open("stats.ini");
 
+// SCORE VALUES
 for (var i = 0; i < stat_count; i++) {
 	ds_map_add(has_stat_been_updated_since_last_save, stat_names[i], false);
 	
-	stat_real_value = ini_read_real("stats", stat_names[i], 0);
+	stat_real_value = ini_read_real("stats", stat_names[i], -1);
 	
 	// first, check if this is an initial value
 	if (stat_real_value == initial_values[i]) {
 		score_value = 0;
+	}
+	
+	// next, check to see if maybe stat was missing
+	else if (-1 == stat_real_value) { 
+		score_value = -1;
 	}
 	
 	// if not, check if received hash matches expected hash
@@ -402,6 +406,101 @@ for (var i = 0; i < stat_count; i++) {
 		stats,
 		stat_names[i],
 		score_value
+	);
+}
+
+
+// SCORE PERSONS
+// SCORE PERSONS
+// SCORE PERSONS
+// SCORE PERSONS
+// SCORE PERSONS
+// SCORE PERSONS
+var player_name_in_ini_string = "";
+var player_name_in_ini_string_length = 0;
+var player_name_char_unicode_value = 0;
+var player_name_string = "";
+var player_name_string_converted_to_real_number = "";
+for (var i = 0; i < stat_count; i++) {
+	player_name_in_ini_string = ini_read_string("persons", player_name_stat_names[i], "MISSING");
+	
+	// first, check if this is an initial value
+	if (player_name_in_ini_string == default_player_name_strings[i]) {
+		player_name_string = player_name_in_ini_string;
+	}
+	
+	else if (player_name_in_ini_string == "MISSING") {
+		player_name_string = "MISSING PLAYER NAME";
+	}
+	
+	// if not, check if received hash matches expected hash
+	else {
+		stat_received_hash_string = ini_read_string(
+			"persons_hashes", 
+			player_name_hash_stat_names[i], 
+			"MISSING");
+		
+		if ("MISSING" == stat_received_hash_string) { 
+			player_name_string = "MISSING PLAYER NAME HASH"; 
+		}
+		
+		else if (hash_length != string_length(stat_received_hash_string)){
+			player_name_string = "MALFORMED PLAYER NAME HASH";
+		}
+		
+		else {
+			// convert the player name to a real number based on the unicode values
+			// of its component characters
+			player_name_in_ini_string_length = string_length(player_name_in_ini_string);
+			for (var k = 0; k < player_name_in_ini_string_length; k++) {
+				player_name_char_unicode_value = ord(string_char_at(player_name_in_ini_string, k+1));
+				player_name_string_converted_to_real_number = string_insert(
+					string(player_name_char_unicode_value),
+					player_name_string_converted_to_real_number,
+					1
+				);
+		//			player_name_string_converted_to_real_number + 
+		//			string(player_name_char_unicode_value);
+			}
+			player_name_string_converted_to_real_number = real(player_name_string_converted_to_real_number);
+			
+			// now, run this number through our hashing function as usual,
+			// (just as though it was the "score")
+			for (var j = 0; j < hash_length; j++) {
+				score_plus_score_times_cipher_key =
+					player_name_string_converted_to_real_number +
+					(player_name_string_converted_to_real_number * cipher_keys[j]);
+				
+				score_plus_score_times_cipher_key_mod_cipher_clock =
+					score_plus_score_times_cipher_key %
+					cipher_clocks[j];
+				
+				first_digit_of_score_plus_score_times_cipher_key_mod_cipher_clock =
+					real(
+						string_char_at(
+							string(score_plus_score_times_cipher_key_mod_cipher_clock),
+							1
+						)
+					);
+				
+				expected_hash_value = 
+					first_digit_of_score_plus_score_times_cipher_key_mod_cipher_clock %
+					cipher_twists[j];
+				
+				if (expected_hash_value != real(string_char_at(stat_received_hash_string, j+1))) {
+					player_name_string = "STORED HASH DOES NOT MATCH CALCULATED HASH";
+					// cheating / messup
+					// reset scores
+					break;
+				}
+			}
+		}
+	}
+
+	ds_map_add(
+		stats,
+		player_name_stat_names[i],
+		player_name_string
 	);
 }
 

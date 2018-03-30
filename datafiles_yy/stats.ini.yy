@@ -1,5 +1,5 @@
 {
-    "id": "5b32e584-bec0-4485-869d-5fa0b6340d6e",
+    "id": "8f14389f-4c46-4523-a408-9e36ae14115b",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "stats.ini",
