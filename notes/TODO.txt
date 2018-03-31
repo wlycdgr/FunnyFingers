@@ -420,14 +420,14 @@ March 30
 March 31
 - DONE bump max multiplier whenever you lose a piece of armor
 - DONE implement a points for close shave mechanic
+- DONE verify all achievement implementations
+	- DONE No Pressure
+	- DONE QWEIOP
+	- DONE Level 99
+	- DONE the score achievements
+- DONE set achievements to real values (and tweak those values)
 
 
-- verify all achievement implementations
-	- No Pressure
-	- QWEIOP
-	- Level 99
-	- the score achievements
-- set achievements to real values (and tweak those values)
 - tweakfix credits tween timings
 - make trailer (dependent on sounds)
 - add game start animation

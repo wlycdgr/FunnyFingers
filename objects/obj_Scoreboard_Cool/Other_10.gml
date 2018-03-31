@@ -5,7 +5,7 @@ var new_lifetime_points =
 
 if (
 	new_lifetime_points >= ach_Level_99_points_target &&
-	already_unlocked_level_99
+	!already_unlocked_level_99
 ) {
 	scr_ASI_UnlockAchievement(ach_Level_99);
 	
