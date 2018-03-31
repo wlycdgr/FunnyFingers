@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "03d23654-dd68-4d46-8a3f-3f652180bce7",
-            "Value": {
-                "id": "02a3ad54-fc95-4996-a77b-032e94a713f1",
-                "resourcePath": "datafiles_yy\\move_and_increase_multiplier.ogg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "082b7d90-e705-4d08-9b1a-b020a60d298d",
             "Value": {
                 "id": "3ce17ca0-09f1-444c-891c-186ca3a2c240",
@@ -127,14 +119,6 @@
             }
         },
         {
-            "Key": "11fbd389-6a9c-4f4c-aa8a-5a573c28edc1",
-            "Value": {
-                "id": "37ff6006-207d-4299-bc26-afb1f318f28b",
-                "resourcePath": "datafiles_yy\\crash_into_enemy_and_DIE.ogg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "12e0875e-2fc9-4f4b-9a87-a63fe55ae3df",
             "Value": {
                 "id": "62bdba30-ab2d-4bdc-a5e9-ba4232824284",
@@ -175,6 +159,14 @@
             }
         },
         {
+            "Key": "17bfff5f-c268-4602-ac26-c20d1c1e352c",
+            "Value": {
+                "id": "fe1feada-490f-491f-ad28-353b3ff85079",
+                "resourcePath": "datafiles_yy\\run_out_of_energy_and_DIE.ogg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "17cc19c2-581b-40e2-a60d-f5c7951ad7eb",
             "Value": {
                 "id": "99f43d35-60aa-4fdc-a480-1cf2c042e27c",
@@ -183,10 +175,10 @@
             }
         },
         {
-            "Key": "17f7ccd7-785b-4761-b2e2-0fcfe950ba39",
+            "Key": "1a984f6e-133f-4366-970b-e3bae44f6bbc",
             "Value": {
-                "id": "b4ef1f63-0d72-49bf-8e76-b9e9ae43e4cd",
-                "resourcePath": "datafiles_yy\\slide_out.ogg.yy",
+                "id": "d6a6c34f-4b04-47ac-8f10-434b90f338b2",
+                "resourcePath": "datafiles_yy\\lose_multiplier.ogg.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -231,14 +223,6 @@
             }
         },
         {
-            "Key": "1d570d96-4c9d-4922-86dd-3825c2391f0b",
-            "Value": {
-                "id": "8725c8ca-b435-4112-bac1-634bebb94c5f",
-                "resourcePath": "datafiles_yy\\run_out_of_energy_and_DIE.ogg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "1d99ddca-f713-4396-8981-74adb0c3e722",
             "Value": {
                 "id": "b971b62e-8182-426e-94dc-8046e23fc21a",
@@ -271,6 +255,14 @@
             }
         },
         {
+            "Key": "1f67bec2-f375-4823-a10d-cc6843d73036",
+            "Value": {
+                "id": "0b422c0c-5617-496f-b6e1-e8c0113ba047",
+                "resourcePath": "datafiles_yy\\move_and_reach_maximum_multiplier.ogg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "21021fe0-c5dc-496e-a62a-e442d866e153",
             "Value": {
                 "id": "8bbe6d8c-4c28-4fc3-aaf0-33c0e665c56e",
@@ -284,14 +276,6 @@
                 "id": "1fd0eeec-7912-427f-a935-4a4ea819dfcf",
                 "resourcePath": "scripts\\scr_Steam_UpdateHighScoreLeaderboard\\scr_Steam_UpdateHighScoreLeaderboard.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "221bb11f-53b8-44bc-939b-bf9a38e6685d",
-            "Value": {
-                "id": "1078bc45-519f-4e6a-b817-2471d247c501",
-                "resourcePath": "datafiles_yy\\crash_into_enemy_and_lose_armor.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -503,6 +487,14 @@
             }
         },
         {
+            "Key": "4625ab6f-1e3f-47cf-a4bf-7defb113f1f3",
+            "Value": {
+                "id": "c6040237-edab-4dfa-b812-fcc45e7d4dd8",
+                "resourcePath": "datafiles_yy\\slide_out.ogg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "497766f1-20a3-463a-b6ea-6cb84381b078",
             "Value": {
                 "id": "11d2213f-d40a-487f-87d1-e2541eb74262",
@@ -596,22 +588,6 @@
                 "id": "a24bde45-6cc8-4a5f-9b29-06c818357a17",
                 "resourcePath": "views\\5bd3e45e-f41b-4788-b6d8-6fe5cc3ea5b7.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "6069bfa2-0d9b-4943-8a40-a7e7da3b44d0",
-            "Value": {
-                "id": "fb5e13ed-44f7-47d9-81a4-bf7519eb181c",
-                "resourcePath": "datafiles_yy\\scroll_menu.ogg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "61e928b7-7799-47d2-ab48-b5e540a4c515",
-            "Value": {
-                "id": "ffc608e4-a390-4cff-8fe5-1bcba4e823d1",
-                "resourcePath": "datafiles_yy\\eat_energy.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -743,19 +719,19 @@
             }
         },
         {
+            "Key": "7366a211-f606-42f2-9d84-a091d6e3c022",
+            "Value": {
+                "id": "28b583bc-dd82-4d2f-b7ce-84ba86f72559",
+                "resourcePath": "datafiles_yy\\eat_energy.ogg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "7370bada-7319-4de4-a8f5-9ecf592f4580",
             "Value": {
                 "id": "9ff98ac0-5443-4b13-9751-b8b6bcc7d67b",
                 "resourcePath": "scripts\\scr_ASI_IsAchievementUnlocked\\scr_ASI_IsAchievementUnlocked.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "767c80ed-9296-456d-bef4-6dd85529eba1",
-            "Value": {
-                "id": "1e1bd043-d0d4-4869-afcc-050346f91f39",
-                "resourcePath": "datafiles_yy\\lose_multiplier.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -847,6 +823,14 @@
             }
         },
         {
+            "Key": "8b321c70-37fb-4bff-beab-15e582147596",
+            "Value": {
+                "id": "685ea6cb-b5fb-4fb2-94d4-02c64e156ea8",
+                "resourcePath": "datafiles_yy\\scroll_menu.ogg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "8c6caf78-effb-441d-aab2-084eb0a2a70a",
             "Value": {
                 "id": "edc87a42-05c7-4667-adf3-1fb76f894f0e",
@@ -908,14 +892,6 @@
                 "id": "c0845cd6-1edd-4797-9f01-b64caaa00fd4",
                 "resourcePath": "views\\9d14a5e8-6acb-4a2e-ab0b-37e7d122fb8d.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "9eb00fb2-3ee4-47be-a52d-c0078a7a3ae4",
-            "Value": {
-                "id": "9d46d5e6-1879-458f-9add-de1251d4e7cb",
-                "resourcePath": "datafiles_yy\\select_menu.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1031,14 +1007,6 @@
             }
         },
         {
-            "Key": "b0d9a1f8-3324-4c3e-99dd-805b306b77aa",
-            "Value": {
-                "id": "1c04c5f4-9732-4f9b-b794-b7179b12778c",
-                "resourcePath": "datafiles_yy\\slide_in.ogg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "b29c19b6-ef21-4d43-ae4e-19588f7ac1fd",
             "Value": {
                 "id": "8eb5e698-f4ce-415b-81e8-b22cee28b1fb",
@@ -1068,14 +1036,6 @@
                 "id": "e330627b-8dc7-4efc-adfc-c8350a8c9c6f",
                 "resourcePath": "scripts\\scr_Scoreboard_AnimateScoreDisplay\\scr_Scoreboard_AnimateScoreDisplay.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "b4c76cbf-1d58-4bfa-9ed3-15c40e6c28b9",
-            "Value": {
-                "id": "cd637cb9-4069-4531-80c8-170553109a6f",
-                "resourcePath": "datafiles_yy\\move_and_reach_maximum_multiplier.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1199,11 +1159,27 @@
             }
         },
         {
+            "Key": "c7f942c5-8d4e-4ef0-b934-115e5d6a9ad6",
+            "Value": {
+                "id": "ede0698a-6d0d-4a39-8730-7e272c52e478",
+                "resourcePath": "datafiles_yy\\move_and_increase_multiplier.ogg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "cab799ce-8d74-4a49-8d5c-cac01986cb64",
             "Value": {
                 "id": "c94351f8-d802-406a-8c80-fd67ccf4c8a1",
                 "resourcePath": "scripts\\scr_Focus_Playfield\\scr_Focus_Playfield.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "cb78afa6-9553-4d10-881b-2f09218bf301",
+            "Value": {
+                "id": "8a649130-b430-4643-af75-0f572f163d0b",
+                "resourcePath": "datafiles_yy\\crash_into_enemy_and_DIE.ogg.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1303,6 +1279,14 @@
             }
         },
         {
+            "Key": "da9daebf-7071-4903-b77e-07c79ea1dc93",
+            "Value": {
+                "id": "a90ea1e8-e3b5-4ff0-ba8e-da31064f891e",
+                "resourcePath": "datafiles_yy\\select_menu.ogg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "dae4b901-97b9-461a-907c-db4f3f02a975",
             "Value": {
                 "id": "d6f6e0bd-04e9-4e2c-937f-c3430c53c74f",
@@ -1332,14 +1316,6 @@
                 "id": "86311a16-40e4-473a-949c-9328abd1f0b6",
                 "resourcePath": "views\\dd4a171a-5367-4700-bc47-92bc67fed2b7.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "decb26a4-beec-4a24-8a45-23571611b08c",
-            "Value": {
-                "id": "18469a91-75e5-4d9a-b9b0-ae5bbeb019b6",
-                "resourcePath": "datafiles_yy\\achieve_high_score.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1492,6 +1468,22 @@
                 "id": "cfeef3e6-23b6-44d8-925a-ac4cecebc904",
                 "resourcePath": "scripts\\scr_ASI_ToggleAchievement\\scr_ASI_ToggleAchievement.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f9f875a7-64b9-4d2a-8599-8a333b26c338",
+            "Value": {
+                "id": "cb2e8a50-9954-41a5-bbc4-920abe408933",
+                "resourcePath": "datafiles_yy\\crash_into_enemy_and_lose_armor.ogg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "fa8e724d-f9c6-41b0-a4f5-04b64f951f16",
+            "Value": {
+                "id": "9c1f3c96-7d72-4eef-9848-4746461d11e3",
+                "resourcePath": "datafiles_yy\\achieve_high_score.ogg.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {

@@ -1,4 +1,6 @@
 /// @description Initiate move
+scr_Sound_Play(sfx_move_and_increase_multiplier);
+
 shrink_rate_multiplier_growth_rate = max(
 	shrink_rate_multiplier_growth_rate_min,
 	(

@@ -34,3 +34,5 @@ sfx = [
 
 // how to set volume - we should load from INI file
 audio_sound_gain(lose_multiplier, 1, 0);
+
+audio_sound_gain(move_and_increase_multiplier, 0.2, 0);

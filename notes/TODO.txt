@@ -434,6 +434,8 @@ March 30
 
 - implement a points for close shave mechanic
 
+- bump max multiplier whenever you lose a piece of armor
+
 - verify all achievement implementations
 	- No Pressure
 	- QWEIOP
