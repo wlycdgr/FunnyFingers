@@ -427,10 +427,12 @@ March 31
 	- DONE the score achievements
 - DONE set achievements to real values (and tweak those values)
 - DONE align multiplier bar with playfield bottom border
+- DONE put serge and peter front and center in credits
+- DONE fix sometimes wrong item selected due to game input UX bug in ribbon menu
+- DONE fix menu double/wrong highlight bug
 
-- fix not reverting to 0 index in ribbon menu bug
-- fix menu double/wrong highlight bug
 
+- make screenshots
 - tweakfix credits tween timings
 - make trailer (dependent on sounds)
 - add game start animation

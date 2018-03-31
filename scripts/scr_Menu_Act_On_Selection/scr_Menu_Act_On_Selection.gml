@@ -2,7 +2,7 @@
 
 var selection_label = argument0.labels[argument0.index];
 
-argument0.index = 0;
+reset_menu = false;
 
 switch(selection_label) {
 
@@ -115,6 +115,8 @@ case "DIFFICULT":
 	break;
 
 case "BACK":
+	reset_menu = true;
+	
 	with (global.main_menu_controller) {
 		main_menu.active = true;
 		difficulty_menu.active = false;
@@ -124,6 +126,8 @@ case "BACK":
 	
 // other menus
 case "CONTINUE":
+	reset_menu = true;
+	
 	with (global.game) { event_user(2); }
 	break;
 	
@@ -168,6 +172,8 @@ case "PLAY":
 	break;
 	
 case "PLAY AGAIN":
+	reset_menu = true;
+	
 	with (global.game) { event_user(3); }
 	break;
 	
@@ -176,4 +182,20 @@ case "TUTORIAL":
 	global.room_state_tracker.target_room = r_Tutorial;
 	
 	break;
+}
+
+if (reset_menu) {
+	with (argument0) {
+		index = 0;
+
+		for (var i = 0; i < item_count; i++){
+			label_states[i] = menu_item_state_unselected;
+			label_font_weights[i] = menu_item_font_weight_min;
+			scr_Splitsfont_Set_Weight(label_strings[i], label_font_weights[i]);
+		}
+		
+		label_states[0] = menu_item_state_selected;
+		label_font_weights[0] = menu_item_font_weight_max;
+		scr_Splitsfont_Set_Weight(label_strings[0], label_font_weights[0]);
+	}
 }

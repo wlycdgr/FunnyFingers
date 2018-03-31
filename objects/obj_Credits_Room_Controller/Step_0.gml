@@ -14,7 +14,11 @@ if (
 	1 == screen_index
 ) {
 	if (screen_string_tweens[screen_index].paused) {
-		screen_string_tweens[screen_index].paused = false;
+		pause_counter_value += 1;
+		if (pause_counter_value >= pause_counter_limit) {
+			screen_string_tweens[screen_index].paused = false;
+			pause_counter_value = 0;
+		}
 	}
 	else if (screen_string_tweens[screen_index].complete) {
 		screen_string_tweens[screen_index].active = false;
@@ -98,7 +102,11 @@ else if (2 == screen_index) {
 
 else if (3 == screen_index) {
 	if (screen_string_tweens[screen_index].paused) {
-		screen_string_tweens[screen_index].paused = false;
+		pause_counter_value += 1;
+		if (pause_counter_value >= pause_counter_limit) {
+			screen_string_tweens[screen_index].paused = false;
+			pause_counter_value = 0;
+		}
 	}
 	else if (screen_string_tweens[screen_index].complete) {
 		room_goto(r_MainMenu);
