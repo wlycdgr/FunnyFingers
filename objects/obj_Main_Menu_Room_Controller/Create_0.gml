@@ -13,13 +13,18 @@ scr_Splitsfont_Set_Text(funny, "FUNNY");
 scr_Splitsfont_Set_Tweaks(funny, [funny_size, 0.062, 0.078, 0, 0]);
 funny_center = 15 + window_x_center;
 funny_x  = funny_center - scr_Splitsfont_Get_Width(funny) / 2;
-funny_y = 0.11 * window_height;
+funny_y = 0.19 * window_height;
 
 fingers = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(fingers, "FINGERS");
 scr_Splitsfont_Set_Tweaks(fingers, [0.122, 0.008, 0.059, 0, 17]);
 fingers_x  = window_x_center - scr_Splitsfont_Get_Width(fingers) / 2;
-fingers_y = 0.36 * window_height;
+fingers_y = 0.44 * window_height;
+
+ //0.19, 0.44 is better!
+ //0.11, 0.36 is previous!
+
+
 
 title_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
 title_tween.close_enough *= 0.01;

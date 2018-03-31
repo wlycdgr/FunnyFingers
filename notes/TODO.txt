@@ -431,6 +431,44 @@ March 30
 	
 	* balance total decay per sec VS energy spawn per sec
 	* balance column count VS enemy and energy average count
+	
+	select menu sound is too sharp/harsh
+max multiplier sound sound tinny and harsh, should be very pleasant
+
+
+C00L
+40 / 10
+0.04
+0.08
+0.2 secs = 0.008
+
+EASY
+36 / 14 / 0.7 - 1.05 secs -> 1.43 - 0.95 per sec
+0.036 x 2 = 0.072
+0.14 * 0.95 = 0.133
+0.3 secs = 0.036 * 0.3 = 0.0108
+	0.133 + 0.0108 = 0.1438
+
+MEDIUM
+33 / 16.75 / 0.6 - 0.9 secs - > 1.67 - 1.11 per sec
+0.033 * 3 = 0.099
+16.75 * 1.11 = 0.1859
+0.4 secs = 0.033 * 0.4 = 0.0132
+	0.1859 + 0.0132 = 0.1991
+
+HARD
+30 / 19 / 0.5 - 0.85 secs -> 2 - 1.18 per sec
+0.03 * 4 = 0.12
+.19 * 1.18 = .2242
+0.5 secs = 0.03 * 0.5 = 0.015
+	.2242 + 0.015 = 0.2392
+
+DIFFICULT
+28 / 20 / 0.45 - 0.75 -> 2.22 - 1.33 per sec
+0.028 * 5 = 0.14
+0.2 * 1.33 = 0.266
+0.5 secs = 0.027 * 0.6 = 0.0135
+	0.266 + 0.0135 = 0.2795
 
 - implement a points for close shave mechanic
 
@@ -443,6 +481,8 @@ March 30
 	- the score achievements
 	
 - set achievements to real values (and tweak those values)
+
+- tweakfix credits tween timings
 
 - make trailer (dependent on sounds)
 

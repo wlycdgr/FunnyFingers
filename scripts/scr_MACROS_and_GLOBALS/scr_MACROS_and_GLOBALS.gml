@@ -62,34 +62,34 @@
 #macro half_of_width_difference_with_column 8
 
 #macro enemy_maximum_period_in_sec_cool 1.50 // DONE
-#macro enemy_maximum_period_in_sec_easy 1.00  // DONE
-#macro enemy_maximum_period_in_sec_medium 1.0//0.8 //0.75 // DONE
+#macro enemy_maximum_period_in_sec_easy 1.50 //1.00  // DONE
+#macro enemy_maximum_period_in_sec_medium 1.50 // 1.0//0.8 //0.75 // DONE
 #macro enemy_maximum_period_in_sec_hard 1.50
 #macro enemy_maximum_period_in_sec_difficult 1.50
 
 #macro enemy_minimum_period_in_sec_cool 1.25 // DONE
-#macro enemy_minimum_period_in_sec_easy 0.85 // DONE
-#macro enemy_minimum_period_in_sec_medium 0.85 //0.65 //0.63 // DONE
+#macro enemy_minimum_period_in_sec_easy 1.25 //0.85 // DONE
+#macro enemy_minimum_period_in_sec_medium 1.25 //0.85 //0.65 //0.63 // DONE
 #macro enemy_minimum_period_in_sec_hard 1.25
 #macro enemy_minimum_period_in_sec_difficult 1.25
 
 #macro energy_maximum_period_in_sec_cool 1.250 // DONE
-#macro energy_maximum_period_in_sec_easy 0.85  // DONE
-#macro energy_maximum_period_in_sec_medium 0.63 // DONE
+#macro energy_maximum_period_in_sec_easy 1.250 //0.85  // DONE
+#macro energy_maximum_period_in_sec_medium 1.25 //0.63 // DONE
 #macro energy_maximum_period_in_sec_hard 1.250
 #macro energy_maximum_period_in_sec_difficult 1.250
 
 #macro energy_minimum_period_in_sec_cool 0.75 // DONE
-#macro energy_minimum_period_in_sec_easy 0.55 // DONE
-#macro energy_minimum_period_in_sec_medium 0.38 // DONE
+#macro energy_minimum_period_in_sec_easy 0.75 // 0.55 // DONE
+#macro energy_minimum_period_in_sec_medium 0.75 //0.38 // DONE
 #macro energy_minimum_period_in_sec_hard 0.75
 #macro energy_minimum_period_in_sec_difficult 0.75
 
 #macro energy_value_cool 0.10 // DONE
-#macro energy_value_easy 0.125 // DONE
-#macro energy_value_medium 0.13 // DONE
-#macro energy_value_hard 0.15
-#macro energy_value_difficult 0.15
+#macro energy_value_easy 0.1//0.125 // DONE
+#macro energy_value_medium 0.1 0.13 // DONE
+#macro energy_value_hard // 0.15
+#macro energy_value_difficult // 0.15
 
 #macro move_time_cool 0.2 // DONE
 #macro move_time_easy 0.12 // DONE

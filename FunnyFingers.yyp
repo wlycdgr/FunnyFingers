@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "3b87201b-bde5-4197-9269-af0b776541cf",
+            "Value": {
+                "id": "b737d844-88c5-4bc9-b51b-ecdbdc3857d5",
+                "resourcePath": "datafiles_yy\\slide_in.ogg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "3cacfbe1-5d40-49c0-a474-4bebb2b005d9",
             "Value": {
                 "id": "3407c8f7-6175-48c6-9bbd-030cf81a79c5",
