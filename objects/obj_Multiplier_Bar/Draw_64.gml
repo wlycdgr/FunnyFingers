@@ -1,7 +1,7 @@
 /// @description Draw the bar!
 
 draw_set_color(c_black);
-draw_rectangle(x, y + 4, x + fill_x, y + 12, false); 
+draw_rectangle(x, y + 8, x + fill_x, y + 16, false); 
 
 // Move multiplier
 scr_Splitsfont_Draw_String(multiplier_label, 15, move_multiplier_y);

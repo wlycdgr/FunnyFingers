@@ -426,7 +426,10 @@ March 31
 	- DONE Level 99
 	- DONE the score achievements
 - DONE set achievements to real values (and tweak those values)
+- DONE align multiplier bar with playfield bottom border
 
+- fix not reverting to 0 index in ribbon menu bug
+- fix menu double/wrong highlight bug
 
 - tweakfix credits tween timings
 - make trailer (dependent on sounds)
