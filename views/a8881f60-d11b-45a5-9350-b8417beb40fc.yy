@@ -12,7 +12,8 @@
         "c74f8744-f896-4f00-9dbe-6a09b09609b2",
         "6253b373-009e-441b-9bcd-3fb1d39ba5e1",
         "b636ae85-7f85-405c-9cbd-f896524bcab9",
-        "7094995a-ac67-4933-99e9-6d3f7472d059"
+        "7094995a-ac67-4933-99e9-6d3f7472d059",
+        "4baa4273-e268-454f-a460-5677c3baae6d"
     ],
     "filterType": "GMSprite",
     "folderName": "GameplayObjects",

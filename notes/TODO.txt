@@ -417,9 +417,11 @@ March 30
 - DONE tweakdebug danger danger movement so it matches up better
 - DONE BALANCE CORE MECHANICS VALUES FOR ALL DIFFICULTIES
 
+March 31
+- DONE bump max multiplier whenever you lose a piece of armor
+- DONE implement a points for close shave mechanic
 
-- implement a points for close shave mechanic
-- bump max multiplier whenever you lose a piece of armor
+
 - verify all achievement implementations
 	- No Pressure
 	- QWEIOP

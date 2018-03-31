@@ -112,9 +112,10 @@
 
 
 // Core Mechanics 
-#macro mb_max_multiplier 35
+#macro mb_starting_max_multiplier 10
+#macro mb_max_multiplier_armor_loss_bump 10
 #macro mb_min_multiplier 1
-#macro mb_seconds_to_drain 2.0 // 3.0
+#macro mb_seconds_to_drain 2.0
 
 #macro core_enemy_speed_per_sec_min_default 150 //125
 global.core_enemy_speed_per_sec_min = 

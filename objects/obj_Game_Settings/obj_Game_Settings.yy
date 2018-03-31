@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_Game_Settings",
     "eventList": [
-        
+        {
+            "id": "0dbd9341-c08f-4d68-b40c-bd1c2d8180de",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 7,
+            "m_owner": "58dcbadc-1425-4882-ba83-780d52999e09"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -64,6 +73,20 @@
             "value": "0",
             "varName": "difficulty",
             "varType": 1
+        },
+        {
+            "id": "9a7f1650-871e-4e6a-8f11-f895c6a8f687",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "mb_starting_max_multiplier",
+            "varName": "max_multiplier",
+            "varType": 0
         }
     ],
     "solid": false,
