@@ -21,4 +21,4 @@ source_x =
 	
 move_amount_in_pixels_per_frame =
 	(target_x - source_x) / 
-	(game_fps * global.core_funny_finger_move_time_in_sec);
+	(game_fps * global.game_settings.move_time);

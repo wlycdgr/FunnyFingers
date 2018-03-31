@@ -15,8 +15,8 @@ case "COOL":
 		enemy_minimum_period_in_sec = enemy_minimum_period_in_sec_cool;
 		energy_maximum_period_in_sec = energy_maximum_period_in_sec_cool;
 		energy_minimum_period_in_sec = energy_minimum_period_in_sec_cool;
-		
 		energy_value = energy_value_cool;
+		move_time = move_time_cool;
 		shrink_per_sec = shrink_per_sec_cool;
 		
 		difficulty = game_difficulty_cool;
@@ -36,6 +36,7 @@ case "EASY":
 		energy_maximum_period_in_sec = energy_maximum_period_in_sec_easy;
 		energy_minimum_period_in_sec = energy_minimum_period_in_sec_easy;
 		energy_value = energy_value_easy;
+		move_time = move_time_easy;
 		shrink_per_sec = shrink_per_sec_easy;
 		
 		difficulty = game_difficulty_easy;
@@ -55,6 +56,7 @@ case "MEDIUM":
 		energy_maximum_period_in_sec = energy_maximum_period_in_sec_medium;
 		energy_minimum_period_in_sec = energy_minimum_period_in_sec_medium;
 		energy_value = energy_value_medium;
+		move_time = move_time_medium;
 		shrink_per_sec = shrink_per_sec_medium;
 		
 		difficulty = game_difficulty_medium;
@@ -74,6 +76,7 @@ case "HARD":
 		energy_maximum_period_in_sec = energy_maximum_period_in_sec_hard;
 		energy_minimum_period_in_sec = energy_minimum_period_in_sec_hard;
 		energy_value = energy_value_hard;
+		move_time = move_time_hard;
 		shrink_per_sec = shrink_per_sec_hard;
 		
 		difficulty = game_difficulty_hard;
@@ -100,6 +103,7 @@ case "DIFFICULT":
 		energy_maximum_period_in_sec = energy_maximum_period_in_sec_difficult;
 		energy_minimum_period_in_sec = energy_minimum_period_in_sec_difficult;
 		energy_value = energy_value_difficult;
+		move_time = move_time_difficult;
 		shrink_per_sec = shrink_per_sec_difficult;
 		
 		difficulty = game_difficulty_difficult;
