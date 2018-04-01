@@ -1,5 +1,5 @@
 {
-    "id": "f9f875a7-64b9-4d2a-8599-8a333b26c338",
+    "id": "83b8260a-9616-45bb-911b-76ebda1f722d",
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "crash_into_enemy_and_lose_armor.ogg",

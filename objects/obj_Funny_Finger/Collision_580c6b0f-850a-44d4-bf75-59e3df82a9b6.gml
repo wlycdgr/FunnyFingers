@@ -1,7 +1,6 @@
 /// @description Lose armor or kaput
 if (has_armor) {
-	//scr_Sound_Play(sfx_crash_into_enemy_and_lose_armor);
-	scr_Sound_Play(sfx_select_menu);
+	scr_Sound_Play(sfx_crash_into_enemy_and_lose_armor);
 	
 	sprite_index = spr_funny_finger;
 	has_armor = false;

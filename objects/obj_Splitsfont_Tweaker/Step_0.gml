@@ -5,7 +5,7 @@ for (var i = 0; i < sf_strings_count; i++) {
 	scr_Splitsfont_Rotate_String(sf_strings[i]);
 }
 
-var values_count = 6 * sf_strings_count;
+var values_count = 7 * sf_strings_count;
 if (keyboard_check_pressed(ord("K"))) {
 	menu_index = (menu_index + 1) % values_count;
 }
@@ -19,8 +19,8 @@ else if (
 	keyboard_check(ord("O")) ||
 	keyboard_check_pressed(ord("L"))
 ) {
-	var string_index = floor(menu_index / 6);
-	var value_index = menu_index % 6;
+	var string_index = floor(menu_index / 7);
+	var value_index = menu_index % 7;
 	
 	var new_value =
 		values[menu_index] + 
@@ -32,17 +32,18 @@ else if (
 		sf_string_y_positions[string_index] =
 			values[menu_index] * window_height;
 	}
+	
+	else if (6 == value_index) {
+		sf_string_x_positions[string_index] =
+			values[menu_index] * window_width;
+	}
+	
 	else {
 		script_execute(
 			scripts[value_index],
 			sf_strings[string_index],
 			new_value
 		);
-
-		sf_string_x_positions[string_index] = 
-			window_x_center -
-			(scr_Splitsfont_Get_Width(sf_strings[string_index]) / 2);
-
 	}
 }
 
@@ -52,8 +53,8 @@ else if (
 ) {
 	//scr_Splitsfont_Tweaker_Increment(id, -1);
 	
-	var string_index = floor(menu_index / 6);
-	var value_index = menu_index % 6;
+	var string_index = floor(menu_index / 7);
+	var value_index = menu_index % 7;
 	
 	var new_value =
 		values[menu_index] - 
@@ -65,17 +66,18 @@ else if (
 		sf_string_y_positions[string_index] =
 			values[menu_index] * window_height;
 	}
+	
+	else if (6 == value_index) {
+		sf_string_x_positions[string_index] =
+			values[menu_index] * window_width;
+	}
+	
 	else {
 		script_execute(
 			scripts[value_index],
 			sf_strings[string_index],
 			new_value
 		);
-
-		sf_string_x_positions[string_index] = 
-			window_x_center -
-			(scr_Splitsfont_Get_Width(sf_strings[string_index]) / 2);
-
 	}
 }
 

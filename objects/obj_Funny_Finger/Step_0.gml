@@ -19,7 +19,9 @@ if (gs_playing != global.game.state) exit;
 
 // If dead, die :(
 if (life <= 0.0) {
-	scr_Sound_Play(sfx_run_out_of_energy_and_DIE);
+	if (!is_not_funny_anymore) {
+		scr_Sound_Play(sfx_run_out_of_energy_and_DIE);
+	}
 	
 	is_not_funny_anymore = true;
 	
