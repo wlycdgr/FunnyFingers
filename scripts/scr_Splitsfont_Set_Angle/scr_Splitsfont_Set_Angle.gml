@@ -34,25 +34,25 @@ for (var i = 0; i < argument0.length; i++) {
 		//argument0.glyphs[i].vertices[j] = vertex;
 	}
 	
-	line_count = glyph.line_count;
-	for (var k = 0; k < line_count; k++) {
-		line = glyph.lines[k];
+	//line_count = glyph.line_count;
+	//for (var k = 0; k < line_count; k++) {
+	//	line = glyph.lines[k];
 
-		svi = line.start_vertex_index;
-		evi = line.end_vertex_index;
+	//	svi = line.start_vertex_index;
+	//	evi = line.end_vertex_index;
 		
-		line.start_x = glyph_vertices[svi, 3];
-		line.start_y = glyph_vertices[svi, 4];
-		//line.start_x = glyph.vertices[svi].pos_x;
-		//line.start_y = glyph.vertices[line.start_vertex_index].pos_y;
+	//	line.start_x = glyph_vertices[svi, 3];
+	//	line.start_y = glyph_vertices[svi, 4];
+	//	//line.start_x = glyph.vertices[svi].pos_x;
+	//	//line.start_y = glyph.vertices[line.start_vertex_index].pos_y;
 		
-		line.end_x = glyph_vertices[evi, 3];
-		line.end_y = glyph_vertices[evi, 4];
-		//line.end_x = ev[3];
-		//line.end_y = ev[4];
-		//line.end_x = glyph.vertices[line.end_vertex_index].pos_x;
-		//line.end_y = glyph.vertices[line.end_vertex_index].pos_y;
-	}
+	//	line.end_x = glyph_vertices[evi, 3];
+	//	line.end_y = glyph_vertices[evi, 4];
+	//	//line.end_x = ev[3];
+	//	//line.end_y = ev[4];
+	//	//line.end_x = glyph.vertices[line.end_vertex_index].pos_x;
+	//	//line.end_y = glyph.vertices[line.end_vertex_index].pos_y;
+	//}
 	
 	glyph.vertices = glyph_vertices;
 	

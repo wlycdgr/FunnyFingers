@@ -383,14 +383,6 @@
             }
         },
         {
-            "Key": "367d65f9-24e5-44f1-a1b3-a104cbb8350a",
-            "Value": {
-                "id": "a70efc7b-a634-4eb5-a75e-f993f54e1da5",
-                "resourcePath": "objects\\obj_Splitsfont_Vertex\\obj_Splitsfont_Vertex.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "36b69265-d1e1-48f1-8a98-6d8bca6f1a16",
             "Value": {
                 "id": "b11e02e9-8b81-46c8-a722-1d90067d08c3",
