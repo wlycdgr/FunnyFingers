@@ -447,14 +447,6 @@
             }
         },
         {
-            "Key": "409e35c5-c0f1-4e9e-8a34-937d3f97d1c1",
-            "Value": {
-                "id": "dce81168-6c0c-4c5a-aa8c-70744c3ef28f",
-                "resourcePath": "objects\\obj_AchievementUnlockPopup\\obj_AchievementUnlockPopup.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "40d43c62-8e81-4c21-b732-b45c987459c3",
             "Value": {
                 "id": "99f7eedb-910e-4123-869e-77e312a4b73b",
