@@ -13,7 +13,7 @@ if (gs_playing == global.game.state) {
 		]
 	);
 
-	scr_ASI_PossiblyUnlockNoPressure(id);
+	scr_Steam_PossiblyUnlockNoPressure(id);
 }
 
 scr_Scoreboard_AnimateScoreDisplay(id);

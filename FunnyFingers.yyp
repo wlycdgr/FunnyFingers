@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "013d685b-41d8-4fc2-a235-af592ab0c521",
-            "Value": {
-                "id": "fc33f8b8-2732-43e6-b90e-db364eb29116",
-                "resourcePath": "scripts\\scr_Itch_SaveAchievements\\scr_Itch_SaveAchievements.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "0252d75a-808a-4e57-bf4f-a43ea1d553ba",
             "Value": {
                 "id": "a3c6eb0a-5a9d-411f-90dd-7be10ff8b3cf",
@@ -116,14 +108,6 @@
                 "id": "3b185c3d-3522-4080-a756-10bc1b40852c",
                 "resourcePath": "objects\\obj_Splitsfont_Tweaker\\obj_Splitsfont_Tweaker.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "1150c568-d090-499e-bd01-ef977901880c",
-            "Value": {
-                "id": "2de55d46-cec7-4ac8-9e00-97066a1bd77d",
-                "resourcePath": "scripts\\scr_AchievementUnlockPopup_NEW\\scr_AchievementUnlockPopup_NEW.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -399,14 +383,6 @@
             }
         },
         {
-            "Key": "3b3b2679-623c-40f9-bacc-dd0348224796",
-            "Value": {
-                "id": "6ce39769-ea5f-4440-889e-5a3c3f85185b",
-                "resourcePath": "scripts\\scr_Itch_ToggleAchievement\\scr_Itch_ToggleAchievement.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "3b84f41c-d6c5-4da3-b17d-f11c0b10df8c",
             "Value": {
                 "id": "1a7059f0-3410-4de6-a55c-687a43e8c472",
@@ -484,14 +460,6 @@
                 "id": "c6040237-edab-4dfa-b812-fcc45e7d4dd8",
                 "resourcePath": "datafiles_yy\\old_sounds\\slide_out.ogg.yy",
                 "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "497766f1-20a3-463a-b6ea-6cb84381b078",
-            "Value": {
-                "id": "11d2213f-d40a-487f-87d1-e2541eb74262",
-                "resourcePath": "views\\497766f1-20a3-463a-b6ea-6cb84381b078.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -738,7 +706,7 @@
             "Key": "7370bada-7319-4de4-a8f5-9ecf592f4580",
             "Value": {
                 "id": "9ff98ac0-5443-4b13-9751-b8b6bcc7d67b",
-                "resourcePath": "scripts\\scr_ASI_IsAchievementUnlocked\\scr_ASI_IsAchievementUnlocked.yy",
+                "resourcePath": "scripts\\scr_Steam_IsAchievementUnlocked\\scr_Steam_IsAchievementUnlocked.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -812,14 +780,6 @@
                 "id": "2652eff3-7326-425a-a1e3-75ecfc0fb442",
                 "resourcePath": "objects\\obj_Energy_Generator\\obj_Energy_Generator.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "8797b4e2-876d-41db-8436-98311b587db2",
-            "Value": {
-                "id": "43c1e9a9-0320-4e7d-90bc-111a6388dc44",
-                "resourcePath": "scripts\\scr_Itch_SaveHighScores\\scr_Itch_SaveHighScores.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -903,14 +863,6 @@
             }
         },
         {
-            "Key": "9d14a5e8-6acb-4a2e-ab0b-37e7d122fb8d",
-            "Value": {
-                "id": "c0845cd6-1edd-4797-9f01-b64caaa00fd4",
-                "resourcePath": "views\\9d14a5e8-6acb-4a2e-ab0b-37e7d122fb8d.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "a0539d10-b135-429d-8a4e-cf70b6fe2c1b",
             "Value": {
                 "id": "a7a3924e-f30f-4745-87db-e5c163320cec",
@@ -979,14 +931,6 @@
             "Value": {
                 "id": "c5f70c44-9a09-4034-beb0-856f1c79c137",
                 "resourcePath": "scripts\\scr_Menu_Draw\\scr_Menu_Draw.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "ab48a3d7-f556-4a18-86a4-ccf0d02956c5",
-            "Value": {
-                "id": "6268d31f-06c0-44b8-8a83-a4d149986557",
-                "resourcePath": "scripts\\scr_ASI_UpdateHighScoreLeaderboard\\scr_ASI_UpdateHighScoreLeaderboard.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1115,14 +1059,6 @@
             "Value": {
                 "id": "dc88efd7-5e85-46e3-b921-dadc9b36fcb5",
                 "resourcePath": "scripts\\scr_Splitsfont_Set_Size\\scr_Splitsfont_Set_Size.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "bfca5911-ad08-4a1e-ab31-a9a9480dcaff",
-            "Value": {
-                "id": "0b7e36c8-303a-40e5-a936-cd72530bb241",
-                "resourcePath": "scripts\\scr_Itch_UnlockAchievement\\scr_Itch_UnlockAchievement.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1330,7 +1266,7 @@
             "Key": "db2dc6f7-fcd4-4b54-86a9-6204ed0dedfe",
             "Value": {
                 "id": "530142c2-3d56-4433-99e0-4ca6c1724efe",
-                "resourcePath": "scripts\\scr_ASI_PossiblyUnlockNoPressure\\scr_ASI_PossiblyUnlockNoPressure.yy",
+                "resourcePath": "scripts\\scr_Steam_PossiblyUnlockNoPressure\\scr_Steam_PossiblyUnlockNoPressure.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1463,14 +1399,6 @@
             }
         },
         {
-            "Key": "f5c7f16d-9b7f-422e-b86f-902b4d752352",
-            "Value": {
-                "id": "4ea55d59-6fa2-449e-bcc7-a28eaedd3ff6",
-                "resourcePath": "views\\f5c7f16d-9b7f-422e-b86f-902b4d752352.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "f5c83b03-3241-48fb-9990-957372b55447",
             "Value": {
                 "id": "7a88676e-02f3-4435-93d3-48738bc8e1f0",
@@ -1483,14 +1411,6 @@
             "Value": {
                 "id": "a9240952-66b6-4172-8ce7-daf063adcc1e",
                 "resourcePath": "scripts\\scr_SlidePath_Reset\\scr_SlidePath_Reset.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "f8161ad7-ecd7-4bc4-9cde-e542d48ed5f9",
-            "Value": {
-                "id": "cfeef3e6-23b6-44d8-925a-ac4cecebc904",
-                "resourcePath": "scripts\\scr_ASI_ToggleAchievement\\scr_ASI_ToggleAchievement.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1578,22 +1498,15 @@
         "babadea1-cadd-46af-9761-b2a9227feea0",
         "b45fdfe2-6862-4ba1-be3a-bff263610936",
         "21021fe0-c5dc-496e-a62a-e442d866e153",
-        "cd4b2291-610a-44e8-884c-10ef5083ff89",
-        "aba5c1fe-9257-45a5-940d-c0017f082c6a",
-        "7370bada-7319-4de4-a8f5-9ecf592f4580",
-        "ab48a3d7-f556-4a18-86a4-ccf0d02956c5",
-        "db2dc6f7-fcd4-4b54-86a9-6204ed0dedfe",
-        "f8161ad7-ecd7-4bc4-9cde-e542d48ed5f9",
         "c51897f5-6bc6-4561-acad-2aff6a162c8a",
         "5495f05a-fff4-420d-9215-8cf8f8455f32",
         "21e164c3-ce4b-4db0-99a2-afa7eb396227",
         "d8e626d6-de05-40ae-b0e2-ed85ae399aaf",
-        "8797b4e2-876d-41db-8436-98311b587db2",
-        "bfca5911-ad08-4a1e-ab31-a9a9480dcaff",
-        "3b3b2679-623c-40f9-bacc-dd0348224796",
-        "013d685b-41d8-4fc2-a235-af592ab0c521",
-        "2ad0eeb1-51d9-46d8-a91a-cec995ea9139",
-        "1150c568-d090-499e-bd01-ef977901880c"
+        "7370bada-7319-4de4-a8f5-9ecf592f4580",
+        "db2dc6f7-fcd4-4b54-86a9-6204ed0dedfe",
+        "cd4b2291-610a-44e8-884c-10ef5083ff89",
+        "aba5c1fe-9257-45a5-940d-c0017f082c6a",
+        "2ad0eeb1-51d9-46d8-a91a-cec995ea9139"
     ],
     "tutorial": ""
 }

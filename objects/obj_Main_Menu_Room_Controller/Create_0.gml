@@ -46,7 +46,7 @@ main_menu_labels[0] = "TUTORIAL";
 main_menu_labels[1] = "CREDITS";
 main_menu_labels[2] = "EXIT";
 
-if (scr_ASI_IsAchievementUnlocked(ach_QWEIOP)) {
+if (scr_Steam_IsAchievementUnlocked(ach_QWEIOP)) {
 	main_menu_labels[0] = "PLAY";
 }
 
@@ -60,13 +60,13 @@ main_menu = scr_Menu_NEW(
 difficulty_menu_labels[0] = "COOL";
 difficulty_menu_labels[1] = "EASY";
 
-if (scr_ASI_IsAchievementUnlocked(ach_The_Qualifier)) { difficulty_menu_labels[2] = "MEDIUM"; }
+if (scr_Steam_IsAchievementUnlocked(ach_The_Qualifier)) { difficulty_menu_labels[2] = "MEDIUM"; }
 else { difficulty_menu_labels[2] = "??????"; }
 
-if (scr_ASI_IsAchievementUnlocked(ach_The_Breakout_Performer)) { difficulty_menu_labels[3] = "HARD"; }
+if (scr_Steam_IsAchievementUnlocked(ach_The_Breakout_Performer)) { difficulty_menu_labels[3] = "HARD"; }
 else { difficulty_menu_labels[3] = "????"; }
 
-if (scr_ASI_IsAchievementUnlocked(ach_The_Champion)) { difficulty_menu_labels[4] = "DIFFICULT"; }
+if (scr_Steam_IsAchievementUnlocked(ach_The_Champion)) { difficulty_menu_labels[4] = "DIFFICULT"; }
 else { difficulty_menu_labels[4] = "?????????"; }
 
 difficulty_menu_labels[5] = "BACK";

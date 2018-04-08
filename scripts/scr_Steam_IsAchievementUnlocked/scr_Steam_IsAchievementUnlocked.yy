@@ -1,8 +1,8 @@
 {
-    "id": "f8161ad7-ecd7-4bc4-9cde-e542d48ed5f9",
+    "id": "7370bada-7319-4de4-a8f5-9ecf592f4580",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_ASI_ToggleAchievement",
+    "name": "scr_Steam_IsAchievementUnlocked",
     "IsCompatibility": false,
     "IsDnD": false
 }
