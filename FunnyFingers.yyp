@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "017aa229-f4ae-40a9-a3d7-82caa4437850",
+            "Value": {
+                "id": "5f14f3a1-07f1-4f98-92a9-714fc1aadc3e",
+                "resourcePath": "views\\017aa229-f4ae-40a9-a3d7-82caa4437850.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0252d75a-808a-4e57-bf4f-a43ea1d553ba",
             "Value": {
                 "id": "a3c6eb0a-5a9d-411f-90dd-7be10ff8b3cf",
@@ -367,6 +375,14 @@
             }
         },
         {
+            "Key": "3a1a3e4a-dc27-4f32-983d-abf0ea221cef",
+            "Value": {
+                "id": "c07528b0-ad4b-4053-ab68-5b1f2aecd202",
+                "resourcePath": "views\\3a1a3e4a-dc27-4f32-983d-abf0ea221cef.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3a242f35-e685-4b10-aa0e-ce496578a7ae",
             "Value": {
                 "id": "6ab21b02-c591-4332-8daf-f70854e57809",
@@ -460,6 +476,14 @@
                 "id": "c6040237-edab-4dfa-b812-fcc45e7d4dd8",
                 "resourcePath": "datafiles_yy\\old_sounds\\slide_out.ogg.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "4645e737-fc1f-42e6-bb5f-fdf4876b3e95",
+            "Value": {
+                "id": "2ed83e0b-25b3-45db-977e-793d73b6b570",
+                "resourcePath": "views\\4645e737-fc1f-42e6-bb5f-fdf4876b3e95.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -916,6 +940,14 @@
                 "id": "f1da0d50-d253-4ab9-92e5-025acdbb78d7",
                 "resourcePath": "views\\a8881f60-d11b-45a5-9350-b8417beb40fc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a8d72100-f4c7-4052-83e3-6d3d4254db57",
+            "Value": {
+                "id": "f1f03efe-5bdc-4d77-9501-b0344a960cd4",
+                "resourcePath": "scripts\\scr_MultiplierBar_DrawMultiplier\\scr_MultiplierBar_DrawMultiplier.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1476,7 +1508,6 @@
         "a43486dc-bd3f-4e97-9e9d-c2818d636d5e",
         "09760fc0-4fac-4fd2-ba6d-671093bacb27",
         "6cd67805-f2ae-40b0-a142-766f4e5fb59d",
-        "a42faca6-7d96-4868-b0cb-464449307b68",
         "d853bee7-ced9-4eaa-9ece-6ecec2db4136",
         "e55c6825-0b01-47f9-8449-3d3bb72d829d",
         "bbfbe26a-22ab-4905-b660-696a70f57963",
@@ -1489,6 +1520,7 @@
         "8c6caf78-effb-441d-aab2-084eb0a2a70a",
         "29efcc84-2c11-430d-a7bf-445c56f50f18",
         "0e269cb6-6c82-4349-b237-982518d205f7",
+        "21021fe0-c5dc-496e-a62a-e442d866e153",
         "1e370f26-340c-4948-9bb8-621e417f5b5d",
         "3b84f41c-d6c5-4da3-b17d-f11c0b10df8c",
         "a61bbbc4-400a-446c-97aa-27da078cc165",
@@ -1497,7 +1529,8 @@
         "f19580fa-0cc0-4d7f-9a7b-244a84e7ce5e",
         "babadea1-cadd-46af-9761-b2a9227feea0",
         "b45fdfe2-6862-4ba1-be3a-bff263610936",
-        "21021fe0-c5dc-496e-a62a-e442d866e153",
+        "a42faca6-7d96-4868-b0cb-464449307b68",
+        "a8d72100-f4c7-4052-83e3-6d3d4254db57",
         "c51897f5-6bc6-4561-acad-2aff6a162c8a",
         "5495f05a-fff4-420d-9215-8cf8f8455f32",
         "21e164c3-ce4b-4db0-99a2-afa7eb396227",

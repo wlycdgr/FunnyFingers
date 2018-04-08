@@ -1,7 +1,7 @@
 /// @param {integer} playfield_id The id of the playfield that this multiplier bar belongs to
 
 var new_mb = instance_create_layer(
-	argument0.x, playfield_bottom_y, 
+	argument0.x, playfield_bottom_y + 8, 
 	"MultiplierBar", 
 	obj_Multiplier_Bar
 );
@@ -37,17 +37,21 @@ with (new_mb) {
 	scr_Splitsfont_Set_Text(multiplier_label, "X");
 	scr_Splitsfont_Set_Tweaks(multiplier_label, [0.02, 0.003, 0.05, 0, 0]);;
 	
+	scr_Splitsfont_Set_DefaultTweaks([0.02, 0.003, 0.05, 0, 0]);
+	
 	var number_string = -1;
-	var number_as_string = -1;
+	var numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 	for (var i = 0; i < 10; i++) {
-		number_as_string = string(i);
 		number_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-		scr_Splitsfont_Set_Text(number_string, number_as_string);
-		scr_Splitsfont_Set_Tweaks(number_string, [0.02, 0.003, 0.05, 0, 0]);
-		number_strings[ord(number_as_string)] = number_string;
+		scr_Splitsfont_Set_Text(number_string, numbers[i]);
+		number_strings[i] = number_string;
 	}
 	
+	scr_Splitsfont_Reset_DefaultTweaks();
+	
 	perfect_combo = true;
+	
+	y_bottom = y + 8;
 }
 
 return new_mb;
