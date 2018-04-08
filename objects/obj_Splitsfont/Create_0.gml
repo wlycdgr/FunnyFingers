@@ -746,6 +746,8 @@ var gvd_len = 0;
 var g_width = 0.0;
 var gld = -1;
 for (var i = 0; i < WLY_HighestOrdCode; i++) {
+	kern_multipliers[i] = 1.0;
+	
 	gvd = glyph_vertex_data[i];
 	if (-1 != gvd) { 
 		gvd_len = array_length_1d(gvd); 
@@ -765,3 +767,5 @@ for (var i = 0; i < WLY_HighestOrdCode; i++) {
 	gld = glyph_line_data[i];
 	if (-1 != gld) { glyph_line_counts[i] = array_length_1d(gld); }
 }
+
+kern_multipliers[ord("F")] = 0.75;

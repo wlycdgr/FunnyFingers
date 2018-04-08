@@ -1,11 +1,7 @@
 /// @description Init
-is_active = true;
-
 unicodes = 0;
 glyph_vertex_arrays = 0;
 kern_multipliers = 0;
-
-glyphs = -1;
 
 length = 0;
 

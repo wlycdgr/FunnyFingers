@@ -1,12 +1,14 @@
 /// @function scr_Splitsfont_Rotate_String(splitsfont_string)
-if (1 > abs(argument0.rotation_speed_degrees_per_sec)) return;
+with (argument0) {
+	if (1 > abs(rotation_speed_degrees_per_sec)) return;
 
-argument0.current_angle_degrees +=
-	argument0.rotation_dir * 
-	(argument0.rotation_speed_degrees_per_sec / game_fps);
+	current_angle_degrees +=
+		rotation_dir * 
+		(rotation_speed_degrees_per_sec / game_fps);
 	
-argument0.current_angle_degrees =
-	argument0.current_angle_degrees %
-	360;
-
-scr_Splitsfont_Set_Angle(argument0, argument0.current_angle_degrees);
+	current_angle_degrees =
+		current_angle_degrees %
+		360;
+		
+	scr_Splitsfont_Set_Angle(id, current_angle_degrees);
+}
