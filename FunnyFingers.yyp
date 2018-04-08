@@ -1439,14 +1439,6 @@
             }
         },
         {
-            "Key": "e7488810-5f73-4f51-8ea5-95e9a267e61b",
-            "Value": {
-                "id": "f6c3f7be-6432-4081-8f29-65684040f764",
-                "resourcePath": "objects\\obj_Itch_Liason\\obj_Itch_Liason.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "e9a3bacc-dda0-4e2a-b7f3-b2ccf4e5cf5c",
             "Value": {
                 "id": "1b41c183-2f63-45f3-8dec-a9c497622788",
