@@ -12,6 +12,11 @@ if (is_debug){
 
 if (room == r_Init) {
 	scr_Splitsfont_Draw_String(splitsfont_test, string_pos_x, string_pos_y);
+	scr_Splitsfont_Draw_String(splitsfont_test_2, string_pos_x, string_pos_y + 125);
+	scr_Splitsfont_Draw_String(splitsfont_test_3, string_pos_x, string_pos_y + 250);
+	scr_Splitsfont_Draw_String(splitsfont_test_4, string_pos_x, string_pos_y - 125);
+	scr_Splitsfont_Draw_String(splitsfont_test_5, string_pos_x, string_pos_y - 250);
 }
 
-draw_text(1260, 700, string(fps));
+draw_text(1100, 680, "fps_real: " + string(fps_real));
+draw_text(1100, 700, "fps: " + string(fps));

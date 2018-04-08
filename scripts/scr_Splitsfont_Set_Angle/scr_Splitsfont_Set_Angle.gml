@@ -1,6 +1,6 @@
 /// @function scr_Splitsfont_Set_Angle(splitsfont_string, angle_in_degrees);
 
-var angle_in_rads = argument1 * (pi / 180);
+var angle_in_rads = argument1 * degrees_to_rad;
 var rotation_alignment = argument0.rotation_alignment;
 var angle_cos = 0;
 var angle_sin = 0;

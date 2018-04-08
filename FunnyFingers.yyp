@@ -1431,14 +1431,6 @@
             }
         },
         {
-            "Key": "e6a8db3d-4294-49ef-8b41-ba3d98d9aa24",
-            "Value": {
-                "id": "a2025736-3ba4-4870-a24a-2a8b5c0d5ae3",
-                "resourcePath": "objects\\obj_Splitsfont_Glyph\\obj_Splitsfont_Glyph.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "e6b364ea-c9e0-43b7-8647-237c7305df91",
             "Value": {
                 "id": "5a18564f-5f82-45d6-9d28-3c6cc18965a6",

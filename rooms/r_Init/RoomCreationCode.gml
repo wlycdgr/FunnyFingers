@@ -14,7 +14,6 @@ else if (store_version_steam == global.store_version) {
 	global.steam = instance_create_layer(0, 0, "Instances", obj_Steam_Liason);
 }
 
-
 global.splitsfont = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont);
 global.navigator = instance_create_layer(0, 0, "Instances", obj_Navigator);
 global.tweaker = instance_create_layer(0, 0, "Instances", obj_Tweaker);

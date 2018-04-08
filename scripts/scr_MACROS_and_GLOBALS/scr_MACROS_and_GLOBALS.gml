@@ -9,6 +9,13 @@
 #macro window_x_center window_width / 2
 // /Game context
 
+// Misc Util
+#macro degrees_to_rad (pi / 180)
+#macro not_set -12345
+#macro above_window -1000
+#macro left_of_window -1000
+// /Misc Util
+
 // SPLITSFONT
 #macro SPLITSFONT_RotationAlignment_ChorusLine 1
 #macro SPLTISFONT_RotationAlignment_Argyle -1
@@ -199,10 +206,7 @@ global.core_funny_finger_grow_time_in_sec =
 // /Achievement and leaderboard info
 
 
-#macro not_set -12345
 
-#macro above_window -1000
-#macro left_of_window -1000
 
 #macro the_color_of_failure c_black
 #macro the_color_of_information c_black

@@ -8,5 +8,25 @@ scr_Splitsfont_Set_Text(splitsfont_test, "ABC DEF GHI JKL MNO PQR STU VWX YZ 012
 scr_Splitsfont_Set_Size(splitsfont_test, 0.075);
 scr_Splitsfont_Set_RotationSpeed(splitsfont_test, 120.0);
 
+splitsfont_test_2 = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(splitsfont_test_2, "ABC DEF GHI JKL MNO PQR STU VWX YZ 012 345 678 9:?");
+scr_Splitsfont_Set_Size(splitsfont_test_2, 0.075);
+scr_Splitsfont_Set_RotationSpeed(splitsfont_test_2, 120.0);
+
+splitsfont_test_3 = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(splitsfont_test_3, "ABC DEF GHI JKL MNO PQR STU VWX YZ 012 345 678 9:?");
+scr_Splitsfont_Set_Size(splitsfont_test_3, 0.075);
+scr_Splitsfont_Set_RotationSpeed(splitsfont_test_3, 120.0);
+
+splitsfont_test_4 = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(splitsfont_test_4, "ABC DEF GHI JKL MNO PQR STU VWX YZ 012 345 678 9:?");
+scr_Splitsfont_Set_Size(splitsfont_test_4, 0.075);
+scr_Splitsfont_Set_RotationSpeed(splitsfont_test_4, 120.0);
+
+splitsfont_test_5 = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(splitsfont_test_5, "ABC DEF GHI JKL MNO PQR STU VWX YZ 012 345 678 9:?");
+scr_Splitsfont_Set_Size(splitsfont_test_5, 0.075);
+scr_Splitsfont_Set_RotationSpeed(splitsfont_test_5, 120.0);
+
 string_pos_x = 1400;
 string_pos_y = 300;
