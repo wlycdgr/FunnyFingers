@@ -1,4 +1,4 @@
-/// @function scr_Splitsfont_BuildGlyphTemplate(unicode_code, glyph_vertex_data, glyph_line_data)
+/// @function scr_Splitsfont_BuildGlyphTemplate(unicode_code, glyph_vertex_data)
 var new_glyph = instance_create_layer(
 	left_of_window, above_window,
 	"Splitsfont",
@@ -7,29 +7,32 @@ var new_glyph = instance_create_layer(
 
 with (new_glyph) {
 	is_active = true;
+	
+	unicode_code = argument0;
 
-	vertex_count = global.splitsfont.glyph_vertex_counts[argument0];
+	var vertex_count = global.splitsfont.glyph_vertex_counts[argument0];
 	var vertex_data = -1;
 	for (var i = 0; i < vertex_count; i++) {
 		vertex_data = argument1[i];
 		
-		vertices[i, 0] = vertex_data[0];
+		vertices[i, 0] = vertex_data[0] + vertex_data[2];
 		vertices[i, 1] = vertex_data[1];
-		vertices[i, 2] = vertex_data[2];
-		vertices[i, 3] = vertex_data[0] + vertex_data[2];
-		vertices[i, 4] = vertex_data[1];
+		
+		//vertices[i, 0] = vertex_data[0];
+		//vertices[i, 1] = vertex_data[1];
+		//vertices[i, 2] = vertex_data[2];
+		//vertices[i, 3] = vertex_data[0] + vertex_data[2];
+		//vertices[i, 4] = vertex_data[1];
 	}
 	
-	line_count = global.splitsfont.glyph_line_counts[argument0];
-	var line_data = -1;
-	for (var i = 0; i < line_count; i++) {
-		line_data = argument2[i];
+	//var line_count = global.splitsfont.glyph_line_counts[argument0];
+	//var line_data = -1;
+	//for (var i = 0; i < line_count; i++) {
+	//	line_data = argument2[i];
 		
-		lines[i, 0] = line_data[0]; // svi
-		lines[i, 1] = line_data[1]; // evi
-
-//		scr_Splitsfont_Build_GlyphLine(argument2[i]);
-	}
+	//	lines[i, 0] = line_data[0]; // svi
+	//	lines[i, 1] = line_data[1]; // evi
+	//}
 	
 	width = global.splitsfont.glyph_widths[argument0];
 	

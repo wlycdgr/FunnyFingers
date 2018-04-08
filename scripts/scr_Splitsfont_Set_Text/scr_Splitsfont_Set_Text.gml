@@ -11,11 +11,11 @@ var glyph_line_data = global.splitsfont.glyph_line_data;
 with (argument0) { 
 	for (var i = 0; i < text_length; i++) {
 		unicode_code = ord(string_char_at(argument1, i+1));
-	
+		
 		glyphs[i] = scr_Splitsfont_Build_Glyph(
 			unicode_code,
-			glyph_vertex_data[unicode_code],
-			glyph_line_data[unicode_code]
+			glyph_vertex_data[unicode_code]
+			//glyph_line_data[unicode_code]
 		);
 	}
 
