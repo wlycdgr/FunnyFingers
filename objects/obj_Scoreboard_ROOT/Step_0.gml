@@ -11,11 +11,9 @@ if (gs_playing == global.game.state) {
 
 current_rotate_speed = max(0, current_rotate_speed - rotate_speed_decrease_per_frame);
 
-var number_as_string = 0;
 var number_string = 0;
 for (var i = 0; i < 10; i++) {
-	number_as_string = string(i);
-	number_string = number_strings[ord(number_as_string)];
+	number_string = number_strings[i];
 	
 	scr_Splitsfont_Set_RotationSpeed(number_string, current_rotate_speed);
 	
