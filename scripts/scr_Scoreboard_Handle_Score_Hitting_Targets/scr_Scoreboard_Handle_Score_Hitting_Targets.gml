@@ -16,7 +16,7 @@ with (argument0) {
 		points >= ach_unlock_score_high &&
 		!unlocked_high
 	) {
-		scr_ASI_UnlockAchievement(argument1[2]);
+		scr_Steam_UnlockAchievement(argument1[2]);
 		unlocked_high = true;
 	}
 	
@@ -24,7 +24,7 @@ with (argument0) {
 		points >= ach_unlock_score_mid &&
 		!unlocked_mid
 	) {
-		scr_ASI_UnlockAchievement(argument1[1]);
+		scr_Steam_UnlockAchievement(argument1[1]);
 		unlocked_mid = true;
 	}
 	
@@ -32,7 +32,7 @@ with (argument0) {
 		points >= ach_unlock_score_low &&
 		!unlocked_low
 	) {
-		scr_ASI_UnlockAchievement(argument1[0]);
+		scr_Steam_UnlockAchievement(argument1[0]);
 		unlocked_low = true;
 	}
 }

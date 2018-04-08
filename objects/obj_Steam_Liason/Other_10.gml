@@ -1,7 +1,11 @@
 /// @description
-event_inherited();
-
-if (step_debug) {	
+if (step_debug) {
+	stat_lifetime_cool_points = steam_get_stat_int("stat_lifetime_cool_points");
+	stat_easy_high_score = steam_get_stat_int("stat_easy_high_score");
+	stat_medium_high_score = steam_get_stat_int("stat_medium_high_score");
+	stat_hard_high_score = steam_get_stat_int("stat_hard_high_score");
+	stat_difficult_high_score = steam_get_stat_int("stat_difficult_high_score");
+	
 	is_overlay_enabled = steam_is_overlay_enabled();
 	persona_name = steam_get_persona_name();
 	user_steam_id = steam_get_user_steam_id();
