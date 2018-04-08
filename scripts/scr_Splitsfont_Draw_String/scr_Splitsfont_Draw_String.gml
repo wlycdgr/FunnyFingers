@@ -10,11 +10,14 @@ var svi = 0;
 var evi = 0;
 var unicode_code = 0;
 
+
+var glyph_vertex_array = 0;
+
 with (argument0) {
 	for (var i = 0; i < length; i++) {
-		glyph = glyphs[i];
-		vertices = glyph.vertices;
-		unicode_code = glyph.unicode_code;
+		glyph_vertex_array = glyph_vertex_arrays[i];
+		unicode_code = unicodes[i];
+
 		gld = global.splitsfont.glyph_line_data[unicode_code];
 		gld_len = global.splitsfont.glyph_line_counts[unicode_code];
 		
@@ -24,15 +27,15 @@ with (argument0) {
 			evi = gldatum[1];
 	
 			draw_line_width(
-				draw_pos_x + vertices[svi, 0] * px_glyph_size, //line.start_x * size,
-				draw_pos_y + vertices[svi, 1] * px_glyph_size, //line.start_y * size,
-				draw_pos_x + vertices[evi, 0] * px_glyph_size, //line.end_x * size,
-				draw_pos_y + vertices[evi, 1] * px_glyph_size, //line.end_y * size,
+				draw_pos_x + glyph_vertex_array[svi, 0] * px_glyph_size,
+				draw_pos_y + glyph_vertex_array[svi, 1] * px_glyph_size,
+				draw_pos_x + glyph_vertex_array[evi, 0] * px_glyph_size,
+				draw_pos_y + glyph_vertex_array[evi, 1] * px_glyph_size,
 				px_glyph_stroke_weight
 			);
 		}
 		
-		draw_pos_x += glyph.width * px_glyph_size;
-		draw_pos_x += px_string_kern * glyph.kern_multiplier;
+		draw_pos_x += global.splitsfont.glyph_widths[unicode_code] * px_glyph_size;
+		draw_pos_x += px_string_kern * kern_multipliers[i];
 	}
 }
