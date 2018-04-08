@@ -23,6 +23,12 @@
 #macro WLY_DefaultRotationSpeedInDegsPerSec 0.0
 #macro WLY_DefaultRenderStyle SPLITSFONT_RenderStyle_Vertical
 
+global.sf_size = WLY_DefaultSizeAsPropOfScreenHeight * window_height;
+global.sf_weight = WLY_DefaultStrokeWeightAsPropOfScreenHeight * window_height;
+global.sf_kern = WLY_DefaultKernAsPropOfScreenHeight * window_height;
+global.sf_angle = WLY_DefaultAngleInDegs;
+global.sf_rotation_speed = WLY_DefaultRotationSpeedInDegsPerSec;
+
 #macro splitsfont_size_menuItem 0.02
 #macro splitsfont_weight_menuItem 0.002
 #macro splitsfont_size_ribbonMenuHeader 0.06

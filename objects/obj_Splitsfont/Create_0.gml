@@ -1,15 +1,29 @@
-/// @description Glyph data
+/// @description Glyph data & script array for tweaks
+
+tweak_scripts = [
+	scr_Splitsfont_Set_Size,
+	scr_Splitsfont_Set_Weight,
+	scr_Splitsfont_Set_Kern,
+	scr_Splitsfont_Set_RotationSpeed,
+	scr_Splitsfont_Set_Angle
+];
+tweak_scripts_len = array_length_1d(tweak_scripts);
+
+
 WLY_HighestOrdCode = 96;
 
 glyph_vertex_data = array_create(WLY_HighestOrdCode, -1);
+glyph_vertex_counts = array_create(WLY_HighestOrdCode, 0);
+glyph_widths = array_create(WLY_HighestOrdCode, 0.0);
 glyph_line_data = array_create(WLY_HighestOrdCode, -1);
+glyph_line_counts = array_create(WLY_HighestOrdCode, 0);
 
 //	DOES NOT LOOK RIGHT AT LARGER SIZES!!
 glyph_vertex_data[46] = [ // . 46
-	[0.02, 0.93, -0.01],
-	[0.02, 0.95, -0.01],
-	[0.02, 0.95, 0.01],
-	[0.02, 0.93, 0.01]
+	[0.02, 0.93, -0.01, 0.01],
+	[0.02, 0.95, -0.01, 0.01],
+	[0.02, 0.95, 0.01, 0.01],
+	[0.02, 0.93, 0.01, 0.01]
 ];
 
 glyph_line_data[46] = [ // .
@@ -442,6 +456,7 @@ glyph_vertex_data[vk_space] = [
 
 
 
+
 glyph_line_data[ord("A")] = [
 	[3, 0],
 	[0, 4],
@@ -724,3 +739,29 @@ glyph_line_data[63] = [ // ??? QUESTION MARK ???
 ];
 glyph_line_data[vk_space] = [
 ];
+
+var gvd = -1;
+var gvd_vertex = -1;
+var gvd_len = 0;
+var g_width = 0.0;
+var gld = -1;
+for (var i = 0; i < WLY_HighestOrdCode; i++) {
+	gvd = glyph_vertex_data[i];
+	if (-1 != gvd) { 
+		gvd_len = array_length_1d(gvd); 
+		glyph_vertex_counts[i] = gvd_len; 
+		
+		g_width = 0.0;
+		for (var j = 0; j < gvd_len; j++) {
+			gvd_vertex = gvd[j];
+			g_width = max(
+				g_width,
+				gvd_vertex[0] + gvd_vertex[2]
+			);
+		}	
+		glyph_widths[i] = g_width;
+	}
+	
+	gld = glyph_line_data[i];
+	if (-1 != gld) { glyph_line_counts[i] = array_length_1d(gld); }
+}

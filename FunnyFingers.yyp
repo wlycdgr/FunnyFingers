@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "0e269cb6-6c82-4349-b237-982518d205f7",
+            "Value": {
+                "id": "41fafa2b-865d-40d8-bfbc-eb3a94374124",
+                "resourcePath": "scripts\\scr_Splitsfont_Reset_DefaultTweaks\\scr_Splitsfont_Reset_DefaultTweaks.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1055dcd2-4dc7-4614-8cbd-40cc8d1a822f",
             "Value": {
                 "id": "3b185c3d-3522-4080-a756-10bc1b40852c",
@@ -300,6 +308,14 @@
                 "id": "1aa56938-3cb7-4798-a517-446b8c4cb78e",
                 "resourcePath": "objects\\obj_Splitsfont_Line\\obj_Splitsfont_Line.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "29efcc84-2c11-430d-a7bf-445c56f50f18",
+            "Value": {
+                "id": "63b154b0-f0e0-4858-a793-d8fdd0ce3bba",
+                "resourcePath": "scripts\\scr_Splitsfont_Set_DefaultTweaks\\scr_Splitsfont_Set_DefaultTweaks.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -859,14 +875,6 @@
             "Value": {
                 "id": "43c1e9a9-0320-4e7d-90bc-111a6388dc44",
                 "resourcePath": "scripts\\scr_Itch_SaveHighScores\\scr_Itch_SaveHighScores.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "87eedd21-65f9-45f8-b8a6-36856abd413a",
-            "Value": {
-                "id": "8fd6afa8-ab01-4f73-82e7-9db09bca0235",
-                "resourcePath": "scripts\\scr_Splitsfont_Build_GlyphVertex\\scr_Splitsfont_Build_GlyphVertex.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1645,7 +1653,6 @@
         "09760fc0-4fac-4fd2-ba6d-671093bacb27",
         "6cd67805-f2ae-40b0-a142-766f4e5fb59d",
         "a42faca6-7d96-4868-b0cb-464449307b68",
-        "87eedd21-65f9-45f8-b8a6-36856abd413a",
         "1ab74023-0673-4745-a9d8-2c922f7063ab",
         "ecd3810f-a80c-41a2-aac7-a2cb35f6b1f3",
         "d853bee7-ced9-4eaa-9ece-6ecec2db4136",
@@ -1659,6 +1666,8 @@
         "2d8a3230-be62-4ea2-889f-9726c1c9a92b",
         "89969d65-a770-4f70-9e34-d50e3f513483",
         "8c6caf78-effb-441d-aab2-084eb0a2a70a",
+        "29efcc84-2c11-430d-a7bf-445c56f50f18",
+        "0e269cb6-6c82-4349-b237-982518d205f7",
         "1e370f26-340c-4948-9bb8-621e417f5b5d",
         "3b84f41c-d6c5-4da3-b17d-f11c0b10df8c",
         "a61bbbc4-400a-446c-97aa-27da078cc165",

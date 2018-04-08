@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_Splitsfont_Vertex",
     "eventList": [
-        {
-            "id": "984e5964-5fed-4a17-ad10-42057bb752eb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "367d65f9-24e5-44f1-a1b3-a104cbb8350a"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -34,5 +25,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "visible": false
 }

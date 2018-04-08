@@ -2,14 +2,12 @@
 
 var stroke_weight = argument0.px_glyph_stroke_weight;
 var size = argument0.px_glyph_size;
-var color = argument0.color;
 var index = argument1;
 
 var glyph = argument0.glyphs[argument1];
 
 var line = -1;
 
-draw_set_color(color);
 for (var j = 0; j < glyph.line_count; j++) {
 	line = glyph.lines[j];
 	

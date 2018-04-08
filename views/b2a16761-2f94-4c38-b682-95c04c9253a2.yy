@@ -4,7 +4,6 @@
     "mvc": "1.1",
     "name": "b2a16761-2f94-4c38-b682-95c04c9253a2",
     "children": [
-        "87eedd21-65f9-45f8-b8a6-36856abd413a",
         "1ab74023-0673-4745-a9d8-2c922f7063ab",
         "ecd3810f-a80c-41a2-aac7-a2cb35f6b1f3",
         "d853bee7-ced9-4eaa-9ece-6ecec2db4136",
@@ -17,7 +16,9 @@
         "ed4f23f4-f586-487f-bc63-aebb0f132857",
         "2d8a3230-be62-4ea2-889f-9726c1c9a92b",
         "89969d65-a770-4f70-9e34-d50e3f513483",
-        "8c6caf78-effb-441d-aab2-084eb0a2a70a"
+        "8c6caf78-effb-441d-aab2-084eb0a2a70a",
+        "29efcc84-2c11-430d-a7bf-445c56f50f18",
+        "0e269cb6-6c82-4349-b237-982518d205f7"
     ],
     "filterType": "GMScript",
     "folderName": "Splitsfont",
