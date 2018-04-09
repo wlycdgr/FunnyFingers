@@ -41,3 +41,6 @@ energy_generator.playfield = id;
 enemy_generator.playfield = id;
 
 multiplier_bar = scr_Multiplier_Bar_NEW(id);
+
+right_x = x + width;
+bottom_bar_bottom_y = playfield_bottom_y + 4;
