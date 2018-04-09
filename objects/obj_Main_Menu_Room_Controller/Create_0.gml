@@ -1,12 +1,12 @@
 /// @description Init
-
 twitching_up = false;
 twitching_down = false;
 funny_size = 0.181;
 
 target_size = funny_size;
 current_size = funny_size;
-twitch_per_frame = 0;
+twitch_up_per_frame = 0;
+twitch_down_per_frame = 0;
 
 funny = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 scr_Splitsfont_Set_Text(funny, "FUNNY");
@@ -21,10 +21,6 @@ scr_Splitsfont_Set_Tweaks(fingers, [0.122, 0.008, 0.059, 0, 17]);
 fingers_x  = window_x_center - scr_Splitsfont_Get_Width(fingers) / 2;
 fingers_y = 0.44 * window_height;
 
- //0.19, 0.44 is better!
- //0.11, 0.36 is previous!
-
-
 
 title_tween = instance_create_layer(0, 0, "Splitsfont", obj_SlideTween);
 title_tween.close_enough *= 0.01;
@@ -38,8 +34,6 @@ title_x_paths[0] = scr_SlideTween_Add_Path(
 	]
 );
 title_x_paths[1] = scr_SlideTween_Add_Default_Path(title_tween, fingers, slide_right);
-
-
 
 // MAIN MENU
 main_menu_labels[0] = "TUTORIAL";

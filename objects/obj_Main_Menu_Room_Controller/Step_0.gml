@@ -1,6 +1,6 @@
 /// @description Scroll, select, act on selections
 if (twitching_up) {
-	current_size += twitch_per_frame;
+	current_size += twitch_up_per_frame;
 	
 	scr_Splitsfont_Set_Size(funny, current_size);
 	funny_x  = funny_center - scr_Splitsfont_Get_Width(funny) / 2;
@@ -12,16 +12,16 @@ if (twitching_up) {
 }
 
 else if (twitching_down) { 
-	current_size -= twitch_per_frame * 2;
+	current_size -= twitch_down_per_frame;
+	
+	if (current_size <= funny_size) {
+		current_size = funny_size;
+		twitching_down = false;
+		alarm[0] = irandom_range(120, 480);
+	}
 	
 	scr_Splitsfont_Set_Size(funny, current_size);
 	funny_x  = funny_center - scr_Splitsfont_Get_Width(funny) / 2;
-	
-	if (current_size <= funny_size) { 
-		twitching_up = false;
-		twitching_down = false;
-		current_size = funny_size;
-	}
 }
 
 
