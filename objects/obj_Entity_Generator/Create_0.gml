@@ -8,3 +8,5 @@ counter_in_sec = 0;
 minimum_period_in_sec = 0;
 maximum_period_in_sec = 0;
 current_period_in_sec = 0;
+
+frame_time_in_sec = 1.0 / game_fps;
