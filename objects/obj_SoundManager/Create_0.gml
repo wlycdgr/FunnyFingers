@@ -28,4 +28,5 @@ sfx = [
 	achieve_high_score,
 ];
 
-audio_sound_gain(move_and_increase_multiplier, 0.2, 0);
+//audio_sound_gain(move_and_increase_multiplier, 0.2, 0);
+audio_sound_gain(snd_move_and_increase_multiplier, 0.2, 0);

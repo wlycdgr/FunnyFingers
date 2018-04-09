@@ -1,6 +1,6 @@
 /// @description Lose armor or kaput
 if (has_armor) {
-	scr_Sound_Play(sfx_crash_into_enemy_and_lose_armor);
+	scr_Play_SFX(snd_fx_CrashIntoEnemyAndLoseArmor);
 	
 	sprite_index = spr_funny_finger;
 	has_armor = false;
@@ -8,7 +8,7 @@ if (has_armor) {
 	global.game_settings.max_multiplier += mb_max_multiplier_armor_loss_bump;
 }
 else {
-	scr_Sound_Play(sfx_crash_into_enemy_and_DIE);
+	scr_Play_SFX(snd_fx_CrashIntoEnemyAndDIE);
 	
 	is_not_funny_anymore = true;
 }
