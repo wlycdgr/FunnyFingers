@@ -1,5 +1,4 @@
 /// scr_Splitsfont_Tweaker_Add_String(tweaker_id, string_id);
-
 with(argument0) {
 	var starting_values_index = sf_strings_count * 7;
 	for (var i = 0; i < 7; i++) {

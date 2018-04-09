@@ -5,3 +5,4 @@ draw_rectangle(
 	argument0 + argument2, argument1 + argument3,
 	false
 );
+draw_set_color(c_black);

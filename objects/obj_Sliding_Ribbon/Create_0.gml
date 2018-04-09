@@ -28,3 +28,5 @@ with (slide_tween) {
 	
 	active = false;
 }
+
+bottom_y = y + sliding_ribbon_height;

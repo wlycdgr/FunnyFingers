@@ -6,7 +6,7 @@ scr_Draw_Filled_Rectangle(slide_path.value, y, sliding_ribbon_width, sliding_rib
 
 // Draw the ribbon borders
 scr_Draw_Horizontal_Line(slide_path.value, y, sliding_ribbon_width, 5);
-scr_Draw_Horizontal_Line(slide_path.value, y + sliding_ribbon_height, sliding_ribbon_width, 5);
+scr_Draw_Horizontal_Line(slide_path.value, bottom_y, sliding_ribbon_width, 5);
 
 // Draw header
 scr_Splitsfont_Draw_String(
