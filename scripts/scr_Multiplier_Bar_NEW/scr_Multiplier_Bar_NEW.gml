@@ -15,6 +15,7 @@ with (new_mb) {
 	current_drain_per_frame = 
 		(width / game_fps) /
 		current_time_in_seconds_to_drain;
+	current_fill_per_frame = current_drain_per_frame * 4;
 		
 	fully_drained = true;
 	is_refilling = false;

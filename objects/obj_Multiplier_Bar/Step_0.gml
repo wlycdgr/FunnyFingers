@@ -14,7 +14,7 @@ column_fill_multiplier = floor(column_fill_multiplier) + 1;
 if (fully_drained) exit;
 
 if (is_refilling) {
-	fill_x += current_drain_per_frame * 4;
+	fill_x += current_fill_per_frame;
 	
 	if (fill_x >= width) {
 		fill_x = width;
