@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "3dc9496a-44eb-4310-a736-e4245bc9ad87",
+            "Value": {
+                "id": "a96fc177-1d0e-4ca6-819e-9253b0ab8db2",
+                "resourcePath": "notes\\visible_move_buttons.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "3eee0067-d7db-49e5-bc50-c32ede4fd466",
             "Value": {
                 "id": "5f13f935-649a-41fc-be12-3ebb38cc9463",
