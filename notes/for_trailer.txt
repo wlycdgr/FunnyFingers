@@ -1,0 +1,30 @@
+// FOR TRAILER
+sf_a_simple_game = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(sf_a_simple_game, "A SIMPLE GAME");
+scr_Splitsfont_Set_Tweaks(sf_a_simple_game, [0.075, 0.002, 0.05, 0, 0]);
+simple_y = .348 * window_height;
+simple_x = window_x_center - (scr_Splitsfont_Get_Width(sf_a_simple_game) / 2);
+
+sf_for_2_to_10_fingers = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
+scr_Splitsfont_Set_Text(sf_for_2_to_10_fingers, "FOR 2 TO 10 FINGERS");
+scr_Splitsfont_Set_Tweaks(sf_for_2_to_10_fingers, [0.051, 0.008, 0.036, 0, 0]);
+fingers_y = .453 * window_height;
+fingers_x = window_x_center - (scr_Splitsfont_Get_Width(sf_for_2_to_10_fingers) / 2);
+
+sf_tweaker = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_Tweaker);
+scr_Splitsfont_Tweaker_Add_String(sf_tweaker, sf_a_simple_game);
+scr_Splitsfont_Tweaker_Add_String(sf_tweaker, sf_for_2_to_10_fingers);
+
+
+^ Create
+
+Draw
+scr_Splitsfont_Draw_String(
+	sf_a_simple_game,
+	simple_x, simple_y
+);
+
+scr_Splitsfont_Draw_String(
+	sf_for_2_to_10_fingers,
+	fingers_x, fingers_y
+);
