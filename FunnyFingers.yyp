@@ -807,14 +807,6 @@
             }
         },
         {
-            "Key": "8cd05070-4158-4dd8-90cd-edf0883e2ac5",
-            "Value": {
-                "id": "f53556c0-b768-484a-ad82-cb6ca865da7a",
-                "resourcePath": "sprites\\spr_column\\spr_column.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "8d358b95-7765-443c-a3e4-e6430b275517",
             "Value": {
                 "id": "f465f29d-2254-4804-b102-78fbb41c426c",

@@ -6,9 +6,7 @@ var random_column_index =
 	irandom_range(0, global.game_settings.column_count - 1);
 
 x = generator.playfield.columns[random_column_index].x;
-x +=
-	(sprite_get_width(spr_column) - 
-	sprite_get_width(sprite_index)) / 2;
+x += 8; // half of the difference between the column and energy/entity widths
 		
 // tie it to that column
 column_index = random_column_index;
