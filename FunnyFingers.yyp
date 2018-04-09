@@ -279,14 +279,6 @@
             }
         },
         {
-            "Key": "2cdb9f71-08e9-4bdc-b2dc-295f7220b05a",
-            "Value": {
-                "id": "1efe1503-63bd-4575-9e40-75535c7009ff",
-                "resourcePath": "rooms\\r_HighScores\\r_HighScores.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "2d8a3230-be62-4ea2-889f-9726c1c9a92b",
             "Value": {
                 "id": "90ee7899-26a6-4d30-92f4-04af3caff9b0",
@@ -588,14 +580,6 @@
                 "id": "5c4d870c-7f58-4812-94fc-17e3b826251a",
                 "resourcePath": "views\\632e95ca-21f3-4365-a862-7f8ad74e50f2.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "63bcdb5f-8a77-4aca-b58b-d96c9b9c5862",
-            "Value": {
-                "id": "4d04d13e-834b-48e8-bbff-d8e740fab43b",
-                "resourcePath": "objects\\obj_High_Scores_Room_Controller\\obj_High_Scores_Room_Controller.yy",
-                "resourceType": "GMObject"
             }
         },
         {
