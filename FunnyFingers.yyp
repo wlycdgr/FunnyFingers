@@ -1055,14 +1055,6 @@
             }
         },
         {
-            "Key": "c74f8744-f896-4f00-9dbe-6a09b09609b2",
-            "Value": {
-                "id": "f911a229-470e-4024-96a5-f141628224fc",
-                "resourcePath": "sprites\\spr_funny_finger_armor\\spr_funny_finger_armor.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c75a445c-dd5a-4329-a649-348592ff7c74",
             "Value": {
                 "id": "d8bdd2ac-22d7-4af5-847d-e339afde3116",
