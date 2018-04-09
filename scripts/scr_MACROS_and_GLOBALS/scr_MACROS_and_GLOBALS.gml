@@ -196,7 +196,7 @@ global.core_funny_finger_grow_time_in_sec =
 #macro ach_unlock_score_high 35000 // 35,000 thirty five thousand
 
 #macro ach_No_Pressure_points_target ach_unlock_score_high
-#macro ach_Level_99_points_target 2452814 // 2,452,814
+#macro ach_Level_99_points_target 100 //2452814 // 2,452,814
 
 #macro steam_leaderboard_cool "Lifetime Cool Points"
 #macro steam_leaderboard_easy_high_scores "Easy High Scores"

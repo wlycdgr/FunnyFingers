@@ -33,28 +33,32 @@ quote_y_positions = [
 
 quote_lines_count = array_length_1d(quote_texts);
 
+scr_Splitsfont_Set_DefaultTweaks([0.014, 0.0015, 0.004, 0, 0]);
+
 var quote_string = 0;
+var ribbon_x_center = sliding_ribbon_width / 2;
 for (var i = 0; i < quote_lines_count; i++) {
 	quote_string = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
 	
 	scr_Splitsfont_Set_Text(quote_string, quote_texts[i]);
-	scr_Splitsfont_Set_Tweaks(quote_string, [0.014, 0.001, 0.004, 0, 0]);
-	
+
 	quote_strings[i] = quote_string;
 	
 	quote_x_offsets[i] =
-		(sliding_ribbon_width / 2) -
+		ribbon_x_center -
 		(scr_Splitsfont_Get_Width(quote_string) / 2);
 		
 	quote_x_positions[i] = x + quote_x_offsets[i];
 }
+
+scr_Splitsfont_Reset_DefaultTweaks();
 
 var menu_y_pos = 
 	y + sliding_ribbon_height -
 	(2.5 * menu_vertical_spacing);
 
 menu = scr_Menu_NEW(
-	x + (sliding_ribbon_width / 2), menu_y_pos,
+	x + ribbon_x_center, menu_y_pos,
 	["PRESS ESCAPE", "TO EXIT GAME"],
 	menu_is_not_tweened
 );

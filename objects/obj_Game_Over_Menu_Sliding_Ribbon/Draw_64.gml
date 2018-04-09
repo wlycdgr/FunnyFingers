@@ -30,9 +30,8 @@ default:
 	break;
 }
 
-if (store_version_steam == global.store_version) {
-	scr_Splitsfont_Draw_String(
-		check_steam_string,
-		check_steam_string_x, check_steam_string_y
-	);
-}
+
+scr_Splitsfont_Draw_String(
+	check_steam_string,
+	check_steam_string_x, check_steam_string_y
+);
