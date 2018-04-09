@@ -17,10 +17,10 @@ with (argument0) {
 	
 	var unicode_code = 0;
 	
-	var glyph_vertex_array = 0;
+	var glyph_vertex_position = 0;
 	
 	for (var i = 0; i < length; i++) {
-		glyph_vertex_array = glyph_vertex_arrays[i];
+		glyph_vertex_position = glyph_vertex_positions[i];
 		
 		unicode_code = unicodes[i];
 
@@ -33,10 +33,10 @@ with (argument0) {
 			evi = gldatum_row[1];
 	
 			draw_line_width(
-				draw_pos_x + glyph_vertex_array[svi, 0] * px_glyph_size,
-				draw_pos_y + glyph_vertex_array[svi, 1] * px_glyph_size,
-				draw_pos_x + glyph_vertex_array[evi, 0] * px_glyph_size,
-				draw_pos_y + glyph_vertex_array[evi, 1] * px_glyph_size,
+				draw_pos_x + glyph_vertex_position[svi, 0],
+				draw_pos_y + glyph_vertex_position[svi, 1],
+				draw_pos_x + glyph_vertex_position[evi, 0],
+				draw_pos_y + glyph_vertex_position[evi, 1],
 				px_glyph_stroke_weight
 			);
 		}

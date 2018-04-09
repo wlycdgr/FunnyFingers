@@ -5,10 +5,17 @@ if (global.steam_overlay_activated) exit;
 // If the game is paused, over, etc we don't need to update
 if (gs_playing != global.game.state) exit;
 
-// Check for death / sadness / game over
+// Check for death / sadness / game over / movement
+var the_very_funny_finger = 0;
 for (var i = global.game_settings.funny_finger_count - 1; i > -1; i--){
-	if (funny_fingers[i].is_not_funny_anymore){
+	the_very_funny_finger = funny_fingers[i];
+	
+	if (the_very_funny_finger.is_not_funny_anymore){
 		has_unfunny_finger = true;
+		exit;
+	}
+	
+	if (the_very_funny_finger.is_moving) {
 		exit;
 	}
 }
@@ -16,7 +23,10 @@ for (var i = global.game_settings.funny_finger_count - 1; i > -1; i--){
 // If this playfield is out of focus, we are done
 if (!focused) exit;
 
-// If this playfield IS focused AND IS currently accepting move input,
+// If this playfield 
+//	IS focused AND 
+//  IS currently accepting move input AND
+//  NO AVATAR IS CURRENTLY MOVING
 // check for that input and handle it if necessary
 var ff_move_direction = 0;
 var index = 0;
