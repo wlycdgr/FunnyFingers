@@ -183,22 +183,6 @@
             }
         },
         {
-            "Key": "1ae01c13-4316-4a2e-b1e8-8a225cd3730d",
-            "Value": {
-                "id": "141ce58d-b841-4e6b-9caa-8183a82e1c59",
-                "resourcePath": "notes\\Achievements.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
-            "Key": "1b8d26b2-8ce5-4cdc-a27e-c2f69c5c3b0f",
-            "Value": {
-                "id": "1fc6f802-b747-467c-aa40-c0ef217599cd",
-                "resourcePath": "notes\\Itch implementation.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "1c394201-cc72-4632-9b86-790c3a40e4c3",
             "Value": {
                 "id": "3c3626e9-14a9-45ae-a481-9f456a41129f",
@@ -420,14 +404,6 @@
                 "id": "3407c8f7-6175-48c6-9bbd-030cf81a79c5",
                 "resourcePath": "objects\\obj_Entity_Generator\\obj_Entity_Generator.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "3dc9496a-44eb-4310-a736-e4245bc9ad87",
-            "Value": {
-                "id": "a96fc177-1d0e-4ca6-819e-9253b0ab8db2",
-                "resourcePath": "notes\\visible_move_buttons.yy",
-                "resourceType": "GMNotes"
             }
         },
         {
@@ -871,14 +847,6 @@
             }
         },
         {
-            "Key": "91671c00-e21f-4416-8c7e-aec7c018e780",
-            "Value": {
-                "id": "2495bef3-3512-4a35-9c1a-784de9385ac7",
-                "resourcePath": "notes\\Credits implementation.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "9520ef3f-3d7b-43a4-a49f-44767a20dc32",
             "Value": {
                 "id": "b453560f-6331-4cc0-9589-6ef46050ea62",
@@ -1071,14 +1039,6 @@
             }
         },
         {
-            "Key": "ba223c8f-8f0d-41f6-a919-116c2a53a012",
-            "Value": {
-                "id": "868698f7-1217-4070-87d2-47af97914e86",
-                "resourcePath": "notes\\ShrinkRateMultiplier.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "babadea1-cadd-46af-9761-b2a9227feea0",
             "Value": {
                 "id": "c6914a26-36bf-4816-a753-60c9000182ca",
@@ -1247,14 +1207,6 @@
             }
         },
         {
-            "Key": "d76a2786-a766-4b0e-b869-3943ba06b9cb",
-            "Value": {
-                "id": "3d4ac440-b3d4-4079-84cd-a6ba6bed7ee8",
-                "resourcePath": "notes\\Level99_pop_text.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "d7a7aacb-d7d7-4c4a-aada-d790ae10a5a4",
             "Value": {
                 "id": "0359273e-b3d2-447f-a588-e638505d0d3b",
@@ -1276,14 +1228,6 @@
                 "id": "692c31c0-312d-46eb-a746-efb7996b58a9",
                 "resourcePath": "scripts\\scr_Steam_UpdateLifetimeCoolPointsLeaderboard\\scr_Steam_UpdateLifetimeCoolPointsLeaderboard.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "da713496-010c-445d-b1f6-183e7907bc7f",
-            "Value": {
-                "id": "3cb363e4-fabc-4dd0-96c7-0b285893a031",
-                "resourcePath": "notes\\boilerplate_splitsfont_tweaker_codd.yy",
-                "resourceType": "GMNotes"
             }
         },
         {
