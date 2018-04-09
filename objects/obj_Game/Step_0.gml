@@ -17,7 +17,7 @@ case gs_fading_out:
 		srs_inactive == paused_sliding_ribbon.state &&
 		srs_inactive == level_99_unlock_message_sliding_ribbon.state
 	) {
-		scr_Fade_To(r_MainMenu);
+		room_goto(r_MainMenu);
 	}
 	break;
 	

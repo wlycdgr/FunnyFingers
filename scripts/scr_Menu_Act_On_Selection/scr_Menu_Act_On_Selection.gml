@@ -152,16 +152,6 @@ case "MAIN MENU":
 		with (global.game) { event_user(4); }
 	}
 	
-	else if (room == r_HighScores) {
-		global.room_state_tracker.state = rs_room_change_requested;
-		global.room_state_tracker.target_room = r_MainMenu;
-	
-		break;
-	}
-	
-	else {
-		scr_Fade_To(r_MainMenu);
-	}
 	break;
 	
 case "PLAY":

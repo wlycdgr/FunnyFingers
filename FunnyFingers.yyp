@@ -1023,14 +1023,6 @@
             }
         },
         {
-            "Key": "b6fdf947-cf8d-47b6-a7a0-b47040561eff",
-            "Value": {
-                "id": "b6891bed-5a3a-47a8-a098-d34f5df373e8",
-                "resourcePath": "scripts\\scr_Fade_To\\scr_Fade_To.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "b7514f93-27ec-42f4-8423-89729dd6921d",
             "Value": {
                 "id": "ae435dcc-4a63-4415-b14a-5fa9bba719c8",
@@ -1067,14 +1059,6 @@
             "Value": {
                 "id": "0fa7b827-c275-4b7d-92a5-100a21f27efc",
                 "resourcePath": "objects\\obj_Tweaker\\obj_Tweaker.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "c438c890-bf59-4a03-af6e-08a97e57bbc4",
-            "Value": {
-                "id": "0b2ab1f1-9c58-4994-adac-594c65ee8577",
-                "resourcePath": "objects\\obj_Fader\\obj_Fader.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1450,7 +1434,6 @@
     "script_order": [
         "cab799ce-8d74-4a49-8d5c-cac01986cb64",
         "22e4d577-b237-4333-83a3-20be936c6b35",
-        "b6fdf947-cf8d-47b6-a7a0-b47040561eff",
         "aaea3948-1f81-4286-a86f-1a371c318eb3",
         "f177824f-0638-4d45-9144-c01e36e8bafb",
         "40d43c62-8e81-4c21-b732-b45c987459c3",

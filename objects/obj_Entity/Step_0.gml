@@ -7,7 +7,7 @@ if (gs_playing != global.game.state) exit;
 if (is_active) { 
 	y += vertical_speed;
 	
-	if (y >= destroy_threshold){
+	if (y >= playfield_bottom_y){
 		event_user(1);
 	}
 }
