@@ -11,6 +11,6 @@ if (funny_finger.life > 0.1) {
 }
 else {
 	y =
-		(-playfield_height + playfield_y) + 
+		y_offset + 
 		playfield_height * ((0.1 - funny_finger.life) / 0.1);
 }
