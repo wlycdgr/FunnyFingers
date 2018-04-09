@@ -22,36 +22,38 @@ with (argument0) {
 		label_font_weight = label_font_weights[i];
 		
 		if (
-			menu_item_state_unselected == label_state  &&
-			menu_item_font_weight_min == label_font_weight
+			menu_item_font_weight_min == label_font_weight &&
+			menu_item_state_unselected == label_state
+			
 		) {
 			continue;
 		}
 		
 		if (
-			menu_item_state_selected == label_state &&
-			menu_item_font_weight_max == label_font_weight
+			menu_item_font_weight_max == label_font_weight &&
+			menu_item_state_selected == label_state
+			
 		) {
 			continue;
 		}
 		
-		var offset = 0;
-
 		if (menu_item_state_unselected == label_state) {
-			offset = label_font_weight - menu_item_font_weight_min;
-			
 			label_font_weights[i] = max (
 				menu_item_font_weight_min,
-				label_font_weight - (offset * menu_item_font_weight_change_proportion_per_frame)
+				label_font_weight - (
+					(label_font_weight - menu_item_font_weight_min) * 
+					menu_item_font_weight_change_proportion_per_frame
+				)
 			);
 		}
 		
-		else if (menu_item_state_selected == label_state) {
-			offset = menu_item_font_weight_max - label_font_weight;
-			
+		else {
 			label_font_weights[i] = min (
 				menu_item_font_weight_max,
-				label_font_weight + (offset * menu_item_font_weight_change_proportion_per_frame)
+				label_font_weight + (
+					(menu_item_font_weight_max - label_font_weight) * 
+					menu_item_font_weight_change_proportion_per_frame
+				)
 			);
 		}
 		
