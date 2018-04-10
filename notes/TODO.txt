@@ -437,13 +437,16 @@ March 31
 April 7-8
 - DONE iterate on title screen twitching
 
-- tweakfix credits tween timings
+April 9
+- DONE tweakfix credits tween timings
+
+- finish importing the sounds
+- clean up and proofread macros list
 
 - add game start animation
 	- bottom bar slides in from the left
 	- columns fill up from the bottom
 	- funny fingers fill up from the bottom
-
 - make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
 which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
 - add checks so that game does not break if any sprite asset is not available or misnamed

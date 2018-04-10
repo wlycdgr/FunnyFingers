@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "5eadb47a-69c3-41ec-9bc3-706016f4104b",
+            "Value": {
+                "id": "4030da01-d76a-47ae-b056-885fd2c5a6de",
+                "resourcePath": "sounds\\snd_fx_EatEnergy\\snd_fx_EatEnergy.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "620baf7c-0568-448b-8478-9765bff91881",
             "Value": {
                 "id": "d7c3a8b9-b16e-4f09-bbbc-6e9ef57d75bf",
@@ -634,7 +642,7 @@
             "Key": "68f8c326-36b6-4b17-8d36-79fd46745ed4",
             "Value": {
                 "id": "f45bb9c1-e43e-4cf2-8081-9bb344af58bd",
-                "resourcePath": "sounds\\snd_move_and_increase_multiplier\\snd_move_and_increase_multiplier.yy",
+                "resourcePath": "sounds\\snd_fx_MoveAndIncreaseMultiplier\\snd_fx_MoveAndIncreaseMultiplier.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -674,7 +682,7 @@
             "Key": "6b19ebdd-109f-40bb-8649-6c0e6ff97150",
             "Value": {
                 "id": "67b26092-b819-4f9f-8bab-0a629ad73625",
-                "resourcePath": "sounds\\snd_achieve_high_score\\snd_achieve_high_score.yy",
+                "resourcePath": "sounds\\snd_fx_AchieveHighScore\\snd_fx_AchieveHighScore.yy",
                 "resourceType": "GMSound"
             }
         },

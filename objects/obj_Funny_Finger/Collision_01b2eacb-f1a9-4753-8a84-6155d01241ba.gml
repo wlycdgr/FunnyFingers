@@ -1,8 +1,8 @@
 /// @description Eat!
 // You can write your code in this editor
 if (is_shrinking){
-	scr_Sound_Play(sfx_eat_energy);
-	
+	scr_Play_SFX(snd_fx_EatEnergy);
+
 	is_shrinking = false;
 	
 	target_life = 

@@ -1,8 +1,8 @@
 {
-    "id": "6b19ebdd-109f-40bb-8649-6c0e6ff97150",
+    "id": "68f8c326-36b6-4b17-8d36-79fd46745ed4",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_achieve_high_score",
+    "name": "snd_fx_MoveAndIncreaseMultiplier",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
