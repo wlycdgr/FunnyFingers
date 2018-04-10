@@ -17,20 +17,15 @@
 #macro SPLTISFONT_RotationAlignment_Argyle -1
 #macro SPLITSFONT_RotationDirection_CW -1
 #macro SPLITSFONT_RenderStyle_Vertical 0
-#macro WLY_DefaultAngleInDegs 30.0
-#macro WLY_DefaultSizeAsPropOfScreenHeight 0.1
-#macro WLY_DefaultStrokeWeightAsPropOfScreenHeight 0.01
-#macro WLY_DefaultKernAsPropOfScreenHeight 0.02
 #macro WLY_DefaultRotationAlignment SPLTISFONT_RotationAlignment_Argyle
 #macro WLY_DefaultRotationDirection SPLITSFONT_RotationDirection_CW
-#macro WLY_DefaultRotationSpeedInDegsPerSec 0.0
 #macro WLY_DefaultRenderStyle SPLITSFONT_RenderStyle_Vertical
 
-global.sf_size = WLY_DefaultSizeAsPropOfScreenHeight * window_height;
-global.sf_weight = WLY_DefaultStrokeWeightAsPropOfScreenHeight * window_height;
-global.sf_kern = WLY_DefaultKernAsPropOfScreenHeight * window_height;
-global.sf_angle = WLY_DefaultAngleInDegs;
-global.sf_rotation_speed = WLY_DefaultRotationSpeedInDegsPerSec;
+global.sf_size = 72.0;
+global.sf_weight = 7.2;
+global.sf_kern = 14.4;
+global.sf_angle = 30.0;
+global.sf_rotation_speed = 0.0;
 
 #macro splitsfont_size_menuItem 0.02
 #macro splitsfont_weight_menuItem 0.002
