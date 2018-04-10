@@ -20,10 +20,10 @@ glyph_line_counts = array_create(WLY_HighestOrdCode, 0);
 
 //	DOES NOT LOOK RIGHT AT LARGER SIZES!!
 glyph_vertex_data[46] = [ // . 46
-	[0.02, 0.93, -0.01, 0.01],
-	[0.02, 0.95, -0.01, 0.01],
-	[0.02, 0.95, 0.01, 0.01],
-	[0.02, 0.93, 0.01, 0.01]
+	[0.02, 0.93, -0.01],
+	[0.02, 0.95, -0.01],
+	[0.02, 0.95, 0.01],
+	[0.02, 0.93, 0.01]
 ];
 
 glyph_line_data[46] = [ // .
@@ -115,6 +115,25 @@ glyph_line_data[93] = [ // ]
 ];
 // /DOES NOT LOOK RIGHT AT LARGER SIZES!!
 
+//glyph_widths[ord("A")] = 0.7;
+//glyph_widths[ord("B")] = 0.6;
+//glyph_widths[ord("C")] = 0.55;
+//glyph_widths[ord("D")] = 0.6;
+//glyph_widths[ord("E")] = 
+//glyph_widths[ord("F")] = 
+//glyph_widths[ord("G")] = 
+//glyph_widths[ord("H")] = 
+//glyph_widths[ord("I")] = 
+//glyph_widths[ord("J")] = 
+//glyph_widths[ord("K")] = 
+//glyph_widths[ord("L")] = 
+//glyph_widths[ord("M")] = 
+//glyph_widths[ord("N")] = 
+//glyph_widths[ord("O")] = 
+//glyph_widths[ord("P")] = 
+//glyph_widths[ord("Q")] = 
+//glyph_widths[ord("R")] = 
+//glyph_widths[ord("S")] = 
 
 
 

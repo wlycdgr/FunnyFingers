@@ -17,7 +17,6 @@ rotation_speed_degrees_per_sec = global.sf_rotation_speed;
 
 rotation_alignment = WLY_DefaultRotationAlignment;
 rotation_dir = WLY_DefaultRotationDirection;
-render_style = WLY_DefaultRenderStyle;
 
 text_already_set = false;
 
