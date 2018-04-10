@@ -983,14 +983,6 @@
             }
         },
         {
-            "Key": "c186446c-f3ac-4a1d-810e-834a1a247471",
-            "Value": {
-                "id": "0fa7b827-c275-4b7d-92a5-100a21f27efc",
-                "resourcePath": "objects\\obj_Tweaker\\obj_Tweaker.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c4bea381-8cda-419a-93e9-50ebeb48376b",
             "Value": {
                 "id": "89fc75c9-1e4b-4153-aeb7-74a32124790d",
