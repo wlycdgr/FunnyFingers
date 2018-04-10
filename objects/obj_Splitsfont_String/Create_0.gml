@@ -15,8 +15,8 @@ px_string_kern = global.sf_kern;
 
 rotation_speed_degrees_per_sec = global.sf_rotation_speed;
 
-rotation_alignment = WLY_DefaultRotationAlignment;
-rotation_dir = WLY_DefaultRotationDirection;
+rotation_alignment = -1;
+rotation_dir = -1;
 
 text_already_set = false;
 

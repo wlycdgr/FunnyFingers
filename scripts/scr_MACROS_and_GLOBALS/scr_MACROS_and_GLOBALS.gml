@@ -13,14 +13,6 @@
 // /Misc Util
 
 // SPLITSFONT
-#macro SPLITSFONT_RotationAlignment_ChorusLine 1
-#macro SPLTISFONT_RotationAlignment_Argyle -1
-#macro SPLITSFONT_RotationDirection_CW -1
-#macro SPLITSFONT_RenderStyle_Vertical 0
-#macro WLY_DefaultRotationAlignment SPLTISFONT_RotationAlignment_Argyle
-#macro WLY_DefaultRotationDirection SPLITSFONT_RotationDirection_CW
-#macro WLY_DefaultRenderStyle SPLITSFONT_RenderStyle_Vertical
-
 #macro splitsfont_size_menuItem 0.02
 #macro splitsfont_weight_menuItem 0.002
 #macro splitsfont_size_ribbonMenuHeader 0.06
