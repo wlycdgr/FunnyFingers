@@ -1,6 +1,7 @@
 randomise();
 
 script_execute(scr_MACROS_and_GLOBALS);
+script_execute(scr_Splitsfont_Reset_DefaultTweaks);
 
 global.sound = instance_create_layer(0, 0, "Instances", obj_SoundManager);
 global.steam = instance_create_layer(0, 0, "Instances", obj_Steam_Liason);
