@@ -415,14 +415,6 @@
             }
         },
         {
-            "Key": "4af61e27-d101-41cd-b8ff-356470a46883",
-            "Value": {
-                "id": "aef8ef5c-782e-42d0-a3b3-c0a28f3ec3a4",
-                "resourcePath": "objects\\obj_Billboard\\obj_Billboard.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "4b0535c8-0ae5-4772-a3c3-41b0fceae14f",
             "Value": {
                 "id": "66d8614e-bd32-43fd-8417-426647397481",
