@@ -1,6 +1,8 @@
 /// @description Draw the bar!
 
-draw_rectangle(x, y, x + fill_x, y_bottom, false); 
+if (fill_x > 0.0) { 
+	draw_rectangle(x, y, x + fill_x, y_bottom, false); 
+}
 
 // Move multiplier
 scr_Splitsfont_Draw_String(multiplier_label, 15, move_multiplier_y);

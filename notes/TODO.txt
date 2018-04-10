@@ -444,9 +444,7 @@ April 9
 - DONE removed Itch ini files
 - DONE removed OGG files & code
 - DONE finish importing & hooking up the WAV sounds
-
-
-- make it so there's no multiplier combo bar drawn at all if value is at 0
+- DONE make it so there's no multiplier combo bar drawn at all if value is at 0
 
 - add sound on/off
 - mix the WAVs
