@@ -8,7 +8,7 @@ if (has_armor) {
 	global.game_settings.max_multiplier += mb_max_multiplier_armor_loss_bump;
 }
 else {
-	scr_Play_SFX(snd_fx_CrashIntoEnemyAndDIE);
+	scr_Play_SFX(snd_fx_DIE);
 	
 	is_not_funny_anymore = true;
 }

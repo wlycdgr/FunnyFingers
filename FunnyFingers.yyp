@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "48d00461-0cae-4d48-8a64-3087f48f5421",
+            "Value": {
+                "id": "b7264df5-012f-4cf5-b7e9-6b0b3ff7ac48",
+                "resourcePath": "sounds\\snd_fx_MenuScroll\\snd_fx_MenuScroll.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4af61e27-d101-41cd-b8ff-356470a46883",
             "Value": {
                 "id": "aef8ef5c-782e-42d0-a3b3-c0a28f3ec3a4",
@@ -468,6 +476,14 @@
                 "id": "51d42d04-cca4-4006-8d89-7dadd218a5fc",
                 "resourcePath": "scripts\\scr_SlideTween_Add_Default_Path\\scr_SlideTween_Add_Default_Path.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "525dfed3-309c-408a-a41e-d7e818d6dfb2",
+            "Value": {
+                "id": "81066465-834a-43ad-8297-76cfd849e14f",
+                "resourcePath": "sounds\\snd_fx_MenuSelect\\snd_fx_MenuSelect.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -548,6 +564,14 @@
                 "id": "b7aa1f40-de23-4919-b8fe-0ce35a4a434c",
                 "resourcePath": "scripts\\scr_Splitsfont_Rotate_String\\scr_Splitsfont_Rotate_String.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "64910be7-7828-45cd-8a72-86a9d95fab83",
+            "Value": {
+                "id": "8f6f91d9-ecb3-4131-ab90-e13e888288fd",
+                "resourcePath": "sounds\\snd_fx_LoseMultiplier\\snd_fx_LoseMultiplier.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -650,7 +674,7 @@
             "Key": "6e04c45c-4715-4fc8-a312-5410b8bf198f",
             "Value": {
                 "id": "47af1182-153f-440f-abd7-0093731077d9",
-                "resourcePath": "sounds\\snd_fx_CrashIntoEnemyAndDIE\\snd_fx_CrashIntoEnemyAndDIE.yy",
+                "resourcePath": "sounds\\snd_fx_DIE\\snd_fx_DIE.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -788,6 +812,14 @@
                 "id": "7f989f04-88b7-4760-962f-0dab05a852c0",
                 "resourcePath": "datafiles_yy\\stats.ini.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "91e1b26c-3aa6-41f5-ac01-6a2af5258d44",
+            "Value": {
+                "id": "0b5fba73-384b-4435-9c66-63ccc3642a2f",
+                "resourcePath": "sounds\\snd_fx_SlideOut\\snd_fx_SlideOut.yy",
+                "resourceType": "GMSound"
             }
         },
         {
