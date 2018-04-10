@@ -37,15 +37,15 @@ tweak_values_1[2, 1] = 0.0;
 tweak_values_1[2, 2] = 0.04;
 tweak_values_1[2, 3] = 360.0;
 tweak_values_1[2, 4] = 0.56;
-tweak_values_1[3, 0] = 0.15;
-tweak_values_1[3, 1] = 0.03;
+tweak_values_1[3, 0] = 0.1;
+tweak_values_1[3, 1] = 0.02;
 tweak_values_1[3, 2] = 0.04;
 tweak_values_1[3, 3] = 0.0;
 tweak_values_1[3, 4] = 0.66;
 
 var slide_strings_arrays = [
 	["TROLLCORE ENTERPRISES TM", "AND", "ONE MOTION GAMES", "PRESENT"],
-	["A GAME BY", "WLYCDGR", "WITH SPRITES AND SOUNDS BY", "MARLEY HALL"]
+	["A GAME BY", "WLY_CDGR", "WITH SPRITES AND SOUNDS BY", "MARLEY HALL"]
 ];
 
 var slide_strings_arrays_len = array_length_1d(slide_strings_arrays);

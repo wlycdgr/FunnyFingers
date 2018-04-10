@@ -12,7 +12,7 @@ screen_texts[0, 0] = "FUNNY FINGERS";
 screen_texts[0, 1] = "A SIMPLE GAME";
 screen_texts[0, 2] = "FOR 2 TO 10 FINGERS";
 screen_texts[0, 3] = "DESIGN AND CODE BY";
-screen_texts[0, 4] = "ILYA ZAREMBSKY";
+screen_texts[0, 4] = "WLY_CDGR";
 screen_texts[0, 5] = "SPRITES AND SOUNDS BY";
 screen_texts[0, 6] = "MARLEY HALL";
 

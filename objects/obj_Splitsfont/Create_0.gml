@@ -115,6 +115,16 @@ glyph_line_data[93] = [ // ]
 ];
 // /DOES NOT LOOK RIGHT AT LARGER SIZES!!
 
+// underscore _
+glyph_vertex_data[95] = [ // _
+	[0.35, 1.0, -0.35],
+	[0.35, 1.0, 0.35]
+];
+
+glyph_line_data[95] = [ // _
+	[0, 1]
+];
+
 //glyph_widths[ord("A")] = 0.7;
 //glyph_widths[ord("B")] = 0.6;
 //glyph_widths[ord("C")] = 0.55;
