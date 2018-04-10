@@ -767,14 +767,6 @@
             }
         },
         {
-            "Key": "8f14389f-4c46-4523-a408-9e36ae14115b",
-            "Value": {
-                "id": "7f989f04-88b7-4760-962f-0dab05a852c0",
-                "resourcePath": "datafiles_yy\\stats.ini.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "91e1b26c-3aa6-41f5-ac01-6a2af5258d44",
             "Value": {
                 "id": "0b5fba73-384b-4435-9c66-63ccc3642a2f",
@@ -1188,14 +1180,6 @@
                 "id": "17427d63-a78a-4499-b9e2-46a8fa79c089",
                 "resourcePath": "scripts\\scr_Splitsfont_Get_Width\\scr_Splitsfont_Get_Width.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "efc4dc0c-e022-4852-90c1-3ba9d61d9f09",
-            "Value": {
-                "id": "09925815-f4cc-4fba-888c-0db6458fcb6b",
-                "resourcePath": "datafiles_yy\\achievements.ini.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
