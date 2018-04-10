@@ -159,27 +159,11 @@
             }
         },
         {
-            "Key": "17bfff5f-c268-4602-ac26-c20d1c1e352c",
-            "Value": {
-                "id": "fe1feada-490f-491f-ad28-353b3ff85079",
-                "resourcePath": "datafiles_yy\\old_sounds\\run_out_of_energy_and_DIE.ogg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "17cc19c2-581b-40e2-a60d-f5c7951ad7eb",
             "Value": {
                 "id": "99f43d35-60aa-4fdc-a480-1cf2c042e27c",
                 "resourcePath": "views\\17cc19c2-581b-40e2-a60d-f5c7951ad7eb.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "1a984f6e-133f-4366-970b-e3bae44f6bbc",
-            "Value": {
-                "id": "d6a6c34f-4b04-47ac-8f10-434b90f338b2",
-                "resourcePath": "datafiles_yy\\old_sounds\\lose_multiplier.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -220,14 +204,6 @@
                 "id": "0af80cbb-c4fb-485d-80bf-f7d668c06077",
                 "resourcePath": "objects\\obj_Input_Tracker\\obj_Input_Tracker.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "1f67bec2-f375-4823-a10d-cc6843d73036",
-            "Value": {
-                "id": "0b422c0c-5617-496f-b6e1-e8c0113ba047",
-                "resourcePath": "datafiles_yy\\old_sounds\\move_and_reach_maximum_multiplier.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -343,14 +319,6 @@
             }
         },
         {
-            "Key": "37e92edf-a44c-421f-ac0a-e1e47a5ad9a5",
-            "Value": {
-                "id": "5777245f-dd21-40d5-80d3-a188e6e1f013",
-                "resourcePath": "views\\37e92edf-a44c-421f-ac0a-e1e47a5ad9a5.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "3a1a3e4a-dc27-4f32-983d-abf0ea221cef",
             "Value": {
                 "id": "c07528b0-ad4b-4053-ab68-5b1f2aecd202",
@@ -380,14 +348,6 @@
                 "id": "1a7059f0-3410-4de6-a55c-687a43e8c472",
                 "resourcePath": "scripts\\scr_SlideTween_Add_Path\\scr_SlideTween_Add_Path.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "3b87201b-bde5-4197-9269-af0b776541cf",
-            "Value": {
-                "id": "b737d844-88c5-4bc9-b51b-ecdbdc3857d5",
-                "resourcePath": "datafiles_yy\\old_sounds\\slide_in.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -444,14 +404,6 @@
                 "id": "13be412d-b648-44a1-a5f5-af4b59f47bc5",
                 "resourcePath": "fonts\\arial_8pt\\arial_8pt.yy",
                 "resourceType": "GMFont"
-            }
-        },
-        {
-            "Key": "4625ab6f-1e3f-47cf-a4bf-7defb113f1f3",
-            "Value": {
-                "id": "c6040237-edab-4dfa-b812-fcc45e7d4dd8",
-                "resourcePath": "datafiles_yy\\old_sounds\\slide_out.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -719,14 +671,6 @@
             }
         },
         {
-            "Key": "7366a211-f606-42f2-9d84-a091d6e3c022",
-            "Value": {
-                "id": "28b583bc-dd82-4d2f-b7ce-84ba86f72559",
-                "resourcePath": "datafiles_yy\\old_sounds\\eat_energy.ogg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "7370bada-7319-4de4-a8f5-9ecf592f4580",
             "Value": {
                 "id": "9ff98ac0-5443-4b13-9751-b8b6bcc7d67b",
@@ -820,14 +764,6 @@
                 "id": "e58b4543-c2a3-4c5b-9e48-1c21895fd4aa",
                 "resourcePath": "scripts\\scr_Splitsfont_Set_Angle\\scr_Splitsfont_Set_Angle.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "8b321c70-37fb-4bff-beab-15e582147596",
-            "Value": {
-                "id": "685ea6cb-b5fb-4fb2-94d4-02c64e156ea8",
-                "resourcePath": "datafiles_yy\\old_sounds\\scroll_menu.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1103,14 +1039,6 @@
             }
         },
         {
-            "Key": "c7f942c5-8d4e-4ef0-b934-115e5d6a9ad6",
-            "Value": {
-                "id": "ede0698a-6d0d-4a39-8730-7e272c52e478",
-                "resourcePath": "datafiles_yy\\old_sounds\\move_and_increase_multiplier.ogg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "cab2c7ce-f49a-43d2-b769-2e5d6fefe9e4",
             "Value": {
                 "id": "1cb3fdea-f9e1-4456-97cd-fb11bc27f780",
@@ -1124,14 +1052,6 @@
                 "id": "c94351f8-d802-406a-8c80-fd67ccf4c8a1",
                 "resourcePath": "scripts\\scr_Focus_Playfield\\scr_Focus_Playfield.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "cb78afa6-9553-4d10-881b-2f09218bf301",
-            "Value": {
-                "id": "8a649130-b430-4643-af75-0f572f163d0b",
-                "resourcePath": "datafiles_yy\\old_sounds\\crash_into_enemy_and_DIE.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1212,14 +1132,6 @@
                 "id": "692c31c0-312d-46eb-a746-efb7996b58a9",
                 "resourcePath": "scripts\\scr_Steam_UpdateLifetimeCoolPointsLeaderboard\\scr_Steam_UpdateLifetimeCoolPointsLeaderboard.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "da9daebf-7071-4903-b77e-07c79ea1dc93",
-            "Value": {
-                "id": "a90ea1e8-e3b5-4ff0-ba8e-da31064f891e",
-                "resourcePath": "datafiles_yy\\old_sounds\\select_menu.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1387,22 +1299,6 @@
             "Value": {
                 "id": "b0f686fa-d30c-4d83-906f-4b9b175158e0",
                 "resourcePath": "datafiles_yy\\achieve_high_score.ogg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "f9f875a7-64b9-4d2a-8599-8a333b26c338",
-            "Value": {
-                "id": "cb2e8a50-9954-41a5-bbc4-920abe408933",
-                "resourcePath": "datafiles_yy\\old_sounds\\crash_into_enemy_and_lose_armor.ogg.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "fa8e724d-f9c6-41b0-a4f5-04b64f951f16",
-            "Value": {
-                "id": "9c1f3c96-7d72-4eef-9848-4746461d11e3",
-                "resourcePath": "datafiles_yy\\old_sounds\\achieve_high_score.ogg.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
