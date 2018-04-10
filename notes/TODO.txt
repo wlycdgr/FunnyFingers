@@ -436,47 +436,32 @@ March 31
 
 April 7-8
 - DONE iterate on title screen twitching
+- DONE round of optimization
+- DONE round of refactoring/cleaning code
 
 April 9
 - DONE tweakfix credits tween timings
+- DONE removed Itch ini files
+- DONE removed OGG files & code
+- DONE finish importing & hooking up the WAV sounds
 
-- finish importing the sounds
+- add sound on/off
+- mix the WAVs
 - clean up and proofread macros list
+- make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
+which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
+
+- see what happens when there is no internet
+- see what happens when there is no steam
 
 - add game start animation
 	- bottom bar slides in from the left
 	- columns fill up from the bottom
 	- funny fingers fill up from the bottom
-- make it so that there is a brief period of invulnerability following a collision with a red that destroys your armor,
-which causes any other reds or blues you come in contact with during that time to be destroyed without helping or hurting you
-- add checks so that game does not break if any sprite asset is not available or misnamed
 - decide how to handle lack of steam connection
 - handle steam failing to upload score
 - ensure no crash-because-global.steam.unlocked-not-initialized if user not logged in to Steam or connection lost at launch
-- balance more
-- add sound on/off
-- optimiize
-- remove unnecessary code
+- round of balancing
 
-CAN WAIT UNTIL AFTER STEAM SUBMISSION:
-- implement local leaderboard support with name entry
-	- DONE main menu has Local High Scores option
-	- DONE local high scores option to to r_HighScores
-	- DONE high scores room has header that reads "HIGH SCORES"
-	- high scores room has ribbon menu that lists the five difficulties in a row
-	- below, the high scores room shows the names and scores for the selected difficulty
-	- below, there is a menu, it has 3 options
-		- reset selected difficulty
-		- reset all
-		- main menu
-	
-	- Game Over Ribbon is modified:
-		- GAME OVER still at top
-		- NEW TOP TEN SCORE / NEW HIGH SCORE if player has score in top 2 / 4 / 6 / 8 / 10
-		- then, leaderboard for the current difficulty displayed
-		- if user has done well enough to be on leaderboard, there is a prompt for them to enter their name
-		- otherwise, there is a prompt below to "EXPRESS YOUR FEELINGS: "
-		- menu still displays, scrolling up and down and selection still work same
-		
-- implement achievement screen for Itch
+- optimiize
 
