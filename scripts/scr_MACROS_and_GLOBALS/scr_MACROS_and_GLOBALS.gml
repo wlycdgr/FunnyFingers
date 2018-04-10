@@ -1,12 +1,8 @@
 // Game context
-#macro store_version_steam 0
-#macro store_version_itch 1
-
-#macro game_fps 60 //game_get_speed(gamespeed_fps)
-
-#macro window_height window_get_height()
-#macro window_width window_get_width()
-#macro window_x_center window_width / 2
+#macro game_fps 60
+#macro window_height 720
+#macro window_width 1280
+#macro window_x_center 640
 // /Game context
 
 // Misc Util
