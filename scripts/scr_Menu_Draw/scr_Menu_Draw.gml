@@ -1,6 +1,8 @@
 // @function scr_Menu_Draw(menu_id);
 // @param {integer} menu_id The id of the menu to draw
 
+if (!argument0.should_draw) exit;
+
 with (argument0) {
 	for (var i = 0; i < item_count; i++) {
 		if (tweened) {

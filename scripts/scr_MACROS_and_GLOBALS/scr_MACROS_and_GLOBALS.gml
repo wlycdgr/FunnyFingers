@@ -168,12 +168,12 @@ global.core_funny_finger_grow_time_in_sec =
 #macro ach_Level_99 13
 #macro ach_QWEIOP 14
 
-#macro ach_unlock_score_low 50 //3000 // 3,000 three thousand
-#macro ach_unlock_score_mid 250 // 10000 //  10,000 ten thousand
-#macro ach_unlock_score_high 500 // 35000 // 35,000 thirty five thousand
+#macro ach_unlock_score_low 3000 // 3,000 three thousand
+#macro ach_unlock_score_mid 10000 //  10,000 ten thousand
+#macro ach_unlock_score_high 35000 // 35,000 thirty five thousand
 
-#macro ach_No_Pressure_points_target 750 //ach_unlock_score_high
-#macro ach_Level_99_points_target 1000 //2452814 // 2,452,814
+#macro ach_No_Pressure_points_target ach_unlock_score_high
+#macro ach_Level_99_points_target 2452814 // 2,452,814
 
 #macro steam_leaderboard_cool "Lifetime Cool Points"
 #macro steam_leaderboard_easy_high_scores "Easy High Scores"

@@ -1,8 +1,4 @@
 /// @description Init
-space_main_menu = instance_create_layer(0, 0, "Splitsfont", obj_Splitsfont_String);
-scr_Splitsfont_Set_Text(space_main_menu, "SPACEBAR: MAIN MENU");
-scr_Splitsfont_Set_Tweaks(space_main_menu, [0.015, 0.0015, 0.01, 0, 0]);
-
 screen_index = 0;
 screen_counter = 0;
 lead_time = game_fps;

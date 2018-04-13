@@ -1,6 +1,6 @@
 /// @description Init
-draw_debug = true;
-step_debug = true;
+//draw_debug = true;
+//step_debug = true;
 
 // overlay stuff
 global.steam_overlay_activated = false;

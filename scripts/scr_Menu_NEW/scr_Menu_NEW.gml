@@ -3,6 +3,8 @@
 var new_menu = instance_create_layer(argument0, argument1, "Menus", obj_Menu);
 
 with (new_menu) {
+	should_draw = true;
+	
 	active = true;
 	labels = argument2;
 	item_count = array_length_1d(labels);
