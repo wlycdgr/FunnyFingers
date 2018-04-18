@@ -139,11 +139,6 @@ case "CREDITS":
 	
 case "EXIT":
 	game_end();
-	break;
-	
-case "HIGH SCORES":
-	global.room_state_tracker.state = rs_room_change_requested;
-	global.room_state_tracker.target_room = r_HighScores;
 	
 	break;
 	
