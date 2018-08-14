@@ -1,7 +1,7 @@
 FUNNY FINGERS
 ~ A game for 2 to 10 fingers ~
 
-This game implements a semantic input mapping wherein which keys control which of 2-5 player avatars depends on the avatars' relative positions at the moment of input. The implementation's HQ is in the step event script of the Playfield object. The game was developed using Game Maker Studio 2 and its proprietary GML scripting language, with an animated vector font library I wrote in C (using the wonderful open-source game dev library raylib) ported into as the scr_Splitsfont group of scripts. Available on Steam for Windows and Mac, with Steam API integration for leaderboard and achievements support.
+This game implements a semantic input mapping wherein which keys control which of 2-5 player avatars depends on the avatars' relative positions at the moment of input. The implementation's HQ is in the step event script of the Playfield object. The game was developed using Game Maker Studio 2 and its proprietary GML scripting language, with an animated vector font library I wrote in C (using the wonderful open-source game dev library raylib) and ported in as the scr_Splitsfont group of scripts. Available on Steam for Windows and Mac, with Steam API integration for leaderboard and achievements support.
 
 A pre-built version is available on Steam at https://store.steampowered.com/app/669690/Funny_Fingers/
 
