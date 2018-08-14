@@ -10,3 +10,5 @@ I, O, P: Move to the right
 
 ~ Enjoy! ~
 
+A pre-built version is available on Steam at https://store.steampowered.com/app/669690/Funny_Fingers/
+
